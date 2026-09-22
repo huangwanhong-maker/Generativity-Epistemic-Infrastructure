@@ -1,0 +1,103 @@
+\documentclass[11pt,a4paper]{article}
+\input{publications/preamble.tex}
+\begin{document}
+\GSPtitle{Directives Part 2}{Structure and Drafting Rules}{Governance Working Draft}{0.1}
+\tableofcontents
+\clearpage
+
+\section{Scope and standing}
+Responsible editor: \texttt{UNASSIGNED}. Canonical source: \path{governance/directives_part_2.tex}. Intended readers are publication editors, reviewers and implementers preparing assessment artifacts.
+
+This draft defines proposed rules for preparing, reviewing and maintaining programme publications and their associated machine-readable artifacts. Its conformance subject is a publication package: the declared source document, rendered edition, references, associated artifacts and assessment material. A package can be reviewed against this draft without claiming adopted-Standard status.
+
+The rules become operative only through a recorded governance adoption under the Charter and Directives Part 1. The present exercise is a drafting rehearsal. Requirements use \emph{shall}; recommendations use \emph{should}; permissions use \emph{may}; \emph{can} describes possibility or capability. An unresolved choice is not concealed inside an operative requirement.
+
+\req{D2-001}{A publication shall identify its code or other identifier, title, publication class, maturity status, version, responsible editor or unassigned responsibility, and source location near its beginning.}
+\req{D2-002}{A draft shall state that it is not adopted and shall distinguish authoring progress from formally authorized project status. A publication shall not imply ISO, IEC, IEEE or governmental authority without a documented basis.}
+\note{The source files in this initial package are preparatory Working Drafts. The repository's existing numbers remain project-family identifiers; creating a PDF does not advance a document to stage 60.}
+
+\section{Publication architecture and authority}
+\subsection{Classes and intended readers}
+\req{D2-003}{An editor shall assign one principal publication class and state its intended readers, use and authority. A Standard, Specification, Technical Report, Manual, governance document and Policy or Institutional Proposal shall not be treated as interchangeable classes.}
+\req{D2-004}{A protocol description shall identify its containing publication class. Protocol behavior shall be distinguished from the institutional authority and procedure under which that behavior is used.}
+\req{D2-005}{A Policy or Institutional Proposal shall distinguish factual background, interpretation, objectives, options, mandate, implementation implications and unresolved questions. It shall not create technical conformance obligations through an unapproved policy recommendation.}
+
+\subsection{Document components}
+A Standards-track or Specification draft normally contains a foreword or standing statement, scope, normative references if any, terminology, requirements, conformance, informative examples, source rationale, and known open issues. The extent depends on the actual subject; empty headings are not evidence of completeness.
+
+\req{D2-006}{The scope shall identify the subject of conformance, intended use, relevant environment and exclusions. A claim of conformance shall be assessable within that stated boundary.}
+\req{D2-007}{Normative and informative material shall be distinguishable at clause, annex or artifact level. Notes, examples and informative annexes shall not introduce additional requirements.}
+\req{D2-008}{Every table, figure, annex and associated artifact shall have a stated role and, where interpretation depends on it, a stated authority status. A normative requirement represented in a diagram shall also have an identifiable textual formulation.}
+
+\section{Requirements and recommendations}
+\subsection{Form of a provision}
+\req{D2-009}{A requirement shall identify the responsible actor or object, the applicable condition, the required behavior or property, and an outcome or evidence by which fulfillment can be assessed.}
+\req{D2-010}{A requirement shall use a stable identifier independent of its displayed section number. An identifier shall not be reassigned to a different obligation after circulation; a withdrawn identifier shall remain traceable.}
+\req{D2-011}{A requirement shall not combine independent obligations whose applicability or assessment differs so materially that one result would conceal another. Related obligations can be grouped when their joint assessment is explicit.}
+\req{D2-012}{Terms such as adequate, appropriate, trustworthy or significant shall have a scoped criterion, declared decision responsibility or assessment procedure when they determine conformance. A broad aspiration alone shall not be presented as a testable requirement.}
+\req{D2-013}{A permission shall not override a requirement implicitly. Exceptions shall identify the affected obligation, conditions, authority, required record and any limitation on the resulting conformance claim.}
+\req{D2-014}{The editor shall distinguish mandatory conditions, recommendations, permissions and capability statements consistently. A recommendation's non-fulfillment shall not be reported as failure of a requirement.}
+
+\subsection{Conditions, absence and proportionality}
+\req{D2-015}{A conditional requirement shall state its trigger and how applicability is determined. A result of not applicable shall include its reason; it shall not substitute for unavailable evidence or an unperformed assessment.}
+\req{D2-016}{When complete information is not realistically available, a recording requirement shall specify whether a justified unknown, limitation or restricted disclosure satisfies the obligation. It shall not require invented content to complete a mandatory field.}
+\note{A requirement can demand a declaration of uncertainty without demanding a resolved historical fact. Proportionality concerns the recording obligation; it does not make unsupported substantive claims better supported.}
+
+\section{Terminology, sources and GR interpretation}
+\req{D2-017}{An operational definition shall state its scope and shall not imply that it exhausts a broader philosophical concept. A definition imported or adapted from a source shall identify that source, edition and the nature of the adaptation.}
+\req{D2-018}{For a substantive GR definition, the editor shall record the relevant foundation passage, alternatives, unresolved differences and the rationale for operational use. A material narrowing or departure shall have an Architecture Decision Record before the definition is stabilized for adoption.}
+\req{D2-019}{An operational definition of Entity, State, Event, Process, Relation or Property shall address admissibility, identity, temporal behavior, allowed relations, required and optional information, examples, counterexamples and unresolved edge cases. A declaration that an item remains provisional shall identify the missing decisions.}
+\req{D2-020}{The editor shall not equate a formal state with an archival State, a mechanism with a Process, or formal change with an Event without an explicit argument and scoped decision. The six record roles shall not be presented as exhaustive constituents of reality.}
+\req{D2-021}{A draft shall distinguish occurrence claims, observations, evidence assessments, interpretations, normative evaluations, legal assertions and institutional determinations wherever conflation would strengthen a claim beyond its grounds or authority.}
+\req{D2-022}{An external reference used to support a normative or scholarly claim shall be verified against an identified primary source. Inaccessible text, uncertain edition, incomplete review and unverified compatibility shall be identified rather than reconstructed as fact.}
+
+\section{References and dependencies}
+\req{D2-023}{A normative reference shall identify the exact document and edition required to apply a requirement, the part relied on and a means of obtaining it. Informative motivation shall be listed separately from normative dependencies.}
+\req{D2-024}{A draft depending on another draft shall identify the dependency's version and status and the consequences of a change. It shall not imply the dependency has already been adopted.}
+\req{D2-025}{Before approval for publication, the editor shall produce a dependency review identifying incompatible versions, unavailable dependencies, circular requirements and licensing or access constraints material to implementation.}
+\req{D2-026}{A claim of equivalence, compatibility or interoperability with another model shall identify its direction, scope, tested cases, unsupported distinctions and known loss. Matching terminology alone shall not justify that claim.}
+\note{Core documents can co-evolve without circular authority: vocabulary supplies terms; recording and epistemic documents supply complementary requirements; a package declaration pins both drafts for an experimental assessment.}
+
+\section{Conformance clauses and profiles}
+\req{D2-027}{The conformance clause shall distinguish the assessed subject, publication edition, profile, applicable requirements, assessment method, assessor and result. It shall distinguish a record, producer, protocol participant, presentation, archive and organizational procedure when their obligations differ.}
+\req{D2-028}{Each requirement shall have at least one stated assessment method and evidence expectation. Structural checks, protocol tests, human interpretation and procedural review shall have separately identifiable results.}
+\req{D2-029}{A conformance report shall distinguish fulfilled, not fulfilled, not assessed and not applicable results. A missing assessment shall not be counted as fulfillment.}
+\req{D2-030}{A profile shall state its parent requirements, additions, permitted restrictions, exclusions and intended users. It shall not silently weaken a parent requirement while claiming unqualified parent conformance.}
+\req{D2-031}{A draft shall state the limits of its conformance claims, including the distinction between record structure and factual truth, between source authentication and evidential warrant, and between technical conformance and legal or ethical judgment.}
+\req{D2-032}{An automated check shall identify the constraints it actually assesses. A passing automated result shall not be presented as evidence of a human or institutional action that the check did not observe.}
+
+\section{Protocol and machine-readable artifacts}
+\req{D2-033}{A protocol Specification shall define its participants, inputs, preconditions, state transitions, observable outputs, effects, refusal and failure cases, recovery behavior, version assumptions and authorization boundaries.}
+\req{D2-034}{An artifact package shall identify the relationship between its prose requirements and its schemas, examples, vocabularies, test fixtures and executable components. Conflicts shall have a documented resolution rule that does not silently amend an approved requirement.}
+\req{D2-035}{Examples intended to be valid shall identify the supported profile and expected result. Negative examples shall identify the intended defect. Synthetic evidence shall be labelled as synthetic.}
+\req{D2-036}{A schema, API or encoding choice shall be traceable to a stated requirement or interoperability need. Implementation convenience alone shall not be described as a philosophical necessity or universal institutional rule.}
+\req{D2-037}{Executable validation or rendering shall not silently retrieve unpinned remote resources, disclose protected input or substitute a current external vocabulary for the edition declared in the package. Any required external processing shall be explicit.}
+
+\section{Presentation, accessibility and legal context}
+\req{D2-038}{A publication shall use headings, table labels, link text and readable typography that expose its structure. Essential meaning shall not depend solely on color, visual position or a diagram.}
+\req{D2-039}{An editor shall provide a usable source or alternative reading representation and identify known accessibility limitations of the rendered document. Successful PDF compilation alone shall not establish accessibility conformance.}
+\req{D2-040}{A legal or institutional assertion used in a requirement shall identify the context, asserted source of authority and scope. A proposed model rule or policy option shall be labelled as such rather than described as generally applicable law.}
+\req{D2-041}{The editor shall record cross-domain review findings relevant to scope, including epistemic, ethical, legal, institutional, political-economy, archival, security and accessibility questions. Unavailable competence or unresolved material objections shall remain visible in progression records.}
+
+\section{Versioning and publication production}
+\req{D2-042}{Each circulated edition shall identify its canonical source and rendered artifacts. Changes to proposed requirements shall be traceable through the change record, with superseded reasoning retained subject to justified access and retention rules.}
+\req{D2-043}{A release candidate shall be built from the declared source revision, with build instructions, required tooling and an artifact manifest sufficient to reproduce and compare its substantive content.}
+\req{D2-044}{The release check shall detect broken internal references, duplicate requirement identifiers, missing glyphs, visibly clipped material, mismatched status labels and disagreement between declared source and generated artifact. Unresolved defects shall be reported with their effect on use.}
+\req{D2-045}{An editorial correction shall not silently change the substance of a requirement. A substantive change to an adopted normative edition shall use the amendment or revision procedure in Directives Part 1, including affected-artifact and compatibility review. A draft change shall follow the change-control and re-review rules applicable to its current stage. Changes to a released Specification shall follow its declared maintenance procedure and promotion shall require a separate decision.}
+\note{Byte-identical PDF reproduction is not assumed: timestamps and compiler versions can change bytes. The initial build manifest records source and PDF hashes, compiler results and review warnings so each reviewed artifact is identifiable.}
+
+\section{Assessment of a publication package}
+The editor prepares an assessment register with one row for each applicable D2 requirement: identifier, evidence location, result, reviewer and unresolved action. Examples of evidence include the source front matter, dependency inventory, requirement-to-case matrix, source-to-definition map, compilation report and page inspection.
+
+A review against this draft is described as an experimental drafting assessment. It is not ISO/IEEE conformance, accreditation, accessibility certification or adoption of a programme Standard.
+
+\section{Informative source basis and drafting decisions}
+The programme's AGENTS instructions, publication taxonomy, source manifest, comprehensive plan and accepted ADR-0002 provide the local basis. The proposed publication-source architecture and bounded technical drafting are recorded in ADR-0004.
+
+\source{ISO's public house-style and foreword guidance were consulted for distinctions among requirements, recommendations, permissions, possibilities and conformity assessment: \url{https://www.iso.org/ISO-house-style.html} and \url{https://www.iso.org/foreword-supplementary-information.html}. IEEE's public Operations Manual clause 6 was consulted for the distinction among normative and informative materials: \url{https://standards.ieee.org/about/policies/opman/sect6/}. Checked 22 September 2026. These sources inform independently written programme proposals; their procedures are not adopted by citation.}
+
+The initial production choice is canonical TeX source beside existing project documents, a shared presentation preamble and LuaLaTeX rendering through an explicit manifest. Markdown remains navigation and historical context. Alternative authoring systems remain possible after a recorded maintenance decision.
+
+\openissue{The licence terms, founding adoption, actual editor appointments, minimum accessibility target and final profile terminology remain to be decided. This draft does not grant publication rights to third-party material.}
+\openissue{Full ISO/IEC Part 1:2026 and Part 2:2021 with its 2026 amendment were not available in the earlier comparison. No clause-level conformity with those editions is asserted here.}
+\end{document}

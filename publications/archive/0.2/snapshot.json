@@ -1,0 +1,90 @@
+{
+  "status": "Historical Working Draft 0.2; unadopted",
+  "files": [
+    {
+      "source": "governance/standards_programme_charter.tex",
+      "archived": "publications/archive/0.2/governance/standards_programme_charter.tex",
+      "sha256": "8a84ccd337aaee19779c9685c3f04aa3592f70d7792a81b3f622b088d16877d6"
+    },
+    {
+      "source": "governance/directives_part_1.tex",
+      "archived": "publications/archive/0.2/governance/directives_part_1.tex",
+      "sha256": "b8eebffcd8458bdd189312f567c750d3c1aa05e7bb6e8bf0c2df6d02429fd424"
+    },
+    {
+      "source": "governance/directives_part_2.tex",
+      "archived": "publications/archive/0.2/governance/directives_part_2.tex",
+      "sha256": "2ed44586ec096186c9e008f67a4df21634e2d4e0b74490ad2eef02f68dac6983"
+    },
+    {
+      "source": "governance/technical_committee_charter.tex",
+      "archived": "publications/archive/0.2/governance/technical_committee_charter.tex",
+      "sha256": "5af2fa5e4de179960fa5d54d23d3960172721400cc01c38efa2a73c0908613f6"
+    },
+    {
+      "source": "governance/ethics_ip_policy.tex",
+      "archived": "publications/archive/0.2/governance/ethics_ip_policy.tex",
+      "sha256": "5b2ab5209db0efdc9844fe9113f814ad9e61a930b1fd2859d666a46abcb4c67a"
+    },
+    {
+      "source": "standards/GR-100-foundations-vocabulary/GR-100.tex",
+      "archived": "publications/archive/0.2/standards/GR-100-foundations-vocabulary/GR-100.tex",
+      "sha256": "cefb5d6198723e65268abad8abb908f93452e13838a6d2de8759ddb6c2792dfb"
+    },
+    {
+      "source": "standards/GR-110-recording-requirements/GR-110.tex",
+      "archived": "publications/archive/0.2/standards/GR-110-recording-requirements/GR-110.tex",
+      "sha256": "1b02227eb2fbff386b443cf4ce176218676e98eccdab6f3bf9e3075c3c986ef2"
+    },
+    {
+      "source": "standards/GR-200-epistemic-recording/GR-200.tex",
+      "archived": "publications/archive/0.2/standards/GR-200-epistemic-recording/GR-200.tex",
+      "sha256": "31154d76f836a35d0b48eb62914e5960be96602d423cf6af02d6acf1429e54c6"
+    },
+    {
+      "source": "standards/GR-210-evidence-interpretation/GR-210.tex",
+      "archived": "publications/archive/0.2/standards/GR-210-evidence-interpretation/GR-210.tex",
+      "sha256": "226e225514e253f480a3cc82f5e2368c88b6dd48058d7c9f157874a9f1054d7f"
+    },
+    {
+      "source": "publications/preamble.tex",
+      "archived": "publications/archive/0.2/publications/preamble.tex",
+      "sha256": "bb119af434cf83b500d4a794fd5d45effc6d8f5c98fab4e0b781aef6bef5fe96"
+    },
+    {
+      "source": "publications/documents.json",
+      "archived": "publications/archive/0.2/publications/documents.json",
+      "sha256": "4cffeae0003633e6fd5488b2fae3c80a6dd538fbde20ec4b6a2873d3468cf86d"
+    },
+    {
+      "source": "tools/build_publications.py",
+      "archived": "publications/archive/0.2/tools/build_publications.py",
+      "sha256": "3d865b57d13ec3b1f38d39ab1533ecbe681586cc3047373a2677b66f4009ae22"
+    },
+    {
+      "source": "tools/check_publications.py",
+      "archived": "publications/archive/0.2/tools/check_publications.py",
+      "sha256": "179e2bcf31af68608cea9503da90eaee2a624a690ad4a4e37417d9baaba3604d"
+    },
+    {
+      "source": "tools/compare_publication_requirements.py",
+      "archived": "publications/archive/0.2/tools/compare_publication_requirements.py",
+      "sha256": "3a48a858aca4b073bba453de2394b868f0a01f2e0d82e2363abe92d1b89b035c"
+    },
+    {
+      "source": "PROGRAMME_BRIEF.md",
+      "archived": "publications/archive/0.2/PROGRAMME_BRIEF.md",
+      "sha256": "ea14413d927e2010496c42c49066561dcb9dbee971c9b1395c8b2f349b67222a"
+    },
+    {
+      "source": "docs/reviews/expanded_working_draft_review.md",
+      "archived": "publications/archive/0.2/docs/reviews/expanded_working_draft_review.md",
+      "sha256": "278bf8b1e7a74b33ecfbabd3eee459f7948b00104a1bfdad3b32f36dd6578f75"
+    },
+    {
+      "source": "docs/reviews/requirement_changes_0.1_to_0.2.csv",
+      "archived": "publications/archive/0.2/docs/reviews/requirement_changes_0.1_to_0.2.csv",
+      "sha256": "12347dd8e634103d0a731a3e85bb1e8fd38e4edbe22d432493740dae277b9f95"
+    }
+  ]
+}

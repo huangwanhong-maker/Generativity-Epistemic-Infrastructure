@@ -1,0 +1,93 @@
+% Shared presentation only. Substantive requirements belong in document sources.
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Termes}
+\setsansfont{TeX Gyre Heros}
+\setmonofont{Latin Modern Mono}[Scale=MatchLowercase]
+\usepackage[a4paper,margin=25mm,headheight=15pt]{geometry}
+\usepackage[english]{babel}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{array,booktabs,longtable,tabularx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage{xurl}
+\usepackage[unicode,colorlinks=true,linkcolor=black,urlcolor=blue!45!black]{hyperref}
+\definecolor{GSPink}{HTML}{000000}
+\definecolor{GSPaccent}{HTML}{000000}
+\definecolor{GSPmuted}{HTML}{444444}
+\titleformat{\section}{\large\bfseries}{\thesection}{0.8em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.8em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection}{0.8em}{}
+\titlespacing*{\section}{0pt}{15pt plus 2pt}{7pt}
+\titlespacing*{\subsection}{0pt}{11pt plus 2pt}{5pt}
+\titlespacing*{\subsubsection}{0pt}{9pt plus 1pt}{4pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt plus 1pt}
+\setlength{\emergencystretch}{2em}
+\setlist{itemsep=2pt,topsep=4pt}
+\setlist[itemize,enumerate]{leftmargin=*}
+\setcounter{tocdepth}{2}
+\renewcommand{\arraystretch}{1.18}
+\captionsetup{font=small,labelfont=bf,labelsep=endash,justification=raggedright,singlelinecheck=false}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcommand{\GSPcode}{GSP}
+\newcommand{\GSPversion}{0.3}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\GSPcode\ --- Working Draft \GSPversion}
+\fancyhead[R]{\small 2026-09-22}
+\fancyfoot[L]{\footnotesize Generativity Standards Program\quad Draft; not adopted}
+\fancyfoot[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\GSPtitle}[4]{%
+  \gdef\GSPcode{#1}%
+  \gdef\GSPversion{#4}%
+  \hypersetup{pdftitle={#1: #2},pdfauthor={Generativity Standards Program},pdfsubject={#3; draft #4; not adopted}}%
+  \begin{titlepage}
+  \color{GSPink}
+  {\large\bfseries GENERATIVITY STANDARDS PROGRAM}\par
+  \vspace{8mm}\hrule\vspace{16mm}
+  {\Large\bfseries #1}\par\vspace{4mm}
+  {\large #3}\par
+  Version #4\hfill 2026-09-22\par
+  \vspace{20mm}
+  {\LARGE\bfseries\raggedright\hyphenpenalty=10000 #2\par}
+  \vfill
+  {\normalsize\bfseries WORKING DRAFT FOR REVIEW}\par
+  \vspace{3mm}
+  This document contains proposed provisions for technical and institutional
+  review. It is not an adopted Standard or an operative governance instrument.
+  Its scope, application conditions and publication status are specified in the text.\par
+  \vspace{5mm}
+  Prepared by the Generativity Standards Program. Reference to external
+  publications does not imply endorsement by ISO, IEC, IEEE or any United Nations body.\par
+  \end{titlepage}
+}
+\newcommand{\GSPfrontmatter}{\clearpage\pagenumbering{roman}}
+\newcommand{\GSPpreface}[1]{\clearpage\section*{#1}\addcontentsline{toc}{section}{#1}}
+\newcommand{\GSPmainmatter}{\clearpage\pagenumbering{arabic}\setcounter{section}{0}}
+\newif\ifGSPannexstarted
+\GSPannexstartedfalse
+\newcommand{\GSPannex}[2]{%
+  \clearpage
+  \ifGSPannexstarted\else\appendix\GSPannexstartedtrue\fi
+  \setcounter{table}{0}\setcounter{figure}{0}\setcounter{equation}{0}%
+  \renewcommand{\thetable}{\thesection.\arabic{table}}%
+  \renewcommand{\thefigure}{\thesection.\arabic{figure}}%
+  \renewcommand{\theequation}{\thesection.\arabic{equation}}%
+  \titleformat{\section}[display]{\centering\normalsize\bfseries}{Annex \thesection}{4pt}{}%
+  \section[#2 (#1)]{\texorpdfstring{\normalfont(#1)\\[6pt]\bfseries #2}{#2 (#1)}}%
+}
+\newcommand{\GSPbibliography}{%
+  \clearpage
+  \titleformat{\section}[hang]{\large\bfseries}{\thesection}{0.8em}{}%
+  \section*{Bibliography}\addcontentsline{toc}{section}{Bibliography}%
+}
+\newcounter{GSPnote}[section]
+\newcommand{\req}[2]{\par\smallskip\noindent\phantomsection\label{req:#1}\textbf{#1}\quad #2\par}
+\newcommand{\note}[1]{\par\smallskip\stepcounter{GSPnote}{\small NOTE~\arabic{GSPnote}\enspace #1\par}\smallskip}
+\newcommand{\openissue}[1]{\par\smallskip{\small\textbf{OPEN ISSUE}\enspace #1\par}\smallskip}
+\newcommand{\source}[1]{\par\smallskip{\small\textbf{Source and interpretation:}\enspace #1\par}\smallskip}

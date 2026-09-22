@@ -1,0 +1,1230 @@
+[
+  {
+    "id": "GOV-R001",
+    "document": "GSP-Charter",
+    "requirements": [
+      "CH-042"
+    ],
+    "topic": "Normative references",
+    "review_status": "reviewed",
+    "basis": "Exact adopted editions are fixed explicitly; later drafts cannot acquire authority by replacement.",
+    "evidence": "publications/archive/0.2/governance/standards_programme_charter.tex, WD 0.2, lines 43-43, CH-042; source SHA-256 8a84ccd337aaee19779c9685c3f04aa3592f70d7792a81b3f622b088d16877d6.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R002",
+    "document": "GSP-Charter",
+    "requirements": [
+      "CH-006",
+      "CH-007",
+      "CH-008",
+      "CH-009",
+      "CH-003",
+      "CH-004",
+      "CH-005",
+      "CH-043",
+      "CH-044",
+      "CH-045"
+    ],
+    "topic": "Mission and programme commitments",
+    "review_status": "reviewed",
+    "basis": "Mission evaluation distinguishes intended benefit, measured practice and broader trust claims; layers and operational narrowing stay separate.",
+    "evidence": "publications/archive/0.2/governance/standards_programme_charter.tex, WD 0.2, lines 74-85, CH-006, CH-007, CH-008, CH-009, CH-003, CH-004, CH-005, CH-043, CH-044, CH-045; source SHA-256 8a84ccd337aaee19779c9685c3f04aa3592f70d7792a81b3f622b088d16877d6.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R003",
+    "document": "GSP-Charter",
+    "requirements": [
+      "CH-010",
+      "CH-011",
+      "CH-012",
+      "CH-013",
+      "CH-014",
+      "CH-046",
+      "CH-047",
+      "CH-048"
+    ],
+    "topic": "Publication authority",
+    "review_status": "reviewed",
+    "basis": "Reserved decisions, editorial custody and publication class are distinguished; pre-adoption drafting does not authorize work items.",
+    "evidence": "publications/archive/0.2/governance/standards_programme_charter.tex, WD 0.2, lines 89-98, CH-010, CH-011, CH-012, CH-013, CH-014, CH-046, CH-047, CH-048; source SHA-256 8a84ccd337aaee19779c9685c3f04aa3592f70d7792a81b3f622b088d16877d6.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R004",
+    "document": "GSP-Charter",
+    "requirements": [
+      "CH-015",
+      "CH-016",
+      "CH-017",
+      "CH-018",
+      "CH-049",
+      "CH-019",
+      "CH-020",
+      "CH-050",
+      "CH-051",
+      "CH-052",
+      "CH-039",
+      "CH-040",
+      "CH-053"
+    ],
+    "topic": "Participation and consideration",
+    "review_status": "open",
+    "basis": "Contribution, representation, endorsement and eligibility are separated; alternative access and anti-dominance duties require observed capacity.",
+    "evidence": "publications/archive/0.2/governance/standards_programme_charter.tex, WD 0.2, lines 102-118, CH-015, CH-016, CH-017, CH-018, CH-049, CH-019, CH-020, CH-050, CH-051, CH-052, CH-039, CH-040, CH-053; source SHA-256 8a84ccd337aaee19779c9685c3f04aa3592f70d7792a81b3f622b088d16877d6.",
+    "finding_ids": [
+      "GOV-O04"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R005",
+    "document": "GSP-Charter",
+    "requirements": [
+      "CH-021",
+      "CH-022",
+      "CH-023",
+      "CH-024",
+      "CH-025",
+      "CH-041",
+      "CH-054",
+      "CH-055",
+      "CH-056",
+      "CH-057"
+    ],
+    "topic": "Organization and accountable appointments",
+    "review_status": "open",
+    "basis": "Accepted bounded appointments, recusal, vacancy and handover control authority; combined roles cannot supply neutral self-review.",
+    "evidence": "publications/archive/0.2/governance/standards_programme_charter.tex, WD 0.2, lines 127-138, CH-021, CH-022, CH-023, CH-024, CH-025, CH-041, CH-054, CH-055, CH-056, CH-057; source SHA-256 8a84ccd337aaee19779c9685c3f04aa3592f70d7792a81b3f622b088d16877d6.",
+    "finding_ids": [
+      "GOV-O03"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R006",
+    "document": "GSP-Charter",
+    "requirements": [
+      "CH-001",
+      "CH-002",
+      "CH-036",
+      "CH-037",
+      "CH-038",
+      "CH-058",
+      "CH-059",
+      "CH-026",
+      "CH-027",
+      "CH-028",
+      "CH-029",
+      "CH-060",
+      "CH-061",
+      "CH-030",
+      "CH-062",
+      "CH-063"
+    ],
+    "topic": "Founding and decision accountability",
+    "review_status": "open",
+    "basis": "Founding review and express commitments avoid self-authorizing drafts; independent capacity and effective conditions remain launch gates.",
+    "evidence": "publications/archive/0.2/governance/standards_programme_charter.tex, WD 0.2, lines 143-162, CH-001, CH-002, CH-036, CH-037, CH-038, CH-058, CH-059, CH-026, CH-027, CH-028, CH-029, CH-060, CH-061, CH-030, CH-062, CH-063; source SHA-256 8a84ccd337aaee19779c9685c3f04aa3592f70d7792a81b3f622b088d16877d6.",
+    "finding_ids": [
+      "GOV-O03"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R007",
+    "document": "GSP-Charter",
+    "requirements": [
+      "CH-031",
+      "CH-032",
+      "CH-064",
+      "CH-065",
+      "CH-066",
+      "CH-067",
+      "CH-068"
+    ],
+    "topic": "Resources and infrastructure",
+    "review_status": "open",
+    "basis": "Support conditions, essential-resource control, staffing and exercised recovery are identified; actual resources are not yet evidenced.",
+    "evidence": "publications/archive/0.2/governance/standards_programme_charter.tex, WD 0.2, lines 166-174, CH-031, CH-032, CH-064, CH-065, CH-066, CH-067, CH-068; source SHA-256 8a84ccd337aaee19779c9685c3f04aa3592f70d7792a81b3f622b088d16877d6.",
+    "finding_ids": [
+      "GOV-O03",
+      "GOV-O04"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R008",
+    "document": "GSP-Charter",
+    "requirements": [
+      "CH-033",
+      "CH-069",
+      "CH-070",
+      "CH-034",
+      "CH-071",
+      "CH-072"
+    ],
+    "topic": "Records and external relations",
+    "review_status": "open",
+    "basis": "Public decision history is bounded by protection; external agreements and representation require actual mandate and assent.",
+    "evidence": "publications/archive/0.2/governance/standards_programme_charter.tex, WD 0.2, lines 178-185, CH-033, CH-069, CH-070, CH-034, CH-071, CH-072; source SHA-256 8a84ccd337aaee19779c9685c3f04aa3592f70d7792a81b3f622b088d16877d6.",
+    "finding_ids": [
+      "GOV-O05"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R009",
+    "document": "GSP-Charter",
+    "requirements": [
+      "CH-035",
+      "CH-073",
+      "CH-074",
+      "CH-075",
+      "CH-076",
+      "CH-077"
+    ],
+    "topic": "Oversight, transition, and closure",
+    "review_status": "reviewed",
+    "basis": "Annual review, prospective amendments, transition and custody preserve earlier decisions without pretending external uses disappear.",
+    "evidence": "publications/archive/0.2/governance/standards_programme_charter.tex, WD 0.2, lines 189-196, CH-035, CH-073, CH-074, CH-075, CH-076, CH-077; source SHA-256 8a84ccd337aaee19779c9685c3f04aa3592f70d7792a81b3f622b088d16877d6.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R010",
+    "document": "GSP-Charter",
+    "requirements": [
+      "CH-078",
+      "CH-079",
+      "CH-080"
+    ],
+    "topic": "Assessment",
+    "review_status": "reviewed",
+    "basis": "The subject, period, relationships and evidence are declared; blank forms and unobserved routes do not establish performance.",
+    "evidence": "publications/archive/0.2/governance/standards_programme_charter.tex, WD 0.2, lines 200-204, CH-078, CH-079, CH-080; source SHA-256 8a84ccd337aaee19779c9685c3f04aa3592f70d7792a81b3f622b088d16877d6.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R011",
+    "document": "GSP-Charter",
+    "requirements": [
+      "CH-081",
+      "CH-082",
+      "CH-083",
+      "CH-084",
+      "CH-085"
+    ],
+    "topic": "Annex A: Minimum governance evidence records",
+    "review_status": "reviewed",
+    "basis": "Authority, decision and continuity records retain evidence and limits; sampling cannot imply observation of inaccessible routes.",
+    "evidence": "publications/archive/0.2/governance/standards_programme_charter.tex, WD 0.2, lines 208-226, CH-081, CH-082, CH-083, CH-084, CH-085; source SHA-256 8a84ccd337aaee19779c9685c3f04aa3592f70d7792a81b3f622b088d16877d6.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R012",
+    "document": "GSP-Directives-1",
+    "requirements": [
+      "D1-001",
+      "D1-002",
+      "D1-003",
+      "D1-004",
+      "D1-005",
+      "D1-006",
+      "D1-007",
+      "D1-008"
+    ],
+    "topic": "Founding, responsibilities, and participation",
+    "review_status": "open",
+    "basis": "Founding basis, appointments, access and recusals precede consequential operation; unassigned mandatory functions defer progression.",
+    "evidence": "publications/archive/0.2/governance/directives_part_1.tex, WD 0.2, lines 48-55, D1-001, D1-002, D1-003, D1-004, D1-005, D1-006, D1-007, D1-008; source SHA-256 b8eebffcd8458bdd189312f567c750d3c1aa05e7bb6e8bf0c2df6d02429fd424.",
+    "finding_ids": [
+      "GOV-O03",
+      "GOV-O04"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R013",
+    "document": "GSP-Directives-1",
+    "requirements": [
+      "D1-009",
+      "D1-010",
+      "D1-011",
+      "D1-012",
+      "D1-013",
+      "D1-059",
+      "D1-060",
+      "D1-061"
+    ],
+    "topic": "Project initiation and scope control",
+    "review_status": "open",
+    "basis": "NWIP scope, normative problem, Specification need and resource acceptance are explicit; proposal receipt is not project approval.",
+    "evidence": "publications/archive/0.2/governance/directives_part_1.tex, WD 0.2, lines 60-69, D1-009, D1-010, D1-011, D1-012, D1-013, D1-059, D1-060, D1-061; source SHA-256 b8eebffcd8458bdd189312f567c750d3c1aa05e7bb6e8bf0c2df6d02429fd424.",
+    "finding_ids": [
+      "GOV-O03"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R014",
+    "document": "GSP-Directives-1",
+    "requirements": [
+      "D1-014",
+      "D1-015",
+      "D1-016",
+      "D1-017",
+      "D1-062",
+      "D1-063",
+      "D1-064",
+      "D1-065",
+      "D1-066",
+      "D1-067"
+    ],
+    "topic": "Stages and progression evidence",
+    "review_status": "reviewed",
+    "basis": "Stage labels require actual evidence; source decisions, missing expertise, synthetic tests and shared dependencies remain visible.",
+    "evidence": "publications/archive/0.2/governance/directives_part_1.tex, WD 0.2, lines 96-107, D1-014, D1-015, D1-016, D1-017, D1-062, D1-063, D1-064, D1-065, D1-066, D1-067; source SHA-256 b8eebffcd8458bdd189312f567c750d3c1aa05e7bb6e8bf0c2df6d02429fd424.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R015",
+    "document": "GSP-Directives-1",
+    "requirements": [
+      "D1-018",
+      "D1-019",
+      "D1-020",
+      "D1-021",
+      "D1-022",
+      "D1-023",
+      "D1-024",
+      "D1-025",
+      "D1-026",
+      "D1-068",
+      "D1-069",
+      "D1-070",
+      "D1-071",
+      "D1-072"
+    ],
+    "topic": "Public review and comment disposition",
+    "review_status": "open",
+    "basis": "60-day intake, 7-day acknowledgement, 30-day disposition target/reply and substantive re-review are distinct; access failures affect progression.",
+    "evidence": "publications/archive/0.2/governance/directives_part_1.tex, WD 0.2, lines 111-126, D1-018, D1-019, D1-020, D1-021, D1-022, D1-023, D1-024, D1-025, D1-026, D1-068, D1-069, D1-070, D1-071, D1-072; source SHA-256 b8eebffcd8458bdd189312f567c750d3c1aa05e7bb6e8bf0c2df6d02429fd424.",
+    "finding_ids": [
+      "GOV-O01",
+      "GOV-O04"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R016",
+    "document": "GSP-Directives-1",
+    "requirements": [
+      "D1-027",
+      "D1-028",
+      "D1-029",
+      "D1-030",
+      "D1-031",
+      "D1-032",
+      "D1-033",
+      "D1-073",
+      "D1-074",
+      "D1-075",
+      "D1-076",
+      "D1-077"
+    ],
+    "topic": "Consensus, ballots, and final approval",
+    "review_status": "finding",
+    "basis": "Valid-return quorum and substantive thresholds are consistent; invalid attempts lack a required separate tally category, while recusal can require restart.",
+    "evidence": "publications/archive/0.2/governance/directives_part_1.tex, WD 0.2, lines 132-146, D1-027, D1-028, D1-029, D1-030, D1-031, D1-032, D1-033, D1-073, D1-074, D1-075, D1-076, D1-077; source SHA-256 b8eebffcd8458bdd189312f567c750d3c1aa05e7bb6e8bf0c2df6d02429fd424.",
+    "finding_ids": [
+      "GOV-F01",
+      "GOV-O01",
+      "GOV-O03",
+      "GOV-O05"
+    ],
+    "next_action": "Amend invalid-attempt tally accounting without changing thresholds; recheck revised text and submission-state fixture."
+  },
+  {
+    "id": "GOV-R017",
+    "document": "GSP-Directives-1",
+    "requirements": [
+      "D1-034",
+      "D1-035",
+      "D1-036",
+      "D1-037",
+      "D1-038",
+      "D1-039",
+      "D1-078",
+      "D1-079",
+      "D1-080",
+      "D1-081"
+    ],
+    "topic": "Procedural appeals and separate complaint routes",
+    "review_status": "open",
+    "basis": "Accessible notice, independent assignment, replies, scoped stay, reasons and implemented remedy differ from substantive disagreement.",
+    "evidence": "publications/archive/0.2/governance/directives_part_1.tex, WD 0.2, lines 150-161, D1-034, D1-035, D1-036, D1-037, D1-038, D1-039, D1-078, D1-079, D1-080, D1-081; source SHA-256 b8eebffcd8458bdd189312f567c750d3c1aa05e7bb6e8bf0c2df6d02429fd424.",
+    "finding_ids": [
+      "GOV-O03"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R018",
+    "document": "GSP-Directives-1",
+    "requirements": [
+      "D1-040",
+      "D1-041",
+      "D1-042",
+      "D1-082",
+      "D1-083"
+    ],
+    "topic": "Publication and release integrity",
+    "review_status": "open",
+    "basis": "Authorization, rights, exact artifacts and non-editor source/render review are prerequisites; successful compilation does not authorize release.",
+    "evidence": "publications/archive/0.2/governance/directives_part_1.tex, WD 0.2, lines 167-173, D1-040, D1-041, D1-042, D1-082, D1-083; source SHA-256 b8eebffcd8458bdd189312f567c750d3c1aa05e7bb6e8bf0c2df6d02429fd424.",
+    "finding_ids": [
+      "GOV-O03",
+      "GOV-O05"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R019",
+    "document": "GSP-Directives-1",
+    "requirements": [
+      "D1-043",
+      "D1-044",
+      "D1-045",
+      "D1-046",
+      "D1-047",
+      "D1-048",
+      "D1-084",
+      "D1-085",
+      "D1-086",
+      "D1-087"
+    ],
+    "topic": "Maintenance, review, and withdrawal",
+    "review_status": "reviewed",
+    "basis": "Correction, amendment, confirmation and withdrawal have different effects; prior editions and existing users are not retroactively relabelled.",
+    "evidence": "publications/archive/0.2/governance/directives_part_1.tex, WD 0.2, lines 177-188, D1-043, D1-044, D1-045, D1-046, D1-047, D1-048, D1-084, D1-085, D1-086, D1-087; source SHA-256 b8eebffcd8458bdd189312f567c750d3c1aa05e7bb6e8bf0c2df6d02429fd424.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R020",
+    "document": "GSP-Directives-1",
+    "requirements": [
+      "D1-049",
+      "D1-050",
+      "D1-051",
+      "D1-088"
+    ],
+    "topic": "Emergency safeguards and continuity",
+    "review_status": "reviewed",
+    "basis": "7-day independent review and 30-day expiry constrain temporary safeguards; emergency action cannot make permanent normative changes.",
+    "evidence": "publications/archive/0.2/governance/directives_part_1.tex, WD 0.2, lines 192-197, D1-049, D1-050, D1-051, D1-088; source SHA-256 b8eebffcd8458bdd189312f567c750d3c1aa05e7bb6e8bf0c2df6d02429fd424.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R021",
+    "document": "GSP-Directives-1",
+    "requirements": [
+      "D1-052",
+      "D1-053",
+      "D1-054",
+      "D1-055",
+      "D1-056",
+      "D1-057",
+      "D1-058",
+      "D1-089",
+      "D1-090"
+    ],
+    "topic": "Records, transparency, and external liaison",
+    "review_status": "open",
+    "basis": "Records, review cycles and external liaison are bounded; Specification technical requirements retain the full technical review route.",
+    "evidence": "publications/archive/0.2/governance/directives_part_1.tex, WD 0.2, lines 201-213, D1-052, D1-053, D1-054, D1-055, D1-056, D1-057, D1-058, D1-089, D1-090; source SHA-256 b8eebffcd8458bdd189312f567c750d3c1aa05e7bb6e8bf0c2df6d02429fd424.",
+    "finding_ids": [
+      "GOV-O04"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R022",
+    "document": "GSP-Directives-1",
+    "requirements": [
+      "D1-091",
+      "D1-092",
+      "D1-093"
+    ],
+    "topic": "Annex A: Stage evidence and procedural schedule",
+    "review_status": "open",
+    "basis": "Stage records reuse evidence only when still applicable; clocks need explicit start, zone, deadline and failure effects.",
+    "evidence": "publications/archive/0.2/governance/directives_part_1.tex, WD 0.2, lines 219-261, D1-091, D1-092, D1-093; source SHA-256 b8eebffcd8458bdd189312f567c750d3c1aa05e7bb6e8bf0c2df6d02429fd424.",
+    "finding_ids": [
+      "GOV-O01",
+      "GOV-O02"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R023",
+    "document": "GSP-Directives-1",
+    "requirements": [
+      "D1-094",
+      "D1-095"
+    ],
+    "topic": "Annex B: Registers and minimum decision records",
+    "review_status": "finding",
+    "basis": "Shared registers preserve specific record content; ballot accounting needs a distinct attempted-but-not-valid category.",
+    "evidence": "publications/archive/0.2/governance/directives_part_1.tex, WD 0.2, lines 267-287, D1-094, D1-095; source SHA-256 b8eebffcd8458bdd189312f567c750d3c1aa05e7bb6e8bf0c2df6d02429fd424.",
+    "finding_ids": [
+      "GOV-F01"
+    ],
+    "next_action": "Amend invalid-attempt tally accounting without changing thresholds; recheck revised text and submission-state fixture."
+  },
+  {
+    "id": "GOV-R024",
+    "document": "GSP-Directives-2",
+    "requirements": [
+      "D2-094"
+    ],
+    "topic": "Normative references",
+    "review_status": "reviewed",
+    "basis": "Bounded internal dependencies identify invoked subjects and edition; incompatible or unavailable material blocks the affected result.",
+    "evidence": "publications/archive/0.2/governance/directives_part_2.tex, WD 0.2, lines 45-45, D2-094; source SHA-256 2ed44586ec096186c9e008f67a4df21634e2d4e0b74490ad2eef02f68dac6983.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R025",
+    "document": "GSP-Directives-2",
+    "requirements": [
+      "D2-001",
+      "D2-002",
+      "D2-046",
+      "D2-003",
+      "D2-004",
+      "D2-005",
+      "D2-047",
+      "D2-006",
+      "D2-007",
+      "D2-008",
+      "D2-048",
+      "D2-049",
+      "D2-050",
+      "D2-051",
+      "D2-052"
+    ],
+    "topic": "Publication identity and document architecture",
+    "review_status": "reviewed",
+    "basis": "Class, status, title, front matter, scope, annex role and leaf hierarchy distinguish publication functions and controlling requirements.",
+    "evidence": "publications/archive/0.2/governance/directives_part_2.tex, WD 0.2, lines 89-115, D2-001, D2-002, D2-046, D2-003, D2-004, D2-005, D2-047, D2-006, D2-007, D2-008, D2-048, D2-049, D2-050, D2-051, D2-052; source SHA-256 2ed44586ec096186c9e008f67a4df21634e2d4e0b74490ad2eef02f68dac6983.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R026",
+    "document": "GSP-Directives-2",
+    "requirements": [
+      "D2-009",
+      "D2-010",
+      "D2-011",
+      "D2-012",
+      "D2-053",
+      "D2-054",
+      "D2-014",
+      "D2-055",
+      "D2-056",
+      "D2-013",
+      "D2-015",
+      "D2-016",
+      "D2-057",
+      "D2-058",
+      "D2-059",
+      "D2-060"
+    ],
+    "topic": "Formulation of provisions",
+    "review_status": "open",
+    "basis": "Actor, trigger, criterion, modality, component results and exceptions are specified; unknown declarations do not resolve underlying facts.",
+    "evidence": "publications/archive/0.2/governance/directives_part_2.tex, WD 0.2, lines 121-148, D2-009, D2-010, D2-011, D2-012, D2-053, D2-054, D2-014, D2-055, D2-056, D2-013, D2-015, D2-016, D2-057, D2-058, D2-059, D2-060; source SHA-256 2ed44586ec096186c9e008f67a4df21634e2d4e0b74490ad2eef02f68dac6983.",
+    "finding_ids": [
+      "GOV-O04"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R027",
+    "document": "GSP-Directives-2",
+    "requirements": [
+      "D2-017",
+      "D2-061",
+      "D2-062",
+      "D2-021",
+      "D2-018",
+      "D2-019",
+      "D2-020",
+      "D2-063",
+      "D2-064"
+    ],
+    "topic": "Terminology and conceptual sources",
+    "review_status": "reviewed",
+    "basis": "Operational definitions and manuscript interpretation retain scope and source differences; no formal-to-archival equivalence is presumed.",
+    "evidence": "publications/archive/0.2/governance/directives_part_2.tex, WD 0.2, lines 154-170, D2-017, D2-061, D2-062, D2-021, D2-018, D2-019, D2-020, D2-063, D2-064; source SHA-256 2ed44586ec096186c9e008f67a4df21634e2d4e0b74490ad2eef02f68dac6983.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R028",
+    "document": "GSP-Directives-2",
+    "requirements": [
+      "D2-022",
+      "D2-023",
+      "D2-065",
+      "D2-024",
+      "D2-066",
+      "D2-025",
+      "D2-067"
+    ],
+    "topic": "References and dependency management",
+    "review_status": "reviewed",
+    "basis": "Verified primary provisions, precise dependencies and access gaps are distinguished from informative bibliographic motivation.",
+    "evidence": "publications/archive/0.2/governance/directives_part_2.tex, WD 0.2, lines 176-190, D2-022, D2-023, D2-065, D2-024, D2-066, D2-025, D2-067; source SHA-256 2ed44586ec096186c9e008f67a4df21634e2d4e0b74490ad2eef02f68dac6983.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R029",
+    "document": "GSP-Directives-2",
+    "requirements": [
+      "D2-031",
+      "D2-026",
+      "D2-027",
+      "D2-068",
+      "D2-032",
+      "D2-028",
+      "D2-029",
+      "D2-069",
+      "D2-070",
+      "D2-030",
+      "D2-071"
+    ],
+    "topic": "Conformance and assessment provisions",
+    "review_status": "reviewed",
+    "basis": "Record structure, practice, interoperability, warrant and authority have separate subjects and evidence; partial claims stay bounded.",
+    "evidence": "publications/archive/0.2/governance/directives_part_2.tex, WD 0.2, lines 196-214, D2-031, D2-026, D2-027, D2-068, D2-032, D2-028, D2-029, D2-069, D2-070, D2-030, D2-071; source SHA-256 2ed44586ec096186c9e008f67a4df21634e2d4e0b74490ad2eef02f68dac6983.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R030",
+    "document": "GSP-Directives-2",
+    "requirements": [
+      "D2-036",
+      "D2-072",
+      "D2-033",
+      "D2-034",
+      "D2-073",
+      "D2-074",
+      "D2-037",
+      "D2-035",
+      "D2-075",
+      "D2-076"
+    ],
+    "topic": "Information models, protocols and technical artifacts",
+    "review_status": "reviewed",
+    "basis": "Semantic need precedes encoding; protocol delivery, acceptance, retry and institutional outcome differ; artifact conflicts need disposition.",
+    "evidence": "publications/archive/0.2/governance/directives_part_2.tex, WD 0.2, lines 220-237, D2-036, D2-072, D2-033, D2-034, D2-073, D2-074, D2-037, D2-035, D2-075, D2-076; source SHA-256 2ed44586ec096186c9e008f67a4df21634e2d4e0b74490ad2eef02f68dac6983.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R031",
+    "document": "GSP-Directives-2",
+    "requirements": [
+      "D2-077",
+      "D2-078",
+      "D2-038",
+      "D2-039",
+      "D2-079",
+      "D2-080",
+      "D2-040",
+      "D2-041",
+      "D2-081"
+    ],
+    "topic": "Presentation, accessibility and contextual statements",
+    "review_status": "open",
+    "basis": "Accessible structure, formulas, synthetic examples and contextual claims require evidence beyond successful rendering.",
+    "evidence": "publications/archive/0.2/governance/directives_part_2.tex, WD 0.2, lines 241-255, D2-077, D2-078, D2-038, D2-039, D2-079, D2-080, D2-040, D2-041, D2-081; source SHA-256 2ed44586ec096186c9e008f67a4df21634e2d4e0b74490ad2eef02f68dac6983.",
+    "finding_ids": [
+      "GOV-O04"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R032",
+    "document": "GSP-Directives-2",
+    "requirements": [
+      "D2-042",
+      "D2-043",
+      "D2-044",
+      "D2-082",
+      "D2-045",
+      "D2-083",
+      "D2-084"
+    ],
+    "topic": "Versioning and publication production",
+    "review_status": "reviewed",
+    "basis": "Canonical sources, hashes, build tools and archived editions support traceability; semantic changes trigger the appropriate review.",
+    "evidence": "publications/archive/0.2/governance/directives_part_2.tex, WD 0.2, lines 261-271, D2-042, D2-043, D2-044, D2-082, D2-045, D2-083, D2-084; source SHA-256 2ed44586ec096186c9e008f67a4df21634e2d4e0b74490ad2eef02f68dac6983.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R033",
+    "document": "GSP-Directives-2",
+    "requirements": [
+      "D2-085",
+      "D2-086",
+      "D2-087",
+      "D2-088"
+    ],
+    "topic": "Assessment of a publication package",
+    "review_status": "reviewed",
+    "basis": "Declared competence and per-requirement evidence precede overall results; correction closure needs a revised artifact and recheck.",
+    "evidence": "publications/archive/0.2/governance/directives_part_2.tex, WD 0.2, lines 275-280, D2-085, D2-086, D2-087, D2-088; source SHA-256 2ed44586ec096186c9e008f67a4df21634e2d4e0b74490ad2eef02f68dac6983.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R034",
+    "document": "GSP-Directives-2",
+    "requirements": [
+      "D2-089",
+      "D2-090"
+    ],
+    "topic": "Annex A: Structural schedule for programme publications",
+    "review_status": "reviewed",
+    "basis": "Structural presence is not substantive completeness; unresolved topics need exclusion, development or a blocking status.",
+    "evidence": "publications/archive/0.2/governance/directives_part_2.tex, WD 0.2, lines 284-305, D2-089, D2-090; source SHA-256 2ed44586ec096186c9e008f67a4df21634e2d4e0b74490ad2eef02f68dac6983.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R035",
+    "document": "GSP-Directives-2",
+    "requirements": [
+      "D2-091",
+      "D2-092",
+      "D2-093"
+    ],
+    "topic": "Annex B: Requirement assessment record",
+    "review_status": "reviewed",
+    "basis": "Requirement records retain applicability, method, component results, assessor and limits; missing evidence cannot become fulfillment.",
+    "evidence": "publications/archive/0.2/governance/directives_part_2.tex, WD 0.2, lines 309-329, D2-091, D2-092, D2-093; source SHA-256 2ed44586ec096186c9e008f67a4df21634e2d4e0b74490ad2eef02f68dac6983.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R036",
+    "document": "GSP-Directives-2",
+    "requirements": [
+      "D2-095"
+    ],
+    "topic": "Annex C: Publication self-assessment schedule",
+    "review_status": "reviewed",
+    "basis": "Discriminating checks are meaningful prompts; grouped schedule rows explicitly do not authorize undifferentiated passes.",
+    "evidence": "publications/archive/0.2/governance/directives_part_2.tex, WD 0.2, lines 333-333, D2-095; source SHA-256 2ed44586ec096186c9e008f67a4df21634e2d4e0b74490ad2eef02f68dac6983.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R037",
+    "document": "GR-TC1-Charter",
+    "requirements": [
+      "TC-031"
+    ],
+    "topic": "Normative references",
+    "review_status": "reviewed",
+    "basis": "Exact coordinated governance editions are recorded before committee reliance; external text cannot amend obligations by implication.",
+    "evidence": "publications/archive/0.2/governance/technical_committee_charter.tex, WD 0.2, lines 43-43, TC-031; source SHA-256 5af2fa5e4de179960fa5d54d23d3960172721400cc01c38efa2a73c0908613f6.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R038",
+    "document": "GR-TC1-Charter",
+    "requirements": [
+      "TC-001",
+      "TC-002",
+      "TC-003",
+      "TC-004",
+      "TC-005",
+      "TC-006",
+      "TC-007",
+      "TC-010",
+      "TC-032",
+      "TC-033",
+      "TC-008",
+      "TC-009",
+      "TC-034",
+      "TC-035",
+      "TC-036",
+      "TC-037",
+      "TC-038"
+    ],
+    "topic": "Mandate and work programme",
+    "review_status": "reviewed",
+    "basis": "Mandate, work authorization, dependencies and protocol scope remain distinguishable from preliminary technical authoring.",
+    "evidence": "publications/archive/0.2/governance/technical_committee_charter.tex, WD 0.2, lines 74-94, TC-001, TC-002, TC-003, TC-004, TC-005, TC-006, TC-007, TC-010, TC-032, TC-033, TC-008, TC-009, TC-034, TC-035, TC-036, TC-037, TC-038; source SHA-256 5af2fa5e4de179960fa5d54d23d3960172721400cc01c38efa2a73c0908613f6.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R039",
+    "document": "GR-TC1-Charter",
+    "requirements": [
+      "TC-011",
+      "TC-012",
+      "TC-013",
+      "TC-014",
+      "TC-039",
+      "TC-040",
+      "TC-041",
+      "TC-042",
+      "TC-043",
+      "TC-044",
+      "TC-045"
+    ],
+    "topic": "Organization and conduct of work",
+    "review_status": "open",
+    "basis": "Editors and reviewers accept bounded roles; asynchronous work, disclosed self-review, capacity shortfall and handover retain separate records.",
+    "evidence": "publications/archive/0.2/governance/technical_committee_charter.tex, WD 0.2, lines 98-112, TC-011, TC-012, TC-013, TC-014, TC-039, TC-040, TC-041, TC-042, TC-043, TC-044, TC-045; source SHA-256 5af2fa5e4de179960fa5d54d23d3960172721400cc01c38efa2a73c0908613f6.",
+    "finding_ids": [
+      "GOV-O03",
+      "GOV-O04"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R040",
+    "document": "GR-TC1-Charter",
+    "requirements": [
+      "TC-015",
+      "TC-016",
+      "TC-017",
+      "TC-018",
+      "TC-046",
+      "TC-047",
+      "TC-048",
+      "TC-049",
+      "TC-050",
+      "TC-026",
+      "TC-027",
+      "TC-051",
+      "TC-052",
+      "TC-053"
+    ],
+    "topic": "Source interpretation and requirements",
+    "review_status": "reviewed",
+    "basis": "Foundation interpretation, alternatives, edge cases and assessed requirements are traced; independent exchange evidence is required for interoperability.",
+    "evidence": "publications/archive/0.2/governance/technical_committee_charter.tex, WD 0.2, lines 116-133, TC-015, TC-016, TC-017, TC-018, TC-046, TC-047, TC-048, TC-049, TC-050, TC-026, TC-027, TC-051, TC-052, TC-053; source SHA-256 5af2fa5e4de179960fa5d54d23d3960172721400cc01c38efa2a73c0908613f6.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R041",
+    "document": "GR-TC1-Charter",
+    "requirements": [
+      "TC-019",
+      "TC-020",
+      "TC-054",
+      "TC-055",
+      "TC-056",
+      "TC-057",
+      "TC-058",
+      "TC-021",
+      "TC-022",
+      "TC-059",
+      "TC-060"
+    ],
+    "topic": "Multidisciplinary review",
+    "review_status": "open",
+    "basis": "Domain competence, affected perspectives, conflicts and reasons are retained; technical agreement does not create a legal mandate.",
+    "evidence": "publications/archive/0.2/governance/technical_committee_charter.tex, WD 0.2, lines 137-151, TC-019, TC-020, TC-054, TC-055, TC-056, TC-057, TC-058, TC-021, TC-022, TC-059, TC-060; source SHA-256 5af2fa5e4de179960fa5d54d23d3960172721400cc01c38efa2a73c0908613f6.",
+    "finding_ids": [
+      "GOV-O03"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R042",
+    "document": "GR-TC1-Charter",
+    "requirements": [
+      "TC-023",
+      "TC-024",
+      "TC-061",
+      "TC-062",
+      "TC-063",
+      "TC-064",
+      "TC-065",
+      "TC-066"
+    ],
+    "topic": "Pilot preparation and authorization",
+    "review_status": "open",
+    "basis": "Baseline, questions, permissions, protection and stop/restart conditions precede real pilots; authored scenarios remain synthetic.",
+    "evidence": "publications/archive/0.2/governance/technical_committee_charter.tex, WD 0.2, lines 155-164, TC-023, TC-024, TC-061, TC-062, TC-063, TC-064, TC-065, TC-066; source SHA-256 5af2fa5e4de179960fa5d54d23d3960172721400cc01c38efa2a73c0908613f6.",
+    "finding_ids": [
+      "GOV-O03"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R043",
+    "document": "GR-TC1-Charter",
+    "requirements": [
+      "TC-025",
+      "TC-067",
+      "TC-068",
+      "TC-069",
+      "TC-070",
+      "TC-071"
+    ],
+    "topic": "Pilot evaluation and implementation evidence",
+    "review_status": "open",
+    "basis": "Failure, assistance, burden, excluded perspectives and later unobserved effects qualify outcomes; independence is a scoped evidenced relationship.",
+    "evidence": "publications/archive/0.2/governance/technical_committee_charter.tex, WD 0.2, lines 168-175, TC-025, TC-067, TC-068, TC-069, TC-070, TC-071; source SHA-256 5af2fa5e4de179960fa5d54d23d3960172721400cc01c38efa2a73c0908613f6.",
+    "finding_ids": [
+      "GOV-O04"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R044",
+    "document": "GR-TC1-Charter",
+    "requirements": [
+      "TC-028",
+      "TC-072",
+      "TC-073",
+      "TC-029",
+      "TC-030",
+      "TC-074",
+      "TC-075"
+    ],
+    "topic": "Progression, maintenance, and publication",
+    "review_status": "reviewed",
+    "basis": "Progression includes rights, findings, source/render agreement and maintenance; an informal implementation update cannot amend requirements.",
+    "evidence": "publications/archive/0.2/governance/technical_committee_charter.tex, WD 0.2, lines 179-187, TC-028, TC-072, TC-073, TC-029, TC-030, TC-074, TC-075; source SHA-256 5af2fa5e4de179960fa5d54d23d3960172721400cc01c38efa2a73c0908613f6.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R045",
+    "document": "GR-TC1-Charter",
+    "requirements": [
+      "TC-076",
+      "TC-077",
+      "TC-078"
+    ],
+    "topic": "Committee assessment",
+    "review_status": "reviewed",
+    "basis": "Committee performance is assessed for a declared activity, edition and period; a problem-to-decision trace reveals missing evidence.",
+    "evidence": "publications/archive/0.2/governance/technical_committee_charter.tex, WD 0.2, lines 191-195, TC-076, TC-077, TC-078; source SHA-256 5af2fa5e4de179960fa5d54d23d3960172721400cc01c38efa2a73c0908613f6.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R046",
+    "document": "GR-TC1-Charter",
+    "requirements": [
+      "TC-079",
+      "TC-080",
+      "TC-081",
+      "TC-082",
+      "TC-083"
+    ],
+    "topic": "Annex A: Committee dossier and record content",
+    "review_status": "reviewed",
+    "basis": "Dossier records link baseline, sources, findings, pilot limits and progression; reuse can avoid duplication without erasing distinctions.",
+    "evidence": "publications/archive/0.2/governance/technical_committee_charter.tex, WD 0.2, lines 199-211, TC-079, TC-080, TC-081, TC-082, TC-083; source SHA-256 5af2fa5e4de179960fa5d54d23d3960172721400cc01c38efa2a73c0908613f6.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R047",
+    "document": "GSP-Ethics-IP",
+    "requirements": [
+      "EIP-041"
+    ],
+    "topic": "Normative references",
+    "review_status": "reviewed",
+    "basis": "Material cross-policy timing, authority or protection conflicts are resolved before consequential dependent determination.",
+    "evidence": "publications/archive/0.2/governance/ethics_ip_policy.tex, WD 0.2, lines 44-44, EIP-041; source SHA-256 5b2ab5209db0efdc9844fe9113f814ad9e61a930b1fd2859d666a46abcb4c67a.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R048",
+    "document": "GSP-Ethics-IP",
+    "requirements": [
+      "EIP-001",
+      "EIP-002",
+      "EIP-042",
+      "EIP-043",
+      "EIP-044",
+      "EIP-045",
+      "EIP-046"
+    ],
+    "topic": "Responsibilities and readiness",
+    "review_status": "open",
+    "basis": "Contacts, alternates, protected custody and independent review require actual acceptance and tested routes before operation.",
+    "evidence": "publications/archive/0.2/governance/ethics_ip_policy.tex, WD 0.2, lines 77-85, EIP-001, EIP-002, EIP-042, EIP-043, EIP-044, EIP-045, EIP-046; source SHA-256 5b2ab5209db0efdc9844fe9113f814ad9e61a930b1fd2859d666a46abcb4c67a.",
+    "finding_ids": [
+      "GOV-O03"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R049",
+    "document": "GSP-Ethics-IP",
+    "requirements": [
+      "EIP-003",
+      "EIP-004",
+      "EIP-005",
+      "EIP-047",
+      "EIP-048",
+      "EIP-006",
+      "EIP-007",
+      "EIP-049",
+      "EIP-050"
+    ],
+    "topic": "Conduct and evidential integrity",
+    "review_status": "reviewed",
+    "basis": "Disagreement is not misconduct; claims, errors and AI assistance retain sources and accountable review without exposing protected material.",
+    "evidence": "publications/archive/0.2/governance/ethics_ip_policy.tex, WD 0.2, lines 89-99, EIP-003, EIP-004, EIP-005, EIP-047, EIP-048, EIP-006, EIP-007, EIP-049, EIP-050; source SHA-256 5b2ab5209db0efdc9844fe9113f814ad9e61a930b1fd2859d666a46abcb4c67a.",
+    "finding_ids": [],
+    "next_action": "Retain the distinction and verify relevant actual records or observed tasks before any conformance conclusion."
+  },
+  {
+    "id": "GOV-R050",
+    "document": "GSP-Ethics-IP",
+    "requirements": [
+      "EIP-008",
+      "EIP-009",
+      "EIP-010",
+      "EIP-011",
+      "EIP-012",
+      "EIP-051",
+      "EIP-052",
+      "EIP-053",
+      "EIP-054",
+      "EIP-055"
+    ],
+    "topic": "Interests and influence",
+    "review_status": "open",
+    "basis": "Disclosure alone does not manage conflicts; recusal preserves relevant evidence and retrospective discovery can require renewed procedure.",
+    "evidence": "publications/archive/0.2/governance/ethics_ip_policy.tex, WD 0.2, lines 103-114, EIP-008, EIP-009, EIP-010, EIP-011, EIP-012, EIP-051, EIP-052, EIP-053, EIP-054, EIP-055; source SHA-256 5b2ab5209db0efdc9844fe9113f814ad9e61a930b1fd2859d666a46abcb4c67a.",
+    "finding_ids": [
+      "GOV-O04"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R051",
+    "document": "GSP-Ethics-IP",
+    "requirements": [
+      "EIP-013",
+      "EIP-014",
+      "EIP-015",
+      "EIP-056",
+      "EIP-057",
+      "EIP-058",
+      "EIP-059",
+      "EIP-060"
+    ],
+    "topic": "Report intake and triage",
+    "review_status": "open",
+    "basis": "Intake, triage and determinations differ; acknowledgement remains due in 7 days even if the 30-day determination target is extended.",
+    "evidence": "publications/archive/0.2/governance/ethics_ip_policy.tex, WD 0.2, lines 118-127, EIP-013, EIP-014, EIP-015, EIP-056, EIP-057, EIP-058, EIP-059, EIP-060; source SHA-256 5b2ab5209db0efdc9844fe9113f814ad9e61a930b1fd2859d666a46abcb4c67a.",
+    "finding_ids": [
+      "GOV-O02"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R052",
+    "document": "GSP-Ethics-IP",
+    "requirements": [
+      "EIP-016",
+      "EIP-061",
+      "EIP-062",
+      "EIP-063",
+      "EIP-064",
+      "EIP-065",
+      "EIP-066"
+    ],
+    "topic": "Inquiry and fair response",
+    "review_status": "open",
+    "basis": "Adverse findings need safe grounds and reply; missing evidence and limited participation do not prove conduct or non-occurrence.",
+    "evidence": "publications/archive/0.2/governance/ethics_ip_policy.tex, WD 0.2, lines 131-139, EIP-016, EIP-061, EIP-062, EIP-063, EIP-064, EIP-065, EIP-066; source SHA-256 5b2ab5209db0efdc9844fe9113f814ad9e61a930b1fd2859d666a46abcb4c67a.",
+    "finding_ids": [
+      "GOV-O05"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R053",
+    "document": "GSP-Ethics-IP",
+    "requirements": [
+      "EIP-017",
+      "EIP-067",
+      "EIP-068",
+      "EIP-018",
+      "EIP-020",
+      "EIP-069",
+      "EIP-070",
+      "EIP-071",
+      "EIP-019",
+      "EIP-072",
+      "EIP-073",
+      "EIP-074",
+      "EIP-075",
+      "EIP-099",
+      "EIP-100",
+      "EIP-101",
+      "EIP-102",
+      "EIP-103"
+    ],
+    "topic": "Protective measures and determinations",
+    "review_status": "open",
+    "basis": "Protection is time-limited; more-likely-than-not criterion does not override fair review; scoped merits reconsideration has independent assignment.",
+    "evidence": "publications/archive/0.2/governance/ethics_ip_policy.tex, WD 0.2, lines 143-166, EIP-017, EIP-067, EIP-068, EIP-018, EIP-020, EIP-069, EIP-070, EIP-071, EIP-019, EIP-072, EIP-073, EIP-074, EIP-075, EIP-099, EIP-100, EIP-101, EIP-102, EIP-103; source SHA-256 5b2ab5209db0efdc9844fe9113f814ad9e61a930b1fd2859d666a46abcb4c67a.",
+    "finding_ids": [
+      "GOV-O02",
+      "GOV-O03"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R054",
+    "document": "GSP-Ethics-IP",
+    "requirements": [
+      "EIP-021",
+      "EIP-022",
+      "EIP-024",
+      "EIP-076",
+      "EIP-077",
+      "EIP-078",
+      "EIP-023",
+      "EIP-025",
+      "EIP-079",
+      "EIP-080",
+      "EIP-081"
+    ],
+    "topic": "Ethical impact assessment",
+    "review_status": "open",
+    "basis": "Impacts distinguish observed effects, predictions and values; operational mitigation and practical repair require evidence.",
+    "evidence": "publications/archive/0.2/governance/ethics_ip_policy.tex, WD 0.2, lines 170-182, EIP-021, EIP-022, EIP-024, EIP-076, EIP-077, EIP-078, EIP-023, EIP-025, EIP-079, EIP-080, EIP-081; source SHA-256 5b2ab5209db0efdc9844fe9113f814ad9e61a930b1fd2859d666a46abcb4c67a.",
+    "finding_ids": [
+      "GOV-O04"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R055",
+    "document": "GSP-Ethics-IP",
+    "requirements": [
+      "EIP-026",
+      "EIP-027",
+      "EIP-028",
+      "EIP-029",
+      "EIP-082",
+      "EIP-083",
+      "EIP-030",
+      "EIP-031",
+      "EIP-032",
+      "EIP-084",
+      "EIP-085",
+      "EIP-086"
+    ],
+    "topic": "Contribution intake and permission",
+    "review_status": "open",
+    "basis": "Rights to examine, incorporate, modify and distribute are separate, versioned and use-specific; source custody is not relicensing.",
+    "evidence": "publications/archive/0.2/governance/ethics_ip_policy.tex, WD 0.2, lines 186-199, EIP-026, EIP-027, EIP-028, EIP-029, EIP-082, EIP-083, EIP-030, EIP-031, EIP-032, EIP-084, EIP-085, EIP-086; source SHA-256 5b2ab5209db0efdc9844fe9113f814ad9e61a930b1fd2859d666a46abcb4c67a.",
+    "finding_ids": [
+      "GOV-O05"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R056",
+    "document": "GSP-Ethics-IP",
+    "requirements": [
+      "EIP-033",
+      "EIP-034",
+      "EIP-087",
+      "EIP-088",
+      "EIP-035",
+      "EIP-036",
+      "EIP-037",
+      "EIP-038",
+      "EIP-089",
+      "EIP-090"
+    ],
+    "topic": "Terms, implementation rights, and publication",
+    "review_status": "open",
+    "basis": "Artifact-specific terms need contextual competent review and actual assent; known implementation-rights issues cannot be cleared by an empty register.",
+    "evidence": "publications/archive/0.2/governance/ethics_ip_policy.tex, WD 0.2, lines 203-214, EIP-033, EIP-034, EIP-087, EIP-088, EIP-035, EIP-036, EIP-037, EIP-038, EIP-089, EIP-090; source SHA-256 5b2ab5209db0efdc9844fe9113f814ad9e61a930b1fd2859d666a46abcb4c67a.",
+    "finding_ids": [
+      "GOV-O05"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R057",
+    "document": "GSP-Ethics-IP",
+    "requirements": [
+      "EIP-039",
+      "EIP-091",
+      "EIP-092",
+      "EIP-040",
+      "EIP-093",
+      "EIP-094"
+    ],
+    "topic": "Records, oversight, and assessment",
+    "review_status": "open",
+    "basis": "Safe public summaries and retention duties avoid exposure; assessment and recurring-failure review do not assume effective remedies.",
+    "evidence": "publications/archive/0.2/governance/ethics_ip_policy.tex, WD 0.2, lines 218-225, EIP-039, EIP-091, EIP-092, EIP-040, EIP-093, EIP-094; source SHA-256 5b2ab5209db0efdc9844fe9113f814ad9e61a930b1fd2859d666a46abcb4c67a.",
+    "finding_ids": [
+      "GOV-O04"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  },
+  {
+    "id": "GOV-R058",
+    "document": "GSP-Ethics-IP",
+    "requirements": [
+      "EIP-095",
+      "EIP-096",
+      "EIP-097",
+      "EIP-098",
+      "EIP-104"
+    ],
+    "topic": "Annex A: Handling records and state transitions",
+    "review_status": "open",
+    "basis": "Case states, conflicts, rights and timing records preserve unfinished performance; specimen completeness is distinct from observed handling.",
+    "evidence": "publications/archive/0.2/governance/ethics_ip_policy.tex, WD 0.2, lines 229-259, EIP-095, EIP-096, EIP-097, EIP-098, EIP-104; source SHA-256 5b2ab5209db0efdc9844fe9113f814ad9e61a930b1fd2859d666a46abcb4c67a.",
+    "finding_ids": [
+      "GOV-O05"
+    ],
+    "next_action": "Resolve the linked design choice or obtain the identified actual evidence; keep institutional performance unassessed."
+  }
+]

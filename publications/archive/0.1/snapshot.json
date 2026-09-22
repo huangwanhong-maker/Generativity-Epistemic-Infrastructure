@@ -1,0 +1,70 @@
+{
+  "status": "Historical Working Draft 0.1; unadopted",
+  "files": [
+    {
+      "source": "governance/standards_programme_charter.tex",
+      "archived": "publications/archive/0.1/governance/standards_programme_charter.tex",
+      "sha256": "86aebd3fd74e35e1e2a772883fc82fef3703b07e509ce43adb666b2009a69d21"
+    },
+    {
+      "source": "governance/directives_part_1.tex",
+      "archived": "publications/archive/0.1/governance/directives_part_1.tex",
+      "sha256": "d043d0d24bca1ac8ec8f911d0af94646024a8ad790b6989a405a040b50ca9fb9"
+    },
+    {
+      "source": "governance/directives_part_2.tex",
+      "archived": "publications/archive/0.1/governance/directives_part_2.tex",
+      "sha256": "a37901be14d6a98bc0810902b67872246670de9185a2ac6227d76612314f768a"
+    },
+    {
+      "source": "governance/technical_committee_charter.tex",
+      "archived": "publications/archive/0.1/governance/technical_committee_charter.tex",
+      "sha256": "7bec4a4376fe3a70b4e33b7871a292dacb9425657abfb19c46c7f00350c778d6"
+    },
+    {
+      "source": "governance/ethics_ip_policy.tex",
+      "archived": "publications/archive/0.1/governance/ethics_ip_policy.tex",
+      "sha256": "91733fc6dd35b592257e2220eb3a2f24fc9c36a7b4acb34550c002cf313825c8"
+    },
+    {
+      "source": "standards/GR-100-foundations-vocabulary/GR-100.tex",
+      "archived": "publications/archive/0.1/standards/GR-100-foundations-vocabulary/GR-100.tex",
+      "sha256": "25eb00308975c19914cb90864ed4ad9fb4c6f947725850652497e79e26693497"
+    },
+    {
+      "source": "standards/GR-110-recording-requirements/GR-110.tex",
+      "archived": "publications/archive/0.1/standards/GR-110-recording-requirements/GR-110.tex",
+      "sha256": "9b53bce9e8dd24e864761978571d8b82c0fb3ab9679042b77b652329d15b6049"
+    },
+    {
+      "source": "standards/GR-200-epistemic-recording/GR-200.tex",
+      "archived": "publications/archive/0.1/standards/GR-200-epistemic-recording/GR-200.tex",
+      "sha256": "5a0325bc855da494094b5161cb424c23d2bb5f975dca71280fe736046acb12c6"
+    },
+    {
+      "source": "standards/GR-210-evidence-interpretation/GR-210.tex",
+      "archived": "publications/archive/0.1/standards/GR-210-evidence-interpretation/GR-210.tex",
+      "sha256": "134460fb79a6c9603221c7ffffe8f94aef0c87d9884a7e33e2355c57d32426fc"
+    },
+    {
+      "source": "publications/preamble.tex",
+      "archived": "publications/archive/0.1/publications/preamble.tex",
+      "sha256": "d3b9b46586ee10f1b9c1b11a09e20e862aac7ed2712e979183598bdac4084f01"
+    },
+    {
+      "source": "publications/documents.json",
+      "archived": "publications/archive/0.1/publications/documents.json",
+      "sha256": "f2eaee6fe174936c76a6dc33336867991a5b29e251c7265396427bb4f6c766ba"
+    },
+    {
+      "source": "tools/build_publications.py",
+      "archived": "publications/archive/0.1/tools/build_publications.py",
+      "sha256": "3d865b57d13ec3b1f38d39ab1533ecbe681586cc3047373a2677b66f4009ae22"
+    },
+    {
+      "source": "tools/check_publications.py",
+      "archived": "publications/archive/0.1/tools/check_publications.py",
+      "sha256": "90165e662aa118e1846b8a83a79bcf54043cc7aac7e55f669c4d558d56e1b309"
+    }
+  ]
+}

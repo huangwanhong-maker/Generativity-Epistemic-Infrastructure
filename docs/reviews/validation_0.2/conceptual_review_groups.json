@@ -1,0 +1,565 @@
+[
+  {
+    "id": "CV100-01",
+    "document": "GR-100",
+    "requirements": [
+      "V100-001",
+      "V100-013",
+      "V100-014",
+      "V100-015"
+    ],
+    "topic": "Declared vocabulary use, extension and correspondence",
+    "review_status": "reviewed",
+    "basis": "FM-007 17.1-17.2, PDF pp. 78-80; operational correspondence and register duties are programme proposals.",
+    "evidence": "GR-100 clauses 4.1,7.2-7.3 and Annex A compared with retained-regime and refinement limits.",
+    "finding_ids": [],
+    "next_action": "Test a local narrower meaning and a lossy edition mapping; retain distinct source status and dated definitions."
+  },
+  {
+    "id": "CV100-02",
+    "document": "GR-100",
+    "requirements": [
+      "V100-002",
+      "V100-003",
+      "V100-004",
+      "V100-017"
+    ],
+    "topic": "Reality, recognition, evidence and status authority",
+    "review_status": "reviewed",
+    "basis": "FM-001 1.14.2-1.14.5 pp. 79-83; FM-004 4.2 pp. 11-19; FM-005 5.4 pp. 28-29.",
+    "evidence": "Definitions and safeguards distinguish target, manifestation, claim, evidence role, authenticity and assessed status.",
+    "finding_ids": [],
+    "next_action": "Use authentic-but-incorrect and constitutive-classification cases; do not infer truth from the review."
+  },
+  {
+    "id": "CV100-03",
+    "document": "GR-100",
+    "requirements": [
+      "V100-005",
+      "V100-006",
+      "V100-022"
+    ],
+    "topic": "Identity, lineage and temporal distinctions",
+    "review_status": "reviewed",
+    "basis": "FM-007 7.1-7.3 pp. 26-27,16.6 p. 77; FM-005 5.14.1 pp. 114-115.",
+    "evidence": "Record identity, target identity, lineage, criteria and separate time roles remain explicit.",
+    "finding_ids": [],
+    "next_action": "Test disputed organizational succession and a late recorded observation; preserve competing criteria."
+  },
+  {
+    "id": "CV100-04",
+    "document": "GR-100",
+    "requirements": [
+      "V100-007",
+      "V100-018"
+    ],
+    "topic": "Revision, role correspondence and information loss",
+    "review_status": "reviewed",
+    "basis": "FM-005 5.14.7 pp. 121-122,5.20.2 p. 170,5.20.5 pp. 173-174; FM-007 17.2 pp. 79-80.",
+    "evidence": "Target, evidence and category changes remain distinguishable; mappings cannot create unsupported detail.",
+    "finding_ids": [],
+    "next_action": "Trace a later reclassification through prior meanings and records; test an event/process compression loss."
+  },
+  {
+    "id": "CV100-05",
+    "document": "GR-100",
+    "requirements": [
+      "V100-008"
+    ],
+    "topic": "Generativity and normative evaluation",
+    "review_status": "reviewed",
+    "basis": "FM-003 3.12 pp. 130,133-134 and 3.13 p. 141; FM-005 5.13 pp. 105-113.",
+    "evidence": "Generativity-related claim is explicitly operational and carries no automatic beneficialness or entitlement.",
+    "finding_ids": [],
+    "next_action": "Test sustained capacity and simultaneous foreclosure for different participants."
+  },
+  {
+    "id": "CV100-06",
+    "document": "GR-100",
+    "requirements": [
+      "V100-009",
+      "V100-010",
+      "V100-025"
+    ],
+    "topic": "Six operational roles and mandatory contextual distinctions",
+    "review_status": "open",
+    "basis": "FM-007 p. 2,sections 7-12 pp. 26-60; Property/Attribute correspondence remains unresolved.",
+    "evidence": "Clause 5 supplies role definitions, criteria, metadata, counterexamples and typed unavailable context while retaining role overlap.",
+    "finding_ids": [],
+    "next_action": "Create a dedicated Property/Attribute comparison before an equivalence decision; test qualitative and partial values without forcing exclusive roles."
+  },
+  {
+    "id": "CV100-07",
+    "document": "GR-100",
+    "requirements": [
+      "V100-011"
+    ],
+    "topic": "Metamodel and record-role separation",
+    "review_status": "finding",
+    "basis": "FM-006 sections 3-4 pp. 5-6,sections 6-7 pp. 10-11; FM-007 p. 2 and 11.1 p. 52.",
+    "evidence": "General safeguard in V100-011 differs from the mapping-only applicability wording in Annex A.",
+    "finding_ids": [
+      "CF-01"
+    ],
+    "next_action": "Split assessment of the general separation safeguard from the conditionally applicable mapping/argument component."
+  },
+  {
+    "id": "CV100-08",
+    "document": "GR-100",
+    "requirements": [
+      "V100-012"
+    ],
+    "topic": "Distinct epistemic, normative, institutional and legal questions",
+    "review_status": "reviewed",
+    "basis": "FM-001 1.14.3-1.14.5 pp. 80-83; FM-004 4.2 pp. 13-19; FM-007 16.3-16.4 p. 76.",
+    "evidence": "Vocabulary permits connected assertions while withholding automatic truth, authority or legal effect from technical fulfillment.",
+    "finding_ids": [],
+    "next_action": "Keep institutional adoption and contextual legal assessment separate from the documentary exercise."
+  },
+  {
+    "id": "CV100-09",
+    "document": "GR-100",
+    "requirements": [
+      "V100-016"
+    ],
+    "topic": "Actuality, epistemic mode and assessment disposition",
+    "review_status": "reviewed",
+    "basis": "FM-005 5.4.4-5.4.7 pp. 32,34; FM-007 9.6-9.10 pp. 41,43 and 11.6 p. 54.",
+    "evidence": "The requirement explicitly retains actual-but-retrospectively-inferred and directly-reported-but-disputed combinations.",
+    "finding_ids": [],
+    "next_action": "Align R110-012 with these three axes under CF-02; keep term meanings stable."
+  },
+  {
+    "id": "CV100-10",
+    "document": "GR-100",
+    "requirements": [
+      "V100-019",
+      "V100-020",
+      "V100-021"
+    ],
+    "topic": "Missingness, measurement meaning and state sufficiency",
+    "review_status": "reviewed",
+    "basis": "FM-007 10.4-10.10 pp. 45-50 and 11.1-11.6 pp. 52-54.",
+    "evidence": "Undefined, unknown, zero, withheld, nominal numeric code, aggregate and task-relative sufficiency are distinguished.",
+    "finding_ids": [],
+    "next_action": "Exercise a lossy null mapping and a current-state report lacking history needed for a later question."
+  },
+  {
+    "id": "CV100-11",
+    "document": "GR-100",
+    "requirements": [
+      "V100-023",
+      "V100-024",
+      "V100-026"
+    ],
+    "topic": "Bounded application assessment and component results",
+    "review_status": "reviewed",
+    "basis": "Programme assessment proposal; consistent with FM-007 p. 2 and16.8 p. 78 on representation versus empirical warrant.",
+    "evidence": "Clause 8 and Annex A require evidence, requirement/component results and absent-trigger reasons; no factual certification follows.",
+    "finding_ids": [],
+    "next_action": "Assess actual applications separately; this conceptual review supplies no implementation fulfillment result."
+  },
+  {
+    "id": "CV110-01",
+    "document": "GR-110",
+    "requirements": [
+      "R110-001",
+      "R110-002",
+      "R110-003",
+      "R110-035",
+      "R110-036",
+      "R110-037"
+    ],
+    "topic": "Purpose, boundary, selection and proportionate effort",
+    "review_status": "reviewed",
+    "basis": "FM-003 3.12.2 pp. 132-133; FM-005 5.14.5 pp. 118-119 and 5.17.4 p. 146.",
+    "evidence": "Planning clauses retain boundary, exclusions, horizon, source selection and unmet capacity rather than complete-history claims.",
+    "finding_ids": [],
+    "next_action": "Measure authoring and review effort in P0/P1 before proposing reduced conformance profiles."
+  },
+  {
+    "id": "CV110-02",
+    "document": "GR-110",
+    "requirements": [
+      "R110-004",
+      "R110-038",
+      "R110-039",
+      "R110-040",
+      "R110-041"
+    ],
+    "topic": "Responsible functions, automation and maintenance",
+    "review_status": "reviewed",
+    "basis": "Programme operating proposal; FM-001 1.14.4-5 pp. 81-83 motivates responsibility and verification capacity.",
+    "evidence": "Accepted functions, interests, access, automation checks, purpose changes and maintenance cessation are specified.",
+    "finding_ids": [],
+    "next_action": "Record actual accepted roles and tasks; do not substitute authored role names for performed responsibility."
+  },
+  {
+    "id": "CV110-03",
+    "document": "GR-110",
+    "requirements": [
+      "R110-042",
+      "R110-043",
+      "R110-044",
+      "R110-045"
+    ],
+    "topic": "Capture, provenance and evidential independence",
+    "review_status": "reviewed",
+    "basis": "FM-005 5.4 pp. 28-29,32 and 5.14.5 pp. 118-119.",
+    "evidence": "Intake and derivation distinguish received material, transformation, shared sources and extraction errors.",
+    "finding_ids": [],
+    "next_action": "Check source summaries and copied evidence against actual locators; preserve unavailable originals as limitations."
+  },
+  {
+    "id": "CV110-04",
+    "document": "GR-110",
+    "requirements": [
+      "R110-005",
+      "R110-046",
+      "R110-047"
+    ],
+    "topic": "Material-claim coverage and GR-200 dependency",
+    "review_status": "reviewed",
+    "basis": "FM-005 5.13 p. 105,5.14.5 p. 119; exact package dependency is a new programme design choice.",
+    "evidence": "Relied-on claims, including inconvenient claims, are linked to the full applicable bounded epistemic package.",
+    "finding_ids": [],
+    "next_action": "Reconcile P0/P1 material claims and package-level obligations; keep unassessed dependency components visible."
+  },
+  {
+    "id": "CV110-05",
+    "document": "GR-110",
+    "requirements": [
+      "R110-006",
+      "R110-007",
+      "R110-008",
+      "R110-009",
+      "R110-048",
+      "R110-049",
+      "R110-050"
+    ],
+    "topic": "Identity, roles, temporal meaning and historical semantics",
+    "review_status": "reviewed",
+    "basis": "FM-005 5.14.1 pp. 114-115,5.14.4 pp. 117-118; FM-007 7.1-7.3 pp. 26-27,9.6-9.10 pp. 41,43.",
+    "evidence": "Criteria, contested linkages, separate times, relation histories and later knowledge are distinguishable.",
+    "finding_ids": [],
+    "next_action": "Test disputed continuity and coarse temporal observations without inventing a complete sequence."
+  },
+  {
+    "id": "CV110-06",
+    "document": "GR-110",
+    "requirements": [
+      "R110-010",
+      "R110-011",
+      "R110-014",
+      "R110-051",
+      "R110-052",
+      "R110-053",
+      "R110-054",
+      "R110-055",
+      "R110-056"
+    ],
+    "topic": "Target-relative generative attribution and plural support",
+    "review_status": "reviewed",
+    "basis": "FM-005 5.13 pp. 105-113,Definitions 5.93/5.95/5.96/5.98/5.102 and Proposition 5.103.",
+    "evidence": "Account requirements preserve target/contributor separation, mechanisms, association limits, counterfactual conditions and distributed organization.",
+    "finding_ids": [],
+    "next_action": "Test an evidenced target change with contested contributor linkage; keep warrant graded and scoped."
+  },
+  {
+    "id": "CV110-07",
+    "document": "GR-110",
+    "requirements": [
+      "R110-012"
+    ],
+    "topic": "Effect modality, inferential basis and dispute",
+    "review_status": "finding",
+    "basis": "GR-100 V100-016; FM-005 5.17.3 p. 145; FM-007 9.9-9.10 p. 43.",
+    "evidence": "Disputed appears within R110-012 modality examples despite the separate assessment-disposition axis in GR-100.",
+    "finding_ids": [
+      "CF-02"
+    ],
+    "next_action": "Clarify actuality/modality, epistemic mode and assessment disposition as separate questions; identify which claim is disputed."
+  },
+  {
+    "id": "CV110-08",
+    "document": "GR-110",
+    "requirements": [
+      "R110-057",
+      "R110-058",
+      "R110-059",
+      "R110-060"
+    ],
+    "topic": "Delay, carriers, multi-link attribution and path dependence",
+    "review_status": "reviewed",
+    "basis": "FM-005 5.13.6 pp. 110-111,5.14.2-5.14.3 pp. 115-117.",
+    "evidence": "Carrier transformation, intervening influences, link-specific uncertainty, useful attribution boundary and sequence-sensitive mechanisms are retained.",
+    "finding_ids": [],
+    "next_action": "Test an ended relation with a persisting carrier and an unsupported downstream link; distinguish persistence from lock-in."
+  },
+  {
+    "id": "CV110-09",
+    "document": "GR-110",
+    "requirements": [
+      "R110-013",
+      "R110-061",
+      "R110-062"
+    ],
+    "topic": "Branch contribution and separate credit or entitlement",
+    "review_status": "reviewed",
+    "basis": "FM-005 5.13.4-5.13.7 pp. 108-112; FM-003 3.13 p. 141.",
+    "evidence": "Collective or disputed contribution remains representable; branch formation/selection/stabilization differs from credit and rights.",
+    "finding_ids": [],
+    "next_action": "Inspect alternative contributor accounts without mandatory sole authorship or percentage allocation."
+  },
+  {
+    "id": "CV110-10",
+    "document": "GR-110",
+    "requirements": [
+      "R110-015",
+      "R110-063",
+      "R110-064",
+      "R110-065",
+      "R110-066"
+    ],
+    "topic": "Historical alternatives and bounded possibility fields",
+    "review_status": "reviewed",
+    "basis": "FM-005 5.13.7 pp. 111-112,5.14.4 pp. 117-118,5.14.6 p. 120; FM-003 3.12.2 pp. 132-133.",
+    "evidence": "Contemporaneous feasibility, retrospective imagination, practical access and comparison limits remain explicit.",
+    "finding_ids": [],
+    "next_action": "Use P1 contemporaneous appeal options and its retrospectively imagined regional sharing option as different claims."
+  },
+  {
+    "id": "CV110-11",
+    "document": "GR-110",
+    "requirements": [
+      "R110-016",
+      "R110-067",
+      "R110-068"
+    ],
+    "topic": "Category change and re-epistemization",
+    "review_status": "reviewed",
+    "basis": "FM-005 5.14.7 pp. 121-122 and 5.20.5 pp. 173-174; FM-007 17.2 pp. 79-80.",
+    "evidence": "Earlier/later definitions, effective periods, semantic losses and distinct revision reasons remain inspectable.",
+    "finding_ids": [],
+    "next_action": "Compare the original scoring categories, revised assessment and proposed rule change without collapsing their authority or timing."
+  },
+  {
+    "id": "CV110-12",
+    "document": "GR-110",
+    "requirements": [
+      "R110-017",
+      "R110-069",
+      "R110-070",
+      "R110-071",
+      "R110-072"
+    ],
+    "topic": "Maintenance, depletion, loss and attributed evaluation",
+    "review_status": "reviewed",
+    "basis": "FM-003 3.12.3 pp. 133-134 and 3.13 p. 141; FM-005 5.14.2 p. 116; FM-007 16.7 pp. 77-78.",
+    "evidence": "Sustaining work, loss in reality versus records/access, differing positional effects and value judgments are separately recorded.",
+    "finding_ids": [],
+    "next_action": "Add maintenance/delayed-effect and unequal-access cases; preserve explicit collection or protection limits."
+  },
+  {
+    "id": "CV110-13",
+    "document": "GR-110",
+    "requirements": [
+      "R110-018",
+      "R110-073"
+    ],
+    "topic": "Generativity return and conditional recirculation account",
+    "review_status": "finding",
+    "basis": "FM-005 5.17.3 p. 145; GR-100 provisional return definition and its source note.",
+    "evidence": "Current clauses distinguish concepts, recipients, evaluation, quantities and entitlement but connect only indirectly to the four-link recirculation uncertainty.",
+    "finding_ids": [
+      "CF-03"
+    ],
+    "next_action": "Make generation, conversion/transfer, return path and future-condition effect explicit when claimed; retain unobserved links and the open return terminology."
+  },
+  {
+    "id": "CV110-14",
+    "document": "GR-110",
+    "requirements": [
+      "R110-019",
+      "R110-074",
+      "R110-075",
+      "R110-076"
+    ],
+    "topic": "Practical uptake and intervention feedback arrangements",
+    "review_status": "reviewed",
+    "basis": "FM-001 1.14.3-1.14.5 pp. 80-83; FM-003 3.12.1 pp. 131-132,3.12.8 pp. 138-139; FM-007 16.3 p. 76.",
+    "evidence": "Receipt, reliance, communicated decision, action and feedback route have separate evidential/authority questions.",
+    "finding_ids": [],
+    "next_action": "Test one actual record-navigation task; leave institutionally performed receipt/review/action unassessed where only fiction exists."
+  },
+  {
+    "id": "CV110-15",
+    "document": "GR-110",
+    "requirements": [
+      "R110-077",
+      "R110-078",
+      "R110-079",
+      "R110-080",
+      "R110-081"
+    ],
+    "topic": "Implementation, generative effects, learning and practical repair",
+    "review_status": "reviewed",
+    "basis": "FM-003 3.12.7-3.12.10 pp. 137-141.",
+    "evidence": "Intended implementation, actual effects, revised objectives, withdrawal, reversal and residual repair remain distinct.",
+    "finding_ids": [],
+    "next_action": "Keep funding pending and external correction unverified in P1; do not turn authored outcomes into evidence of restored capacity."
+  },
+  {
+    "id": "CV110-16",
+    "document": "GR-110",
+    "requirements": [
+      "R110-020",
+      "R110-021",
+      "R110-022",
+      "R110-023",
+      "R110-082",
+      "R110-083"
+    ],
+    "topic": "Revision, propagation and contestation routes",
+    "review_status": "reviewed",
+    "basis": "FM-005 5.14.7 pp. 121-122,5.19 p. 168,5.20.2 p. 170.",
+    "evidence": "Earlier grounds, known dependents, limited propagation, protected requests and conflicting corrections remain attributable.",
+    "finding_ids": [],
+    "next_action": "Observe permitted exercise steps separately from proposed service promises and unverified external copies."
+  },
+  {
+    "id": "CV110-17",
+    "document": "GR-110",
+    "requirements": [
+      "R110-024",
+      "R110-025",
+      "R110-084",
+      "R110-085"
+    ],
+    "topic": "Purpose, authority and proportional protection",
+    "review_status": "reviewed",
+    "basis": "FM-005 5.19 p. 168 permits differentiated access; specific authority and minimization duties are programme proposals.",
+    "evidence": "Content, metadata, views, authority and less intrusive alternatives are assessed independently of a demand to complete the package.",
+    "finding_ids": [],
+    "next_action": "Review controlled/public views without assuming applicable legal authority or exposing a protected source to prove a field."
+  },
+  {
+    "id": "CV110-18",
+    "document": "GR-110",
+    "requirements": [
+      "R110-026",
+      "R110-086",
+      "R110-087",
+      "R110-088"
+    ],
+    "topic": "Unavailable information, retention and interpretability",
+    "review_status": "reviewed",
+    "basis": "FM-005 5.14.5 pp. 118-119 and 5.19 p. 168; FM-007 10.4 pp. 45-46.",
+    "evidence": "Typed absence, permitted explanation, review, custodian and preservation of semantic dependencies are identified.",
+    "finding_ids": [],
+    "next_action": "Retain missing-original and inaccessible-evidence limits; assess effects of a broken vocabulary reference."
+  },
+  {
+    "id": "CV110-19",
+    "document": "GR-110",
+    "requirements": [
+      "R110-027",
+      "R110-089",
+      "R110-090",
+      "R110-091"
+    ],
+    "topic": "Transfer, migration and semantic preservation",
+    "review_status": "reviewed",
+    "basis": "FM-007 17.2 pp. 79-80; operational custody checks are programme proposals.",
+    "evidence": "Migration criteria retain temporal, attribution, uncertainty and access distinctions, with failure and recovery records.",
+    "finding_ids": [],
+    "next_action": "Perform an authorized synthetic migration before claiming lifecycle performance; bytes alone do not establish retained meaning."
+  },
+  {
+    "id": "CV110-20",
+    "document": "GR-110",
+    "requirements": [
+      "R110-028",
+      "R110-092"
+    ],
+    "topic": "Restricted disposal and dependent claims",
+    "review_status": "reviewed",
+    "basis": "FM-005 5.19 p. 168 supports differentiated access; disposal execution is a programme operating choice.",
+    "evidence": "Permitted execution evidence and controlled copies are distinguished from retention of prohibited content and unsupported global deletion.",
+    "finding_ids": [],
+    "next_action": "Keep disposal procedures unassessed until an authorized exercise supplies execution evidence."
+  },
+  {
+    "id": "CV110-21",
+    "document": "GR-110",
+    "requirements": [
+      "R110-029",
+      "R110-030",
+      "R110-093",
+      "R110-094",
+      "R110-095"
+    ],
+    "topic": "View mediation, currentness and scope",
+    "review_status": "reviewed",
+    "basis": "FM-001 1.14 pp. 78-83; FM-005 5.20.1 p. 170; FM-007 16.4 p. 76.",
+    "evidence": "Views retain source baseline, transformation, assessment versus determination, uncertainty and permitted link limits.",
+    "finding_ids": [],
+    "next_action": "Compare public/restricted views and stale exports; assess intelligibility separately from successful rendering."
+  },
+  {
+    "id": "CV110-22",
+    "document": "GR-110",
+    "requirements": [
+      "R110-031",
+      "R110-096",
+      "R110-097"
+    ],
+    "topic": "Reader examination, accessible routes and comprehension",
+    "review_status": "reviewed",
+    "basis": "Programme test-method proposal motivated by FM-001 1.14.4-1.14.5 pp. 81-83 and FM-005 5.19 p. 168.",
+    "evidence": "Observed tasks and users/roles differ from claimed accessibility or completed file production.",
+    "finding_ids": [],
+    "next_action": "Use bounded reader tasks with recorded barriers; AI documentary inspection cannot establish broad human accessibility."
+  },
+  {
+    "id": "CV110-23",
+    "document": "GR-110",
+    "requirements": [
+      "R110-032",
+      "R110-033",
+      "R110-034",
+      "R110-098",
+      "R110-099",
+      "R110-100",
+      "R110-101",
+      "R110-102",
+      "R110-103",
+      "R110-104",
+      "R110-105",
+      "R110-109",
+      "R110-110",
+      "R110-111"
+    ],
+    "topic": "Assessment boundaries, components, dependencies and execution evidence",
+    "review_status": "reviewed",
+    "basis": "Programme assessment proposal; FM-007 p. 2 distinguishes a stipulated construction from a warranted application.",
+    "evidence": "Clause 11 and Annex B preserve complete obligation accounting, components, not-assessed versus not-applicable, execution evidence and revision.",
+    "finding_ids": [],
+    "next_action": "Publish partial exercise results with exact baseline and component locators; no unqualified practice conformity follows from source review."
+  },
+  {
+    "id": "CV110-24",
+    "document": "GR-110",
+    "requirements": [
+      "R110-106",
+      "R110-107",
+      "R110-108"
+    ],
+    "topic": "Semantic schedule and admissible unknown contextual values",
+    "review_status": "reviewed",
+    "basis": "Operational scheduling proposal consistent with FM-005 5.14.5 pp. 118-119 and FM-007 10.4 pp. 45-46.",
+    "evidence": "Information groups are semantic requirements, not schema fields; structural references/criteria remain distinct from unavailable historical facts.",
+    "finding_ids": [],
+    "next_action": "Use claim/action anchors to supply required meaning; retain any missing mandatory designation as a defect rather than an unknown contextual value."
+  }
+]

@@ -1,0 +1,178 @@
+\documentclass[11pt,a4paper]{article}
+\input{publications/preamble.tex}
+\begin{document}
+\GSPtitle{GR-200}{Epistemic Recording Framework}{Standards-track Working Draft}{0.1}
+
+\noindent\textbf{Responsible editor:} Unassigned.\\
+\textbf{Canonical source:} \path{standards/GR-200-epistemic-recording/GR-200.tex}
+
+\noindent\textbf{Maturity: PREPARATORY; PROVISIONAL.} This document contains candidate requirements for authoring and synthetic examination. It is not an adopted Standard, a formally initiated standards project, or an institutional or legal authorization. Formal initiation remains dependent on governance launch decisions and work-item approval. Requirement language is proposed for review.
+
+\tableofcontents\clearpage
+
+\section{Purpose and scope}
+This draft defines the minimum information needed to examine who asserts what about a target, through which observations and reasoning, on which material, within what scope, with what uncertainty, and with what history of assessment and revision. Its organizing problem is the separation of a convincing or authentic representation from a warranted account of the represented situation.
+
+The requirements concern a declared \emph{epistemic record package}, which can include records, claim references, source locators, assessments, and protected components. The package can be textual, tabular, or implemented in software. This draft does not choose between claims as separate objects, attributed assertions within records, or a hybrid. A claim reference can be a local label and locator; it need not be a globally registered identifier.
+
+GR-100 version 0.1 supplies the draft vocabulary. GR-110 adds requirements for generative trajectories and practical consequences. GR-210 is intended to govern the practice of assessment, challenge, and disposition. This document records those activities when present; it does not substitute a complete adjudication process, guarantee an appeal right, or set an evidential sufficiency threshold for every domain. GR-160 and GR-400 are intended to elaborate protection and institutional use. None of these drafts creates jurisdiction, a legal duty, or factual certainty.
+
+\section{Conformance boundary and interpretation}
+The conformance subject is one named, versioned epistemic record package within a declared purpose, collection boundary, and access scope. Requirements apply to its included claims and assessments, with conditional requirements triggered by the relevant activity. An external source is not required to satisfy these rules merely because it is cited; the package's assertions about it and uses of it are within scope.
+
+\req{E200-001}{The package shall declare its reference and version, responsible recording role, intended use, target and collection boundary, included claim set or selection rule, access scope, relevant descriptive regime, and the GR-200 draft version used. It shall identify exclusions and limits that materially affect interpretation.}
+
+\req{E200-002}{The package shall associate every requirement with an assessment result and an evidence locator. A claim of conformity to this draft shall identify its package boundary and applicable requirement set, and shall disclose failures, unassessed requirements, and restrictions that prevent assessment. It shall not represent technical or recording conformity as proof of factual truth, evidential sufficiency, ethical acceptability, or legal validity.}
+
+An assessment result is pass, fail, not assessed, or not applicable with a reason. Only requirements whose stated trigger is absent can be marked not applicable. A package with failures or unassessed applicable requirements can report partial assessment, but not full conformity. This draft has no certification or accreditation scheme.
+
+``Material'' in this document means capable of changing a reasonable examination of the declared claim, its warrant, or its consequential use. The package's selection rule states how materiality was judged. Unknown, not collected, withheld, lost, and inapplicable can be explicit informational states where a value is unavailable. They disclose a limitation rather than establish the unavailable value or a substantive negative conclusion.
+
+\section{Claims, attribution, method, and scope}
+\req{E200-003}{Each included claim shall have a reference that distinguishes its content and version within the package, stated assertion content, an identifiable target or an explicit unresolved target description, and a link to its recording context. Different assertions or versions shall remain separately referenceable where their attribution, grounds, or disposition differ.}
+
+\req{E200-004}{Each claim shall identify its represented originating actor or source and the role responsible for entering it into the package. Where these differ, the attribution chain shall distinguish origin from transcription, quotation, translation, summary, or adoption. Unknown, pseudonymous, restricted, or disputed attribution shall be explicit.}
+
+\req{E200-005}{Each claim shall state its epistemic mode and relevant perspective: for example observation report, testimony, inference, interpretation, retrospective reconstruction, hypothesis, simulation, or normative or institutional judgment. Combined modes shall identify the distinct contributions rather than present inferred content as directly observed. A claim about an occurrence or possibility shall distinguish its asserted actuality or modality from its epistemic basis; retrospective inference can concern an actual occurrence.}
+
+\req{E200-006}{Each claim shall identify its acquisition or reasoning method, material premises and assumptions, relevant method version when one is used, and known transformations from source material to assertion. Where this information is unavailable, the package shall state the limit and shall not claim reproducibility or direct observation on that basis.}
+
+\req{E200-007}{Each claim shall state the boundary, scale or level of aggregation, contextual conditions, and temporal horizon relevant to its interpretation. It shall identify known omissions or selection conditions that materially limit generalization. A narrowed scope shall not be silently presented as a claim about a broader target.}
+
+\req{E200-008}{Each claim shall distinguish target time from the times of observation or source acquisition, recording, and assessment where applicable. Time values shall carry their applicable meaning and known uncertainty or resolution. Unknown order shall remain distinguishable from asserted simultaneity and from recording order.}
+
+\req{E200-009}{A claim that reidentifies a target across appearances shall identify the identity criterion, the appearances linked, the responsible attribution, and the evidential basis or stipulation. A proposed split, merger, succession, or disputed match shall not silently merge record identity, target identity, and lineage.}
+
+\note{A testimony can be preserved without claiming its reporter is infallible. Requiring attribution does not require public disclosure of a protected person's name. A role or pseudonymous reference, its protection status, and an accountable custody arrangement can provide the appropriate recording context.}
+
+\section{Material and evidential roles}
+\req{E200-010}{For each material item invoked in support of, against, or to qualify a claim, the package shall identify the item or pattern, its relevant portion, source or acquisition path, and availability status. It shall distinguish original material, copies, derived representations, and generated material where those differences affect the claimed use.}
+
+\req{E200-011}{Each assigned evidential role shall link the material to a specified claim and identify the assessor or attributing source, assessment time, role, and rationale addressing relevance, reliability limitations, and material alternative explanations. An item with no assessment shall be marked unassessed rather than silently represented as accepted support.}
+
+The role can be supportive, challenging, qualifying, non-discriminating, or another defined relationship. A single item can support one claim and challenge another. The package need not impose a ranking across all evidence forms.
+
+\req{E200-012}{Where multiple items are used together as evidence, the assessment shall identify known material derivation or dependence among them and the basis for any asserted independence. Repeated copies, summaries, or citations of one source shall not be presented as independent corroboration solely by their count.}
+
+\req{E200-013}{A claim of absence or non-occurrence inferred from missing observations or records shall identify the expected observation or recording opportunity, coverage, detection or preservation limitations, and reasoning from the missing material to the claim. If those conditions are not established, the package shall preserve the weaker missingness statement and shall not treat it as established non-occurrence.}
+
+\req{E200-014}{Each claim assessment shall describe material uncertainty and its location, including relevant alternatives, assumptions, identification limits, measurement limits, temporal gaps, or boundary and model limitations. A numerical confidence quantity, if used, shall state what it measures, its method and assumptions, and the scope of its interpretation.}
+
+\req{E200-015}{The package shall record material competing claims or explanations known within its declared collection boundary, their attribution, their relationship to the target claim, and any recorded grounds for excluding or preferring them. If alternatives were not examined, this limitation shall be explicit; silence shall not be presented as evidence that no alternative exists.}
+
+An alternative need not receive equal evidential weight merely because it is recorded. Recording a disagreement does not mean that it remains unresolved after a reasoned assessment. The disposition and its grounds remain visible, and an attributed rejected interpretation can remain historically consequential.
+
+\section{Assessments, revision, and practical uptake}
+\req{E200-016}{Each assessment or determination shall identify its question, responsible assessor or decision role, criteria, material examined, result, date, limitations, and relationship to the assessed claim versions. Provenance/authenticity, factual warrant, institutional acceptance, normative evaluation, legal determination, and technical validation shall remain distinguishable assessment functions.}
+
+\req{E200-017}{A substantive revision shall link the prior and revised claim or assessment versions and record who revised it, when, why, and which content or scope changed. The reasons shall distinguish target change, evidence or assessment change, and descriptive-regime change, allowing combined reasons. Historical access shall preserve earlier meaning to the declared retention and protection extent; any unavailable earlier content shall have an explicit reconstruction limitation.}
+
+\req{E200-018}{A change of descriptive regime shall identify the prior and new definitions or methods, grounds for change, affected claim set, and any mapping or transformation used. It shall identify known non-comparability, lost distinctions, or unresolvable mappings; finer classifications shall not be reconstructed from insufficient earlier material as if evidenced.}
+
+\req{E200-019}{For a revised claim with known dependent assessments, claims, or consequential uses within the package boundary, the package shall identify those dependencies and record whether each was reviewed, updated, left unchanged with reason, or remains pending or unreachable. It shall not claim that external recipients or institutions have corrected their actions without evidence of that correction.}
+
+\req{E200-020}{Where the package records practical uptake of a claim, it shall distinguish the claim, its assessment, the institutional or other action, the actor responsible, and the asserted basis for acting. Recorded consequences and proposed remedies shall remain separately attributable from the original grounds and intended effects.}
+
+\req{E200-021}{For a challenge received within the package's declared collection boundary, the package shall record the challenged claim version, challenger or protected source reference, grounds and submitted material, receipt context, and current status. A disposition shall record the responsible role, response, reasons, date, unresolved disagreement, and resulting changes or the reason for no change. A challenge without disposition shall remain visibly pending or otherwise explicitly unresolved.}
+
+This clause addresses the record of a challenge. Fair routes for submission, notification, review independence, timeliness, appeal, and remedy are future procedural requirements in GR-210 and relevant institutional profiles. Merely supplying challenge fields does not demonstrate that a person can effectively contest a decision.
+
+\section{Machine mediation, protected material, and layered judgments}
+\req{E200-022}{Where computational mediation materially affects a claim's observation, classification, inference, reconstruction, or presentation, the package shall identify the system and available version, its task, supplied source material or its controlled reference, material transformations, output used, and the role responsible for uptake or review. Unavailable system details and resulting limits shall be stated. Generated output shall remain distinguishable from independent source evidence.}
+
+This requirement includes rules, statistical models, sensor processing, database transformations, and generative systems when material to the claim. It does not require exhaustive logs of unrelated operations or disclosure of private credentials. A vendor confidence score does not automatically measure the warranted confidence in the package's substantive claim.
+
+\req{E200-023}{Where claim context or evidential material is restricted, the package shall identify the restriction and its asserted basis, responsible custodian or accountable role, assessment consequence, and any available route for authorized examination or challenge. A released view shall identify material omissions at a level permitted by the declared protection arrangement and shall not describe unavailable evidence as independently examined.}
+
+If even acknowledging an item is restricted, the released view can describe its assessed scope without exposing item-level existence. The protected package still needs an accountable restriction record. This clause supplies neither permission to disclose nor a legal retention rule. Where a reviewer cannot assess a required component, E200-002 requires an unassessed result; a protection reason does not turn missing verification into a pass.
+
+\req{E200-024}{A normative or ethical assertion shall identify the evaluative question, attributed evaluator, stated criteria or values, affected parties and scope, and material acknowledged tradeoffs or disagreements. It shall remain distinguishable from the descriptive claims on which it relies and shall not treat a claimed generative effect as inherently desirable.}
+
+\req{E200-025}{A legal or jurisprudential assertion shall identify the asserted legal concept, source or rule relied upon, relevant institutional or jurisdictional context, attributed authority, temporal applicability, and procedural status, or explicitly state which are unresolved. It shall distinguish a descriptive legal analysis, party allegation, institutional determination, model rule, and policy proposal where applicable. Recording the assertion shall not be represented as creating or confirming its legal effect.}
+
+\req{E200-026}{When a package is selected, summarized, exported, or transformed and the resulting package is claimed to conform to this draft, it shall preserve the attribution, claim-version relationships, epistemic qualifications, material disagreement, and access/reconstruction limits required within the resulting declared boundary. Omitted or transformed content and the resulting limits shall be identified; a partial view shall not imply completeness of the source package.}
+
+This is an implementation-neutral requirement on the resulting package. Format negotiation, transport, identifiers, validation vocabulary, and machine-readable exchange behavior belong in Specifications prompted by the demonstrated need.
+
+\section{Worked example (informative; synthetic)}
+This invented case tests recording distinctions. It supplies no claim about an actual institution or applicable law.
+
+\begin{description}
+\item[Target.] Whether request Q arrived before the deadline specified in a synthetic institution's internal rule R1. The asserted rule and whether it applies are separate claims.
+\item[C1 version 1.] Clerk A reports that Q arrived after the deadline, inferred from entry log L1. Target time is the claimed receipt time; recording time is the later creation of C1. The method assumes entry time matches receipt time.
+\item[Evidence use.] L1 supports that an entry occurred at the recorded time. Reviewer B records that its support for receipt time depends on the untested assumption about queue delay. Three copies of L1 are not independent corroboration.
+\item[Alternative C2.] A protected participant reports earlier delivery; a receipt image R2 is available to an authorized reviewer. The public view identifies restricted evidence and the scope of examination without naming the participant.
+\item[Action D1.] The institution records exclusion of Q using C1 and R1. This is an attributed institutional act. Its occurrence, justification, and any claimed legal effect remain separate.
+\item[Challenge CH1.] The participant challenges C1 and provides R2. The record includes the challenged version and receipt time of the challenge; a pending challenge is not displayed as a completed review.
+\item[C1 version 2.] Review establishes that the entry occurred later than the claimed delivery. The assessed receipt time changes; the entry event does not. The revision links its grounds to R2 and records the continuing uncertainty. C1 version 1 and D1 remain identifiable historical records.
+\item[Dependency review.] D1 is marked for review. Until a later action is evidenced, correction of C1 is not displayed as restoration of Q's participation. The record can identify consequences of the interval of exclusion separately.
+\item[Regime change.] If the institution later defines arrival by a different channel, the change of rule/category has its own effective interval. It does not silently recode earlier evidence or establish that earlier actors used the new meaning.
+\end{description}
+
+\section{Candidate assessment matrix}
+The following evidence methods are proposed for future assessment. They specify discriminating checks and failure cases; this draft does not claim these cases have been implemented or passed. Each applicable requirement needs its own result even where several use the same dossier. Human review is necessary for meaning, rationale, and sufficiency of disclosure; structural field validation alone is inadequate.
+
+\begin{longtable}{@{}L{0.16\textwidth}L{0.78\textwidth}@{}}
+\toprule
+Requirement & Candidate evidence and discriminating check \\
+\midrule\endhead
+E200-001 & Inspect package declaration and selected claim inventory. Check that a consequential excluded record is disclosed by the collection rule or limitation. \\
+E200-002 & Inspect result ledger and evidence locators. An inaccessible required component is not assessed; a syntax pass is not labeled a true fact. \\
+E200-003 & Retrieve two versions and two conflicting claims concerning Q. Their content and targets remain distinguishable. \\
+E200-004 & Follow testimony through a translator or summarizer. Originating source and recorder remain separate, including protected attribution. \\
+E200-005 & Inspect C1. Its late-arrival inference is not presented as direct observation merely because L1 was directly read. \\
+E200-006 & Recover the entry-time assumption and method for C1. A missing method produces a stated limit, not a reproducibility claim. \\
+E200-007 & Compare a single intake desk's coverage with an institution-wide assertion. A known unobserved delivery route remains a limitation. \\
+E200-008 & Recover receipt, acquisition, entry, and review times or their explicit uncertainty; out-of-order recording does not reorder events. \\
+E200-009 & Examine an organizational replacement using a reused name. An identity criterion and separate lineage prevent automatic merger. \\
+E200-010 & Locate the relevant L1 entry and R2 image or controlled locators; derived transcript and original are distinguished. \\
+E200-011 & Recover L1's separate evidential roles for entry time and delivery time, including rationale and assessor. \\
+E200-012 & Present three copies derived from L1. Assessment detects shared origin instead of counting three independent observations. \\
+E200-013 & Remove the log for one delivery channel. No receipt found remains distinct from evidence that no request arrived. \\
+E200-014 & Inspect uncertainty about queue delay and a confidence quantity if used. Its measured quantity and assumptions are explicit. \\
+E200-015 & Recover C2 and reasons for its disposition. If no alternative search occurred, the absence of search remains visible. \\
+E200-016 & Compare log authenticity check, receipt-time assessment, and D1 decision. Their questions, roles, criteria, and results are distinct. \\
+E200-017 & Retrieve C1 versions and changed grounds. Target change, correction, and category change produce different stated reasons. \\
+E200-018 & Apply a category split to records lacking the finer information. Mapping records non-recoverability rather than invented categories. \\
+E200-019 & Follow C1 to D1. Pending action review is distinguishable from completed correction and from an unreachable external use. \\
+E200-020 & Recover D1, the claimed authority for action, and separately attributed consequences. No automatic remedy is inferred. \\
+E200-021 & Trace CH1 receipt through pending and disposed states. A closed status without response, responsible role, and reasons fails. \\
+E200-022 & Add a machine summary that invents a link. Recover input, system/version where available, output used, uptake role, and correction. \\
+E200-023 & Compare protected dossier and released view. Restriction basis and accountable route are recorded without unauthorized disclosure or a false independent-review claim. \\
+E200-024 & Inspect an assessment that exclusion was unfair. Criteria, affected parties, and descriptive premises are distinguishable. \\
+E200-025 & Inspect an allegation of unlawful exclusion. Asserted source, jurisdiction, authority, and procedural status are stated or unresolved; no legal effect follows from technical compliance. \\
+E200-026 & Examine a textual summary or exported dossier. Correction, dissent, attribution, scope, and protection limitations survive or omissions are explicit. \\
+\bottomrule
+\end{longtable}
+
+\section{Source trace and requirement rationale (informative)}
+References are to the supplied local PDFs indexed in \texttt{foundation\_manuscripts/MANIFEST.md}; page numbers are one-based PDF pages. Source passages provide conceptual grounds, not adopted requirements. No external compatibility or legal claim is made.
+
+\begin{longtable}{@{}L{0.29\textwidth}L{0.65\textwidth}@{}}
+\toprule
+Source & Operational proposal and reason \\
+\midrule\endhead
+FM-004, \S4.2, pp.~11--14; \S4.6, pp.~43--45 & E200-003--008 distinguish target, manifestation, representation, and observation conditions. A single undifferentiated fact field cannot preserve these questions. \\
+FM-005, \S5.4, pp.~28--31 & E200-010--013 assign evidence roles relative to claims and preserve trace paths, alternatives, and dependence. Material presence alone does not establish relevance or independent corroboration. \\
+FM-005, \S5.17, pp.~141--142 & E200-014/015 preserve dimensional uncertainty and alternatives. A single mandatory confidence score was rejected for this draft because methods and uncertainty sources differ. \\
+FM-007, \S7, pp.~26--29 & E200-009 separates record references, identity criteria, and lineage, permitting unresolved matches. Administrative identifier equality is insufficient as a universal criterion. \\
+FM-005, \S5.20, pp.~168--174 & E200-017--020 distinguish evidential, intervention-related, historical, and category revisions, and the historical effects of an earlier representation. Silent overwrite loses those distinctions. \\
+FM-005, \S5.19, pp.~160--161, 168 & E200-021--023 make machine mediation and contestability inspectable while allowing differentiated access. A declaration that ``AI was used'' omits material epistemic conditions. \\
+FM-003, \S3.10.9, p.~115; \S3.13, pp.~141--142 & E200-024 separates generative attribution from ethical evaluation and records affected parties and criteria. No universal beneficialness or commensuration is assumed. \\
+Programme Brief, \S3A; repository jurisprudential discipline & E200-025 preserves the asserted basis and status of legal claims. This is a recording boundary proposed by the programme, not a legal conclusion derived from a manuscript. \\
+\bottomrule
+\end{longtable}
+
+The selected direction is an inspectable claim package with attributed relationships and scoped evidence. Alternatives included a single verified-fact flag, a mandatory new ontology class for every assertion, and a fully specified adjudication process inside this document. The first loses distinctions; the second prematurely fixes implementation architecture; the third conflicts with the planned separation of epistemic representation from GR-210 procedures. The present choice leaves representation and procedural elaboration open while producing requirements that a small synthetic dossier can test.
+
+\section{Open issues and specification needs}
+\begin{itemize}
+\item \textbf{OPEN --- Representation.} Whether claim identity is implemented through objects, qualified statements, wrappers, or hybrids requires disagreement, revision, protection, and exchange cases before a Specification decision.
+\item \textbf{OPEN --- Burden.} Initial review needs to measure time and participant burden as well as field completeness. Shared context can reduce duplication, but a package-wide statement must not conceal claim-specific differences.
+\item \textbf{OPEN --- Evidence assessment granularity.} The minimum useful rationale varies across testimony, measurement, historical interpretation, and routine record entries. Domain profiles need cases and relevant expertise.
+\item \textbf{OPEN --- Challenge procedure.} GR-210 needs submission routes, standing, accessible participation, impartial assessment, notification, reasons, timing, appeals, and repair. E200-021 records their results without claiming these practices exist.
+\item \textbf{OPEN --- Retention and restriction conflicts.} Historical reconstruction, deletion, protection, and procedural examination can conflict. Named institutional and jurisdictional profiles need explicit review; this draft imposes no universal retention period or disclosure priority.
+\item \textbf{OPEN --- Technical needs.} Independently addressable versions, evidence-role links, dependency notifications, missingness states, controlled locators, and loss-aware transformations are candidate inputs to GR-SPEC-120/130/200. No encoding or transport protocol is adopted here.
+\item \textbf{OPEN --- Conformance practice.} The matrix is a review design, not a completed validator or certification programme. Independent reviewers need to test whether the same package yields reproducible assessments and whether affected participants can recover its meaning.
+\end{itemize}
+\end{document}

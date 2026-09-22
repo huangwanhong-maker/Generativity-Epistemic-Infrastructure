@@ -1,0 +1,251 @@
+\documentclass[11pt,a4paper]{article}
+\input{publications/preamble.tex}
+\begin{document}
+\GSPtitle{GR-100}{Foundations and Vocabulary}{Standards-track Working Draft}{0.1}
+
+\noindent\textbf{Responsible editor:} Unassigned.\\
+\textbf{Canonical source:} \path{standards/GR-100-foundations-vocabulary/GR-100.tex}
+
+\noindent\textbf{Maturity: PREPARATORY; PROVISIONAL.} This is an authoring draft for examination of proposed requirements. It is not an adopted Standard, a formally initiated standards project, or evidence of approval of GR/NWIP-001. Formal initiation depends on the governance launch decisions. The word ``shall'' expresses a candidate requirement within this draft, without conferring programme adoption or legal authority.
+
+\tableofcontents\clearpage
+
+\section{Purpose and scope}
+This document supplies a bounded operational vocabulary for recording and examining claims about generative histories. It addresses a practical problem: a record can accurately preserve an assertion while the assertion is mistaken, an authentic document can contain an unsupported inference, and a later correction can conceal the historical consequences of an earlier judgment. Inspectable practice requires distinctions among what is claimed to have happened, how it became accessible, what was recorded, what was inferred, and how the account was used.
+
+The scope includes vocabulary use, the separation of levels of description, identity and temporal distinctions, and a candidate description of six record roles. It does not define truth, a complete metaphysics, a universal theory of evidence, legal validity, a universal generativity score, or a machine-readable schema. Domain methods can provide stronger criteria within a declared scope.
+
+GR-110 develops trajectory recording requirements. GR-200 develops the epistemic record package. GR-120 and associated Specifications are intended to resolve technical representation after requirements and cases expose a reusable need. GR-210 is intended to address assessment and contestation procedures. References to these publications identify coordinated draft work; none is an adopted normative dependency.
+
+\section{Reading conventions and conformance subject}
+Sections 3--5 contain operational definitions and candidate vocabulary-use requirements. Section 6 contains informative examples. Sections 7--9 contain candidate assessment methods, informative source traces, and unresolved issues. ``Shall'' denotes a requirement, ``should'' a recommendation, ``may'' permission, and ``can'' capability or possibility. Notes, examples, source descriptions, and open issues do not add requirements.
+
+The conformance subject is a \emph{declared vocabulary application}: a named and versioned document, record package, profile, or implementation description that uses the terms in this draft. Vocabulary assessment checks what the subject claims and distinguishes. It does not establish that its account of a target is true, that a system implements every future family member, or that an institution has acted legitimately.
+
+\req{V100-001}{A vocabulary application shall identify this document and version, its own boundary and version, the terms it uses, and any local extensions or narrower domain meanings. It shall describe departures explicitly and shall not claim unqualified GR-100 vocabulary conformity for a conflicting use of a defined term.}
+
+An application can use only a subset of the vocabulary. Using the term ``Event,'' for example, does not require adding an Entity, Process, or Property record solely to fill a catalogue. A field's spelling alone does not establish its semantic role.
+
+\section{Operational vocabulary}
+\subsection{Reality, manifestation, and representation}
+\begin{description}
+\item[Target.] That about which a claim is made. A target can be a situation, participant, occurrence, relation, condition, possibility, record, or another claim. Its identification can remain partial or contested. A target reference is an act of reference; it does not establish existence or identity.
+\item[Manifestation.] For recording purposes, an identified way in which a difference becomes available to encounter, registration, measurement, expression, or classification under specified conditions. This is a limited operational use informed by FM-004; it does not exhaust that manuscript's account of manifestation.
+\item[Representation.] A description or arrangement of signs used to describe, classify, model, or otherwise stand for a target. Representations can themselves become targets of inquiry and participants in later action.
+\item[Record.] An identified retained representation, together with the context needed to interpret its declared recording purpose. A record can contain several claims, and several records can concern one target. Retention need not mean public disclosure or indefinite preservation.
+\item[Record package.] A declared collection of records and contextual references presented together for a specified purpose and version. A package can contain protected components and a restricted or public view. A view's limitations are part of its declared scope.
+\end{description}
+
+The foundation's ontological, relational, and manifestational registers concern different analytical questions. They are not exclusive categories of objects or a mandatory temporal sequence. A practice can operate before its recognition, and a classification can subsequently change the practice. This document does not require every target to receive a philosophical register label.
+
+\req{V100-002}{A vocabulary application shall distinguish a represented target, an identified manifestation or trace, a retained record, and a claim wherever it uses those roles. It shall not treat a record identifier, representation, or manifestation as establishing the existence, complete nature, or identity of its target solely by being recorded.}
+
+\subsection{Claim, observation, inference, and judgment}
+\begin{description}
+\item[Claim.] An attributed assertion with identifiable content and target, expressed under a stated scope. The assertion can concern an occurrence, a possibility, an interpretation, a value judgment, or institutional or legal status. Recording it does not endorse it. Several parties can assert the same content with different grounds.
+\item[Attribution.] A recorded association between a claim or activity and the person, institution, system, or source represented as originating or performing it. Attribution can be pseudonymous, unknown, disputed, or mediated through another source.
+\item[Observation.] A situated activity of attending to or registering a manifestation through a stated method. An observation report is a claim about that activity or its result; ``direct'' does not mean free of mediation or interpretation.
+\item[Inference.] A step that relates identified premises or material to a conclusion under a stated method or reasoning. An inferred claim has a different epistemic role from the claim that its premises were recorded.
+\item[Interpretation.] An attributed assignment of meaning, classification, or significance within a stated context. Interpretation can participate in observation and inference; these terms do not partition human or machine activities into exclusive kinds.
+\item[Judgment.] An attributed assessment or determination made using identified grounds and criteria. A judgment can assess evidential warrant, ethical acceptability, legal status, or institutional action. These functions carry different bases of authority.
+\item[Assessment.] A recorded examination of a specified question using identified criteria and material, with a result and limitations. In GR-200 an evidence assessment concerns a claim-relative evidential role. A syntax check concerns a different assessment target.
+\item[Uncertainty.] Specified unresolved limitations or alternatives affecting a claim's content, identification, observation, method, interpretation, timing, boundary, or warrant. An uncertainty description is itself attributed and scoped. A numerical quantity is one possible representation, not a mandatory universal measure.
+\end{description}
+
+\req{V100-003}{A vocabulary application shall distinguish assertion, observation report, inference, interpretation, and assessment where those functions occur. Where one item performs several functions, it shall identify the functions and their scopes rather than infer one function's warrant from another.}
+
+\subsection{Trace, evidence, and provenance}
+\begin{description}
+\item[Trace.] Material, behavior, testimony, inscription, or another manifestation identified as a remainder or consequence relevant to a target inquiry. The proposed connection to its generative conditions is a claim with its own grounds; calling an item a trace does not establish the proposed origin.
+\item[Evidence.] A role assigned to identified material in assessing a specified claim, with an account of relevance, reliability, and alternative explanation. The material can support, challenge, limit, or fail to discriminate the claim. Evidence is not an intrinsic status permanently attached to a file or person.
+\item[Evidential warrant.] The grounds offered for accepting, qualifying, or rejecting a specified claim under stated methods, assumptions, and scope. This draft records those grounds without imposing one universal sufficiency rule.
+\item[Provenance.] A recorded account of origins, attribution, derivation, custody, or transformations of an identified item. Provenance can be incomplete or disputed. Provenance of a claim's expression differs from evidence for the claim's content.
+\item[Authenticity assessment.] An assessment of whether an item is what it is represented to be, within a specified question and method. Authenticity of an utterance or document does not establish truth of its substantive claims.
+\item[Missingness.] A stated condition in which information sought for a recording purpose is absent or unavailable. Not observed, not recorded, lost, withheld, unknown, inapplicable, and disputed describe different conditions and are not interchangeable with a zero, false value, or non-occurrence claim.
+\end{description}
+
+\req{V100-004}{A vocabulary application shall represent an evidential role relative to an identified claim. It shall keep provenance or authenticity results, evidential assessments, technical conformance, institutional acceptance, and normative or legal judgments distinguishable. It shall not describe success in one of these assessments as success in another without a separately stated argument.}
+
+\subsection{Identity, time, and history}
+\begin{description}
+\item[Record reference.] A designation sufficient to distinguish a record or a particular version within a declared context. A reference scheme does not itself determine the identity of the represented target.
+\item[Identity criterion.] A stated basis for treating two appearances or descriptions as concerning the same target within an inquiry. Identity claims can be contested and criterion-dependent. Similar behavior, equal content, shared names, and common descendants do not alone establish target identity.
+\item[Lineage.] A directed account of derivation, succession, or continuation. Lineage can branch or merge. Its use does not automatically assert that predecessors and successors are one identical target.
+\item[Target time.] The time or interval a claim concerns, including an explicitly unknown or uncertain temporal location.
+\item[Observation time.] The time at which an observation or acquisition is represented as occurring. It can differ from target time and recording time.
+\item[Recording time.] The time at which a record or identified version was made or entered into a recording context. It does not automatically date the target occurrence.
+\item[Assessment time.] The time of a stated assessment or judgment, distinct from the time to which that judgment applies.
+\item[Descriptive regime.] The declared categories, definitions, methods, scales, or boundary choices used to describe a target within an inquiry. This is an operational term; it does not require a fixed family of regimes or a particular mathematical construction.
+\item[Revision.] An identified change to a representation, claim, assessment, or descriptive regime, with its relationship to an earlier formulation and the stated reason. Revision of an account of the past does not itself change the past occurrence.
+\item[Trajectory.] A scoped account linking conditions, occurrences, continuations, alternatives, and consequences over a declared temporal or ordering frame. A reconstructed trajectory can remain partial and contested; it need not be a single fully ordered sequence.
+\end{description}
+
+\req{V100-005}{A vocabulary application shall distinguish record reference, target identity, and lineage. A stated identification of targets across appearances shall identify its criterion and the scope in which it is used. Unresolved identity shall remain expressible without forced merger.}
+
+\req{V100-006}{A vocabulary application shall distinguish target, observation, recording, and assessment times wherever it uses them. It shall preserve uncertainty about time or order rather than derive occurrence order solely from record entry order.}
+
+\req{V100-007}{An application that represents revision shall distinguish change in the target situation, change in evidence or assessment, and change in the descriptive regime. It shall allow more than one reason to apply and shall not silently replace the earlier formulation with a later one. Where earlier content cannot be retained or disclosed, it shall identify the resulting limit on historical reconstruction.}
+
+These are three linked histories rather than three mutually exclusive event types. Publication of a revised classification can change a target situation as well as its description. A later assertion that the earlier situation differed is an epistemic revision; it does not backdate the physical act of correction.
+
+\subsection{Generativity and practical consequences}
+\begin{description}
+\item[Generativity-related claim.] In this operational vocabulary, a claim about how relations, conditions, or activity generate, sustain, transform, restrict, or destroy subsequent states, capacities, relations, distinctions, or possibilities. This defines the programme's recording subject; it is not a comprehensive definition of GR generativity.
+\item[Generative condition.] A condition claimed to enable, constrain, or shape a specified trajectory or possibility. Its role needs attribution and grounds; contemporaneous presence alone does not establish contribution.
+\item[Possibility claim.] A scoped claim that a continuation was or is available, feasible, blocked, lost, or conjectured under identified conditions. An unchosen proposal differs from an evidenced feasible alternative, and each differs from a later imagined counterfactual.
+\item[Contribution.] An attributed participation or influence in a specified trajectory or outcome. Contribution, credit, causal responsibility, entitlement, and legal liability remain distinct questions.
+\item[Practical uptake.] An identified use of a representation or judgment in action, classification, allocation, or institutional decision. Its consequences can become new recording targets.
+\item[Generativity return.] A research and recording topic concerning claimed return pathways through which generated effects alter conditions of further generation. Its operational measurement, evaluative meaning, and any allocation rule remain \textbf{OPEN}; no universal quantity or entitlement is defined here.
+\end{description}
+
+\req{V100-008}{An application using generativity-related terms shall identify the claimed change or continuation, affected target or participants, relevant conditions, and scope. It shall distinguish a generative attribution from a value judgment and shall not infer beneficialness, entitlement, or legitimacy from the term ``generative'' alone.}
+
+\section{Six candidate operational record roles}
+\subsection{Status and shared use rule}
+These role descriptions are standards-specific proposals, informed by FM-007 and earlier programme vocabulary. They describe how a target is represented for an inquiry. They neither exhaust reality nor require exclusive schema classes. The term Property is retained from the programme; FM-007 uses Attribute. No equivalence between them is asserted.
+
+In the descriptions below, \emph{minimum metadata} means the information required when the role is applied under V100-009. An explicit unknown or restriction with reason can satisfy the obligation to state an unavailable contextual value; it does not satisfy an independent requirement to establish a factual claim. Common metadata means record reference and version, role, described target, recording responsibility and time, and links to the relevant claims and their epistemic context. Referenced context can be shared across a package without duplication.
+
+\req{V100-009}{An application of a six-role description shall identify the applied role, its admissibility and identity criteria, the common metadata, and the role's minimum metadata below. It shall disclose unresolved boundaries and use the temporal meaning associated with the role. Missing information shall retain its stated reason rather than be converted to a substantive negative claim.}
+
+\req{V100-010}{An application shall allow a target to be described through more than one applicable record role without treating role overlap as evidence of inconsistency. A restriction in an application profile shall state its recording purpose and information limits. A Relation whose own identity, state, properties, or history matters to the declared inquiry shall remain independently referenceable.}
+
+\subsection{Entity}
+\begin{description}
+\item[Definition and admissibility.] A record role for a focal subject tracked across appearances under a declared continuity criterion. Admissible when the inquiry needs cross-context or cross-time reference; use does not require an unchanging substance.
+\item[Identity.] The stated reidentification criterion and evidence determine the claim of continuity. A database key identifies a record, not automatically the represented subject. A disputed criterion can remain unresolved.
+\item[Temporal behavior.] Properties, membership, and relations can change while continuity is asserted. Formation, dissolution, replacement, or uncertain duration can be recorded separately.
+\item[Relations to other roles.] Participation in Events and Processes; possession of described States or Properties; participation in Relations; lineage links to other Entity descriptions. These are candidate meaningful links, not an exhaustive edge schema.
+\item[Minimum metadata.] Focal subject and appearances in scope; continuity criterion; temporal scope; attributed identity judgment or unresolved status.
+\item[Optional metadata.] Names, identifiers assigned by other systems, formation history, known predecessors and successors.
+\item[Example and counterexample.] An association tracked across a change of premises under a stated organizational continuity criterion. Two unrelated associations sharing a name are not thereby one Entity.
+\item[OPEN edge.] A split into two successors can preserve lineage while leaving continuity with the predecessor disputed.
+\end{description}
+
+\subsection{State}
+\begin{description}
+\item[Definition and admissibility.] A record role for a scoped description of conditions of a target at a stated time or interval. Admissible when the question concerns those conditions rather than an exhaustive inventory of reality.
+\item[Identity.] Same target, temporal scope, and descriptive regime identify the intended condition description; record versions and conflicting accounts remain distinct. Equality of observed values alone does not establish equality of target conditions.
+\item[Temporal behavior.] A condition can persist over an interval or be known only at an observation time. Persistence between observations requires a claim. Predictive sufficiency is relative to specified questions and continuations.
+\item[Relations to other roles.] Conditions of Entities or Relations; preconditions and results of Events; intermediate descriptions in Processes; values articulated through Properties.
+\item[Minimum metadata.] Target; time or interval; description boundary and regime; conditions described; observation or inferential basis.
+\item[Optional metadata.] Supported queries, omitted conditions, comparison horizon, warranted persistence interval.
+\item[Example and counterexample.] A committee's recorded membership on a given date. A timestamped snapshot alone does not establish every member's continuing participation throughout a month.
+\item[OPEN edge.] A reduced state adequate for a current report can omit historical memory needed for a later operation.
+\end{description}
+
+\subsection{Event}
+\begin{description}
+\item[Definition and admissibility.] A record role for an individuated happening or attempted happening under a declared occurrence criterion. Hypothetical, planned, or reconstructed events remain admissible as explicitly qualified targets of claims.
+\item[Identity.] An occurrence criterion distinguishes event tokens; a description can refer to one event in several records. Repetition of the same operation or outcome does not merge occurrences.
+\item[Temporal behavior.] Duration, boundaries, sequence, or overlap can be exact, interval-based, partial, or unknown. Failure or interruption does not imply non-occurrence of an attempt.
+\item[Relations to other roles.] Participants represented as Entities or Relations; changes between States; steps of Processes; Properties of the occurrence.
+\item[Minimum metadata.] Proposed happening; occurrence and individuation criteria; claimed actuality or modality, such as occurred, attempted, planned, hypothetical, or unresolved; separate epistemic basis, such as reported, observed, or retrospectively inferred; temporal scope; participating targets where known. A retrospectively inferred event can be claimed to have actually occurred.
+\item[Optional metadata.] Place, before/after conditions, attempted purpose, completion status, links to repeated occurrences.
+\item[Example and counterexample.] Two separately evidenced permission issuances with the same final status. A formula for the effect of an issuance does not establish that either occurred.
+\item[OPEN edge.] Different temporal resolutions can treat one prolonged happening as an Event, Process, or several Events; the segmentation rationale matters.
+\end{description}
+
+\subsection{Process}
+\begin{description}
+\item[Definition and admissibility.] A record role for activity linked by a declared ordering and criterion of unity. Admissible for goal-directed, recurrent, interrupted, branching, or otherwise connected activity; achievement of an intended endpoint is not required.
+\item[Identity.] The stated grouping and boundary criterion individuates the process. Equal endpoints or equal modeled composite effects do not establish the same process history.
+\item[Temporal behavior.] Ordering can be partial; duration and completion can be uncertain. Alternative possible paths remain distinct from the reconstructed actual path.
+\item[Relations to other roles.] Comprises or links Events and intermediate States; involves Entities and Relations; has scoped Properties; connects to dependent Processes.
+\item[Minimum metadata.] Unity and boundary criterion; activity in scope; supported ordering; claimed actuality or modality, distinguished from its observational or reconstructive basis; time scope and completion/continuation status.
+\item[Optional metadata.] Intended purpose, branches, interruptions, excluded steps, retained intermediate conditions.
+\item[Example and counterexample.] A proposal--revision--authorization sequence with a recorded failed earlier attempt. A factorization of an outcome into mathematically possible operations is not evidence of that history.
+\item[OPEN edge.] Overlapping practices can belong to several processes; no universal segmentation rule is proposed.
+\end{description}
+
+\subsection{Relation}
+\begin{description}
+\item[Definition and admissibility.] A record role for an identified connection, arrangement, or dependence among specified targets or conditions within a stated context. Admissible when its incidence, formation, continuity, or effects are relevant. Potential efficacy requires a further claim.
+\item[Identity.] A stated criterion distinguishes a continuing arrangement from a renewed or separate one. Equal participants and equal current effects do not alone establish the same relation.
+\item[Temporal behavior.] Formation, persistence, dormancy, change of terms, and ending are separately attributable. A relation can change while participants remain identified.
+\item[Relations to other roles.] Participants can be targets described by any relevant role, including other Relations; Events can form or change it; Processes describe its history; States and Properties describe its conditions.
+\item[Minimum metadata.] Relation reference; participant or condition references with roles; context; relation criterion and temporal scope; stated identity basis.
+\item[Optional metadata.] Formation history, dependency claims, terms, changing states, prospective effect comparisons.
+\item[Example and counterexample.] Two separately identified agreements between the same parties, each with its own renewal history. Co-occurrence in a table alone does not establish cooperation, trust, or dependence.
+\item[OPEN edge.] Uncertain or changing participants can prevent a complete incidence description without eliminating the recorded relation claim.
+\end{description}
+
+\subsection{Property}
+\begin{description}
+\item[Definition and admissibility.] Provisionally, a record role for an attributed characteristic or value of a specified subject under a stated definition, time, and context. Admissible when the meaning and subject of the attribution are explicit. This operational use does not resolve the broader Property/Attribute relationship.
+\item[Identity.] A property assertion is distinguished by subject, characteristic definition, contextual and temporal scope, attribution, and version. A type of characteristic differs from a particular assignment of its value.
+\item[Temporal behavior.] A value can change with the subject; a later correction can instead revise knowledge of an earlier value. The two histories remain distinguishable.
+\item[Relations to other roles.] Describes a target represented through any role; measurement or classification can be linked to an Event or Process; multiple conflicting assignments can concern one subject.
+\item[Minimum metadata.] Subject; characteristic definition; value or explicit missingness state; time and context; method or attribution; scale and unit when used.
+\item[Optional metadata.] Measurement uncertainty, valid domain, derivation, calibration reference, alternatives.
+\item[Example and counterexample.] A reported resource quantity for an organization at a specified time. A numbered nominal category is not a measurement permitting arithmetic solely because its code is numeric.
+\item[OPEN edge.] FM-007's Attribute has explicit domain, interpretation, scale, and definedness conditions. Equivalence to Property, separation, or renaming needs source comparison and a recorded decision.
+\end{description}
+
+\section{Boundaries between layers}
+\req{V100-011}{A vocabulary application shall distinguish operational record roles from metamodel concepts. It shall not identify a formal carrier state with a record State, a mechanism with a Process, or formal change with an Event without an explicit scoped mapping and argument.}
+
+\req{V100-012}{A vocabulary application shall keep descriptive, epistemic, evaluative, legal, institutional, and technical assertions distinguishable by their stated question and grounds. It shall not represent technical conformance as automatically creating factual truth, rights, duties, liability, admissibility, jurisdiction, or institutional authority.}
+
+The same dossier can connect these assertions. For example, an institutional decision can cite an evidential assessment and an asserted rule, while each remains separately attributable and open to the appropriate form of review. This is separation of questions and authority, not a requirement for independent databases.
+
+\section{Worked distinction tests (informative)}
+\begin{enumerate}
+\item A clerk records that a request arrived late. A timestamp proves that a record was entered at a time; whether the request itself arrived late requires identifying the timing source, applicable deadline, and inference. The record, target event, and deadline assessment remain distinguishable.
+\item A later witness report changes the assessment of the arrival time. That is a revision of the account. A later extension of the deadline changes a governing condition. A new definition of ``arrival'' changes the descriptive or institutional rule. One dossier can contain all three histories without conflating them.
+\item Two administrations reuse an office name. An application follows their records under the same catalogue heading while recording replacement and disputed institutional continuity. Shared cataloguing does not decide Entity identity.
+\item A new procedure reduces review time and makes some participants unable to contest an error. A generativity record can preserve both the increased processing capacity and the restricted capacity for correction; an ethical judgment states its own affected parties and criteria.
+\end{enumerate}
+
+\section{Candidate conformance evidence}
+Each row identifies a review method, not an already executed test. An assessor examines the declared subject and reports pass, fail, or not applicable for each requirement, with an evidence locator. Not applicable requires an absent trigger, not an inconvenient result. A review cannot establish the correctness of an external fact merely from compliant vocabulary.
+
+\begin{longtable}{@{}L{0.17\textwidth}L{0.77\textwidth}@{}}
+\toprule
+Requirement & Evidence and discriminating check \\
+\midrule\endhead
+V100-001 & Declaration names version, boundary, terms, extensions. Compare a local ``fact'' label against its stated meaning; detect an undisclosed conflicting use. \\
+V100-002 & Trace a target, manifestation, record, and claim in the subject. An authentic but incorrect report remains representable. \\
+V100-003 & Inspect a summary combining observation and inference. Recover which content was registered and which was inferred, by whom. \\
+V100-004 & Inspect one material item used differently for two claims. A successful authenticity check does not become a truth result. \\
+V100-005 & Inspect a merger, split, or disputed identification. Recover identity criterion and directed lineage without an automatic merger of targets. \\
+V100-006 & Inspect a late-entered report. Target time, observation time, recording time, and review time remain distinguishable or explicitly unknown. \\
+V100-007 & Compare target change, corrected report, and changed category. Prior meaning and reasons remain recoverable to the declared retention/access extent. \\
+V100-008 & Inspect a generative attribution. Scope and affected targets are present; description of expanded capacity is separate from its evaluation. \\
+V100-009 & For each applied role, locate admissibility, identity, temporal meaning, and required metadata; inspect a missing value's explicit reason. \\
+V100-010 & Inspect a relation with changing terms and an event analyzed as a process. Relevant identity/history and overlapping views remain expressible. \\
+V100-011 & Inspect any metamodel mapping. Identify additional premises; absence of a mapping means the conditional check is not applicable. \\
+V100-012 & Compare event report, institutional determination, legal assertion, ethical judgment, and technical check. Their distinct grounds remain visible. \\
+\bottomrule
+\end{longtable}
+
+\section{Foundation trace and drafting rationale (informative)}
+Page numbers below are one-based pages in the supplied PDFs. FM identifiers are those in \texttt{foundation\_manuscripts/MANIFEST.md}. The definitions here are operational proposals rather than quotations or claims that the manuscripts prescribe this recording model.
+
+\begin{longtable}{@{}L{0.28\textwidth}L{0.66\textwidth}@{}}
+\toprule
+Source & Preserved distinction and draft application \\
+\midrule\endhead
+FM-004, \S4.2, pp.~11--14; \S4.6, pp.~43--45 & Registers answer different questions; manifestation is broader than representation, and recognition need not precede relational reality. Basis for V100-002; no exclusive philosophical register schema. \\
+FM-005, \S5.4, pp.~28--31 & Trace, target relation, and evidence differ; evidential force is target-relative. Basis for V100-003/004 and GR-200 evidence-role requirements. \\
+FM-005, \S5.17, pp.~141--142 & Uncertainty concerns several dimensions and need not have one scalar measure. Basis for the uncertainty definition and GR-200. \\
+FM-005, \S5.20, pp.~168--174 & New evidence, intervention, historical revision, and category revision differ. Basis for V100-006/007; three linked histories are an operational organizing proposal. \\
+FM-007, p.~2; \S7, pp.~26--29; \S8, pp.~32--33 & Roles overlap; identity criterion, lineage, participant incidence, and relation continuity require distinct information. Basis for V100-005/009/010 and Entity/Relation proposals. \\
+FM-007, \S9, pp.~37--38, 43; \S12, pp.~56--57 & Occurrence differs from effect; histories differ from endpoints and possible factorizations. Basis for Event/Process proposals. \\
+FM-007, \S10, pp.~43--44; \S11, pp.~52--53, 56 & Attribute domain/scale and State sufficiency are scoped. Basis for Property/State proposals, with Property/Attribute unresolved. \\
+FM-003, \S3.10.9, p.~115; \S3.13, pp.~141--142 & Generativity has no fixed normative sign; effects vary across subjects and time. Basis for V100-008, without a universal measure. Both Chapter 3 variants remain independently preserved. \\
+\bottomrule
+\end{longtable}
+
+The main alternatives were a complete philosophical definition, an exclusive six-class schema, or a limited operational vocabulary. This draft selects the third provisionally because initial cases need distinguishable claims and histories before a technical model can be justified. A programme decision record accompanies this drafting choice; adoption and technical realization remain separate decisions.
+
+\section{Open issues and next evidence}
+\begin{itemize}
+\item \textbf{OPEN --- Property/Attribute.} Compare FM-007 with sustained programme usage and test conflicting value assignments, undefined values, and nominal scales before deciding equivalence, separation, or a terminology change.
+\item \textbf{OPEN --- Claim representation.} Compare independently identified claims, attributed assertions within records, and hybrids using disagreement, revision, restricted access, and round-trip examples. This draft requires distinguishability, not a seventh ontology class.
+\item \textbf{OPEN --- Role overlap and profiles.} Test overlapping Event/Process and Entity/Relation descriptions. No exclusive schema typing or full cross-role relation vocabulary has been adopted.
+\item \textbf{OPEN --- Identity.} Domain-specific criteria and disputed linkage need examples beyond names and administrative identifiers; branching continuity does not have a universal resolution.
+\item \textbf{OPEN --- Generativity and return.} Test possibility, foreclosure, contribution, and return pathways without presuming a universal metric or a normative entitlement.
+\item \textbf{OPEN --- Source chronology.} Chapter 3 editorial precedence remains unresolved. This draft cites particular passages without declaring one variant authoritative over the other.
+\end{itemize}
+\end{document}

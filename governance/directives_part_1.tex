@@ -1,0 +1,361 @@
+\documentclass[11pt,a4paper]{article}
+\input{publications/preamble.tex}
+\begin{document}
+\GSPtitle{Directives Part 1}{Procedures for Development and Maintenance}{Governance Working Draft}{0.3}
+\GSPfrontmatter
+\GSPpreface{Foreword}
+Version 0.3 records the bounded substantive review of the archived 0.2 package. This edition clarifies valid ballots, unsuccessful attributable submissions, nonresponse accounting and retention of an earlier valid ballot; quorum and approval thresholds are unchanged. The review matrix, synthetic assessments and unresolved readiness questions are documented in \path{docs/reviews/validation_0.2/README.md}. These activities do not constitute adoption or an independent institutional assessment.
+
+This document proposes an executable development procedure for the Generativity Standards Program. Its clauses govern the programme only after explicit governance adoption. It is a \textbf{PROVISIONAL Governance Working Draft}, not an adopted Standard, an approved project, or evidence that a committee exists. Its numbered requirements are proposed requirements. A rehearsal can test them without making them operative.
+
+Responsible editor: \texttt{UNASSIGNED}. Canonical source: \path{governance/directives_part_1.tex}. Intended readers are founding participants, procedural administrators, editors, reviewers, affected people, and prospective implementers of the development procedure. The assessed subject is a particular project-development or maintenance procedure and its records, not the substantive truth of a resulting Standard.
+
+This edition expands draft 0.1 while preserving the meaning of D1-001 through D1-058. The additional schedules specify evidence and handling responsibilities rather than constitute programme offices. Draft 0.1 remains a historical publication. The proposed local numerical defaults are unchanged.
+
+\tableofcontents\clearpage
+\GSPpreface{Introduction}
+The procedure supports inspectable, revisable recognition and practical action by preserving grounds, alternatives, objections, decisions, and subsequent changes in standards development itself. Its central object is a justified progression decision: who could contribute, what was considered, why a direction was selected, which disagreements remain, and how later correction can occur.
+
+The programme examines standards-development practice without assuming the institutional resources or representative mandate of an established international standards body. Explicit work authorization, documented review, conflict-sensitive decision making, public scrutiny, and maintenance are adapted to actual available capacity. A short procedure can conceal an unavailable role just as easily as an elaborate organizational chart. These Directives consequently make vacancies and failures visible and prevent a document's apparent completeness from substituting for an operative institution.
+
+Public participation and evidential adequacy are related but distinct. A numerical majority cannot establish a substantive fact, and a well-supported technical conclusion does not excuse exclusion from the prescribed process. Standards development can affect access, cost, classification, and future practical possibilities; review therefore examines these consequences alongside implementation and conformance.
+
+\GSPmainmatter
+\section{Scope}
+\subsection{General}
+These Directives specify development, review, decision, publication, maintenance, and appeal procedures for programme publications. They address officials, editors, contributors, reviewers, affected participants, and assessors. They do not determine the truth of recorded claims, settle GR theory by vote, or confer external legal authority. A procedure assessment identifies its project or decision scope and does not establish programme-wide fulfillment from a single dossier.
+
+
+\section{Normative references}
+\subsection{Draft dependencies}
+The following companion Governance Working Drafts, version 0.3, provide proposed internal dependencies: the Standards Programme Charter, Directives Part 2, the GR/TC 1 Charter, and the Ethics, Conflict-of-Interest, and Contribution Rights Policy. Their source files are in \path{governance/}. References are dated to these draft editions for coordinated review; none is represented as adopted. The founding instrument identifies the exact adopted editions and applicable transition arrangements. A dependency change requires review of affected provisions and assessments.
+
+External standards-development and United Nations system publications are informative comparison sources. No external voting rule, institutional mandate, or legal entitlement is incorporated by reference. The programme's own public-review periods and thresholds arise from its governance choice.
+
+\section{Terms and definitions}
+\subsection{Operational procedural terms}
+\begin{description}
+\item[Governance authority] The body or bounded transitional authority constituted by the adopted Charter; its mandate determines which decisions it can take.
+\item[Technical committee] An actually constituted committee with a bounded project mandate; not a label that itself establishes authority.
+\item[Substantive change] A change that could alter scope, meaning, duties, permissions, conformance outcomes, interoperability, protection, or practical consequences.
+\item[Substantive objection] A reasoned concern about technical adequacy, evidence, scope, procedure, rights, participation, harm, or feasibility relevant to the proposed decision.
+\item[Consensus assessment] A documented assessment of participation, consideration of concerns, remaining disagreement, and grounds for progression. It is distinct from a ballot tally.
+\item[Eligible participant] A person assigned decision rights under the Charter and recorded for the specific decision; authorship, payment, or attendance alone does not confer those rights.
+\item[Calendar day] A day counted using the closing time and time zone stated in the notice. A notice states an exact closing timestamp.
+\end{description}
+
+\section{Founding, responsibilities, and participation}
+\subsection{General}
+
+\req{D1-001}{The programme shall apply the adopted Charter for decision authority and appointments, these Directives for development procedure, Directives Part 2 for drafting, and the adopted Ethics, Conflict-of-Interest, and Contribution Rights Policy for conduct, conflicts, and rights. A conflict between these instruments shall be referred to the governance authority and resolved before a dependent decision proceeds.}
+\req{D1-002}{Every procedural decision shall identify its accountable decision maker, operative authority and procedure versions, input document versions, grounds, outcome, date, and review or appeal route. Drafting, a repository merge, an ADR, or successful compilation shall not constitute governance adoption or Standard approval.}
+\req{D1-003}{An organizational function without an appointed holder and recorded mandate shall remain \texttt{UNASSIGNED}. Formal project initiation and adoption shall remain pending while required authority or an independent appeal route is unavailable. Preliminary research, drafting, and synthetic rehearsals may continue with explicit status labels.}
+\req{D1-004}{Before formal standards-project approval, the founding adoption record shall identify the founding basis, adopted governance texts and versions, participants and capacities, decision method, dissent, transitional limits, review date, and replacement route. Governance adoption shall follow the founding procedure recorded under the Charter, rather than assume that these draft Directives have already authorized themselves.}
+\req{D1-005}{The governance authority shall assign oversight, project progression, public-review administration, release, maintenance, conflict handling, and independent appeal functions. The assignment register shall identify holders, terms, delegated limits, substitutes, and contact routes. Combined roles shall be disclosed; an interested decision maker shall not determine their own procedural appeal.}
+\req{D1-006}{The Secretariat shall maintain an accessible work programme and participation route. A project notice shall identify the problem, scope, current status, available documents, contribution terms, comment routes, decision roles, and intended review dates. Public comment shall not require voting membership or endorsement of the proposal.}
+\req{D1-007}{The review chair shall document outreach to affected interests and relevant expertise, participation barriers, affiliations relevant to dominance, and remaining gaps. The chair shall provide an asynchronous contribution route and record requested accessibility or language accommodations and the response. Lack of response shall not be recorded as consent.}
+\req{D1-008}{Before a formal decision, the chair shall confirm current conflict declarations and apply the adopted recusal procedure. The record shall identify recusals and their effect on eligibility and quorum without disclosing protected details unnecessarily. If conflicts prevent a valid decision or impartial review, progression shall be deferred.}
+\note{Participant eligibility and appointment belong to the Charter; conduct and contribution permissions belong to the Ethics, Conflict-of-Interest, and Contribution Rights Policy. These Directives do not grant membership, impose a license, or establish a legal entity.}
+
+\section{Project initiation and scope control}
+\subsection{General}
+\req{D1-009}{A New Work Item Proposal shall identify purpose, intended users and affected people, publication class, bounded deliverables, exclusions, proposed conformance subjects, alternatives to new standardization, source basis, dependencies, review expertise, pilot evidence, resource needs, and prospective maintenance responsibility.}
+\req{D1-010}{The proposal shall explain how the work addresses warranted recognition or generative trajectory and identify epistemic assumptions, ethical impacts, legal and institutional boundaries, public-policy implications, accessibility, protection needs, and distribution of recording and implementation burdens. A claimed institutional mandate shall identify its source and limits.}
+\req{D1-011}{The technical committee shall begin with the normative problem and assessment needs. A dependent Specification proposal shall identify the draft requirements requiring reusable technical infrastructure, the implementation alternatives, and intended tests. A protocol proposal shall additionally identify actors, interactions, states, transitions, outcomes, failure handling, and authority boundaries.}
+\req{D1-012}{The authorized project decision maker shall record accept, revise, defer, or reject, with reasons, scope, assigned responsibilities, dependencies, and review milestones. A coordinated proposal shall retain a separate bounded scope and progression record for each deliverable. A technical dependency shall not acquire Standard status through inclusion in a proposal.}
+\req{D1-013}{A proposed expansion beyond approved scope shall receive impact review and an explicit scope decision before dependent progression. A Specification intended for promotion to a Standard shall enter an explicit standards-track proposal and the applicable review stages; technical stability alone shall not authorize promotion.}
+
+\subsection{Proposal handling and accountable capacity}
+\req{D1-059}{The Secretariat shall register a proposal with an identifier, receipt date, proposer, proposed class, scope version, and handling status. It shall acknowledge receipt within seven calendar days and identify the authority responsible for scheduling its consideration. An incomplete proposal shall receive a specific request for information or a reasoned deferral; registration shall not confer project approval.}
+\req{D1-060}{Before accepting a project, the decision authority shall verify that the editor and maintenance owner accept their responsibilities, required review competence can be obtained, the resource estimate includes participation and protection work, and the work plan states review dates and capacity limits. An unfilled essential role shall be resolved through assignment, a narrower scope, or deferral, rather than entered as an assumed resource.}
+\req{D1-061}{The project register shall distinguish proposed, active, suspended, closed, and completed work and retain the reason for a change of status. A proposer may withdraw a proposal before authorization; withdrawal shall preserve its record and relevant unresolved issues. Suspension or closure of approved work shall be authorized with affected-participant notice and a disposition of dependencies, contributions, and remaining records.}
+
+\note{Acceptance authorizes bounded work, not its expected conclusion. A negative pilot or a well-supported decision that standardization would add excessive burden can justify scope reduction or closure. A sponsor's preferred implementation remains an alternative to evaluate rather than the implicit criterion of success.}
+
+\section{Stages and progression evidence}
+\subsection{General}
+The following codes are the programme's local lifecycle. They retain the repository's grouping of review, revision, and withdrawal under stage 90. Specifications have separately declared maturity; stage 60 is reserved here for adopted Standards.
+
+\begin{longtable}{@{}L{0.07\linewidth}L{0.20\linewidth}L{0.64\linewidth}@{}}
+\caption{Local development stages and progression evidence}\label{tab:d1-stages}\\
+\toprule
+Stage & Local status & Evidence for progression \\
+\midrule\endfirsthead
+\toprule
+Stage & Local status & Evidence for progression \\
+\midrule\endhead
+00 & Preliminary & Need, preliminary sources, alternatives, and draft NWIP; no project authority presumed. \\
+10 & Proposal & Approved bounded scope, capacity, assignments, dependencies, and review plan. \\
+20 & Working Draft & Candidate clauses, source and decision traceability, assessment methods, and example or pilot design. \\
+30 & Committee Draft & Integrated requirements, review findings and dispositions, pilot evidence and limitations, proposed public-review package. \\
+40 & Public Review Draft & Versioned notice, accessible draft, comments and responses, material-change review, and remaining objections. \\
+50 & Final Approval Draft & Frozen approval package, consensus assessment, valid ballot, procedural checks, and appeal handling. \\
+60 & Published Standard & Recorded adoption and release authorization, verified publication package, maintenance owner and next review date. \\
+90 & Review / revision / withdrawal & Issue and impact evidence; recorded confirmation, correction, amendment, revision, supersession, or withdrawal. \\
+\bottomrule
+\end{longtable}
+
+\req{D1-014}{Each progression decision shall state the current and proposed stage, evaluate the relevant evidence, identify remaining limitations, and record approval, return for revision, deferral, or closure. A stage label shall not substitute for the decision record. No Standard shall skip public review or final approval by claiming that a prototype or pilot already establishes acceptance.}
+\req{D1-015}{The editor shall retain versioned drafts, a requirement-to-source and assessment map, an issue register, and substantive decision records identifying alternatives, selected direction, rationale, and affected artifacts. GR interpretation shall use relevant foundation manuscripts and preserve unresolved source differences; operational narrowing affecting architecture shall have an ADR.}
+\req{D1-016}{At committee review, named reviewers shall evaluate epistemic adequacy, practical usability, ethical and distributional effects, accessibility, preservation and protection, legal/institutional boundaries, and technical feasibility within declared competence. Missing expertise or evidence shall be reported and resolved, or the scope narrowed, before unsupported requirements advance.}
+\req{D1-017}{Pilot reports shall identify the tested versions, cases and negative cases, methods, participants' roles, failures, burdens, limitations, and resulting changes. Synthetic or author-operated tests shall be labelled accordingly. External institutional participation, access authority, independent validation, and legal validity shall not be inferred from a synthetic rehearsal.}
+
+\subsection{Stage controls and project records}
+\req{D1-062}{The project lead shall assemble the entry and exit evidence specified in Annex A before requesting progression. The decision authority shall record its assessment of each applicable item, the evidence locator, responsible reviewer, result, and any required action. An inapplicable item shall have a scope-based reason; unperformed work or unavailable evidence shall not be recorded as fulfilled.}
+\req{D1-063}{A Working Draft shall identify open design alternatives and any unresolved requirements or dependencies. A Committee Draft shall integrate the selected proposal, source rationale, assessment method, and issue disposition sufficiently for a reviewer who did not participate in authoring. Neither designation shall imply that open issues have disappeared merely because the document has been renumbered.}
+\req{D1-064}{Before public review, the chair shall verify that applicable requirements have identified conformance subjects and assessment methods, examples are distinguished from obligations, material pilot failures are visible, and unresolved issues are bounded. A requirement whose interpretation depends on unavailable material or an unsettled contradiction shall be revised, narrowed, or withheld from the proposed normative scope.}
+\req{D1-065}{A coordinated package shall identify authoritative locations for shared requirements, exact dependency versions, change propagation responsibilities, and release sequencing. The responsible editors shall assess a material dependency change against affected scopes, tests, examples, and users before progressing any dependent release. Circular references shall not be used to conceal an unassigned obligation or unsupported conformance claim.}
+\req{D1-066}{A meeting used for a consequential decision shall have prior notice, an agenda and accessible materials, an assigned chair, identified participants and capacities, declared conflicts, and a decision record. A person unable to attend shall have the declared asynchronous opportunity to contribute before the decision closes. Meeting attendance alone shall not replace the prescribed ballot, public review, or reply period.}
+\req{D1-067}{The chair shall circulate a proposed decision record for correction of factual inaccuracies and attribute unresolved corrections before using it as progression evidence. An editorial correction to minutes shall not alter the decision taken; a proposed change to that decision shall use the relevant reconsideration or new-decision procedure. The register shall distinguish a proposal, recommendation, authorization, and completed action.}
+
+\section{Public review and comment disposition}
+\subsection{General}
+\req{D1-018}{Before opening public review, the chair shall freeze a uniquely identified draft and publish its scope, class, maturity, change summary, dependencies, known limitations, review questions, exact opening and closing times, submission routes, and intended treatment of commenter information. Required supporting material shall be accessible to reviewers under workable terms.}
+\req{D1-019}{Public review shall remain open for at least 60 calendar days. The chair shall record outreach, access interruptions, and accommodation needs; a material access failure shall receive an extension sufficient to restore meaningful opportunity, with reasons and revised closing time published.}
+\req{D1-020}{The Secretariat shall accept comments in an accessible free-text route as well as any structured template. It shall assign a stable identifier, record the affected version or topic, requested change if supplied, receipt date, and disclosure preference, and acknowledge receipt within seven calendar days. A comment shall not be rejected solely for lacking technical drafting expertise.}
+\req{D1-021}{The Secretariat shall offer a protected route for justified confidential submissions and explain its access limits. The chair shall arrange competent consideration and publish a safe summary of the issue and disposition where possible. If essential grounds cannot be exposed sufficiently for fair review, the chair shall record the limitation and defer or narrow the affected decision.}
+\req{D1-022}{The responsible review group shall give every in-scope comment a disposition of accepted, accepted with modification, not accepted, or deferred, with reasons and links to affected clauses or issues. Out-of-scope and duplicate comments shall retain identifiers and a reason or linked disposition. Deferral shall identify an owner, next action, and why the unresolved issue does not invalidate proposed progression.}
+\req{D1-023}{The chair shall target initial dispositions within 30 calendar days after review closes. If that target cannot be met, the chair shall publish reasons, interim status, and a new target before it expires. A target extension shall not deem comments resolved. Commenters shall receive disposition notice and at least 30 calendar days to reply before final approval.}
+\req{D1-024}{The chair shall assess each reply and record remaining disagreement. Late comments shall be logged with reasons for current-cycle consideration or later referral; a newly identified material safety, rights, or validity defect shall receive assessment before adoption regardless of receipt date.}
+\req{D1-025}{A substantive post-review change shall undergo public re-review for at least 30 calendar days, showing the changed text, reasons, effects, and affected dependencies. The chair shall notify previous commenters and newly affected interests. A change that substantially alters the purpose, affected constituency, or conformance subject shall receive renewed scope approval and a full 60-day review.}
+\req{D1-026}{Re-review shall permit comments on changed material and its consequences for unchanged clauses. Further substantive changes shall repeat the applicable review. Editorial changes shall be logged with a reason why meaning and conformance remain unchanged.}
+
+\subsection{Comment register and review administration}
+\req{D1-068}{The Secretariat shall maintain the comment and disposition register specified in Annex B. A combined response may address duplicate issues only if each original comment remains traceable and its distinct material grounds are considered. Splitting a submission into issues shall preserve the connection to its original meaning. Summary statistics shall not substitute for the disposition of an unresolved substantive concern.}
+\req{D1-069}{A review closure record shall identify the exact closing time, submissions received, submissions awaiting acknowledgement or clarification, late submissions, access failures, extensions, and next steps. The chair shall distinguish closure of intake from completion of dispositions. The count of unresolved comments shall not become zero merely because the public submission window has closed.}
+\req{D1-070}{For each proposed disposition, the review group shall identify the responsible respondent, material evidence, affected requirements, reason, resulting text or decision, and review required by the change. A not-accepted disposition shall address the substantive grounds rather than rely solely on lack of votes, institutional rank, drafting inconvenience, or an unsupported assertion that the issue was already settled.}
+\req{D1-071}{If a submission includes conduct allegations or protected information together with a technical objection, the Secretariat shall separate access and handling while retaining a safe cross-reference. The technical issue shall continue to receive consideration unless a recorded reason requires a stay. Protected reporting shall not confer permission to publish personal details in the public disposition register.}
+\req{D1-072}{When sending a disposition or re-review notice, the Secretariat shall record its intended recipients, authorized route, content version, dispatch time, and known delivery failures. Where a material failure prevents meaningful reply, the chair shall provide a workable alternative or extend the affected reply opportunity and record the resulting progression consequence. A failed delivery shall not be represented as silence by the recipient.}
+
+\note{A long review period does not demonstrate effective participation if a relevant person could not obtain the text, understand the submission route, or receive a response. Accessibility and outreach are assessed through the record of practical barriers and responses, not inferred from the existence of a public URL.}
+
+\section{Consensus, ballots, and final approval}
+\subsection{General}
+\req{D1-027}{Before recommending progression, the chair shall produce a consensus assessment identifying participation and gaps, objections, attempts at resolution, evidence and alternatives considered, remaining dissent, and reasons for the recommendation. Numerical approval shall not establish substantive truth or by itself dispose of an objection.}
+\req{D1-028}{A sustained substantive objection shall receive reasoned consideration and an opportunity for reply. It shall not automatically confer a veto. Unresolved defects in mandatory procedure, decision authority, rights to participate, or required evidence shall prevent progression until remedied. Other remaining disagreement shall be visible in the approval package and assessed by the authorized decision maker.}
+\req{D1-029}{For adoption, substantive maintenance decisions, and other decisions assigned a formal ballot by the Charter, the Secretariat shall circulate a frozen package and proposed resolution for at least 30 calendar days. It shall state eligible participants, recusals, closing time, threshold calculation, ballot options, and challenge route. Ballots shall be approve, disapprove, or abstain; nonresponse shall be recorded separately.}
+\req{D1-030}{The eligible non-recused roster shall be fixed before ballot opening. Each eligible person shall have one ballot in their declared capacity; proxies and duplicate capacities shall not count. Eligibility corrections or later recusals shall be recorded. A change materially affecting the electorate, quorum, or result shall require a new ballot; membership shall not be manipulated to obtain a desired outcome.}
+\req{D1-031}{Let $N$ be the number of eligible non-recused participants, $R$ valid returned ballots including abstentions, $Y$ approvals, and $D$ disapprovals. A ballot shall meet quorum only if $R\geq\lceil2N/3\rceil$. Approval shall also require at least three substantive ballots, $Y+D\geq3$, and $Y\geq\lceil2(Y+D)/3\rceil$. Abstentions shall count for returned-ballot quorum but not the substantive-ballot minimum or approval denominator; nonresponses shall count for neither.}
+\req{D1-032}{The result shall include the frozen roster count, recusals, valid returned ballots, approvals, disapprovals, abstentions, eligible participants with attributable excluded or unresolved attempted submissions but no valid counted ballot, eligible participants without an attributable submission, calculation, minority grounds, and decision. The reconciliation shall distinguish $R=Y+D+A$, $I$ eligible participants with such unsuccessful attempts and no valid counted ballot, and $U$ eligible participants without an attributable submission, with $N=R+I+U$. Unattributable and ineligible submissions shall have a separate protected inventory and shall not be assigned to an eligible participant without grounds. Failure of quorum or threshold shall return the matter for further work or deferral, without deemed approval. A substantive change during ballot shall return to the applicable review stage.}
+\req{D1-033}{Final approval shall require a procedurally valid ballot, reasoned consensus assessment, completed dispositions and reply periods, resolved blocking findings, compatible normative dependencies, rights clearance, maintenance assignment, and an authorized adoption record. The Secretariat shall publish accessible decision notice, notify participants and commenters, and record when the appeal period starts. Release shall await that period and resolution of any appeal affecting adoption or publication.}
+\openissue{All numerical values in this draft are local proposals requiring author and participant review before governance adoption. They are not ISO/IEEE rules. A valid three-person ballot does not itself demonstrate stakeholder breadth or independent review capacity; the informative defaults annex identifies these participation-risk choices for explicit review.}
+
+\subsection{Ballot administration and authorization}
+\req{D1-073}{The ballot notice shall include the exact resolution, frozen text and associated artifacts, consensus assessment, dispositions, remaining objections, eligibility basis, and required calculation. The Secretariat shall provide each eligible person a means to submit one attributable ballot without disclosing unnecessary personal information and shall identify a neutral route for challenges to ballot administration.}
+\req{D1-074}{A participant may replace their own ballot before the declared closing time; the Secretariat shall count only the latest valid submission and retain a protected audit of the replacement. An ambiguous or unverifiable submission shall receive a clarification request and shall not be silently converted to approval or abstention. The last valid submission shall remain counted unless withdrawn or invalidated under an identified applicable rule. A participant with a valid counted replacement shall not also be counted in the unsuccessful-attempt category in D1-032. Ballot validity decisions shall identify the rule applied, grounds, clarification status and available challenge route; unresolved validity shall not be relabelled as absence of an attempted submission.}
+\req{D1-075}{A ballot extension shall be announced before the original close, state the access or participation reason and new closing time, and apply equally to the eligible electorate. An extension shall not change the resolution or threshold or be used solely to solicit a desired result. A frozen package requiring substantive change shall be withdrawn from ballot and returned to applicable review.}
+\req{D1-076}{A non-conflicted person other than the person compiling the tally shall verify eligibility counts, duplicate or replacement handling, recusals, arithmetic, and the consistency of the declared result with the frozen resolution. The verification record shall identify any unresolved discrepancy. A numerical pass with an unresolved blocking procedural finding shall not authorize adoption.}
+\req{D1-077}{The adoption or release authorization shall identify the approved publication class and edition, resolution, vote result where required, consensus rationale, authority exercised, effective date, appeal notice, and conditions affecting release. The release owner shall distinguish this authorization from compilation, distribution, and commencement of an institution's use. An institution's uptake shall not be inferred from programme publication.}
+
+\section{Procedural appeals and separate complaint routes}
+\subsection{General}
+\req{D1-034}{A participant, commenter, or person directly affected by a programme decision may lodge a procedural appeal identifying the decision, alleged procedural failure, available evidence, and requested remedy. Membership or payment shall not be a condition. The ordinary filing period shall be 30 calendar days after accessible notice of the decision; lack of effective notice or newly discovered concealed procedural failure shall permit a reasoned extension by the independent reviewer.}
+\req{D1-035}{The Secretariat shall acknowledge an appeal within seven calendar days and refer it to an appointed reviewer independent of the disputed decision. The reviewer shall disclose relevant involvement and interests, consider conflict objections, and record independence. The decision's author, a materially interested participant, or a person deciding a related complaint about their own conduct shall not determine the appeal.}
+\req{D1-036}{The reviewer shall state scope, admissibility reasons, record access arrangements, and timetable; provide the appellant and responsible decision maker a meaningful opportunity to reply; and issue a reasoned determination. An initial determination shall be targeted within 30 calendar days of receipt, with reasoned extensions and updated dates notified before expiry. No response or elapsed time shall constitute rejection.}
+\req{D1-037}{An appeal concerning adoption, public-review exclusion, or authority shall pause the affected publication decision. Other appeals shall receive a recorded decision on whether a stay is necessary to prevent prejudice. If no independent reviewer is available, consequential contested progression shall remain pending while unaffected work continues.}
+\req{D1-038}{The reviewer may uphold the process, require disclosure or correction of records, set aside a procedurally defective decision, or remit the matter for renewed participation, review, or ballot. The reviewer shall not substitute a ruling on factual truth, external legal entitlement, or technical merit for procedural review. The accountable body shall record implementation of the remedy before renewed progression.}
+\req{D1-039}{Technical reconsideration, conduct complaints, record-specific access or correction requests, and external legal remedies shall have distinguishable routes. Misrouted submissions shall receive assisted referral rather than silent rejection. Protected conduct handling shall follow the adopted ethics policy; disagreement alone shall not be treated as misconduct. Internal review shall not be presented as replacing external rights or remedies.}
+
+\subsection{Appeal case management}
+\req{D1-078}{An appeal record shall identify the challenged decision, appellant or protected reference, grounds, requested remedy, receipt and notice dates, admissibility assessment, appointed reviewer, disclosed conflicts, participation opportunities, stay status, outcome, reasons, and implementation responsibility. Refusal to admit an appeal shall receive reasons and the same independence safeguards as a determination on its merits.}
+\req{D1-079}{The reviewer shall distinguish an objection to the substantive proposal from an allegation that the operative process was not followed. A submission containing both shall receive coordinated handling without forcing the appellant to abandon either ground. A procedural remedy shall identify which decision or stage is affected and what evidence is required before the stay can be lifted.}
+\req{D1-080}{A protected appeal shall give each affected party sufficient grounds and opportunity to respond for the determination being made. If disclosure limits prevent fair determination, the reviewer shall narrow the finding, obtain an authorized independent examination, or defer with stated reasons. Confidentiality shall not be described as proof that the undisclosed account is correct.}
+\req{D1-081}{The Secretariat shall track implementation of an appeal remedy and provide the appellant with its status through the permitted route. A remitted decision shall cite the appeal and demonstrate completion of the required reconsideration or repeated stage. Closing the appeal file shall not establish that a correction, new review, or practical remedy has been completed.}
+
+\note{Repeated submissions of the same disposed procedural point can be consolidated with an explanation and a preserved reference. Newly available evidence, a different material procedural failure, or alleged nonimplementation of a remedy requires an assessment of whether the case should be reopened; a previous closure is not a universal bar.}
+
+\section{Publication and release integrity}
+\subsection{General}
+\req{D1-040}{The release owner shall verify that the exact publication package implements the approved text and decision. The package shall identify edition, date, class, maturity, adoption authority, conformance scope, dependencies, licenses or permissions, known limitations, maintenance contact, next review date, and superseded publications where applicable.}
+\req{D1-041}{The release manifest shall identify authoritative source files, rendered publications, schemas or fixtures where included, their versions and integrity checks, build instructions and tool versions, and the approval record. A reviewer other than the final editor shall compare the rendered output with the approved source for omitted, altered, or unreadable requirements and record the result.}
+\req{D1-042}{The release owner shall resolve source/build discrepancies before release. Source corrections affecting meaning shall return to substantive review; a rebuild shall not silently change an adopted requirement. Public notices shall distinguish an adopted Standard, a Specification, an informative publication, and a policy recommendation and shall not claim ungranted endorsement or certification.}
+
+\subsection{Release dependencies and distribution}
+\req{D1-082}{Before release, the owner shall complete the release register in Annex B, including dependency availability, permission basis, source/render verification, accessibility limitations, unresolved issues, appeal status, distribution locations, and withdrawal contact. A dependency that is unavailable on usable terms shall trigger scope revision or deferral rather than an unsupported interoperability claim.}
+\req{D1-083}{A corrected build or accessible alternative representation shall identify its relationship to the approved edition and whether substantive content is unchanged. Where two representations disagree, the owner shall issue a notice, determine the approved content from the decision record, and correct the affected artifacts under the applicable change procedure. A hidden preference for the newest file shall not resolve normative disagreement.}
+
+\section{Maintenance, review, and withdrawal}
+\subsection{General}
+\req{D1-043}{Every release shall have an assigned maintenance owner, issue intake route, and next review date. The default review interval shall be two years, shortened by a recorded risk-based decision. Loss of ownership, serious defects, changed dependencies, inaccessible implementation rights, or evidence of material exclusion or harm shall trigger earlier review. An overdue review shall be publicly marked and escalated; silence shall not confirm continued suitability.}
+\req{D1-044}{The maintenance owner shall log reported issues, classify their effect, identify affected versions and dependencies, and publish disposition or investigation status. A correction request shall not be rejected merely because the reported behavior matches the current text.}
+\req{D1-045}{A corrigendum shall correct an error without introducing a new obligation, altering intended meaning, or changing a valid conformance outcome. It shall identify the affected text, corrected text, justification, reviewer, and authorization. If semantic effect is uncertain, the change shall use the amendment or revision route. Historical publications shall remain identifiable rather than silently overwritten.}
+\req{D1-046}{An amendment shall make a bounded substantive change to a named edition; a revision shall issue a consolidated new edition. Both shall receive scope approval, assessment of dependent artifacts and users, appropriate pilots, committee and public review, and final approval under these Directives. An incompatible change shall include migration, coexistence, and deprecation information without claiming lossless conversion absent evidence.}
+\req{D1-047}{Periodic review shall invite evidence from users and affected parties and record confirmation, correction, amendment, revision, supersession, or withdrawal with reasons. Confirmation shall require a maintenance report and an authorized decision; it shall not erase known limitations.}
+\req{D1-048}{Proposed withdrawal or supersession shall receive a public notice of reasons, dependencies, transition consequences, and alternatives for at least 60 calendar days, followed by comment disposition, reply, and formal approval. Withdrawn editions shall remain identifiable with status and date; withdrawal shall not retroactively change what a past conformance claim asserted. Necessary protection of underlying records shall follow D1-052, D1-053, and EIP-039.}
+
+\subsection{Maintenance decisions and compatibility}
+\req{D1-084}{An issue assessment shall distinguish editorial error, conflicting requirements, implementation defect, changed external dependency, emerging misuse or harm, accessibility failure, and proposed new scope. The maintenance owner shall state the affected editions, current mitigation, evidence required, accountable next action, and review date. Classification shall be reconsidered when new evidence changes the issue's substantive effect.}
+\req{D1-085}{A proposed corrigendum shall be reviewed by a person other than its editor against examples and known conformance outcomes material to the correction. If the parties disagree whether meaning changes, the owner shall preserve the disagreement and use substantive review unless the uncertainty is resolved with recorded grounds. Issuing a corrected file shall not erase the original published error and its applicability interval.}
+\req{D1-086}{An amendment or revision proposal shall assess current users, dependencies, historical records, version negotiation, migration losses, and coexistence needs. The approval record shall distinguish prospective requirements from statements about previous editions. A deprecated feature shall have a reason, affected scope, intended alternative, and transition notice; deprecation alone shall not retroactively change an earlier conformance result.}
+\req{D1-087}{A confirmation decision shall identify the review evidence, known limitations, current maintenance capacity, dependency status, and next review date. If review cannot establish continued suitability, the authority shall select further investigation, narrowing, revision, suspension of programme recommendations, or withdrawal rather than confirm by default. A dormant publication shall remain findable with its actual status.}
+
+\section{Emergency safeguards and continuity}
+\subsection{General}
+\req{D1-049}{An authorized governance or release holder may issue a time-limited warning or suspend programme distribution or programme recommendations for new use where a documented serious protection, rights, or integrity risk requires immediate action. The action shall state evidence, scope, authority, duration, contact, affected users, and safe public reasons. It shall remain within programme authority and shall not create or amend normative requirements or purport to invalidate external legal decisions.}
+\req{D1-050}{Emergency action shall receive independent review within seven calendar days and expire within 30 calendar days unless the governance authority records a justified extension, next review date, and remedy plan. Unavailable independent capacity shall not authorize emergency adoption. Permanent amendment or withdrawal shall follow the ordinary procedure; protective handling of unlawfully or improperly disclosed material remains governed by the applicable policy and context.}
+\req{D1-051}{A vacant role shall trigger recorded reassignment within the Charter's mandate or deferral of dependent decisions. A temporary substitute shall meet the same conflict and independence conditions. Emergency procedure shall not be used to avoid consultation because ordinary development is late or under-resourced.}
+
+\subsection{Incident follow-up}
+\req{D1-088}{The owner of an emergency action shall maintain an incident record identifying the triggering evidence, protection decision, consultations, users notified, independent review, expiry or extension, and restoration criteria. At closure, the governance authority shall assess whether ordinary maintenance, a procedural amendment, or further support is needed and publish permitted reasons. Repetition of temporary measures shall not conceal an unresolved need for substantive review.}
+
+\section{Records, transparency, and external liaison}
+\subsection{General}
+\req{D1-052}{The Secretariat shall preserve linked proposal, draft, comment, disposition, decision, ballot-result, appeal-outcome, release, and maintenance records. Public readers shall be able to follow the grounds and changes of a decision without mandatory access to private correspondence. Record corrections shall retain the prior account and correction relationship where lawful and appropriate.}
+\req{D1-053}{A records schedule shall state purpose, custodian, access category, retention period or trigger, restriction review, and authorized disposition for each record category. Public publication history and safe decision reasons shall be retained durably; sensitive submissions and personal data shall not be retained indefinitely by default. A restriction or deletion shall preserve a safe explanation when permitted, without revealing protected existence or identity.}
+\req{D1-054}{The governance authority shall publish an annual account of active work, decisions, unresolved objections, participation gaps, funding influence, overdue maintenance, and procedural incidents at a level that protects affected people. The account shall distinguish claimed representation from evidenced participation.}
+\req{D1-055}{External liaison shall have an explicit mandate identifying purpose, authorized speaker, commitments permitted, and reporting duties. A policy proposal shall identify its intended institution and review route and remain recommendatory. Liaison, use of external sources, and informal participation shall not imply affiliation, institutional endorsement, or adoption of another body's procedures.}
+
+\subsection{Publication routes outside Standard adoption}
+\req{D1-056}{Before external release of a Specification or informative publication, the responsible authority shall approve a work-item review plan identifying publication class, maturity criteria, release authority, reviewers and needed competence, public-comment arrangements and period with rationale, objection disposition, appeal route, maintenance responsibility and rights clearance. The release record shall identify fulfillment and remaining limitations. Drafting alone shall not constitute that approval.}
+\req{D1-057}{A Specification release containing technical conformance requirements shall use the technical review, public review, disposition, ballot and appeal rules in this Part, while retaining Specification status and its declared maturity. Its release shall not use stage 60 or imply Standard adoption. Promotion shall require an explicit Standard work-item and adoption decision with review of changed scope, requirements and prior evidence.}
+\req{D1-058}{A Policy or Institutional Proposal shall receive a separate mandate-specific release decision identifying its intended addressee, institutional and affected-interest review, public-comment opportunity, considered alternatives and unresolved objections. Its review plan shall preserve a reasoned disposition and the procedural appeal route in this Part. An informative report or manual shall likewise identify its review and release decision without claiming technical Standard conformance authority.}
+
+\subsection{Procedure assessment and continuing improvement}
+\req{D1-089}{An assessment against these Directives shall identify the procedure, project and decisions covered, operative or rehearsal editions, assessor and relationship, methods, evidence, and results for every applicable requirement. Documentary checks and observation of performed procedures shall be distinguished. An unobserved action shall remain not assessed when only a designed form or hypothetical record is available.}
+\req{D1-090}{The governance authority shall review procedural failures and participant feedback for recurring barriers, delay, concentrated influence, unavailable remedies, or unmanageable burden. The review shall identify corrective actions, owners, and follow-up evidence. A procedural amendment shall itself follow the Charter's review and transition rules and shall not retrospectively validate a defective decision.}
+
+\GSPannex{normative}{Stage evidence and procedural schedule}
+\subsection{General}
+This annex defines the evidence schedule invoked by D1-062. The stage labels apply to Standards-track development; D1-056 through D1-058 define how other publication classes use the applicable controls without acquiring Standard status. Evidence can be held in one coordinated dossier with references rather than duplicated in separate files.
+
+\req{D1-091}{The stage dossier shall identify each scheduled evidence item, its location and version, custodian, access limitations, assessment result, and unresolved action. An item may be reused from an earlier stage when the responsible reviewer confirms that its scope and evidence remain applicable. Reuse shall not imply that a later change has been reviewed when it has not.}
+
+\begin{longtable}{@{}L{0.12\textwidth}L{0.37\textwidth}L{0.41\textwidth}@{}}
+\caption{Required stage-entry and exit evidence}\label{tab:d1-gates}\\
+\toprule Stage & Entry and work evidence & Exit and failure disposition \\
+\midrule\endfirsthead
+\toprule Stage & Entry and work evidence & Exit and failure disposition \\
+\midrule\endhead
+00 & Identified problem, preliminary sources, affected interests, and alternatives, including reuse or no new publication. & A registered proposal with limitations; preliminary work retains that label if authority, need, or capacity is not established. \\
+10 & NWIP scope, class, conformance subjects, source questions, dependencies, impact and participation analysis, planned evidence and resources. & Authorized scope and accepted assignments, maintenance responsibility, review milestones, and decision rationale; incomplete capacity produces revise or defer. \\
+20 & Approved scope and candidate requirements, definitions, source map, ADRs for architectural choices, and assessment design. & Integrated Working Draft suitable for committee examination, with open issues, examples, and planned pilot; an editor's preference alone does not close an unresolved material issue. \\
+30 & Reviewer assignments and competence; integrated draft; pilot or other relevant evidence; dependency and rights review. & Committee findings and dispositions, horizontal review, known limitations, exact public-review package and outreach plan. Unsupported requirements return for revision or narrower scope. \\
+40 & Frozen Public Review Draft, available dependencies and evidence, notice, submission and protection arrangements. & Comment register, dispositions, replies, required re-review, remaining objections, and consensus assessment. A materially changed text does not advance on comments about its predecessor alone. \\
+50 & Frozen Final Approval Draft, eligibility and conflict records, completed review dossier, final resolution and maintenance proposal. & Verified valid ballot, authorized decision, notice and appeal record, resolved release blockers. A failed threshold returns to work or deferral rather than automatic withdrawal of the dissent. \\
+60 & Release authorization and closed appeal conditions; exact source, render and artifact manifest; accessible status and terms. & Publication notice, maintenance route, next review date and archived decision trace. A build discrepancy prevents release until the applicable corrective process is complete. \\
+90 & Issue intake, usage and impact evidence, dependencies, maintenance capacity and review notice. & Reasoned confirmation, correction, amendment, revision, supersession or withdrawal. Substantive changes return through applicable stages; current limitations stay visible during investigation. \\
+\bottomrule
+\end{longtable}
+
+\subsection{Timing and clock records}
+\req{D1-092}{Every notice governed by a period in Table~\ref{tab:d1-periods} shall state the starting event, time zone, closing timestamp, responsible function, extension rule, and next route if the period is missed. The period shall be measured from effective accessible notice or the specified receipt event. A changed closing time shall remain traceable to the prior notice and its reason.}
+
+\begin{longtable}{@{}L{0.30\textwidth}L{0.24\textwidth}L{0.36\textwidth}@{}}
+\caption{Local procedural periods and their effect}\label{tab:d1-periods}\\
+\toprule Action & Proposed period & Meaning and controlling requirement \\
+\midrule\endfirsthead
+\toprule Action & Proposed period & Meaning and controlling requirement \\
+\midrule\endhead
+Proposal, comment, appeal acknowledgement & Within seven calendar days of receipt & Receipt response; not acceptance of the substantive claim. D1-020, D1-035, D1-059. \\
+Initial public review & At least 60 calendar days & Minimum opportunity; access failures can require extension. D1-019. \\
+Material re-review & At least 30 calendar days & Full 60-day review when purpose, constituency, or conformance subject changes substantially. D1-025. \\
+Initial comment disposition & Target 30 calendar days after close & Reasoned extension and updated target before expiry; no deemed resolution. D1-023. \\
+Reply to dispositions & At least 30 calendar days before approval & Material reply assessed; renewed review where resulting change requires it. D1-023/024. \\
+Ballot & At least 30 calendar days & Frozen resolution and roster; controlled extension or restart. D1-029/075. \\
+Ordinary appeal filing & 30 calendar days after accessible notice & Reasoned extension for ineffective notice or newly discovered concealed failure. D1-034. \\
+Initial appeal determination & Target 30 calendar days from receipt & Independent handling and reasoned extensions; silence is not rejection. D1-036. \\
+Maintenance review & Default two years & Earlier risk-based review; annual governance review remains separate. D1-043 and Charter. \\
+Withdrawal notice & At least 60 calendar days & Disposition, reply and formal approval follow; an emergency warning is distinct. D1-048. \\
+Emergency review and expiry & Review within seven; expiry within 30 calendar days & Extension requires recorded reasons, next review, and remedy plan. D1-050. \\
+\bottomrule
+\end{longtable}
+
+\req{D1-093}{A missed acknowledgement or target date shall remain visible as a procedural event with reason, effect, corrective action, and notice to permitted recipients. An extension shall not erase the missed service obligation or cure exclusion retrospectively. An unresolved failure material to fair consideration shall prevent dependent progression until remedied.}
+
+\GSPannex{normative}{Registers and minimum decision records}
+\subsection{General}
+The schedule below defines record content, not a mandatory database schema. A protected locator can replace publicly identifying detail when the accountable custodian and basis remain available for authorized review. The applicable retention schedule determines what survives; the record of a disposition does not itself authorize indefinite preservation of its underlying sensitive evidence.
+
+\req{D1-094}{The Secretariat shall maintain the registers in Table~\ref{tab:d1-registers} for applicable activities. Each record shall have a distinguishable reference, version or correction relationship, responsible custodian, creation time, and permitted access scope. A shared register may satisfy several functions if each required distinction remains retrievable.}
+
+\begin{longtable}{@{}L{0.23\textwidth}L{0.67\textwidth}@{}}
+\caption{Minimum procedural register contents}\label{tab:d1-registers}\\
+\toprule Register & Required content in addition to common identification and custody \\
+\midrule\endfirsthead
+\toprule Register & Required content in addition to common identification and custody \\
+\midrule\endhead
+Work and scope & Need; proposer; class; current scope; exclusions; dependencies; status; assignments; resources; milestones; changes; decision and affected projects. \\
+Roles and eligibility & Accepted capacity; mandate; term; criteria; nomination and selection reasons; interests; recusals; substitute; decision-specific eligibility; challenge and disposition. \\
+Issues and alternatives & Source or trigger; affected clauses; materiality; alternatives; evaluation; selected direction; rationale; remaining uncertainty; affected artifacts; owner and next action. \\
+Comments and dispositions & Submission and issue references; target version; grounds; requested change if supplied; receipt; protection preference; response; reasons; changed text; reply; remaining disagreement; re-review decision. \\
+Consensus and decisions & Participants and gaps; substantial objections; resolution attempts; evidence; rationale; authority; operative procedure; outcome; date; limitations; notification and appeal route. \\
+Ballots & Frozen package and resolution; roster and conflicts; valid and replacement ballots; exclusions and reasons; valid returned, yes, no and abstain counts; eligible unsuccessful-attempt and no-attributable-submission counts reconciled under D1-032; separate unattributable/ineligible submission inventory; calculations; verification; final decision. \\
+Appeals and remedies & Challenged decision; grounds; standing; notice; independent assignment; disclosures; replies; stay; determination; remedy; responsible executor; verification and unresolved implementation. \\
+Releases & Publication class and edition; approval record; dependency versions; source and build manifest; rights and accessibility review; corrections; distribution; appeal status; owner; next review. \\
+Maintenance and incidents & Affected editions; reported issue; classification; severity and limits; interim protection; users notified; review and expiry; compatibility consequences; final disposition and follow-up. \\
+\bottomrule
+\end{longtable}
+
+\req{D1-095}{A public decision view shall preserve enough permitted information to identify the issue, authority, reasons, outcome, status, and challenge route. An authorized assessor shall be able to locate the underlying protected record when their mandate permits. A restriction that prevents assessment shall produce a stated assessment limitation rather than a presumed pass.}
+
+\GSPannex{informative}{Proposed defaults and alternatives}
+\subsection{General}
+These choices make the draft exercisable; they remain \textbf{PROVISIONAL} until explicit governance adoption. A future change to operative thresholds or minimum periods needs governance amendment and does not apply retrospectively to an open ballot or review.
+
+\begin{longtable}{@{}L{0.23\linewidth}L{0.32\linewidth}L{0.35\linewidth}@{}}
+\caption{Local defaults, purposes, and alternatives}\label{tab:d1-defaults}\\
+\toprule
+Proposed default & Purpose & Alternative and evidence needed \\
+\midrule\endfirsthead
+\toprule
+Proposed default & Purpose & Alternative and evidence needed \\
+\midrule\endhead
+60-day public review; 30-day material re-review & Allow asynchronous participation while enabling bounded iteration. & Longer multilingual review or shorter narrow review; test notice reach, access, and actual response burden. Shortening minima needs prior governance amendment. \\
+30-day disposition target and reply period; seven-day acknowledgement & Make receipt and delay visible while preserving substantive consideration. & Different service targets; test volunteer capacity and accessibility needs. A target is not an automatic closure rule. \\
+30-day ballot and appeal periods & Give participants time to read a fixed package and challenge process. & Longer periods for complex work; test availability and remedy effectiveness. \\
+Two-thirds returned-ballot quorum; three substantive votes; two-thirds approval & Prevent adoption based on one affirmative vote and abstentions; require substantial expressed support. & Larger minimum electorate or stakeholder balance conditions. Three voters do not demonstrate constituency breadth; assess actual participation and available competence. \\
+Two-year maintenance review & Require periodic attention without continuous reballoting. & Annual or longer scope-specific review; evaluate dependency change, harms, issue volume, and maintenance resources. \\
+Seven-day emergency review; 30-day expiry & Limit exceptional authority and expose delays. & Shorter periods for urgent privacy incidents; test reviewer availability and restoration of ordinary review. \\
+\bottomrule
+\end{longtable}
+
+\GSPannex{informative}{Worked progression and rehearsal evidence}
+\subsection{Worked progression}
+Consider a synthetic proposal for a record-correction protocol. Its first version assumes that only record custodians can challenge a classification. An affected-participant reviewer explains why that scope excludes people whose records are used in decisions. The editor proposes an accessible participant route and identifies the additional authentication and protected-contact infrastructure required. The Specification need follows the normative problem; it is not inferred from an available software library.
+
+The committee records the competing alternatives: custodian-only correction, direct participant submission, and assisted representative submission. Its selected draft uses the latter two within a declared authority boundary. The decision retains the rejected alternative and reasons, including participation burden and risk of exposing identities. A public-review comment then demonstrates that the selected route still requires an unavailable identifier. Removing that prerequisite changes accepted inputs, requiring material re-review and corresponding changes to tests and explanatory examples.
+
+Suppose the later ballot has five eligible non-recused people and four returns: two approvals, one disapproval, and one abstention. The numerical conditions pass because four returns meet the quorum, three substantive votes meet the minimum, and two approvals satisfy the two-thirds threshold. The objection still needs its disposition and consensus assessment. If the disapproving participant identifies a mandatory review omission, that blocking failure prevents approval despite the tally. The case distinguishes evidential reasons, consensus assessment, numerical support, and authority to progress.
+
+A procedural appeal subsequently establishes that the affected reviewer never received the changed draft. The independent reviewer remits the decision for renewed notice and reply. The new decision cites the remedy and evidence that the opportunity was restored. No prior vote is silently relabelled as agreement with a text it did not consider. Publication then identifies the exact approved source, rendered edition, protocol artifact, and maintenance owner. Later correction of an example is evaluated for substantive effect before the owner chooses corrigendum or amendment.
+
+This sequence is a design example only. Its people, comments, votes, appeal, and release have not occurred. The evaluated arithmetic cases in \path{examples/validation_0.2/p0-governance-rehearsal.md} cover finite calculations, not the operational behavior described here.
+
+\subsection{Rehearsal method and evidence}
+A useful rehearsal records actors as fictional or unassigned, uses identified draft versions, and leaves a complete decision trail. It is not actual public review, proof of representativeness, or governance adoption.
+
+Assessment uses an evidence register with a row for each applicable D1 identifier, the procedure or decision assessed, required record location, reviewer, result (fulfilled, not fulfilled, not assessed, or not applicable), and unresolved action. A not-applicable result identifies the absent trigger. Document inspection assesses notices, disclosures, reasons, and manifests; arithmetic recalculation assesses ballot results; observed exercises assess intake, recusal, reply, appeal, and restoration behavior. Independent procedural review assesses contested fairness and authority. Missing records or unperformed procedures are not counted as fulfillment.
+
+\begin{enumerate}
+\item Process a bounded NWIP through accept, revise, and defer alternatives. Identify an infrastructure need without presuming a Specification or Standard already exists.
+\item Receive an accessible free-text comment, a protected submission, and a sustained minority objection. Show acknowledgement, reasoned disposition, reply, and safe publication.
+\item Re-review a material change and demonstrate why a change of constituency restarts full review. Preserve unsuccessful alternatives and source uncertainty.
+\item Recalculate a ballot after recusal: with five eligible people, four returns meet quorum; two approvals, one disapproval, and one abstention satisfy the approval threshold. Repeat with two returns and show deferral.
+\item Test three returns consisting of one approval and two abstentions. Record failure of the three-substantive-vote minimum even though returned-ballot quorum can be met.
+\item Appeal exclusion from review; document independent appointment, conflict challenge, stay, reply, remedy, and renewed decision. Repeat with no independent reviewer and show pending progression.
+\item Compare approved source and rendered output, detect an omitted requirement, and prevent release. Distinguish typographic correction from a changed conformance result.
+\item Simulate maintenance, incompatible revision, withdrawal, an urgent warning, and role vacancy. Demonstrate that an emergency cannot adopt a Standard.
+\end{enumerate}
+The rehearsal report records failures, required staffing, elapsed effort, participation and confidentiality barriers, revised clauses, and remaining questions before the founding participants assess readiness.
+
+\GSPannex{informative}{Source tailoring and open decisions}
+\subsection{Comparison and local choices}
+The programme's Brief and comprehensive plan supply the mission and local lifecycle. The comparative planning study supplies the alternatives examined. This draft proposes its own procedures and values; it does not claim ISO, IEEE, or WTO conformity, accreditation, or international representativeness.
+For the expansion decision and alternatives, see \path{decisions/ADR-0005-expanded-drafts-and-source-models.md}. The external-model comparison is maintained in \path{docs/references/drafting_models.md}; neither record substitutes for governance adoption.
+
+ISO's model document informs the separation of foreword, introduction, scope, references, terminology, clauses, annexes, and bibliography. IEEE's procedural material informs the distinction between project supervision, review, ballot, and appeal functions. ITU-T's working-method and author guidance provide a United Nations system comparison for organized technical contributions and Recommendation preparation. These are comparisons of document and procedural functions; this programme has neither those organizations' constituencies nor their institutional powers.
+
+The United Nations National Quality Assurance Frameworks Manual supplies a complementary comparison: attention to institutional environment, production processes, and outputs helps avoid evaluating only the finished publication. D1-060, D1-062, and D1-089 accordingly examine capacity, process evidence, and the limits of the resulting claim separately. This is a programme interpretation, not a declaration that the statistical framework governs generativity standards.
+
+\openissue{The comparative study records an access gap for the full ISO/IEC Directives Part 1:2026 and Part 2 amendment text. This draft makes no clause-level claim about those unverified texts. Founding authority, actual appointments, contribution terms, neutral review availability, and numerical defaults need explicit resolution before governance adoption.}
+
+\GSPbibliography
+
+\source{ISO, \emph{International harmonized stage codes}, official webpage checked 22 September 2026, \url{https://www.iso.org/stage-codes.html}. The source distinguishes publication, review, and withdrawal; this programme retains its existing local stage 90 grouping. No ISO substage deadlines or voting rules are imported.}
+\source{IEEE SA, \emph{Standards Board Operations Manual}, clause 5, official webpage checked 22 September 2026, \url{https://standards.ieee.org/about/policies/opman/sect5/}. Its separation of project supervision, review, and appeals informs comparison. The programme's staffing, deadlines, eligibility, and remedies above are new local proposals, not statements of IEEE requirements.}
+\source{WTO, \emph{Principles for the Development of International Standards, Guides and Recommendations}, official presentation of the 2000 TBT Committee decision, checked 22 September 2026, \url{https://www.wto.org/english/tratop_e/tbt_e/principles_standards_tbt_e.htm}. Its process principles inform scrutiny of transparency, participation, relevance, and coherence; no determination of legal status under the TBT Agreement is made.}
+\source{ISO, \emph{Model document of an International Standard}, 2023, \url{https://www.iso.org/iso/model_document-rice_model.pdf}. Informative structural model, not a conformance dependency.}
+\source{ITU-T, \emph{Recommendation A.1: Working methods for study groups of the ITU Telecommunication Standardization Sector}, September 2019, official edition/status record: \url{https://www.itu.int/itu-t/recommendations/rec.aspx?rec=a.1}; and \emph{Author's Guide}, June 2023, \url{https://www.itu.int/dms_pub/itu-t/oth/0a/0f/T0A0F0000040005PDFE.pdf}. Informative organizational and drafting comparisons; no ITU procedure is incorporated.}
+\source{United Nations, \emph{United Nations National Quality Assurance Frameworks Manual for Official Statistics}, 2019, \url{https://unstats.un.org/unsd/methodology/dataquality/references/1902216-UNNQAFManual-WEB.pdf}. Informative comparison of institution, process, and output quality; no statistical-system mandate is claimed. The programme's comparison record is \path{docs/references/drafting_models.md}.}
+
+\end{document}

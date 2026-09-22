@@ -1,0 +1,112 @@
+{
+  "class": "Informative source/access register",
+  "checked_on": "2026-09-22",
+  "sources": [
+    {
+      "id": "ISO-MODEL-2023",
+      "title": "ISO Model International Standard",
+      "edition": "2023, third edition",
+      "metadata_url": "https://www.iso.org/publication/PUB100407.html",
+      "content_url": "https://www.iso.org/iso/model_document-rice_model.pdf",
+      "access": "browser full text and metadata; direct download HTTP 403",
+      "use": "editorial model",
+      "normative_dependency": false
+    },
+    {
+      "id": "ISO-HOUSE-STYLE",
+      "title": "ISO House Style",
+      "edition": "HTML checked 2026-09-22",
+      "metadata_url": "https://www.iso.org/ISO-house-style.html",
+      "content_url": null,
+      "access": "official HTML inspected",
+      "use": "editorial guidance",
+      "normative_dependency": false
+    },
+    {
+      "id": "ISO-DIRECTIVES",
+      "title": "ISO Directives and policies",
+      "edition": "catalogue checked 2026-09-22",
+      "metadata_url": "https://www.iso.org/directives-and-policies.html",
+      "content_url": null,
+      "access": "catalogue only for current amended Part 2; no full amended text inspected",
+      "use": "access limitation",
+      "normative_dependency": false
+    },
+    {
+      "id": "IEEE-OPMAN-6",
+      "title": "IEEE SA Standards Board Operations Manual, Clause 6",
+      "edition": "HTML checked 2026-09-22",
+      "metadata_url": "https://standards.ieee.org/about/policies/opman/sect6/",
+      "content_url": null,
+      "access": "official HTML inspected",
+      "use": "structure, references, verbal forms, status",
+      "normative_dependency": false
+    },
+    {
+      "id": "IEEE-DRAFTING",
+      "title": "IEEE drafting resources",
+      "edition": "catalogue checked 2026-09-22",
+      "metadata_url": "https://standards.ieee.org/develop/drafting-standard/",
+      "content_url": null,
+      "access": "catalogue inspected; linked Style Manual and checklist HTTP 418, 2026 Word template HTTP 403; contents not inspected",
+      "use": "access limitation",
+      "normative_dependency": false
+    },
+    {
+      "id": "ITU-AUTHOR-2023",
+      "title": "Authors Guide for drafting ITU-T Recommendations",
+      "edition": "June 2023",
+      "metadata_url": "https://www.itu.int/oth/T0A0F000004/en",
+      "content_url": "https://www.itu.int/dms_pub/itu-t/oth/0a/0f/T0A0F0000040005PDFE.pdf",
+      "access": "browser full text and metadata; direct download returned HTML",
+      "use": "editorial comparator",
+      "normative_dependency": false
+    },
+    {
+      "id": "ITU-A1-2019",
+      "title": "ITU-T A.1: Work methods for study groups of the ITU Telecommunication Standardization Sector",
+      "edition": "September 2019",
+      "metadata_url": "https://www.itu.int/itu-t/recommendations/rec.aspx?rec=a.1",
+      "content_url": null,
+      "access": "catalogue only: edition marked in force; operative full text not inspected",
+      "use": "further institutional study",
+      "normative_dependency": false
+    },
+    {
+      "id": "UNCEFACT-CCTS-3",
+      "title": "UN/CEFACT Core Components Technical Specification",
+      "edition": "3.0, 29 September 2009",
+      "metadata_url": "https://unece.org/trade/documents/2009/09/uncefact-core-components-technical-specification-version-30",
+      "content_url": "https://unece.org/DAM/cefact/codesfortrade/CCTS/CCTS-Version3.pdf",
+      "access": "catalogue only; PDF HTTP 403, contents not inspected",
+      "use": "technical publication class",
+      "normative_dependency": false
+    },
+    {
+      "id": "UN-NQAF-2019",
+      "title": "United Nations National Quality Assurance Frameworks Manual for Official Statistics",
+      "edition": "2019, ST/ESA/STAT/SER.M/100",
+      "metadata_url": "https://desapublications.un.org/publications/united-nations-quality-assurance-frameworks-manual",
+      "content_url": "https://unstats.un.org/unsd/methodology/dataquality/references/1902216-UNNQAFManual-WEB.pdf",
+      "access": "official full text inspected and PDF downloaded",
+      "use": "institutional, process and output quality comparator",
+      "normative_dependency": false,
+      "local_cache": {
+        "path": "build/reference_sources/un-nqaf-2019.pdf",
+        "bytes": 1767647,
+        "sha256": "9ad3ef6ee613d69dc47263863cb4d0220e3c320bdfb6e5b8f757b6217efd9345",
+        "tracked": false
+      }
+    },
+    {
+      "id": "UNESCO-AI-ETHICS-2021",
+      "title": "Recommendation on the Ethics of Artificial Intelligence",
+      "edition": "Adopted 23 November 2021",
+      "metadata_url": "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+      "content_url": null,
+      "access": "official HTML text and adoption metadata inspected",
+      "use": "bounded ethics and institutional comparator for AI-mediated work",
+      "normative_dependency": false
+    }
+  ]
+}

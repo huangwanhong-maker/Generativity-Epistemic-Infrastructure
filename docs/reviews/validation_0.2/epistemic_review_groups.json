@@ -1,0 +1,462 @@
+[
+  {
+    "id": "EPG-01",
+    "document": "GR-200",
+    "requirements": [
+      "E200-001",
+      "E200-002",
+      "E200-027",
+      "E200-045",
+      "E200-046",
+      "E200-047",
+      "E200-048",
+      "E200-049"
+    ],
+    "topic": "Package boundary, structural context, assessment and changed editions",
+    "review_status": "finding",
+    "basis": "Archived GR-200 clauses 4, 9 and normative Annexes A/B; GR-100 8.3; epistemic_review.md EP-04.",
+    "evidence": "P1/v2 sections 1 and 9; component result register; actual documentary review distinguished from in-world representations.",
+    "finding_ids": [
+      "EP-04"
+    ],
+    "next_action": "Retain component aggregation safeguards; carry no full package pass from partial inspection; reassess changed dependencies."
+  },
+  {
+    "id": "EPG-02",
+    "document": "GR-200",
+    "requirements": [
+      "E200-003",
+      "E200-004",
+      "E200-005",
+      "E200-006",
+      "E200-007",
+      "E200-008",
+      "E200-028",
+      "E200-029"
+    ],
+    "topic": "Claim units, attribution, mode, scope and times",
+    "review_status": "reviewed",
+    "basis": "FM-005 section 5.4 pp.28-29 and section 5.20 pp.169-173; GR-200 clause 5.",
+    "evidence": "P1 C1 versions and C7a/b/c; inventory target/acquisition/recording/assessment distinctions; declared recorder vs represented source.",
+    "finding_ids": [],
+    "next_action": "Retain; test independent recovery of target, source and time distinctions in rehearsal."
+  },
+  {
+    "id": "EPG-03",
+    "document": "GR-200",
+    "requirements": [
+      "E200-009",
+      "E200-030",
+      "E200-031"
+    ],
+    "topic": "Identity, observation and inferential structure",
+    "review_status": "reviewed",
+    "basis": "GR-200 clause 5; FM-005 pp.28-29,145,161-162 distinguish traces, causal linkage and machine observation conditions.",
+    "evidence": "P1 unresolved instrument match, unavailable calibration method and stated missingness assumption.",
+    "finding_ids": [],
+    "next_action": "Retain identity uncertainty; obtain a domain examiner before claiming calibration sufficiency."
+  },
+  {
+    "id": "EPG-04",
+    "document": "GR-200",
+    "requirements": [
+      "E200-010",
+      "E200-011",
+      "E200-012",
+      "E200-032",
+      "E200-033",
+      "E200-034"
+    ],
+    "topic": "Claim-relative material, evidential roles, dependence and transformations",
+    "review_status": "reviewed",
+    "basis": "FM-005 Definitions 5.25/5.26 and Claim 5.27 pp.28-29; machine selection pp.161-162.",
+    "evidence": "P1 EA1-EA7, M1-to-S1 derivation and unavailable original/complete application.",
+    "finding_ids": [],
+    "next_action": "Retain; exercise independent-source and derived-copy failure conditions."
+  },
+  {
+    "id": "EPG-05",
+    "document": "GR-200",
+    "requirements": [
+      "E200-013",
+      "E200-014",
+      "E200-015",
+      "E200-035",
+      "E200-036"
+    ],
+    "topic": "Missingness, uncertainty, confidence and alternative analysis",
+    "review_status": "reviewed",
+    "basis": "FM-005 Propositions 5.132/5.138 pp.145,150; GR-200 clause 6.",
+    "evidence": "P1 ALT/v2 and U/v2 distinguish retained/rejected/unexamined alternatives; no invented numerical confidence.",
+    "finding_ids": [],
+    "next_action": "Retain; test whether readers avoid non-occurrence and commensuration shortcuts."
+  },
+  {
+    "id": "EPG-06",
+    "document": "GR-200",
+    "requirements": [
+      "E200-016",
+      "E200-017",
+      "E200-018",
+      "E200-019",
+      "E200-037",
+      "E200-038"
+    ],
+    "topic": "Assessment and criteria versions, revision branches and propagation",
+    "review_status": "reviewed",
+    "basis": "FM-005 Definitions 5.162/5.166/5.167 pp.170,172-173; GR-200 clause 7.",
+    "evidence": "P1 AS1, REV1, REG1, DEP, C1/v1 and C1/v2; X1 correction unverified.",
+    "finding_ids": [],
+    "next_action": "Retain; preserve past decision grounds and reassess dependencies separately."
+  },
+  {
+    "id": "EPG-07",
+    "document": "GR-200",
+    "requirements": [
+      "E200-020",
+      "E200-021",
+      "E200-039"
+    ],
+    "topic": "Practical uptake, challenge and intervention-sensitive change",
+    "review_status": "reviewed",
+    "basis": "FM-005 pp.172-173 distinguish revised knowledge, prior world and effects of earlier representations.",
+    "evidence": "P1 CH1, I1-I6, D1/D2, AC1-AC6 and C7 components.",
+    "finding_ids": [],
+    "next_action": "Retain; observe action implementation and effects separately in a later pilot."
+  },
+  {
+    "id": "EPG-08",
+    "document": "GR-200",
+    "requirements": [
+      "E200-022",
+      "E200-040",
+      "E200-041"
+    ],
+    "topic": "Computational mediation and asserted reproducibility",
+    "review_status": "reviewed",
+    "basis": "FM-005 Definitions 5.149/5.150 and Proposition 5.151 pp.161-162.",
+    "evidence": "P1 S1 task/input/output/version/uptake with unavailable runtime and internals; no actual execution asserted.",
+    "finding_ids": [],
+    "next_action": "Retain; no reproduction or independent-reviewability claim without evidence."
+  },
+  {
+    "id": "EPG-09",
+    "document": "GR-200",
+    "requirements": [
+      "E200-023",
+      "E200-026",
+      "E200-042",
+      "E200-043"
+    ],
+    "topic": "Protected, transformed and unavailable material",
+    "review_status": "finding",
+    "basis": "GR-200 clause 8; foundation trace/evidence distinction; EP-03/EP-04.",
+    "evidence": "P1 L1-original unavailable, excerpt supplied, AS-VIEW and PS/v2; no actual protection enforcement.",
+    "finding_ids": [
+      "EP-03",
+      "EP-04"
+    ],
+    "next_action": "Retain clauses; keep examination limits explicit; contextual custody arrangements needed before real collection."
+  },
+  {
+    "id": "EPG-10",
+    "document": "GR-200",
+    "requirements": [
+      "E200-024",
+      "E200-025",
+      "E200-044"
+    ],
+    "topic": "Ethical, policy and jurisprudential assertions",
+    "review_status": "reviewed",
+    "basis": "FM-005 epistemic justice pp.150-151; Programme Brief multilayer separation; GR-200 clause 8.",
+    "evidence": "P1 C3 values/tradeoffs, C4 unresolved legal context and proposed AC6.",
+    "finding_ids": [],
+    "next_action": "Retain; any real legal or policy application needs identified context and competent review."
+  },
+  {
+    "id": "EPG-11",
+    "document": "GR-210",
+    "requirements": [
+      "C210-001",
+      "C210-002",
+      "C210-003",
+      "C210-004",
+      "C210-033",
+      "C210-034",
+      "C210-035",
+      "C210-036",
+      "C210-037",
+      "C210-038",
+      "C210-039",
+      "C210-102"
+    ],
+    "topic": "Procedure declaration, authority, service conditions and change",
+    "review_status": "open",
+    "basis": "GR-210 clause 4 and Annex A; Programme Brief; EP-02/EP-05.",
+    "evidence": "P1 P1-PROC/v2 service schedule and explicit unavailable real channels/resources.",
+    "finding_ids": [
+      "EP-02",
+      "EP-05"
+    ],
+    "next_action": "Measure feasibility and participation burden before adopting local service values or a reduced profile."
+  },
+  {
+    "id": "EPG-12",
+    "document": "GR-210",
+    "requirements": [
+      "C210-005",
+      "C210-006",
+      "C210-007",
+      "C210-008",
+      "C210-040",
+      "C210-041",
+      "C210-042",
+      "C210-043",
+      "C210-044",
+      "C210-045",
+      "C210-046",
+      "C210-047"
+    ],
+    "topic": "Receipt, triage, assistance, routing, holds and withdrawal",
+    "review_status": "reviewed",
+    "basis": "GR-210 clause 5; FM-005 epistemic justice pp.150-151; no receipt-as-merits rule.",
+    "evidence": "P1 authored REC-CH1 and I1-I6; no actual intake, acknowledgment, referral acceptance or hold exercise.",
+    "finding_ids": [],
+    "next_action": "Retain; rehearse intake and incomplete/duplicate/protected-contact cases with actual participants."
+  },
+  {
+    "id": "EPG-13",
+    "document": "GR-210",
+    "requirements": [
+      "C210-048",
+      "C210-103",
+      "C210-104"
+    ],
+    "topic": "Parallel case states and transition prerequisites",
+    "review_status": "finding",
+    "basis": "GR-210 clause 5 and Annex B; EP-02/EP-04.",
+    "evidence": "P1 STATE/v2 distinguishes represented labels, missing grounds/reply performance and pending action tracks.",
+    "finding_ids": [
+      "EP-02",
+      "EP-04"
+    ],
+    "next_action": "Retain; do not pass an unobserved transition from a status label alone."
+  },
+  {
+    "id": "EPG-14",
+    "document": "GR-210",
+    "requirements": [
+      "C210-009",
+      "C210-049",
+      "C210-050",
+      "C210-051",
+      "C210-082"
+    ],
+    "topic": "Assignment, competence, conflict and independent-review claims",
+    "review_status": "open",
+    "basis": "GR-210 clauses 6 and 9; FM-005 epistemic justice distinguishes authority from warrant pp.150-151.",
+    "evidence": "P1 Reviewer A prior involvement; B assignment a scenario premise, no actual appointment or competence verification.",
+    "finding_ids": [
+      "EP-05"
+    ],
+    "next_action": "Test conflict handling and unavailable independent capacity; never advertise unstaffed functions as available."
+  },
+  {
+    "id": "EPG-15",
+    "document": "GR-210",
+    "requirements": [
+      "C210-010",
+      "C210-011",
+      "C210-012",
+      "C210-052",
+      "C210-053",
+      "C210-054",
+      "C210-055",
+      "C210-056",
+      "C210-057",
+      "C210-099"
+    ],
+    "topic": "Issue scope, meaningful response, situated testimony and participation",
+    "review_status": "open",
+    "basis": "FM-005 Definition 5.139 pp.150-151; GR-210 clause 6 and C210-099.",
+    "evidence": "P1 GND/v1 specimen, protected route design, missing actual grounds/reply and participant comprehension evidence.",
+    "finding_ids": [
+      "EP-02",
+      "EP-05"
+    ],
+    "next_action": "Observe an intended user locating the route and addressing reasons; record barriers, adjustments and design relationship."
+  },
+  {
+    "id": "EPG-16",
+    "document": "GR-210",
+    "requirements": [
+      "C210-013",
+      "C210-014",
+      "C210-015",
+      "C210-016",
+      "C210-017",
+      "C210-018",
+      "C210-058",
+      "C210-059",
+      "C210-060",
+      "C210-061",
+      "C210-062",
+      "C210-063",
+      "C210-064",
+      "C210-065",
+      "C210-066",
+      "C210-067",
+      "C210-068"
+    ],
+    "topic": "Evidence plan, examination, alternatives, rule challenge and generative attribution",
+    "review_status": "reviewed",
+    "basis": "FM-005 pp.28-29,145,150,161-162,172-173; GR-210 clause 7.",
+    "evidence": "P1 EA1-EA7, ALT, U, I2/I3 separation and actual-vs-described examination limits.",
+    "finding_ids": [],
+    "next_action": "Retain; add domain evidence and actual reviewer performance before sufficiency or procedure claims."
+  },
+  {
+    "id": "EPG-17",
+    "document": "GR-210",
+    "requirements": [
+      "C210-019",
+      "C210-020",
+      "C210-069",
+      "C210-070"
+    ],
+    "topic": "Reasoned issue-specific dispositions",
+    "review_status": "finding",
+    "basis": "GR-210 clause 8; EP-02.",
+    "evidence": "P1 I1-I6 separates corrected warrant, unresolved rule application, later rule change, pending contribution and external legal question.",
+    "finding_ids": [
+      "EP-02"
+    ],
+    "next_action": "Retain; include each issue and reason, and keep outside-competence matters visible."
+  },
+  {
+    "id": "EPG-18",
+    "document": "GR-210",
+    "requirements": [
+      "C210-021",
+      "C210-071",
+      "C210-072",
+      "C210-077",
+      "C210-078"
+    ],
+    "topic": "Practical response, urgency, completion and closure",
+    "review_status": "open",
+    "basis": "FM-005 p.145 and pp.172-173; GR-210 clause 8.",
+    "evidence": "P1 D2/AC2 scheduled but unevidenced completion, C7 reported loss and AC5/AC6 proposed responses.",
+    "finding_ids": [
+      "EP-05"
+    ],
+    "next_action": "Observe execution, consequences and unresolved costs separately; do not close practical repair by field correction."
+  },
+  {
+    "id": "EPG-19",
+    "document": "GR-210",
+    "requirements": [
+      "C210-022",
+      "C210-073",
+      "C210-074"
+    ],
+    "topic": "Notice content, dispatch, delivery and next opportunity",
+    "review_status": "finding",
+    "basis": "GR-210 clause 8; EP-02/EP-04.",
+    "evidence": "P1 AC3 and grounds/public notice specimens; FB6 injects missing recipient/delivery with unsupported expiry.",
+    "finding_ids": [
+      "EP-02",
+      "EP-04"
+    ],
+    "next_action": "Retain; actual notice performance and corrected response opportunity require rehearsal evidence."
+  },
+  {
+    "id": "EPG-20",
+    "document": "GR-210",
+    "requirements": [
+      "C210-023",
+      "C210-075",
+      "C210-076",
+      "C210-079",
+      "C210-100"
+    ],
+    "topic": "Correction, dependency propagation and reassessment",
+    "review_status": "reviewed",
+    "basis": "FM-005 historical/category revision pp.172-173; GR-210 clause 8 and 11.",
+    "evidence": "P1 REV1/REG1/DEP and changed fixture version; external X1 and actual propagation unverified.",
+    "finding_ids": [],
+    "next_action": "Retain; perform targeted reassessment after draft/fixture changes and record evidence reuse rationale."
+  },
+  {
+    "id": "EPG-21",
+    "document": "GR-210",
+    "requirements": [
+      "C210-024",
+      "C210-025",
+      "C210-026",
+      "C210-080",
+      "C210-081",
+      "C210-083",
+      "C210-084",
+      "C210-085",
+      "C210-086",
+      "C210-087",
+      "C210-088",
+      "C210-089"
+    ],
+    "topic": "Further review, stays, reopening, delay and continuity",
+    "review_status": "open",
+    "basis": "GR-210 clause 9; no normative independent capacity created by a named route.",
+    "evidence": "P1 proposed Review Contact, service schedule, FB5 late specimen and pending legal referral; no actual appeal/reopening.",
+    "finding_ids": [
+      "EP-05"
+    ],
+    "next_action": "Rehearse missed targets, failed notice, remittal and unavailable successor while keeping prior meanings."
+  },
+  {
+    "id": "EPG-22",
+    "document": "GR-210",
+    "requirements": [
+      "C210-027",
+      "C210-028",
+      "C210-029",
+      "C210-090",
+      "C210-091",
+      "C210-092",
+      "C210-093",
+      "C210-094",
+      "C210-095"
+    ],
+    "topic": "Access, protected grounds, incidents, retention and examination limits",
+    "review_status": "open",
+    "basis": "GR-210 clause 10; EP-03.",
+    "evidence": "P1 section 7: no real sensitive content, unavailable original and excerpt-only scope; proposed retention arrangement with no identified operative retention/disposal decision. QA-01 corrects the earlier inferred-trigger/fixed-period failure finding.",
+    "finding_ids": [
+      "EP-03"
+    ],
+    "next_action": "Identify any operative retention/disposal decision before applying C210-094; contextualize authority, event-based or other timing, and verification; exercise authorized views and fair examination without fabricated inspection."
+  },
+  {
+    "id": "EPG-23",
+    "document": "GR-210",
+    "requirements": [
+      "C210-030",
+      "C210-031",
+      "C210-032",
+      "C210-096",
+      "C210-097",
+      "C210-098",
+      "C210-101",
+      "C210-105"
+    ],
+    "topic": "Conformance boundary, dependency scope and minimum coverage",
+    "review_status": "finding",
+    "basis": "GR-210 clauses 2/11 and Annex C; GR-200/110 precise GR-100 incorporation; EP-01/EP-04.",
+    "evidence": "P1 bounded component register and unperformed procedural conditions; archived GR-210 Clause 2 wording.",
+    "finding_ids": [
+      "EP-01",
+      "EP-04"
+    ],
+    "next_action": "Clarify GR-100 incorporation; preserve full applicable GR-200 duties and component/performance distinctions."
+  }
+]

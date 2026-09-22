@@ -1,0 +1,6 @@
+# Preserve retained source and historical digest bytes across operating systems.
+* -text
+*.sh text eol=lf
+*.pdf binary
+*.png binary
+*.bundle binary

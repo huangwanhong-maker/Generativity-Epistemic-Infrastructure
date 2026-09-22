@@ -1,0 +1,43 @@
+{
+  "package": "Validation-revised governance and epistemic recording working drafts",
+  "version": "0.3",
+  "status": "Working drafts; not adopted; formal project initiation pending governance",
+  "documents": [
+    {
+      "id": "GSP-Charter",
+      "source": "governance/standards_programme_charter.tex"
+    },
+    {
+      "id": "GSP-Directives-1",
+      "source": "governance/directives_part_1.tex"
+    },
+    {
+      "id": "GSP-Directives-2",
+      "source": "governance/directives_part_2.tex"
+    },
+    {
+      "id": "GR-TC1-Charter",
+      "source": "governance/technical_committee_charter.tex"
+    },
+    {
+      "id": "GSP-Ethics-IP",
+      "source": "governance/ethics_ip_policy.tex"
+    },
+    {
+      "id": "GR-100",
+      "source": "standards/GR-100-foundations-vocabulary/GR-100.tex"
+    },
+    {
+      "id": "GR-110",
+      "source": "standards/GR-110-recording-requirements/GR-110.tex"
+    },
+    {
+      "id": "GR-200",
+      "source": "standards/GR-200-epistemic-recording/GR-200.tex"
+    },
+    {
+      "id": "GR-210",
+      "source": "standards/GR-210-evidence-interpretation/GR-210.tex"
+    }
+  ]
+}

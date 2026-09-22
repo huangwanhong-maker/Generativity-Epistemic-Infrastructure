@@ -1,0 +1,66 @@
+% Shared presentation only. Substantive requirements belong in document sources.
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{TeX Gyre Heros}
+\setmonofont{Latin Modern Mono}[Scale=MatchLowercase]
+\usepackage[a4paper,margin=25mm,headheight=15pt]{geometry}
+\usepackage[english]{babel}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{array,booktabs,longtable,tabularx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{xurl}
+\usepackage[unicode,colorlinks=true,linkcolor=black,urlcolor=blue!45!black]{hyperref}
+\definecolor{GSPink}{HTML}{182E3C}
+\definecolor{GSPaccent}{HTML}{285A68}
+\definecolor{GSPmuted}{HTML}{59636C}
+\titleformat{\section}{\Large\sffamily\bfseries\color{GSPink}}{\thesection}{0.7em}{}
+\titleformat{\subsection}{\large\sffamily\bfseries\color{GSPink}}{\thesubsection}{0.7em}{}
+\titleformat{\subsubsection}{\normalsize\sffamily\bfseries}{\thesubsubsection}{0.7em}{}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt plus 1pt}
+\setlength{\emergencystretch}{2em}
+\setlist{itemsep=2pt,topsep=4pt}
+\setlist[itemize,enumerate]{leftmargin=*}
+\setcounter{tocdepth}{2}
+\renewcommand{\arraystretch}{1.18}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcommand{\GSPcode}{GSP}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily\GSPcode}
+\fancyhead[R]{\small\sffamily Working draft --- not adopted}
+\fancyfoot[L]{\footnotesize\sffamily Generativity Standards Program}
+\fancyfoot[R]{\small\sffamily\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\GSPtitle}[4]{%
+  \gdef\GSPcode{#1}%
+  \hypersetup{pdftitle={#1: #2},pdfauthor={Generativity Standards Program},pdfsubject={#3; draft #4; not adopted}}%
+  \begin{titlepage}
+  \sffamily\color{GSPink}
+  {\large GENERATIVITY STANDARDS PROGRAM}\par
+  \vspace{8mm}\hrule\vspace{20mm}
+  {\Large #1}\par\vspace{6mm}
+  {\Huge\bfseries\raggedright\hyphenpenalty=10000 #2\par}\vspace{15mm}
+  {\large #3}\par
+  Draft version #4\par
+  22 September 2026\par
+  \vfill
+  {\large\bfseries WORKING DRAFT FOR REVIEW}\par
+  \vspace{3mm}
+  This document is not adopted. Its requirement language expresses proposals for
+  review and rehearsal. Preparation of this text does not establish programme
+  governance, approve a formal standards project, or certify substantive truth,
+  legal validity, or institutional legitimacy.\par
+  \vspace{5mm}
+  Publication class, scope, dependencies and unresolved decisions are stated in
+  the document. No ISO, IEC or IEEE affiliation or endorsement is claimed.\par
+  \end{titlepage}
+}
+\newcommand{\req}[2]{\par\medskip\noindent\phantomsection\label{req:#1}\textbf{\textsf{#1}}\quad #2\par}
+\newcommand{\note}[1]{\par\smallskip{\small\textsf{Informative note.}\ #1\par}\smallskip}
+\newcommand{\openissue}[1]{\par\smallskip{\color{GSPaccent}\textbf{OPEN.}\ #1\par}\smallskip}
+\newcommand{\source}[1]{\par\smallskip{\small\textsf{Source and interpretation.}\ #1\par}\smallskip}

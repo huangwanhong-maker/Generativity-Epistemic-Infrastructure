@@ -1,0 +1,33 @@
+# Generated review PDFs and compiler intermediates; canonical sources are retained.
+/build/
+/tools/__pycache__/
+
+# Application dependencies, private accounts/repositories, and local test output.
+/webapp/.venv/
+/webapp/.venv-linux/
+/webapp/.data/
+/webapp/.pytest_cache/
+/webapp/test-results/
+/webapp/.env
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+.env
+.env.*
+!.env.example
+/.runtime/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.key
+
+# Independent applications: private runtime and regenerated dependencies.
+/applicative_infrastructure/.runtime/
+/applicative_infrastructure/**/node_modules/
+/applicative_infrastructure/**/dist/
+/applicative_infrastructure/**/.venv/
+/applicative_infrastructure/**/.env
+/applicative_infrastructure/**/test-results/

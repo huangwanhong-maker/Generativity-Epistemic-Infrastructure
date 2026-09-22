@@ -1,0 +1,3 @@
+[submodule "applicative_infrastructure"]
+	path = applicative_infrastructure
+	url = ./applicative_infrastructure
