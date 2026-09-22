@@ -2,7 +2,7 @@
 
 **Class:** Repository operation and verification record  
 **Date:** 2026-09-22  
-**Status:** Applications and infrastructure published; programme publication and hosted clone verification in progress
+**Status:** All four repositories published; hosted recursive clone and source comparison passed
 
 ## Authorization and destinations
 
@@ -31,6 +31,21 @@ Published application revisions are generalized `19341ae30c6a4f69cb97c424a6a3461
 
 ## Verification
 
-Both application remote `main` references and the infrastructure remote `main` reference match the corresponding local commits. Final programme publication, complete hosted recursive cloning and final repository-cleanliness results will be recorded before the operation is closed. Detailed command results remain in ignored `build/git-publication/`.
+The initial hosted programme commit is `d2e5b2398005b2434130c9fc3db00592ae24a175`. A subsequent programme documentation commit records these completed checks; application and infrastructure revisions remain as listed above.
+
+| Check | Result |
+|---|---|
+| Four remote `main` references | Match the corresponding published local commits |
+| Upstream configuration | Each local `main` tracks its own `origin/main` |
+| Parent/child commit pointers | Programme pins infrastructure; infrastructure pins both published applications |
+| Hosted recursive clone | GitHub supplied all four repositories and all three submodule checkouts |
+| Source comparison | All 372 tracked files in the hosted clone matched the local source bytes |
+| Private runtime | Absent from the hosted clone |
+| Structural checker | Passed in the source workspace and the fresh hosted clone |
+| Academia remote ancestry | Existing remote commit retained through an ordinary merge and non-force push |
+| Frozen academia source evidence | Historical README snapshot, import manifest and original bundle unchanged |
+| Active documentation links | Current local guide targets resolve |
+
+The byte comparison used Windows extended file paths for the longest PDF filenames under the disposable clone directory; no machine-wide long-path setting was changed. Detailed command results remain in ignored `build/git-publication/`. The verification clone contains source only and is not a backup of application accounts or user records.
 
 This publication does not adopt a Standard, change application record semantics, resolve the existing dependency advisories or complete cross-application protocol alignment.

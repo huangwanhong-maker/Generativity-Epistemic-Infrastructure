@@ -6,6 +6,7 @@
 - Selected the user's Windows SSH identity in repository-local configuration; private key contents remain outside source control. Existing host verification remains enabled.
 - Integrated academia's existing remote contributor-attribution commit into the migrated MIT repository, preserving both development histories and the earlier frozen source snapshots.
 - Retained the application-to-infrastructure-to-programme publication order and separated source publication from private runtime records. Repository governance, CI and release policies remain open under Q-44.
+- Published all four `main` branches and verified their remote references, nested commit pointers and a fresh GitHub recursive clone with 372 matching source files. See the [hosted publication record](docs/reviews/remote_publication_2026-09-22.md).
 
 ## 0.14 — Independent repositories, nested submodules and MIT licensing
 
