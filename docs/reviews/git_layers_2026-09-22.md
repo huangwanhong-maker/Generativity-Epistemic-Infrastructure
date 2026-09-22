@@ -2,7 +2,7 @@
 
 **Class:** Implementation and preservation review  
 **Date:** 2026-09-22  
-**Status:** Local repository construction in progress; final clone verification pending
+**Status:** Local repositories committed; recursive clone and independent audit passed
 
 ## Scope
 
@@ -29,7 +29,37 @@ Historical migration manifests remain evidence of the earlier captured state. Th
 
 ## Verification record
 
-Final creation, recursive-clone and independent audit results will be recorded here before this task is complete. Reproduce the structural check with `python tools/check_repository_layers.py` after all four repositories are committed. The check is read-only and does not initialize missing modules or read user records.
+| Repository | Initial committed revision | Entries in its own index |
+|---|---|---|
+| Programme | `992284aad1798109362edfb784475875103a29d8` | 166, including one infrastructure gitlink |
+| Infrastructure | `34878d4149b02a3e4a2672147478e60b2452ffc2` | 37, including two application gitlinks |
+| Generalized application | `4df26e7297f4f917bcb879a5ebd9648051cbcf2a` | 29 |
+| Academia application | `1edbabab28486eeb9994e7298773bb6e7d67bccc` | 142 |
+
+The programme receives a subsequent documentation commit recording this verification; child revisions remain as shown. The initial recursive clone was made from the listed programme commit.
+
+| Check | Observed result |
+|---|---|
+| Four repository identities and clean trees | Passed in source and fresh recursive clone |
+| Parent `160000` entries and checked-out child revisions | Exact matches for all three submodules |
+| Fresh recursive local clone | Both levels initialized and checked out successfully |
+| Source-to-clone byte comparison | All 371 tracked files identical |
+| Historical publication snapshots | All 30 recorded file digests match in the clone |
+| Private runtime in clone | Absent; ignore probes and bounded tracked-path checks pass |
+| Git object integrity | All four source repositories pass `git fsck`; one harmless unreachable former `.gitmodules` blob in infrastructure |
+| Academia ancestry and original checkout | Original source commit is an ancestor; external checkout remains clean and unchanged |
+| Enclosing repository | HEAD, complete references, index SHA-256 and programme tracked-path inventory unchanged |
+| Python distribution licensing | All three wheels built offline and contain MIT metadata, licence text and contributor files |
+| npm licensing metadata | Four local packages and matching lockfile entries identify MIT; third-party entries unchanged |
+| Retained notices and documents | Earlier licence snapshots, four academia PDFs and source bundle digests preserved |
+| Active Markdown links | All checked current guide targets resolve; historical source snapshots excluded |
+| Hosted remotes | None configured; no push performed |
+
+An independent reviewer repeated repository identity, gitlink, clean-tree, object-integrity, ancestry, ownership, privacy and enclosing-repository checks. The recursive clone and byte comparisons were performed separately by the implementing agent. Detailed operator outputs remain in ignored `build/git-layers/`.
+
+Windows initially assigned the newly created repository directories to the sandbox identity. Only the owner field on the new repository/Git directory roots was assigned to the user's Windows account; access-control rules and global trust settings were not changed. Absorption ran under that account. Independent inspection confirmed that repository roots, absorbed Git directory roots and `.git` pointer files belong to the user, and ordinary user Git commands succeed.
+
+Reproduce the structural check with `python tools/check_repository_layers.py` after all four repositories are committed. The check is read-only and does not initialize missing modules or read user records. The previous application regression results remain the dated migration baseline; this task's new verification concerns repository structure, preservation and packaging metadata.
 
 ## Remaining boundary
 
