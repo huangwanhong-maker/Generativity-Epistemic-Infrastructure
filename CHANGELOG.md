@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.15 — Hosted source repository configuration
+
+- Configured the four user-supplied GitHub remotes, replaced local submodule URLs with hosted URLs, and updated repository READMEs and the recursive-clone/development guide.
+- Selected the user's Windows SSH identity in repository-local configuration; private key contents remain outside source control. Existing host verification remains enabled.
+- Integrated academia's existing remote contributor-attribution commit into the migrated MIT repository, preserving both development histories and the earlier frozen source snapshots.
+- Retained the application-to-infrastructure-to-programme publication order and separated source publication from private runtime records. Repository governance, CI and release policies remain open under Q-44.
+
 ## 0.14 — Independent repositories, nested submodules and MIT licensing
 
 - Established the programme root, infrastructure and two applications as four independently committed Git repositories. Infrastructure pins both application repositories as submodules; the programme pins infrastructure. The enclosing repository's index and references remain unchanged.

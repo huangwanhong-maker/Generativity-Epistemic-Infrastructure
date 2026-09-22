@@ -3,6 +3,8 @@
 **Status:** Preliminary standards programme and experimental applications; no adopted technical Standards.  
 **Start here:** [Programme Brief](PROGRAMME_BRIEF.md) · [Development plan](docs/planning/comprehensive_development_plan.md) · [Application setup](applicative_infrastructure/README.md)
 
+**Source repository:** [Generativity-Epistemic-Infrastructure](https://github.com/huangwanhong-maker/Generativity-Epistemic-Infrastructure)
+
 The Generativity Standards Program develops epistemic and practical infrastructure for recognizing, recording, examining, contesting and revising claims about reality and its generative trajectories. Its concern includes the conditions, encounters, relations, judgments, alternatives and changes in possibility through which an outcome becomes possible.
 
 The programme responds to **symbolic crisis**: instability in the connections among representations, their referents, institutional classifications and practical trust. A traceable record can help people inspect a claim and its grounds. Provenance, technical validity and institutional acceptance remain distinct from the truth of that claim.
@@ -63,24 +65,33 @@ generativity_standards_program/             Git repository: programme and canoni
 
 These are four source repositories with independent histories. The programme pins an infrastructure commit; that infrastructure commit pins one commit from each application. Shared packages belong to the infrastructure repository. Canonical standards and manuscripts remain in the programme repository.
 
+| Repository | Hosted source |
+|---|---|
+| Programme | [Generativity-Epistemic-Infrastructure](https://github.com/huangwanhong-maker/Generativity-Epistemic-Infrastructure) |
+| Infrastructure | [Generativity-Relational-Epistemic-Applicative-Infrastructure](https://github.com/huangwanhong-maker/Generativity-Relational-Epistemic-Applicative-Infrastructure) |
+| Generalized application | [Generalized-Generativity-Relational-Social-Science-Application](https://github.com/huangwanhong-maker/Generalized-Generativity-Relational-Social-Science-Application) |
+| Academia application | [Generative-Relational-Academia-Application](https://github.com/huangwanhong-maker/Generative-Relational-Academia-Application) |
+
 The applications also create Git repositories for **user project records** inside their private runtime. Those data repositories have a different purpose and are never application-source submodules.
 
 ### Obtain the complete workspace
 
-The initial submodule URLs resolve against the existing local repository layout. No hosted repository addresses are assumed. For another local checkout, substitute real absolute paths:
+With GitHub SSH access configured, clone the programme and both levels of submodules:
 
 ~~~powershell
-git -c protocol.file.allow=always clone --recurse-submodules "<absolute-path-to-this-repository>" "<new-checkout-directory>"
+git clone --recurse-submodules git@github.com:huangwanhong-maker/Generativity-Epistemic-Infrastructure.git generativity_standards_program
+cd generativity_standards_program
 ~~~
 
-The file-transport allowance applies to that command only. For an existing checkout created from this local layout:
+For an existing checkout, synchronize the committed submodule URLs and initialize the pinned revisions:
 
 ~~~powershell
-git -c protocol.file.allow=always submodule update --init --recursive
+git submodule sync --recursive
+git submodule update --init --recursive
 git submodule status --recursive
 ~~~
 
-Publishing the repositories requires assigning real remotes and updating the submodule URLs at the programme and infrastructure levels. Hosted clone instructions depend on those addresses. Cloning an application alone obtains its source; the full local setup below expects the parent infrastructure layout and shared tools.
+The submodule URLs use SSH and require access to all four repositories. The [Git workflow guide](docs/development/git_repository_layers.md) documents the Windows SSH identity setup, remotes and dependency order for publishing. Cloning an application alone obtains its source; the full setup below expects the parent infrastructure layout and shared tools.
 
 ### Work across repository boundaries
 

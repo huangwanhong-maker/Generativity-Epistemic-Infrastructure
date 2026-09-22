@@ -1,7 +1,7 @@
 # Repository layers and contributor workflow
 
 **Class:** Development and operation guide  
-**Status:** Local repository arrangement authorized 2026-09-22
+**Status:** Repository arrangement authorized 2026-09-22; hosted SSH remotes configured for publication
 
 [ADR-0010](../../decisions/ADR-0010-nested-git-repositories-and-mit-licensing.md) records the decision. Source histories have four boundaries:
 
@@ -17,25 +17,62 @@ The programme contains canonical manuscripts, governance, standards-track drafts
 
 Private project repositories used by the applications are a separate recording layer. They remain under ignored `.runtime/` alongside accounts and native identity material. Creating source submodules neither publishes those records nor changes their accepted commits, access controls or licences.
 
+## Hosted repository addresses
+
+Each source repository has its own `origin`. Both `.gitmodules` files use the matching SSH addresses, so recursive cloning can retrieve all referenced source commits.
+
+| Repository | SSH address |
+|---|---|
+| Programme | `git@github.com:huangwanhong-maker/Generativity-Epistemic-Infrastructure.git` |
+| Infrastructure | `git@github.com:huangwanhong-maker/Generativity-Relational-Epistemic-Applicative-Infrastructure.git` |
+| Generalized application | `git@github.com:huangwanhong-maker/Generalized-Generativity-Relational-Social-Science-Application.git` |
+| Academia application | `git@github.com:huangwanhong-maker/Generative-Relational-Academia-Application.git` |
+
 ## Obtain the complete workspace
 
-The currently committed URLs describe the local nested source locations; no hosted repositories have been configured. From a trusted local source workspace, clone into a new directory:
+With GitHub SSH access configured for all four repositories:
 
 ```powershell
-git -c protocol.file.allow=always -c core.longpaths=true clone --recurse-submodules <absolute-source-programme-directory> <new-directory>
+git clone --recurse-submodules git@github.com:huangwanhong-maker/Generativity-Epistemic-Infrastructure.git generativity_standards_program
+cd generativity_standards_program
 ```
 
-The file-transport allowance applies to that command only. Do not enable it globally merely to clone this hierarchy. A copy or clone made from another storage layout needs URLs that identify the actual child repositories in that layout.
-
-Once real hosted URLs are configured and committed, ordinary cloning becomes:
+For an existing checkout, including one originally created from the local repository layout:
 
 ```powershell
-git clone --recurse-submodules <programme-remote-url> <new-directory>
-# For a clone created without recursion:
+git submodule sync --recursive
 git submodule update --init --recursive
+git submodule status --recursive
 ```
+
+Synchronizing updates local submodule URL settings from the committed `.gitmodules` files within this checkout. Unrelated clones retain their own settings; inspect their origins separately when repurposing an older clone. The hosted URLs do not need a file-transport allowance.
 
 Submodules normally check out the revisions pinned by the parent. This often gives a detached HEAD; before developing inside one, select or create a branch deliberately. Do not use `update --remote` as a substitute for restoring the committed parent snapshot.
+
+## Windows SSH identity
+
+The maintainer's Windows identity is `~/.ssh/serendip_id_ed25519`. Its contents remain outside the repositories. Other contributors use their own GitHub-authorized identities. The following PowerShell example selects Windows OpenSSH and the named key without changing global Git or SSH configuration:
+
+```powershell
+$sshExecutable = 'C:/Windows/System32/OpenSSH/ssh.exe'
+$identityPath = ($env:USERPROFILE -replace '\\', '/') + '/.ssh/serendip_id_ed25519'
+$sshCommand = '"' + $sshExecutable + '" -i "' + $identityPath + '" -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes'
+
+git config --local core.sshCommand $sshCommand
+git -C applicative_infrastructure config --local core.sshCommand $sshCommand
+git -C applicative_infrastructure/gr_generalized_application config --local core.sshCommand $sshCommand
+git -C applicative_infrastructure/gr_academia_application config --local core.sshCommand $sshCommand
+```
+
+These commands run from the programme root after its submodules are initialized. The settings are local machine configuration and do not accompany source clones. They select the identity, not the key's contents. Strict host checking expects a previously verified GitHub host key in the local known-hosts file; verify a new or changed host key before accepting it. A passphrase-protected identity can still prompt because `BatchMode` is not persisted.
+
+For the first recursive clone with this identity, define the same variables and pass the command for that operation:
+
+```powershell
+git -c core.sshCommand="$sshCommand" clone --recurse-submodules git@github.com:huangwanhong-maker/Generativity-Epistemic-Infrastructure.git generativity_standards_program
+```
+
+After entering the clone, use the repository-local settings above if this identity should remain selected for future fetches and pushes. On another operating system or with another SSH installation, substitute that system's executable and identity path.
 
 ## Commit from children to parents
 
@@ -57,23 +94,36 @@ Academia follows the same order. Common-package changes begin in infrastructure.
 
 These commands do not commit application files automatically: a parent records the child commit identifier, not uncommitted changes inside that child. Use `git status` in each affected repository and `git submodule status --recursive` from the root.
 
-## Configure hosted repositories later
+## Maintain remotes and publish
 
-After creating four actual empty remote repositories, add their URLs as `origin` in the matching local repositories. Replace the angle-bracket placeholders below with real URLs; none is a configured endpoint:
+The configured origins and submodule URLs can be inspected from the programme root:
 
 ```powershell
-git -C applicative_infrastructure/gr_generalized_application remote add origin <generalized-url>
-git -C applicative_infrastructure/gr_academia_application remote add origin <academia-url>
-git -C applicative_infrastructure remote add origin <infrastructure-url>
-git remote add origin <programme-url>
+git remote -v
+git -C applicative_infrastructure remote -v
+git -C applicative_infrastructure/gr_generalized_application remote -v
+git -C applicative_infrastructure/gr_academia_application remote -v
+git config --file .gitmodules --get-regexp '^submodule\..*\.url$'
+git -C applicative_infrastructure config --file .gitmodules --get-regexp '^submodule\..*\.url$'
+```
 
-git -C applicative_infrastructure submodule set-url gr_generalized_application <generalized-url>
-git -C applicative_infrastructure submodule set-url gr_academia_application <academia-url>
-git submodule set-url applicative_infrastructure <infrastructure-url>
+If an existing clone still has local origins, update them to the hosted addresses. Use `remote add origin` instead of `remote set-url origin` only when that repository has no origin:
+
+```powershell
+git -C applicative_infrastructure/gr_generalized_application remote set-url origin git@github.com:huangwanhong-maker/Generalized-Generativity-Relational-Social-Science-Application.git
+git -C applicative_infrastructure/gr_academia_application remote set-url origin git@github.com:huangwanhong-maker/Generative-Relational-Academia-Application.git
+git -C applicative_infrastructure remote set-url origin git@github.com:huangwanhong-maker/Generativity-Relational-Epistemic-Applicative-Infrastructure.git
+git remote set-url origin git@github.com:huangwanhong-maker/Generativity-Epistemic-Infrastructure.git
+
+git -C applicative_infrastructure submodule set-url gr_generalized_application git@github.com:huangwanhong-maker/Generalized-Generativity-Relational-Social-Science-Application.git
+git -C applicative_infrastructure submodule set-url gr_academia_application git@github.com:huangwanhong-maker/Generative-Relational-Academia-Application.git
+git submodule set-url applicative_infrastructure git@github.com:huangwanhong-maker/Generativity-Relational-Epistemic-Applicative-Infrastructure.git
 git submodule sync --recursive
 ```
 
-Commit infrastructure's changed `.gitmodules` before committing the root's changed `.gitmodules` and infrastructure pointer. Publish in dependency order so every referenced commit is available:
+Commit any infrastructure `.gitmodules` change before committing the root's `.gitmodules` and infrastructure pointer. Before publishing, fetch existing remote branches and inspect their relationship to local work. Preserve existing ancestry; if a normal push would reject divergent history, reconcile that history deliberately. The publication commands below use ordinary pushes.
+
+Publish in dependency order so every referenced commit is available:
 
 ```powershell
 git -C applicative_infrastructure/gr_generalized_application push -u origin main
@@ -82,7 +132,9 @@ git -C applicative_infrastructure push -u origin main
 git push -u origin main
 ```
 
-No push is performed during local setup. A Git archive of the root alone does not contain submodule source; distribute the four repositories or an explicitly assembled recursive source snapshot when complete offline source is needed.
+Use each command only after that repository's intended changes are committed and reviewed. Verify that the remote `main` commit matches the intended local `HEAD` in every repository after publication. A parent push cannot publish an unpublished application commit on its own.
+
+A Git archive of the root alone does not contain submodule source; distribute the four repositories or an explicitly assembled recursive source snapshot when complete offline source is needed. Trusted offline clones can still use command-scoped file transport, but hosted `.gitmodules` URLs need explicit local overrides if network access is unavailable.
 
 ## Preservation and verification
 
@@ -97,6 +149,6 @@ python tools/check_repository_layers.py
 git submodule status --recursive
 ```
 
-The checker examines repository identities, committed child pointers, clean trees, attribution artifacts and bounded private-path exclusions. It does not read user records or scan every source blob for secrets. The [verification record](../reviews/git_layers_2026-09-22.md) records the initial creation and clone checks.
+The checker examines repository identities, committed child pointers, clean trees, attribution artifacts and bounded private-path exclusions. It does not read user records or scan every source blob for secrets. The [initial verification record](../reviews/git_layers_2026-09-22.md) records repository creation and local clone checks; the [hosted publication record](../reviews/remote_publication_2026-09-22.md) records remote-history integration and publication.
 
 These procedures follow Git's official [submodule command reference](https://git-scm.com/docs/git-submodule) and [.gitmodules format](https://git-scm.com/docs/gitmodules). In particular, relative child URLs resolve against the parent's default remote repository; they are not arbitrary paths relative to wherever a terminal happens to be opened.

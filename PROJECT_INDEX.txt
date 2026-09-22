@@ -252,6 +252,7 @@ docs/reviews/academia_application_reference.md
 docs/reviews/expanded_working_draft_review.md
 docs/reviews/git_layers_2026-09-22.md
 docs/reviews/initial_working_draft_review.md
+docs/reviews/remote_publication_2026-09-22.md
 docs/reviews/requirement_changes_0.1_to_0.2.csv
 docs/reviews/requirement_changes_0.2_to_0.3.csv
 docs/reviews/validation_0.2/README.md
