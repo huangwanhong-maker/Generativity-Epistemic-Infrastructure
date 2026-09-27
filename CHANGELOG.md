@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.17 — Reproducible synthetic demonstration and application galleries
+
+- Added the fictional River Commons inquiry to the generalized application: 31 records across all six operational roles, five Events, scoped and competing accounts, six retained materials, retrospective recording and a preserved chronology correction across seven project revisions.
+- Added an authenticated API seeder with a separate synthetic account, ignored credentials, staged transaction recovery and checks for role coverage, historical contradiction and cut selection independent of recording history.
+- Captured ten actual desktop and mobile interface views and documented their narrative, visible filtering and reproduction. Added gallery sections to the programme, infrastructure, generalized application and web application READMEs; parent repositories retain synchronized preview copies for submodule-safe image rendering.
+- Expanded the demo's visualized-spacetime walkthrough: promoted event order, two explicitly labeled ontology cuts and subject trajectories into all four README galleries. Reframed both topology captures to retain the actual selected event frontier and contrast trial access with revised access at the same Git revision.
+- Verified the populated demonstration, byte-identical material downloads and read-only screenshot workflow against the local application; an isolated reproduction check recovered an interrupted registration and preserved the complete history on rerun. Results are recorded in the [application verification guide](applicative_infrastructure/gr_generalized_application/web_application/TESTING.md). The demonstration is informative synthetic material, not a real-world pilot or an assertion of Standard conformance; academia's native protocol and application remain unchanged.
+
 ## 0.16 — Experimental event order and spacetime topology
 
 - Grounded the requested topology-at-event-cut view in actual foundation manuscript passages, preserving the distinction between occurrence, recording revision, event boundary, continuity, and causal-generative attribution. Recorded the selected alternatives and limits in ADR-0011 and the event-spacetime design.

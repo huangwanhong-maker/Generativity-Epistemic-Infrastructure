@@ -126,6 +126,36 @@ Use Python 3's local command name where appropriate on Linux/WSL. The [infrastru
 
 The generalized application implements the experimental gsp-record-protocol/0.2 model and gsp.general/0.2 profile. Academia retains native **GRRP v0.1**. Shared account authority, single sign-on and a completed GRRP/general-protocol adapter are not present. Earlier generalized records are converted only through an explicit migration request.
 
+## Application gallery: River Commons
+
+**River Commons** is a comprehensive synthetic demonstration of the generalized workspace: 31 records across all six operational roles, five Events, six retained source files and seven Git revisions. A fictional garden inquiry develops through encounters, provisional access, shared work, competing accounts and later corrections. The later review is recorded before its earlier context, making represented event order visibly distinct from recording order.
+
+![River Commons record graph with a first-class Relation and its participant roles](docs/gallery/generalized-record-graph.png)
+
+![Event precedence and an event-defined boundary in the River Commons project](docs/gallery/generalized-spacetime.png)
+
+### Visualized spacetime
+
+**Space is the ontology topology at a chosen event boundary.** The event partial order above supplies the boundaries; the views below show which scoped records and connections apply. Both use the same preserved Git revision.
+
+**After the provisional access agreement:** two events have passed, and 10 records enter this projection. The trial-access State and provisional stewardship Relation apply.
+
+![Spacetime after the access agreement: selected event frontier, ontology topology and trial-access State](docs/gallery/generalized-spacetime-earlier.png)
+
+**After the shared review:** four events have passed, and 13 records enter the projection. Trial accounts end; revised access, a renewed stewardship arrangement and the workload concern apply.
+
+![Spacetime after the review: selected event frontier, changed topology and revised-access State](docs/gallery/generalized-spacetime-later.png)
+
+**Follow a subject through these boundaries.** The garden's descriptions progress from **Access not yet arranged** through **A garden open for a trial** to **Access under a revised rota**. The trajectory view retains their explicit event bounds, competing descriptions and uncertainty.
+
+![Subject trajectories with active, ended and indeterminate descriptions](docs/gallery/generalized-spacetime-trajectories.png)
+
+These are selected cuts of a partial order, not equally spaced clock instants. The independent water observation remains unordered; incomparable events are not asserted simultaneous. Choosing a boundary changes the view without creating a Git revision.
+
+The [full ten-image gallery](applicative_infrastructure/gr_generalized_application/docs/gallery/README.md) also shows two temporal cuts of the same revision, subject trajectories, retained files, the upload dialog, a preserved contradiction and a mobile view. The graph overview's visible **care** filter displays 11 of the 31 records; its node positions are arranged for readability. Every account and source material is fictional.
+
+Follow the [demo guide](applicative_infrastructure/gr_generalized_application/web_application/demo/README.md) to create a separate local demo account and project, explore the story, or reproduce the screenshots. Credentials and runtime records stay outside source control. Preview copies are maintained inside this repository so these images also render across Git submodule boundaries on GitHub.
+
 ## Verification and publication builds
 
 The [application verification guide](applicative_infrastructure/common/conformance/README.md) gives isolated package, API and browser test commands. The [relocation report](applicative_infrastructure/common/design/migration_verification.md) records **427 passing tests and one platform-specific skip**, production builds and preservation checks from the application migration. These are dated implementation results, not a claim of programme adoption, institutional conformance or production readiness.
