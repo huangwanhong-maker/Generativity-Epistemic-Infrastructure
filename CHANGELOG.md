@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.16 — Experimental event order and spacetime topology
+
+- Grounded the requested topology-at-event-cut view in actual foundation manuscript passages, preserving the distinction between occurrence, recording revision, event boundary, continuity, and causal-generative attribution. Recorded the selected alternatives and limits in ADR-0011 and the event-spacetime design.
+- Added proposed temporal requirements to the current Markdown GR-120/140 Working Drafts, preserving existing IDs and historical TeX editions. Added experimental GR-SPEC-121 and additive references in GR-SPEC-120/130; no Standard adoption is asserted.
+- Specified required version 1 event-order and temporal-extent modules under the existing 0.2 protocol, explicit predecessor-closed cuts, scoped trajectory grouping, active topology and retained contradiction/unknown-scope diagnostics. No automatic conversion of existing records or academia's native protocol is implied.
+- Defined a read-only, authorized and revision-pinned spacetime GET/POST binding with bounded selections and anti-forgery protection. Module changes retain the existing accountable Git transaction path; recording order does not become target chronology.
+- Implemented the common projection in package 0.3.0 and the generalized application's Spacetime and Time & trajectory controls. Styled the native file chooser and corrected draft, retry and concurrent-qualification preservation issues found during browser review.
+- Verified 178 non-browser tests and seven browser tests across focused runs, including a final topology-overlap correction. Refreshed the local preview on 2026-09-27 and confirmed both existing project heads unchanged; see the [implementation review](docs/reviews/spacetime_projection_2026-09-22.md). Academia's source and native protocol remain unchanged.
+- Recorded Q-45–48 for alternative chronology accounts, interval semantics, subject continuity/effect modeling and participant comprehension. Verification results belong in the separate implementation review; these design changes do not by themselves establish successful checks, factual warrant or whole-programme conformance.
+
 ## 0.15 — Hosted source repository configuration
 
 - Configured the four user-supplied GitHub remotes, replaced local submodule URLs with hosted URLs, and updated repository READMEs and the recursive-clone/development guide.

@@ -3,6 +3,17 @@
 **Document class:** Informative issue register  
 **Status:** OPEN / evolving
 
+## Event time and spacetime projection, 2026-09-22
+
+[ADR-0011](../../decisions/ADR-0011-event-partial-orders-and-spacetime-projections.md), the [source-grounded design](event_spacetime_design.md) and [GR-SPEC-121](../../specifications/GR-SPEC-121-event-time-projection/GR-SPEC-121.md) define the bounded experimental extension. They do not establish historical truth, an exhaustive GR temporal theory or standards adoption.
+
+| ID | Status | Question and present treatment | Needed by |
+|---|---|---|---|
+| Q-45 | EXPERIMENTAL | How should alternative coherent chronology accounts be selected without discarding evidence? Version 1 retains conflicting strict-order assertions, diagnoses cycles and provides no cut topology for an unusable ordering. Withdrawn order accounts are excluded; contested and non-realized accounts remain visibly qualified. User-selected competing account sets remain open. | Comparative temporal reconstruction |
+| Q-46 | DEFERRED | How should extended events, onset/completion distinctions, overlapping intervals, uncertain calendar dates and multiple temporal reference systems relate to operational event boundaries? Version 1 uses explicit Event markers and start-inclusive/end-exclusive applicability; it infers no ordering from dates, Git or layout and invents no duration. | Richer temporal profile |
+| Q-47 | OPEN | Which identity/continuity criteria and effect semantics justify a trajectory or reconstructed state? Version 1 groups scoped accounts by supplied subject references with a basis; it does not infer identity, execute effects, resolve competing states or assume all linearizations produce one outcome. | Domain trajectory models and formal semantics |
+| Q-48 | OPEN | Do users distinguish event cuts, order layers, physical time, unknown scope and recording revision, including partial Relation views? The induced active subgraph preserves applicable Relation accounts and diagnoses omitted incidences. Automated correctness checks do not establish comprehension or accessibility. | Participatory interface assessment |
+
 ## Graph protocol and modular application, 2026-09-22
 
 [ADR-0008](../../decisions/ADR-0008-record-graphs-transactions-and-modules.md), the [design](graph_workspace_design.md), [source review](graph_semantics_review.md) and [academia comparison](../reviews/academia_application_reference.md) record the selected experimental choices. They do not settle the corresponding conceptual or institutional questions.

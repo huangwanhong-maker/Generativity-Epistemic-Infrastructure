@@ -80,11 +80,15 @@ Additional descriptive fields are `attributed_to`, `method`, `evidence`, `uncert
 
 **S120-012.** `related_records` shall remain a set of up to 50 distinct local record identifiers used for neutral navigation. Migration or graph rendering shall not silently convert these references into typed substantive relations.
 
-**S120-013.** Module keys shall be namespaced identifiers. Each envelope shall contain string `version`, boolean `required` when supplied, and object `data`. Omission of `required` means false. This default does not authorize rewriting an opaque historical envelope merely to insert the default.
+**S120-013.** Module keys shall be namespaced identifiers. Each envelope shall contain string `version`, boolean `required` when supplied, and object `data`. Omission of `required` means false except for the supported new temporal modules specified in S120-029 and GR-SPEC-121. This general default does not authorize rewriting an opaque historical envelope merely to insert the default.
 
 **S120-014.** Optional unsupported modules or versions shall survive unrelated edits unchanged and remain identifiable as unsupported, read-only material. A required unsupported module shall block project mutation by an implementation unable to evaluate its constraints. Unsupported data shall not cause dynamic code installation or execution.
 
-The current package only introduces or edits the three supported version `1` modules. A future domain registry needs its own implementation and compatibility evidence; this Specification does not pretend that unknown domain semantics have been checked.
+The current package introduces or edits five supported version `1` modules: `gsp.relation`, `gsp.notes`, `gsp.files`, `gsp.event_order`, and `gsp.temporal_extent`. A future domain registry needs its own implementation and compatibility evidence; this Specification does not pretend that unknown domain semantics have been checked.
+
+**S120-029.** The additive temporal modules and `gsp.spacetime/1` projection shall follow [GR-SPEC-121](../GR-SPEC-121-event-time-projection/GR-SPEC-121.md). Stored supported temporal envelopes shall require `required: true`; preparation shall supply true when omitted from a supported temporal create/set request and reject explicit false. No historical opaque module shall be rewritten to manufacture support. Existing protocol, schema and profile identifiers remain 0.2.
+
+**S120-030.** Ordinary graph reading shall remain available independently of temporal scope. Introducing or reading temporal modules shall not automatically convert existing records, infer bounds from recording dates, or rewrite retained Git history. An unsupported retained event-order module shall prevent a claimed complete temporal projection; an unsupported temporal-extent module shall remain an explicit applicability limitation.
 
 **S120-015.** `gsp.notes` data shall contain `text`. `gsp.files` data shall contain `items`, an array of retained material descriptors. Module absence shall remain distinguishable from an explicitly enabled empty module.
 

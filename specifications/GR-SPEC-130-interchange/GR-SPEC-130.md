@@ -31,7 +31,7 @@ It does not define the full semantics of the six operational recording roles, re
 
 ## 2. References and authority
 
-The record envelope and module contract are specified in [GR-SPEC-120](../GR-SPEC-120-information-model/GR-SPEC-120.md). The executable representation is distributed with [the independent protocol package](../../applicative_infrastructure/common/packages/gsp_record_protocol/). Both remain experimental.
+The record envelope and module contract are specified in [GR-SPEC-120](../GR-SPEC-120-information-model/GR-SPEC-120.md). The additive event-order, temporal-extent and cut-projection contract is specified in [GR-SPEC-121](../GR-SPEC-121-event-time-projection/GR-SPEC-121.md). The executable representation is distributed with [the independent protocol package](../../applicative_infrastructure/common/packages/gsp_record_protocol/). These remain experimental; the additive modules do not change this binding's 0.2 identifier or retained tree layout.
 
 This binding uses Git's documented object and reference operations. Conditional publication follows [Git update-ref](https://git-scm.com/docs/git-update-ref); blob construction and bounded object reading use [Git hash-object](https://git-scm.com/docs/git-hash-object) and [Git cat-file](https://git-scm.com/docs/git-cat-file). Full-history interchange uses [Git bundle](https://git-scm.com/docs/git-bundle).
 
@@ -223,6 +223,8 @@ The first application exposes these operations:
 | `GET /api/protocol` | Supported protocol/profile/modules and layered limits |
 | `GET /api/projects/{project}` with optional `revision` | Snapshot and distinction between selected/current revision |
 | `GET /api/projects/{project}/graph` with optional `revision` | Projection of that selected snapshot |
+| `GET /api/projects/{project}/spacetime` with optional `revision` | Read-only event-order and topology projection at the all-event cut |
+| `POST /api/projects/{project}/spacetime` with optional `revision` | Read-only projection at the predecessor closure of JSON body `after` Event IDs; anti-forgery protection applies |
 | `POST /api/projects/{project}/transactions` | Accepted or replayed transaction result |
 | `GET /api/projects/{project}/transactions/{transaction}` | Committed receipt, original result revision, observed head |
 | `GET /api/projects/{project}/history` | Up to 100 project commits |
@@ -236,6 +238,10 @@ The first application exposes these operations:
 **X130-040.** State-changing HTTP requests shall require application authorization and its anti-forgery protection. A protected project or resource shall not become discoverable solely through a guessed identifier.
 
 **X130-041.** The application shall distinguish malformed/unsupported input, denied access, missing authorized resources, base or request-ID conflicts, resource limits and storage unavailability. A failed request shall not discard the client's unsaved graph or imply a substantive judgment about its claims.
+
+**X130-044.** Spacetime GET and POST shall resolve one authorized selected snapshot and distinguish its `head` from the currently observed `current_head`; the response shall identify legacy adaptation where applicable. The POST shall require the existing anti-forgery protection, accept only JSON `{after: [...]}` within 64 KiB and 1,000 distinct same-snapshot Event references, and follow GR-SPEC-121 selection and diagnostic rules. Both methods shall remain read-only and create no transaction receipt, commit or migration.
+
+**X130-045.** Temporal module edits shall use the existing attributed transaction, expected-head and publication rules. A late-recorded earlier event shall not rewrite recording history or alter an earlier selected snapshot. The binding shall return retained chronology contradictions as inspectable projection diagnostics rather than invent an ordering to make the graph render.
 
 The application uses `201` for a new accepted transaction, `200` for a recognized replay, `400` for validation failures, `401`/`403` for applicable authentication/anti-forgery failures, `404` for unavailable authorized resources, `409` for conflicts, `413` for binding size limits, `415` for unsupported media types and `503` for unavailable storage. Error classification does not establish whether an uncertain publication occurred; the receipt resolves that separate question.
 

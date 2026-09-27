@@ -34,7 +34,7 @@ The [publication package](publications/README.md) contains nine developed TeX wo
 | [Governance](governance/) | Proposed procedures for developing and maintaining the programme |
 | [Working-draft package](publications/README.md) | Charter, Directives, GR/TC 1 charter, ethics/IP, GR-100/110/200/210 |
 | [Standards-track projects](standards/) | Draft requirements, including GR-120/130/140/160 and further planned projects |
-| [Specifications](specifications/) | Implementable experimental models and protocols, particularly GR-SPEC-120/130 |
+| [Specifications](specifications/) | Implementable experimental models and protocols, particularly GR-SPEC-120/121/130 |
 | [Manuals](manuals/) and [technical reports](technical_reports/) | Practical guidance, theory, comparison and experimental semantics |
 | [Policy proposals](policy_proposals/) | Recommendatory institutional and public-policy options |
 | [Planning](docs/planning/) and [open questions](docs/planning/open_questions.md) | Dependencies, priorities and unresolved decisions |
@@ -119,7 +119,7 @@ python applicative_infrastructure/common/tools/run_application.py academia
 
 | Application | Local address | Current scope |
 |---|---|---|
-| [Generalized workspace](applicative_infrastructure/gr_generalized_application/README.md) | http://127.0.0.1:8000 | Registration, private projects, visual record graphs, first-class Relations, notes/files, atomic Git transactions, historical views and exports |
+| [Generalized workspace](applicative_infrastructure/gr_generalized_application/README.md) | http://127.0.0.1:8000 | Registration, private projects, record graphs, event-defined spacetime and trajectories, first-class Relations, notes/files, atomic Git transactions, historical views and exports |
 | [Generative Relational Academia](applicative_infrastructure/gr_academia_application/README.md) | http://127.0.0.1:8001 | Research projects, question-led trajectories, graph exploration, domain record operations, workspaces and native GRRP tooling |
 
 Use Python 3's local command name where appropriate on Linux/WSL. The [infrastructure guide](applicative_infrastructure/README.md) covers ports, environments, configuration, accounts, backups and independent operation.
@@ -129,6 +129,8 @@ The generalized application implements the experimental gsp-record-protocol/0.2 
 ## Verification and publication builds
 
 The [application verification guide](applicative_infrastructure/common/conformance/README.md) gives isolated package, API and browser test commands. The [relocation report](applicative_infrastructure/common/design/migration_verification.md) records **427 passing tests and one platform-specific skip**, production builds and preservation checks from the application migration. These are dated implementation results, not a claim of programme adoption, institutional conformance or production readiness.
+
+The subsequent [spacetime implementation review](docs/reviews/spacetime_projection_2026-09-22.md) records **185 passing tests across focused runs** for the updated generalized/common implementation, including seven browser tests. The [event-spacetime design](docs/planning/event_spacetime_design.md) explains how event-defined cuts select represented topology independently of Git recording order.
 
 To compile the nine working drafts using an installed TeX environment:
 

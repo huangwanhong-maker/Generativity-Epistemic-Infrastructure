@@ -40,9 +40,11 @@ applicative_infrastructure/common/packages/gsp_record_protocol/src/gsp_protocol/
 applicative_infrastructure/common/packages/gsp_record_protocol/src/gsp_protocol/_schema.py
 applicative_infrastructure/common/packages/gsp_record_protocol/src/gsp_protocol/core.py
 applicative_infrastructure/common/packages/gsp_record_protocol/src/gsp_protocol/schemas/protocol.schema.json
+applicative_infrastructure/common/packages/gsp_record_protocol/src/gsp_protocol/temporal.py
 applicative_infrastructure/common/packages/gsp_record_protocol/tests/fixtures/graph_snapshot.json
 applicative_infrastructure/common/packages/gsp_record_protocol/tests/fixtures/legacy_snapshot.json
 applicative_infrastructure/common/packages/gsp_record_protocol/tests/test_protocol.py
+applicative_infrastructure/common/packages/gsp_record_protocol/tests/test_temporal.py
 applicative_infrastructure/common/tools/run_application.py
 applicative_infrastructure/common/tools/setup_application.py
 applicative_infrastructure/gr_academia_application/.gitattributes
@@ -202,6 +204,8 @@ applicative_infrastructure/gr_generalized_application/web_application/generative
 applicative_infrastructure/gr_generalized_application/web_application/generative_app/static/app.js
 applicative_infrastructure/gr_generalized_application/web_application/generative_app/static/favicon.svg
 applicative_infrastructure/gr_generalized_application/web_application/generative_app/static/graph.js
+applicative_infrastructure/gr_generalized_application/web_application/generative_app/static/spacetime.css
+applicative_infrastructure/gr_generalized_application/web_application/generative_app/static/spacetime.js
 applicative_infrastructure/gr_generalized_application/web_application/generative_app/static/style.css
 applicative_infrastructure/gr_generalized_application/web_application/generative_app/static/vendor/cytoscape.LICENSE
 applicative_infrastructure/gr_generalized_application/web_application/generative_app/static/vendor/cytoscape.min.js
@@ -216,6 +220,8 @@ applicative_infrastructure/gr_generalized_application/web_application/tests/test
 applicative_infrastructure/gr_generalized_application/web_application/tests/test_browser.py
 applicative_infrastructure/gr_generalized_application/web_application/tests/test_graph_browser.py
 applicative_infrastructure/gr_generalized_application/web_application/tests/test_protocol_api.py
+applicative_infrastructure/gr_generalized_application/web_application/tests/test_spacetime_api.py
+applicative_infrastructure/gr_generalized_application/web_application/tests/test_spacetime_browser.py
 decisions/ADR-0001-project-architecture.md
 decisions/ADR-0002-standards-first-specifications-on-demand.md
 decisions/ADR-0003-epistemic-praxis-development-plan.md
@@ -226,6 +232,7 @@ decisions/ADR-0007-git-backed-project-workspace.md
 decisions/ADR-0008-record-graphs-transactions-and-modules.md
 decisions/ADR-0009-applicative-infrastructure-consolidation.md
 decisions/ADR-0010-nested-git-repositories-and-mit-licensing.md
+decisions/ADR-0011-event-partial-orders-and-spacetime-projections.md
 docs/background/GR_background.md
 docs/background/background.md
 docs/background/epistemic_background.md
@@ -237,6 +244,7 @@ docs/framework/publication_taxonomy.md
 docs/planning/NWIP-001-generativity-recording-and-presentation.md
 docs/planning/comprehensive_development_plan.md
 docs/planning/cross_domain_programme.md
+docs/planning/event_spacetime_design.md
 docs/planning/external_standards_landscape.md
 docs/planning/foundation_traceability.md
 docs/planning/governance_and_pilots.md
@@ -255,6 +263,7 @@ docs/reviews/initial_working_draft_review.md
 docs/reviews/remote_publication_2026-09-22.md
 docs/reviews/requirement_changes_0.1_to_0.2.csv
 docs/reviews/requirement_changes_0.2_to_0.3.csv
+docs/reviews/spacetime_projection_2026-09-22.md
 docs/reviews/validation_0.2/README.md
 docs/reviews/validation_0.2/conceptual_review.md
 docs/reviews/validation_0.2/conceptual_review_groups.json
@@ -335,6 +344,8 @@ publications/preamble.tex
 schemas/README.md
 specifications/GR-SPEC-120-information-model/GR-SPEC-120.md
 specifications/GR-SPEC-120-information-model/README.md
+specifications/GR-SPEC-121-event-time-projection/GR-SPEC-121.md
+specifications/GR-SPEC-121-event-time-projection/README.md
 specifications/GR-SPEC-130-interchange/GR-SPEC-130.md
 specifications/GR-SPEC-130-interchange/README.md
 specifications/GR-SPEC-200-epistemic-recording/README.md
