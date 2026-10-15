@@ -1,0 +1,132 @@
+{
+  "suite": "gr.buffer.interop/1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "repeats": 7,
+  "native_sha256": "0ee1ba62b827cd55dbfad0fd31027c168b70777735bcf9cd517b0f71bc59a0d1",
+  "runner_sha256": "c654ca63651ebe1d2f9e3143210920acb42d6d6d567015bb8e11fbe688754af3",
+  "method": "one warmup per operation; complete create/close or pin/release lifetimes timed; hashes outside timing",
+  "limitations": "New v0.4 API without a v0.3 counterpart. Copy-in includes Python staging and native allocation; export measures ownership/metadata transport, not numeric computation. No NumPy dependency.",
+  "cases": [
+    {
+      "payload_bytes": 1024,
+      "copy_import": {
+        "samples_ms": [
+          0.08,
+          0.0643,
+          0.0589,
+          0.0575,
+          0.0583,
+          0.0544,
+          0.0541
+        ],
+        "median_ms": 0.0583
+      },
+      "copy_readinto": {
+        "samples_ms": [
+          0.015,
+          0.0114,
+          0.0094,
+          0.0099,
+          0.0093,
+          0.0091,
+          0.0089
+        ],
+        "median_ms": 0.0094
+      },
+      "readonly_export_1000": {
+        "samples_ms": [
+          3.5388,
+          3.4026,
+          3.3604,
+          3.3576,
+          3.5892,
+          3.3937,
+          3.538
+        ],
+        "median_ms": 3.4026
+      },
+      "verification": "exact SHA-256; readonly export survives handle close and input mutation"
+    },
+    {
+      "payload_bytes": 1048576,
+      "copy_import": {
+        "samples_ms": [
+          0.9527,
+          0.9283,
+          0.7483,
+          0.6301,
+          0.6869,
+          0.858,
+          1.149
+        ],
+        "median_ms": 0.858
+      },
+      "copy_readinto": {
+        "samples_ms": [
+          0.077,
+          0.0705,
+          0.0694,
+          0.0671,
+          0.0696,
+          0.0685,
+          0.067
+        ],
+        "median_ms": 0.0694
+      },
+      "readonly_export_1000": {
+        "samples_ms": [
+          7.3231,
+          5.1069,
+          5.7671,
+          5.7897,
+          7.101,
+          4.0459,
+          4.2253
+        ],
+        "median_ms": 5.7671
+      },
+      "verification": "exact SHA-256; readonly export survives handle close and input mutation"
+    },
+    {
+      "payload_bytes": 4194304,
+      "copy_import": {
+        "samples_ms": [
+          3.0939,
+          2.9083,
+          2.8889,
+          3.1941,
+          2.8429,
+          3.72,
+          3.4109
+        ],
+        "median_ms": 3.0939
+      },
+      "copy_readinto": {
+        "samples_ms": [
+          0.3738,
+          0.3438,
+          0.2844,
+          0.3307,
+          0.3585,
+          0.3292,
+          0.299
+        ],
+        "median_ms": 0.3307
+      },
+      "readonly_export_1000": {
+        "samples_ms": [
+          5.0962,
+          4.4941,
+          3.4492,
+          4.7608,
+          5.3916,
+          3.5604,
+          3.551
+        ],
+        "median_ms": 4.4941
+      },
+      "verification": "exact SHA-256; readonly export survives handle close and input mutation"
+    }
+  ]
+}

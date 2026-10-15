@@ -1,0 +1,788 @@
+{
+  "cases": [
+    {
+      "diagnostics": {
+        "output_logical_bytes": 655360,
+        "output_retained_bytes_sum_per_value": 655360,
+        "physical_output_digests": [
+          "sha256:096fcc5a9aa0effb2a27e2a414feb2a92e61b7398bd85447c94246777e4e17c7"
+        ],
+        "retention_scope": "Per-value owner sums can count shared owners more than once; not RSS"
+      },
+      "max_ms": 13.6425,
+      "median_ms": 12.9751,
+      "min_ms": 10.951,
+      "name": "nullable_table_65536_construct",
+      "p95_nearest_rank_ms": 13.6425,
+      "samples_ms": [
+        10.951,
+        11.4088,
+        13.2727,
+        13.6425,
+        12.9751
+      ],
+      "workload": {
+        "input_columns": 2,
+        "input_distribution": "int64 i%101-50; validity i%7!=0; bool i%3==0",
+        "owned_input_payload_bytes": 655360,
+        "pipeline": "column -> affine(2,1) -> compare(>10) -> table/filter -> ordered sum",
+        "rows": 65536
+      }
+    },
+    {
+      "diagnostics": {
+        "calls": 6,
+        "literal_creation_included": false
+      },
+      "max_ms": 0.1538,
+      "median_ms": 0.1416,
+      "min_ms": 0.1356,
+      "name": "nullable_table_65536_infer_existing_literals",
+      "p95_nearest_rank_ms": 0.1538,
+      "samples_ms": [
+        0.1538,
+        0.1356,
+        0.1416,
+        0.1455,
+        0.1377
+      ],
+      "workload": {
+        "input_columns": 2,
+        "input_distribution": "int64 i%101-50; validity i%7!=0; bool i%3==0",
+        "owned_input_payload_bytes": 655360,
+        "pipeline": "column -> affine(2,1) -> compare(>10) -> table/filter -> ordered sum",
+        "rows": 65536
+      }
+    },
+    {
+      "diagnostics": {
+        "fresh_catalog_and_plan": true,
+        "immutable_owner_hashes": "warm",
+        "literal_accounted_bytes": 1313522,
+        "nodes": 6,
+        "plan_id": "sha256:b65ac8c641a5e61e01469a65b5eaa9ac1d59e13d23448e1c495b1277605c98f8"
+      },
+      "max_ms": 43.592,
+      "median_ms": 34.5068,
+      "min_ms": 31.0506,
+      "name": "nullable_table_65536_compile_warm_input_digests",
+      "p95_nearest_rank_ms": 43.592,
+      "samples_ms": [
+        43.592,
+        32.4732,
+        40.3496,
+        31.0506,
+        34.5068
+      ],
+      "workload": {
+        "input_columns": 2,
+        "input_distribution": "int64 i%101-50; validity i%7!=0; bool i%3==0",
+        "owned_input_payload_bytes": 655360,
+        "pipeline": "column -> affine(2,1) -> compare(>10) -> table/filter -> ordered sum",
+        "rows": 65536
+      }
+    },
+    {
+      "diagnostics": {
+        "expected_sum": 1431982,
+        "lifetime": "Harness retains every intermediate until the DAG finishes",
+        "observed_owner_bytes_at_node_boundaries": 1731199,
+        "output_logical_bytes": 255789,
+        "output_retained_bytes_sum_per_value": 255789,
+        "physical_output_digests": [
+          "sha256:f75eb6026aeadd89d91cbeb40a22bc6592604d4ab31afd902076df45937f226f",
+          "sha256:2b31ad5ef40b9285b739c3b54cdc245668f5e2ae98c11dcc67f2eb3eaf35275d"
+        ],
+        "retention_scope": "Per-value owner sums can count shared owners more than once; not RSS",
+        "selected_rows": 25578
+      },
+      "max_ms": 172.9403,
+      "median_ms": 149.8035,
+      "min_ms": 131.6167,
+      "name": "nullable_table_65536_prepared_serial",
+      "p95_nearest_rank_ms": 172.9403,
+      "samples_ms": [
+        131.6167,
+        138.8731,
+        172.9403,
+        149.8035,
+        153.8174
+      ],
+      "workload": {
+        "input_columns": 2,
+        "input_distribution": "int64 i%101-50; validity i%7!=0; bool i%3==0",
+        "owned_input_payload_bytes": 655360,
+        "pipeline": "column -> affine(2,1) -> compare(>10) -> table/filter -> ordered sum",
+        "rows": 65536
+      }
+    },
+    {
+      "diagnostics": {
+        "expected_sum": 1431982,
+        "output_logical_bytes": 255789,
+        "output_retained_bytes_sum_per_value": 255789,
+        "peak_slots": 1,
+        "physical_output_digests": [
+          "sha256:f75eb6026aeadd89d91cbeb40a22bc6592604d4ab31afd902076df45937f226f",
+          "sha256:2b31ad5ef40b9285b739c3b54cdc245668f5e2ae98c11dcc67f2eb3eaf35275d"
+        ],
+        "retention_scope": "Per-value owner sums can count shared owners more than once; not RSS",
+        "runtime": {
+          "buffer_accounting": "Per value: max(logical bytes, distinct retained owner bytes) plus descriptors; owner aliases between values are conservatively charged again",
+          "dropped_trace_events": 15,
+          "peak_retained_payload_bytes": 3114210,
+          "plan": "sha256:b65ac8c641a5e61e01469a65b5eaa9ac1d59e13d23448e1c495b1277605c98f8",
+          "priority": 0,
+          "reservation_bytes": 67108864,
+          "scope": "Runtime/result-owned retained payload; excludes in-flight callback temporaries, native extracted aliases, metadata and process memory",
+          "serial": false,
+          "trace": []
+        },
+        "selected_rows": 25578
+      },
+      "max_ms": 228.8328,
+      "median_ms": 193.7097,
+      "min_ms": 128.684,
+      "name": "nullable_table_65536_runtime_workers1",
+      "p95_nearest_rank_ms": 228.8328,
+      "samples_ms": [
+        189.9384,
+        128.684,
+        228.8328,
+        193.7097,
+        218.7721
+      ],
+      "workload": {
+        "input_columns": 2,
+        "input_distribution": "int64 i%101-50; validity i%7!=0; bool i%3==0",
+        "materialization_timed": false,
+        "owned_input_payload_bytes": 655360,
+        "pipeline": "column -> affine(2,1) -> compare(>10) -> table/filter -> ordered sum",
+        "rows": 65536,
+        "workers": 1
+      }
+    },
+    {
+      "diagnostics": {
+        "expected_sum": 1431982,
+        "output_logical_bytes": 255789,
+        "output_retained_bytes_sum_per_value": 255789,
+        "peak_slots": 2,
+        "physical_output_digests": [
+          "sha256:f75eb6026aeadd89d91cbeb40a22bc6592604d4ab31afd902076df45937f226f",
+          "sha256:2b31ad5ef40b9285b739c3b54cdc245668f5e2ae98c11dcc67f2eb3eaf35275d"
+        ],
+        "retention_scope": "Per-value owner sums can count shared owners more than once; not RSS",
+        "runtime": {
+          "buffer_accounting": "Per value: max(logical bytes, distinct retained owner bytes) plus descriptors; owner aliases between values are conservatively charged again",
+          "dropped_trace_events": 15,
+          "peak_retained_payload_bytes": 3114210,
+          "plan": "sha256:b65ac8c641a5e61e01469a65b5eaa9ac1d59e13d23448e1c495b1277605c98f8",
+          "priority": 0,
+          "reservation_bytes": 67108864,
+          "scope": "Runtime/result-owned retained payload; excludes in-flight callback temporaries, native extracted aliases, metadata and process memory",
+          "serial": false,
+          "trace": []
+        },
+        "selected_rows": 25578
+      },
+      "max_ms": 293.2731,
+      "median_ms": 246.9632,
+      "min_ms": 133.6751,
+      "name": "nullable_table_65536_runtime_workers4",
+      "p95_nearest_rank_ms": 293.2731,
+      "samples_ms": [
+        257.0752,
+        240.7486,
+        133.6751,
+        246.9632,
+        293.2731
+      ],
+      "workload": {
+        "input_columns": 2,
+        "input_distribution": "int64 i%101-50; validity i%7!=0; bool i%3==0",
+        "materialization_timed": false,
+        "owned_input_payload_bytes": 655360,
+        "pipeline": "column -> affine(2,1) -> compare(>10) -> table/filter -> ordered sum",
+        "rows": 65536,
+        "workers": 4
+      }
+    },
+    {
+      "diagnostics": {
+        "scope": "Known-range fused std::vector baseline; not an equivalent generic contract implementation",
+        "selected_rows": 25578,
+        "sum": 1431982
+      },
+      "max_ms": 0.6398,
+      "median_ms": 0.302,
+      "min_ms": 0.2983,
+      "name": "nullable_table_65536_specialized_fused_host_loop",
+      "p95_nearest_rank_ms": 0.6398,
+      "samples_ms": [
+        0.2986,
+        0.302,
+        0.6023,
+        0.6398,
+        0.2983
+      ],
+      "workload": {
+        "input_columns": 2,
+        "input_distribution": "int64 i%101-50; validity i%7!=0; bool i%3==0",
+        "owned_input_payload_bytes": 655360,
+        "pipeline": "column -> affine(2,1) -> compare(>10) -> table/filter -> ordered sum",
+        "rows": 65536
+      }
+    },
+    {
+      "diagnostics": {
+        "output_logical_bytes": 2621440,
+        "output_retained_bytes_sum_per_value": 2621440,
+        "physical_output_digests": [
+          "sha256:98bfd1b94d9d43305d01844dbedbd47adb9ad99b89628faf5634694a0a02608f"
+        ],
+        "retention_scope": "Per-value owner sums can count shared owners more than once; not RSS"
+      },
+      "max_ms": 164.5255,
+      "median_ms": 120.3869,
+      "min_ms": 100.3415,
+      "name": "nullable_table_262144_construct",
+      "p95_nearest_rank_ms": 164.5255,
+      "samples_ms": [
+        120.3869,
+        100.3415,
+        135.702,
+        164.5255,
+        119.1735
+      ],
+      "workload": {
+        "input_columns": 2,
+        "input_distribution": "int64 i%101-50; validity i%7!=0; bool i%3==0",
+        "owned_input_payload_bytes": 2621440,
+        "pipeline": "column -> affine(2,1) -> compare(>10) -> table/filter -> ordered sum",
+        "rows": 262144
+      }
+    },
+    {
+      "diagnostics": {
+        "calls": 6,
+        "literal_creation_included": false
+      },
+      "max_ms": 0.0949,
+      "median_ms": 0.0858,
+      "min_ms": 0.0854,
+      "name": "nullable_table_262144_infer_existing_literals",
+      "p95_nearest_rank_ms": 0.0949,
+      "samples_ms": [
+        0.0949,
+        0.0854,
+        0.0888,
+        0.0854,
+        0.0858
+      ],
+      "workload": {
+        "input_columns": 2,
+        "input_distribution": "int64 i%101-50; validity i%7!=0; bool i%3==0",
+        "owned_input_payload_bytes": 2621440,
+        "pipeline": "column -> affine(2,1) -> compare(>10) -> table/filter -> ordered sum",
+        "rows": 262144
+      }
+    },
+    {
+      "diagnostics": {
+        "fresh_catalog_and_plan": true,
+        "immutable_owner_hashes": "warm",
+        "literal_accounted_bytes": 5245702,
+        "nodes": 6,
+        "plan_id": "sha256:b51960b91b9a73767dfeea56d933a0c43f44a1d244fd2b5ff86e801374a2817a"
+      },
+      "max_ms": 271.1196,
+      "median_ms": 232.5798,
+      "min_ms": 207.0769,
+      "name": "nullable_table_262144_compile_warm_input_digests",
+      "p95_nearest_rank_ms": 271.1196,
+      "samples_ms": [
+        207.0769,
+        271.1196,
+        247.4835,
+        215.5729,
+        232.5798
+      ],
+      "workload": {
+        "input_columns": 2,
+        "input_distribution": "int64 i%101-50; validity i%7!=0; bool i%3==0",
+        "owned_input_payload_bytes": 2621440,
+        "pipeline": "column -> affine(2,1) -> compare(>10) -> table/filter -> ordered sum",
+        "rows": 262144
+      }
+    },
+    {
+      "diagnostics": {
+        "expected_sum": 5729719,
+        "lifetime": "Harness retains every intermediate until the DAG finishes",
+        "observed_owner_bytes_at_node_boundaries": 6924792,
+        "output_logical_bytes": 1023179,
+        "output_retained_bytes_sum_per_value": 1023179,
+        "physical_output_digests": [
+          "sha256:a7cfd7a5a946a4ec2350ae6cdf2248f695651305f9d3c25dd7001c3f26f9c41f",
+          "sha256:f7131a403acbc4eaacde1c12a25c614c192aa52229807ed809eb22223917d145"
+        ],
+        "retention_scope": "Per-value owner sums can count shared owners more than once; not RSS",
+        "selected_rows": 102317
+      },
+      "max_ms": 877.2136,
+      "median_ms": 854.3571,
+      "min_ms": 712.9894,
+      "name": "nullable_table_262144_prepared_serial",
+      "p95_nearest_rank_ms": 877.2136,
+      "samples_ms": [
+        854.3571,
+        877.2136,
+        868.02,
+        712.9894,
+        723.8556
+      ],
+      "workload": {
+        "input_columns": 2,
+        "input_distribution": "int64 i%101-50; validity i%7!=0; bool i%3==0",
+        "owned_input_payload_bytes": 2621440,
+        "pipeline": "column -> affine(2,1) -> compare(>10) -> table/filter -> ordered sum",
+        "rows": 262144
+      }
+    },
+    {
+      "diagnostics": {
+        "expected_sum": 5729719,
+        "output_logical_bytes": 1023179,
+        "output_retained_bytes_sum_per_value": 1023179,
+        "peak_slots": 1,
+        "physical_output_digests": [
+          "sha256:a7cfd7a5a946a4ec2350ae6cdf2248f695651305f9d3c25dd7001c3f26f9c41f",
+          "sha256:f7131a403acbc4eaacde1c12a25c614c192aa52229807ed809eb22223917d145"
+        ],
+        "retention_scope": "Per-value owner sums can count shared owners more than once; not RSS",
+        "runtime": {
+          "buffer_accounting": "Per value: max(logical bytes, distinct retained owner bytes) plus descriptors; owner aliases between values are conservatively charged again",
+          "dropped_trace_events": 15,
+          "peak_retained_payload_bytes": 12436621,
+          "plan": "sha256:b51960b91b9a73767dfeea56d933a0c43f44a1d244fd2b5ff86e801374a2817a",
+          "priority": 0,
+          "reservation_bytes": 67108864,
+          "scope": "Runtime/result-owned retained payload; excludes in-flight callback temporaries, native extracted aliases, metadata and process memory",
+          "serial": false,
+          "trace": []
+        },
+        "selected_rows": 102317
+      },
+      "max_ms": 1532.4329,
+      "median_ms": 1184.7186,
+      "min_ms": 954.4431,
+      "name": "nullable_table_262144_runtime_workers1",
+      "p95_nearest_rank_ms": 1532.4329,
+      "samples_ms": [
+        1296.3498,
+        1532.4329,
+        954.4431,
+        1184.7186,
+        1139.3251
+      ],
+      "workload": {
+        "input_columns": 2,
+        "input_distribution": "int64 i%101-50; validity i%7!=0; bool i%3==0",
+        "materialization_timed": false,
+        "owned_input_payload_bytes": 2621440,
+        "pipeline": "column -> affine(2,1) -> compare(>10) -> table/filter -> ordered sum",
+        "rows": 262144,
+        "workers": 1
+      }
+    },
+    {
+      "diagnostics": {
+        "expected_sum": 5729719,
+        "output_logical_bytes": 1023179,
+        "output_retained_bytes_sum_per_value": 1023179,
+        "peak_slots": 2,
+        "physical_output_digests": [
+          "sha256:a7cfd7a5a946a4ec2350ae6cdf2248f695651305f9d3c25dd7001c3f26f9c41f",
+          "sha256:f7131a403acbc4eaacde1c12a25c614c192aa52229807ed809eb22223917d145"
+        ],
+        "retention_scope": "Per-value owner sums can count shared owners more than once; not RSS",
+        "runtime": {
+          "buffer_accounting": "Per value: max(logical bytes, distinct retained owner bytes) plus descriptors; owner aliases between values are conservatively charged again",
+          "dropped_trace_events": 15,
+          "peak_retained_payload_bytes": 12436621,
+          "plan": "sha256:b51960b91b9a73767dfeea56d933a0c43f44a1d244fd2b5ff86e801374a2817a",
+          "priority": 0,
+          "reservation_bytes": 67108864,
+          "scope": "Runtime/result-owned retained payload; excludes in-flight callback temporaries, native extracted aliases, metadata and process memory",
+          "serial": false,
+          "trace": []
+        },
+        "selected_rows": 102317
+      },
+      "max_ms": 1016.8268,
+      "median_ms": 819.7793,
+      "min_ms": 771.2651,
+      "name": "nullable_table_262144_runtime_workers4",
+      "p95_nearest_rank_ms": 1016.8268,
+      "samples_ms": [
+        1003.68,
+        771.9182,
+        819.7793,
+        771.2651,
+        1016.8268
+      ],
+      "workload": {
+        "input_columns": 2,
+        "input_distribution": "int64 i%101-50; validity i%7!=0; bool i%3==0",
+        "materialization_timed": false,
+        "owned_input_payload_bytes": 2621440,
+        "pipeline": "column -> affine(2,1) -> compare(>10) -> table/filter -> ordered sum",
+        "rows": 262144,
+        "workers": 4
+      }
+    },
+    {
+      "diagnostics": {
+        "scope": "Known-range fused std::vector baseline; not an equivalent generic contract implementation",
+        "selected_rows": 102317,
+        "sum": 5729719
+      },
+      "max_ms": 2.7385,
+      "median_ms": 2.176,
+      "min_ms": 2.0351,
+      "name": "nullable_table_262144_specialized_fused_host_loop",
+      "p95_nearest_rank_ms": 2.7385,
+      "samples_ms": [
+        2.0351,
+        2.176,
+        2.6235,
+        2.7385,
+        2.1299
+      ],
+      "workload": {
+        "input_columns": 2,
+        "input_distribution": "int64 i%101-50; validity i%7!=0; bool i%3==0",
+        "owned_input_payload_bytes": 2621440,
+        "pipeline": "column -> affine(2,1) -> compare(>10) -> table/filter -> ordered sum",
+        "rows": 262144
+      }
+    },
+    {
+      "diagnostics": {
+        "output_logical_bytes": 229352,
+        "output_retained_bytes_sum_per_value": 229352,
+        "physical_output_digests": [
+          "sha256:8b21302160c4a9e4ca0d1bb883ae25cf57a1510f25c08129cb9a76b5452528bd"
+        ],
+        "retention_scope": "Per-value owner sums can count shared owners more than once; not RSS"
+      },
+      "max_ms": 1.1109,
+      "median_ms": 0.7892,
+      "min_ms": 0.7707,
+      "name": "csr_4096_construct",
+      "p95_nearest_rank_ms": 1.1109,
+      "samples_ms": [
+        0.7892,
+        0.7707,
+        0.7719,
+        1.1109,
+        0.9505
+      ],
+      "workload": {
+        "columns": 4096,
+        "input_int64_slots": 32765,
+        "matrix": "Tridiagonal: left -1, diagonal 2, right 3; explicit sorted CSR",
+        "nnz": 12286,
+        "rows": 4096
+      }
+    },
+    {
+      "diagnostics": {
+        "fresh_catalog_and_plan": true,
+        "immutable_owner_hashes": "warm",
+        "plan_id": "sha256:57ec5dacff051fe44c12aab851ca9f2a01e0a9e3644fbe32bc41c874fd84c731"
+      },
+      "max_ms": 12.9554,
+      "median_ms": 9.3558,
+      "min_ms": 9.1193,
+      "name": "csr_4096_direct_compile_warm_input_digests",
+      "p95_nearest_rank_ms": 12.9554,
+      "samples_ms": [
+        9.1193,
+        9.3558,
+        11.5477,
+        12.9554,
+        9.1202
+      ],
+      "workload": {
+        "columns": 4096,
+        "input_int64_slots": 32765,
+        "matrix": "Tridiagonal: left -1, diagonal 2, right 3; explicit sorted CSR",
+        "nnz": 12286,
+        "provider": "gr.sparse.cpu.matvec-direct@1",
+        "rows": 4096
+      }
+    },
+    {
+      "diagnostics": {
+        "decoded_provider_temporary_vectors": "Outside native owner budget, included in elapsed time",
+        "observed_owner_bytes_at_node_boundaries": 294888,
+        "output_logical_bytes": 32768,
+        "output_retained_bytes_sum_per_value": 32768,
+        "physical_output_digests": [
+          "sha256:3c1100370e2b0386207686c6b22805b5f31d69f5f0125cfbdd794a22efa4d5de"
+        ],
+        "retention_scope": "Per-value owner sums can count shared owners more than once; not RSS"
+      },
+      "max_ms": 3.9035,
+      "median_ms": 3.6677,
+      "min_ms": 1.9225,
+      "name": "csr_4096_direct_prepared",
+      "p95_nearest_rank_ms": 3.9035,
+      "samples_ms": [
+        3.273,
+        3.7382,
+        3.9035,
+        1.9225,
+        3.6677
+      ],
+      "workload": {
+        "columns": 4096,
+        "input_int64_slots": 32765,
+        "matrix": "Tridiagonal: left -1, diagonal 2, right 3; explicit sorted CSR",
+        "nnz": 12286,
+        "provider": "gr.sparse.cpu.matvec-direct@1",
+        "rows": 4096
+      }
+    },
+    {
+      "diagnostics": {
+        "fresh_catalog_and_plan": true,
+        "immutable_owner_hashes": "warm",
+        "plan_id": "sha256:d85efabb85760029d01cbfd9c02dab5e114119b73c2faf20dfe26e2253bacae9"
+      },
+      "max_ms": 5.9375,
+      "median_ms": 3.0945,
+      "min_ms": 3.0237,
+      "name": "csr_4096_decoded_compile_warm_input_digests",
+      "p95_nearest_rank_ms": 5.9375,
+      "samples_ms": [
+        3.2079,
+        3.0945,
+        3.0237,
+        3.0369,
+        5.9375
+      ],
+      "workload": {
+        "columns": 4096,
+        "input_int64_slots": 32765,
+        "matrix": "Tridiagonal: left -1, diagonal 2, right 3; explicit sorted CSR",
+        "nnz": 12286,
+        "provider": "gr.sparse.cpu.matvec-decoded@1",
+        "rows": 4096
+      }
+    },
+    {
+      "diagnostics": {
+        "decoded_provider_temporary_vectors": "Outside native owner budget, included in elapsed time",
+        "observed_owner_bytes_at_node_boundaries": 294888,
+        "output_logical_bytes": 32768,
+        "output_retained_bytes_sum_per_value": 32768,
+        "physical_output_digests": [
+          "sha256:3c1100370e2b0386207686c6b22805b5f31d69f5f0125cfbdd794a22efa4d5de"
+        ],
+        "retention_scope": "Per-value owner sums can count shared owners more than once; not RSS"
+      },
+      "max_ms": 3.1539,
+      "median_ms": 3.0891,
+      "min_ms": 2.5189,
+      "name": "csr_4096_decoded_prepared",
+      "p95_nearest_rank_ms": 3.1539,
+      "samples_ms": [
+        3.0891,
+        2.5189,
+        2.5906,
+        3.1539,
+        3.1391
+      ],
+      "workload": {
+        "columns": 4096,
+        "input_int64_slots": 32765,
+        "matrix": "Tridiagonal: left -1, diagonal 2, right 3; explicit sorted CSR",
+        "nnz": 12286,
+        "provider": "gr.sparse.cpu.matvec-decoded@1",
+        "rows": 4096
+      }
+    },
+    {
+      "diagnostics": {
+        "output_logical_bytes": 917480,
+        "output_retained_bytes_sum_per_value": 917480,
+        "physical_output_digests": [
+          "sha256:955b906aa7cfd700d90a805e688c3cdf2bf946cc0fe877f93f8f73ab1020690f"
+        ],
+        "retention_scope": "Per-value owner sums can count shared owners more than once; not RSS"
+      },
+      "max_ms": 3.9227,
+      "median_ms": 3.6018,
+      "min_ms": 2.077,
+      "name": "csr_16384_construct",
+      "p95_nearest_rank_ms": 3.9227,
+      "samples_ms": [
+        3.9227,
+        3.2013,
+        2.077,
+        3.6268,
+        3.6018
+      ],
+      "workload": {
+        "columns": 16384,
+        "input_int64_slots": 131069,
+        "matrix": "Tridiagonal: left -1, diagonal 2, right 3; explicit sorted CSR",
+        "nnz": 49150,
+        "rows": 16384
+      }
+    },
+    {
+      "diagnostics": {
+        "fresh_catalog_and_plan": true,
+        "immutable_owner_hashes": "warm",
+        "plan_id": "sha256:7235a11c7a4094b0cc4c99bafa30ca7ebb088ed50f704bdfc219c8861f4403bd"
+      },
+      "max_ms": 10.3981,
+      "median_ms": 9.1175,
+      "min_ms": 7.5554,
+      "name": "csr_16384_direct_compile_warm_input_digests",
+      "p95_nearest_rank_ms": 10.3981,
+      "samples_ms": [
+        8.5736,
+        10.0295,
+        10.3981,
+        7.5554,
+        9.1175
+      ],
+      "workload": {
+        "columns": 16384,
+        "input_int64_slots": 131069,
+        "matrix": "Tridiagonal: left -1, diagonal 2, right 3; explicit sorted CSR",
+        "nnz": 49150,
+        "provider": "gr.sparse.cpu.matvec-direct@1",
+        "rows": 16384
+      }
+    },
+    {
+      "diagnostics": {
+        "decoded_provider_temporary_vectors": "Outside native owner budget, included in elapsed time",
+        "observed_owner_bytes_at_node_boundaries": 1179624,
+        "output_logical_bytes": 131072,
+        "output_retained_bytes_sum_per_value": 131072,
+        "physical_output_digests": [
+          "sha256:6e3ffefb01fd24c705d9411c34bc9f5e545f324b2917cd300006c7a5323ba080"
+        ],
+        "retention_scope": "Per-value owner sums can count shared owners more than once; not RSS"
+      },
+      "max_ms": 12.7674,
+      "median_ms": 11.6914,
+      "min_ms": 8.5687,
+      "name": "csr_16384_direct_prepared",
+      "p95_nearest_rank_ms": 12.7674,
+      "samples_ms": [
+        11.6914,
+        11.0095,
+        8.5687,
+        11.8959,
+        12.7674
+      ],
+      "workload": {
+        "columns": 16384,
+        "input_int64_slots": 131069,
+        "matrix": "Tridiagonal: left -1, diagonal 2, right 3; explicit sorted CSR",
+        "nnz": 49150,
+        "provider": "gr.sparse.cpu.matvec-direct@1",
+        "rows": 16384
+      }
+    },
+    {
+      "diagnostics": {
+        "fresh_catalog_and_plan": true,
+        "immutable_owner_hashes": "warm",
+        "plan_id": "sha256:524760ad312439c2a18d013f6e87cd24f5de475d5e6095183d353ebd6cdb2a2e"
+      },
+      "max_ms": 11.3548,
+      "median_ms": 9.213,
+      "min_ms": 6.8723,
+      "name": "csr_16384_decoded_compile_warm_input_digests",
+      "p95_nearest_rank_ms": 11.3548,
+      "samples_ms": [
+        9.213,
+        11.3548,
+        7.6306,
+        9.7463,
+        6.8723
+      ],
+      "workload": {
+        "columns": 16384,
+        "input_int64_slots": 131069,
+        "matrix": "Tridiagonal: left -1, diagonal 2, right 3; explicit sorted CSR",
+        "nnz": 49150,
+        "provider": "gr.sparse.cpu.matvec-decoded@1",
+        "rows": 16384
+      }
+    },
+    {
+      "diagnostics": {
+        "decoded_provider_temporary_vectors": "Outside native owner budget, included in elapsed time",
+        "observed_owner_bytes_at_node_boundaries": 1179624,
+        "output_logical_bytes": 131072,
+        "output_retained_bytes_sum_per_value": 131072,
+        "physical_output_digests": [
+          "sha256:6e3ffefb01fd24c705d9411c34bc9f5e545f324b2917cd300006c7a5323ba080"
+        ],
+        "retention_scope": "Per-value owner sums can count shared owners more than once; not RSS"
+      },
+      "max_ms": 6.8623,
+      "median_ms": 6.4926,
+      "min_ms": 4.8609,
+      "name": "csr_16384_decoded_prepared",
+      "p95_nearest_rank_ms": 6.8623,
+      "samples_ms": [
+        4.8609,
+        6.8623,
+        5.9685,
+        6.4926,
+        6.8495
+      ],
+      "workload": {
+        "columns": 16384,
+        "input_int64_slots": 131069,
+        "matrix": "Tridiagonal: left -1, diagonal 2, right 3; explicit sorted CSR",
+        "nnz": 49150,
+        "provider": "gr.sparse.cpu.matvec-decoded@1",
+        "rows": 16384
+      }
+    }
+  ],
+  "environment": {
+    "build": "NDEBUG",
+    "compiler": "MSVC",
+    "compiler_version": 194435209,
+    "cplusplus": 199711,
+    "executable_sha256": "dcb1d55e7094cd3ed6f5602bf846590924486a54d15a652100c449b444fc588f",
+    "logical_threads_reported": 8
+  },
+  "format": "gr.data-benchmark/1",
+  "method": {
+    "clock": "steady_clock",
+    "compile_path": "Fresh catalog and plan; existing expressions and warmed immutable owner digests",
+    "correctness_and_hashing_timed": false,
+    "memory_scope": "Requested native buffer owner bytes only; excludes temporary vectors, metadata, allocator overhead, process RSS",
+    "prepared_path": "Serial DAG assembly/execution; all intermediates retained until completion; no scheduler/materialization",
+    "repetitions": 5,
+    "result_destruction_timed": false,
+    "runtime_pools": "Created once per case; warmed before measurements",
+    "statistics": "Five samples; nearest-rank p95 is maximum, not a tail-latency guarantee",
+    "warmups": 1
+  },
+  "suite": "native-layer3-v0.5/1"
+}

@@ -1,0 +1,3 @@
+command: C:\Users\Micro\AppData\Local\Programs\Python\Python312\python.exe -B C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\benchmarks\buffers.py --output C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\docs\validation\benchmark-v0.4-buffers.json
+GR_OS_LIBRARY=C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_native.dll
+PYTHONPATH=C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\bindings\python\src

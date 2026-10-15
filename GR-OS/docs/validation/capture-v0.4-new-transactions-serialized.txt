@@ -1,0 +1,12 @@
+command: C:\Users\Micro\AppData\Local\Programs\Python\Python312\python.exe -B C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\benchmarks\transactions.py --output C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\docs\validation\benchmark-v0.4-transactions-serialized.json --mode fixed --admission serialized
+GR_OS_LIBRARY=C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_native.dll
+PYTHONPATH=C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\bindings\python\src
+writers=1 batch=1 history=False: 367.22 commits/s
+writers=2 batch=1 history=False: 317.40 commits/s
+writers=4 batch=1 history=False: 352.38 commits/s
+writers=1 batch=8 history=False: 60.57 commits/s
+writers=2 batch=8 history=False: 82.29 commits/s
+writers=4 batch=8 history=False: 75.77 commits/s
+writers=1 batch=4 history=True: 8.72 commits/s
+writers=2 batch=4 history=True: 9.87 commits/s
+writers=4 batch=4 history=True: 10.86 commits/s

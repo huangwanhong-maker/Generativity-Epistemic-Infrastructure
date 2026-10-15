@@ -1,0 +1,25 @@
+{
+  "baseline_source_archive_entries_verified": 189,
+  "baseline_binaries_verified_against_prior_accepted_manifest": [
+    {
+      "path": "build/baselines/v0.5/benchmark_data.exe",
+      "sha256": "dcb1d55e7094cd3ed6f5602bf846590924486a54d15a652100c449b444fc588f"
+    },
+    {
+      "path": "build/baselines/v0.5/benchmark_data_relational.exe",
+      "sha256": "e3eaf19b6630f2341e9c5bc029a2b1d0d2dad70f23ad26d8dfc69f48545bd6e4"
+    },
+    {
+      "path": "build/baselines/v0.5/benchmark_runtime.exe",
+      "sha256": "c352deb1d8e5ee2aa5195e385624185b7c52f1470b91ad4dba573b4bf04dd6b0"
+    },
+    {
+      "path": "build/baselines/v0.5/benchmark_admission.exe",
+      "sha256": "91ce71af9f03748e4f76def5cbd7801daafdcb3e7a3773ce9bb25dc8eabc771b"
+    },
+    {
+      "path": "build/baselines/v0.5/installed/bin/gr_native.dll",
+      "sha256": "7ba373639d3027708e69ad5d53b748fcd2a0d11efa438e8f126f959e5b0dbd80"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  gr_common.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_common.lib
+  gr_sqlite.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_sqlite.lib
+  test_canonical.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_canonical.exe
+  gr_semantics.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_semantics.lib
+  gr_storage.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_storage.lib
+  gr_execution.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_execution.lib
+  test_operations.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_operations.exe
+  test_prepared.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_prepared.exe
+  gr_core.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_core.lib
+  example_extension.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\example_extension.exe
+  test_execution.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_execution.exe
+  test_records.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_records.exe
+  test_storage.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_storage.exe
+  test_history.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_history.exe
+  test_sqlite.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_sqlite.exe
+  scheduler.cpp
+  gr_runtime.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_runtime.lib
+     Creating library C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/gr_native.lib and object C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/gr_native.exp
+  benchmark_runtime.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\benchmark_runtime.exe
+  test_runtime.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_runtime.exe
+  gr_native.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_native.dll
+  gr_cli.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr.exe
+  test_transactions.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_transactions.exe
+  runtime_recovery.cpp
+  test_planner.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_planner.exe
+  runtime_crash_worker.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\runtime_crash_worker.exe
+  test_runtime_recovery.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_runtime_recovery.exe

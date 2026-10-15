@@ -1,0 +1,193 @@
+{
+  "format": "gr.validation-evidence-manifest/1",
+  "version": "0.5.0",
+  "captured_utc": "2026-10-15T06:08:21.669548+00:00",
+  "scope": "Raw v0.5 logs and captures, retained preliminary failures, old-runtime comparisons and reproduction commands. Living analysis documents excluded.",
+  "files": [
+    {
+      "path": "docs/validation/benchmark-v0.4-runtime-for-v0.5-pair2.json",
+      "bytes": 5265,
+      "sha256": "32079d77b1f5a5653632a2d4d40c715e2b396bba23cb6709f9fab0085c957503"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.4-runtime-for-v0.5-pair2.txt",
+      "bytes": 776,
+      "sha256": "e4b4e320b553c58900f6baf9fc18108d013dcc104919a2ffea18e66f9dedc0da"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.4-runtime-for-v0.5-pair3.json",
+      "bytes": 5273,
+      "sha256": "d5462ad7a3f93dea8d672371377486ad074731ed513fda21f61d63d020e62c8e"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.4-runtime-for-v0.5-pair3.txt",
+      "bytes": 778,
+      "sha256": "4020e3999d43e10594862cd32cd04dc693e5bf029b2695245b02d39e629bf817"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.4-runtime-for-v0.5.json",
+      "bytes": 5267,
+      "sha256": "a5b783aef82fb897c5988cc4d35c9dfae2b78c4489dcb739eb64a7ab63126a1a"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.4-runtime-for-v0.5.txt",
+      "bytes": 774,
+      "sha256": "702abd155e784c7707323824f42f33b87f70e9dc31bb03415371eaab4db826c3"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-data-native.json",
+      "bytes": 26665,
+      "sha256": "7008107950b33c60c282adec44c532b656e45e667ba0d81cfa67afa83a75ddd7"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-data-native.txt",
+      "bytes": 2392,
+      "sha256": "fd4a1d3a985846fd656b5bf46d058ffd5c42c9cf81379d79de29cb4f332ba211"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-data-python.json",
+      "bytes": 5396,
+      "sha256": "4578ce69e3a6e6c90957f86b3031109c4bdcace333f9d26085e066228e754d44"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-data-python.txt",
+      "bytes": 158,
+      "sha256": "c7927ed4e77f393148d444fe2ccc0be1456e173646ce196cea5c2edbd5a76cf1"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-data-relational.json",
+      "bytes": 10260,
+      "sha256": "d8b2892a6f6a347ed26c2997757578f1e8514911d3b4e40a816b412a65e65fc5"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-runtime-pair2.json",
+      "bytes": 5267,
+      "sha256": "6800fdc0d3946f57c9bea9912bd254dfab2971bdb231e50a991dea122863a79b"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-runtime-pair2.txt",
+      "bytes": 776,
+      "sha256": "7eef8a62c3ff1266e518eaa9373d59a2e44cacc05e83e633a51508df177580be"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-runtime-pair3.json",
+      "bytes": 5271,
+      "sha256": "ad569de5660c0b8d677122dca792764364f296478a79840f8a9455ad92fd8080"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-runtime-pair3.txt",
+      "bytes": 776,
+      "sha256": "d53ed0227565771cc91f8af328a69118ffa42bc23f4f4457e4d83cb35297ede2"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-runtime.json",
+      "bytes": 5278,
+      "sha256": "836aab389edaa7ce49a04e59fbdb5eca1cb0e7225cfc3f1314f9c286484eafbc"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-runtime.txt",
+      "bytes": 778,
+      "sha256": "cfcae2c7142a03ca43d3cbbaf9cf94c70539e4be8cab23afcc449087ca1a844d"
+    },
+    {
+      "path": "docs/validation/build-v0.5-asan.txt",
+      "bytes": 18652,
+      "sha256": "d95c0547325636b3dea67b81479d3927a96a74f2191f95948d7c1766c889de3c"
+    },
+    {
+      "path": "docs/validation/build-v0.5-final.txt",
+      "bytes": 16144,
+      "sha256": "8c055cad9604d34e4b11896be54dc01e9cc6b8b195f65265a84c3434f2fa2954"
+    },
+    {
+      "path": "docs/validation/build-v0.5-initial.txt",
+      "bytes": 22658,
+      "sha256": "61e6406250ffbd432ce4ffb92ec9fe4cdc0418d1ed0231c77c733c481ae5d00f"
+    },
+    {
+      "path": "docs/validation/build-v0.5-second.txt",
+      "bytes": 15876,
+      "sha256": "176249ad1d7b178766c26e3f08ac460ce2f4ade7f85a07e0f4bc171bb9163c0b"
+    },
+    {
+      "path": "docs/validation/build-v0.5-third.txt",
+      "bytes": 79668,
+      "sha256": "8bf8869f9ffa343f641d7969a8dca41d93a592188669e43116d7c7b9ecf42731"
+    },
+    {
+      "path": "docs/validation/build-v0.5-verified.txt",
+      "bytes": 16432,
+      "sha256": "71204f186065d10fe2cbd8a4c0491be07b179dfd902c91b6ad7a0d7ad90a3cf4"
+    },
+    {
+      "path": "docs/validation/configure-v0.5-asan.txt",
+      "bytes": 570,
+      "sha256": "a22b3e3ba1c11793a752f794475529be42ff397a710c7d8b632b84b9061b855f"
+    },
+    {
+      "path": "docs/validation/ctest-v0.5-asan-details.txt",
+      "bytes": 67972,
+      "sha256": "aaa8ef1721ed42149d607b8e1deb3edb70617333e029f9616ca9a546761b553a"
+    },
+    {
+      "path": "docs/validation/ctest-v0.5-asan.txt",
+      "bytes": 8234,
+      "sha256": "24204b86d35e6b6dc45ac27914d08c46e6042192b265143ad53335eb811af889"
+    },
+    {
+      "path": "docs/validation/ctest-v0.5-data-second.txt",
+      "bytes": 2054,
+      "sha256": "6dfbee4a57df358b09cf686f07e6cfab0a49cab1e3121fbd00ec689900971077"
+    },
+    {
+      "path": "docs/validation/ctest-v0.5-initial-data.txt",
+      "bytes": 31920,
+      "sha256": "72d1d9b6de1cc08f93fa9f0d4ae726ba1997486e51b7e06bb54889769963f928"
+    },
+    {
+      "path": "docs/validation/ctest-v0.5-release-details.txt",
+      "bytes": 70045,
+      "sha256": "fa79ec6e7d1888c04e185e8533c9adfbef6ff60690de23e7db7e21879415f6c7"
+    },
+    {
+      "path": "docs/validation/ctest-v0.5-release.txt",
+      "bytes": 8424,
+      "sha256": "fb4c9970d8ef93f89387c4bd7095a323f549ff741288129fe7b9ca36a0eb0397"
+    },
+    {
+      "path": "docs/validation/ctest-v0.5-sdk-final-details.txt",
+      "bytes": 20548,
+      "sha256": "7d872485a67b64c190b8767381052c4b127999e15ceec6157f971c5cb4a3ed82"
+    },
+    {
+      "path": "docs/validation/ctest-v0.5-sdk-final.txt",
+      "bytes": 1332,
+      "sha256": "9d7e06ec034716085c803745220a9805c6b5c7e4a1e16972459cb01954c33eb6"
+    },
+    {
+      "path": "docs/validation/ctest-v0.5-verified-details.txt",
+      "bytes": 70177,
+      "sha256": "33a8e3c8cd0b600e54ee51e566cd42cf9fcc6b48f341a40b034baa01aacc9d5f"
+    },
+    {
+      "path": "docs/validation/ctest-v0.5-verified.txt",
+      "bytes": 8424,
+      "sha256": "37235db3de4b4ffa2dff43a6034060997f1e42c4ae8c5541caca5380637a6fe5"
+    },
+    {
+      "path": "docs/validation/plan-v0.4-default.json",
+      "bytes": 3395,
+      "sha256": "a2ed5e926d07a652fbcba99b69125f2183095a5e935d5624f3bd27865faf3f3f"
+    },
+    {
+      "path": "docs/validation/plan-v0.5-default.json",
+      "bytes": 3395,
+      "sha256": "546cfc2dea0d09e717d7a8063018771048a3a6f6f501edc8286fb322a8ef58b1"
+    },
+    {
+      "path": "docs/validation/v0.5-build-sdk-commands.md",
+      "bytes": 3558,
+      "sha256": "a563a4cd4d5307d0b97780e3f641bce65da9a09fe86480cc6fdb0ebd91640ba1"
+    }
+  ]
+}

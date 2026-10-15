@@ -1,0 +1,62 @@
+[
+  {
+    "pair": 1,
+    "version": "v0.4",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_runtime.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-runtime-v0.4-repeat-1.json"
+    ],
+    "exit": 0,
+    "elapsed_seconds": 0.8204035758972168
+  },
+  {
+    "pair": 1,
+    "version": "v0.3",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.3\\benchmark_runtime.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\v0.3-pre-v0.4\\benchmark-runtime-repeat-1.json"
+    ],
+    "exit": 0,
+    "elapsed_seconds": 0.8422551155090332
+  },
+  {
+    "pair": 2,
+    "version": "v0.3",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.3\\benchmark_runtime.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\v0.3-pre-v0.4\\benchmark-runtime-repeat-2.json"
+    ],
+    "exit": 0,
+    "elapsed_seconds": 0.771207332611084
+  },
+  {
+    "pair": 2,
+    "version": "v0.4",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_runtime.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-runtime-v0.4-repeat-2.json"
+    ],
+    "exit": 0,
+    "elapsed_seconds": 0.7872519493103027
+  },
+  {
+    "pair": 3,
+    "version": "v0.4",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_runtime.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-runtime-v0.4-repeat-3.json"
+    ],
+    "exit": 0,
+    "elapsed_seconds": 0.8175489902496338
+  },
+  {
+    "pair": 3,
+    "version": "v0.3",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.3\\benchmark_runtime.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\v0.3-pre-v0.4\\benchmark-runtime-repeat-3.json"
+    ],
+    "exit": 0,
+    "elapsed_seconds": 0.937126874923706
+  }
+]

@@ -1,0 +1,11 @@
+Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+Test project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+    Start 37: installed_sdk
+1/1 Test #37: installed_sdk ....................   Passed   21.60 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Label Time Summary:
+packaging    =  21.60 sec*proc (1 test)
+
+Total Test time (real) =  21.62 sec

@@ -1,0 +1,42 @@
+Start testing: Oct 13 23:36 Tokyo Standard Time
+----------------------------------------------------------
+23/28 Testing: python_binding
+23/28 Test: python_binding
+Command: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "-E" "env" "GR_OS_LIBRARY=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/gr_native.dll" "PYTHONPATH=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/bindings/python/src" "PYTHONDONTWRITEBYTECODE=1" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/sdk-venv/Scripts/python.exe" "-B" "-m" "unittest" "discover" "-s" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration" "-p" "test_python.py" "-v"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"python_binding" start time: Oct 13 23:36 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+test_artifact_closure_integrity_and_atomic_rejection (test_python.BindingTests.test_artifact_closure_integrity_and_atomic_rejection) ... ok
+test_c_boundary_invalid_requests_and_allocated_error_responses (test_python.BindingTests.test_c_boundary_invalid_requests_and_allocated_error_responses) ... ok
+test_competing_sqlite_handles_do_not_lose_accepted_write (test_python.BindingTests.test_competing_sqlite_handles_do_not_lose_accepted_write) ... ok
+test_core_graph_match_and_temporal_selection (test_python.BindingTests.test_core_graph_match_and_temporal_selection) ... ok
+test_execution_exact_bytes_and_failures (test_python.BindingTests.test_execution_exact_bytes_and_failures) ... ok
+test_invalid_candidate_does_not_reach_storage (test_python.BindingTests.test_invalid_candidate_does_not_reach_storage) ... ok
+test_invalid_options_are_rejected_before_consuming_generators (test_python.BindingTests.test_invalid_options_are_rejected_before_consuming_generators) ... ok
+test_memory_and_sqlite_round_trip_retry_and_history (test_python.BindingTests.test_memory_and_sqlite_round_trip_retry_and_history) ... ok
+test_numbers_are_rejected_without_cross_language_rounding (test_python.BindingTests.test_numbers_are_rejected_without_cross_language_rounding) ... ok
+test_pinned_old_record_hydration (test_python.BindingTests.test_pinned_old_record_hydration) ... ok
+test_replacement_at_maximum_snapshot_capacity (test_python.BindingTests.test_replacement_at_maximum_snapshot_capacity) ... ok
+test_resource_finalization_and_concurrent_idempotent_close (test_python.BindingTests.test_resource_finalization_and_concurrent_idempotent_close) ... ok
+test_strict_metadata_and_nonlinear_recording_history (test_python.BindingTests.test_strict_metadata_and_nonlinear_recording_history) ... ok
+test_typed_operations_have_explicit_compatible_implementations (test_python.BindingTests.test_typed_operations_have_explicit_compatible_implementations) ... ok
+test_unicode_integrity_and_unknown_payload_preservation (test_python.BindingTests.test_unicode_integrity_and_unknown_payload_preservation) ... ok
+test_verified_binary_reader_lifetime_cancel_and_ownership (test_python.BindingTests.test_verified_binary_reader_lifetime_cancel_and_ownership) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 471.509s
+
+OK
+<end of output>
+Test time = 474.26 sec
+----------------------------------------------------------
+Test Passed.
+"python_binding" end time: Oct 13 23:44 Tokyo Standard Time
+"python_binding" time elapsed: 00:07:54
+----------------------------------------------------------
+
+End testing: Oct 13 23:44 Tokyo Standard Time
+
+integration = 474.26 sec*proc
+

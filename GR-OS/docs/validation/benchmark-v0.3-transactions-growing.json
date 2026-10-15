@@ -1,0 +1,1019 @@
+{
+  "suite": "gr.runtime.transactions/1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "logical_cpus": 8,
+  "native_sha256": "7324f64aef869a67498bb9ec5a5da39543f8dffb6e651ea5afa708bb86267edc",
+  "method": "one global warmup; fresh SQLite database per measured sample; independent connections; whole-workspace CAS; WAL/FULL; end-to-end record construction, staging, commit and explicit conflict rebase latency; connection opening excluded by a start barrier; final connection closing/checkpoint costs included; final snapshots and exact receipts checked outside timing",
+  "limitations": "Small local workloads. Python/JSON transport and GIL are included. No group commit, power-loss qualification, tail-latency SLA or production-scale claim.",
+  "cases": [
+    {
+      "writers": 1,
+      "batch_records": 1,
+      "track_history": false,
+      "commits_per_writer": 8,
+      "samples": [
+        {
+          "seconds": 0.0184616,
+          "commits_per_second": 433.33188889370365,
+          "records_per_second": 433.33188889370365,
+          "conflicts": 0,
+          "commit_latency_ms": [
+            3.1841,
+            1.9456,
+            1.8688,
+            1.8541,
+            1.7628,
+            2.0935,
+            2.362,
+            2.0203
+          ],
+          "median_latency_ms": 1.9829500000000002,
+          "p95_latency_ms": 3.1841,
+          "memory_after": {
+            "working_set_bytes": 30707712,
+            "peak_working_set_bytes": 31002624,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 0.0198823,
+          "commits_per_second": 402.367935299236,
+          "records_per_second": 402.367935299236,
+          "conflicts": 0,
+          "commit_latency_ms": [
+            2.4234,
+            1.9425,
+            3.0643,
+            2.4974,
+            1.9101,
+            2.0527,
+            2.0929,
+            2.2231
+          ],
+          "median_latency_ms": 2.1580000000000004,
+          "p95_latency_ms": 3.0643,
+          "memory_after": {
+            "working_set_bytes": 30724096,
+            "peak_working_set_bytes": 31002624,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 0.0195794,
+          "commits_per_second": 408.5927045772598,
+          "records_per_second": 408.5927045772598,
+          "conflicts": 0,
+          "commit_latency_ms": [
+            3.7252,
+            2.2082,
+            2.1005,
+            1.972,
+            1.9096,
+            1.8685,
+            1.9057,
+            2.172
+          ],
+          "median_latency_ms": 2.03625,
+          "p95_latency_ms": 3.7252,
+          "memory_after": {
+            "working_set_bytes": 30728192,
+            "peak_working_set_bytes": 31002624,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        }
+      ],
+      "median_commits_per_second": 408.5927045772598,
+      "median_records_per_second": 408.5927045772598,
+      "median_conflicts": 0
+    },
+    {
+      "writers": 2,
+      "batch_records": 1,
+      "track_history": false,
+      "commits_per_writer": 8,
+      "samples": [
+        {
+          "seconds": 0.0396135,
+          "commits_per_second": 403.90270993474445,
+          "records_per_second": 403.90270993474445,
+          "conflicts": 1,
+          "commit_latency_ms": [
+            22.8911,
+            2.1162,
+            2.1653,
+            1.9595,
+            2.0929,
+            1.9648,
+            1.9033,
+            2.5744,
+            3.1019,
+            2.1353,
+            2.1237,
+            1.8772,
+            1.7727,
+            1.7838,
+            1.8748,
+            2.3238
+          ],
+          "median_latency_ms": 2.10455,
+          "p95_latency_ms": 22.8911,
+          "memory_after": {
+            "working_set_bytes": 30859264,
+            "peak_working_set_bytes": 31002624,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 0.0503203,
+          "commits_per_second": 317.96312820074604,
+          "records_per_second": 317.96312820074604,
+          "conflicts": 1,
+          "commit_latency_ms": [
+            33.4031,
+            2.1642,
+            2.0755,
+            2.0784,
+            2.0477,
+            2.2157,
+            2.0278,
+            2.4623,
+            3.9045,
+            2.0562,
+            1.9122,
+            2.0309,
+            1.8586,
+            1.841,
+            2.6261,
+            2.2282
+          ],
+          "median_latency_ms": 2.07695,
+          "p95_latency_ms": 33.4031,
+          "memory_after": {
+            "working_set_bytes": 30404608,
+            "peak_working_set_bytes": 31002624,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 0.0569825,
+          "commits_per_second": 280.78796121616284,
+          "records_per_second": 280.78796121616284,
+          "conflicts": 3,
+          "commit_latency_ms": [
+            3.1686,
+            2.4823,
+            33.628,
+            3.0851,
+            3.0855,
+            3.4153,
+            3.0229,
+            2.9187,
+            8.5404,
+            2.6232,
+            2.0728,
+            2.0655,
+            2.4157,
+            2.2733,
+            2.7123,
+            2.3312
+          ],
+          "median_latency_ms": 2.8155,
+          "p95_latency_ms": 33.628,
+          "memory_after": {
+            "working_set_bytes": 30412800,
+            "peak_working_set_bytes": 31002624,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        }
+      ],
+      "median_commits_per_second": 317.96312820074604,
+      "median_records_per_second": 317.96312820074604,
+      "median_conflicts": 1
+    },
+    {
+      "writers": 4,
+      "batch_records": 1,
+      "track_history": false,
+      "commits_per_writer": 8,
+      "samples": [
+        {
+          "seconds": 0.1195209,
+          "commits_per_second": 267.73560105387423,
+          "records_per_second": 267.73560105387423,
+          "conflicts": 7,
+          "commit_latency_ms": [
+            66.4335,
+            2.559,
+            2.8918,
+            2.3614,
+            2.3761,
+            3.2377,
+            2.6964,
+            2.581,
+            33.9892,
+            2.1349,
+            2.2902,
+            2.0429,
+            2.0793,
+            2.0224,
+            2.7385,
+            3.2877,
+            4.3481,
+            2.4574,
+            1.9544,
+            1.8956,
+            1.8401,
+            2.7514,
+            3.0333,
+            2.0989,
+            97.4556,
+            2.5929,
+            2.5606,
+            2.5953,
+            2.6687,
+            2.578,
+            2.6742,
+            3.071
+          ],
+          "median_latency_ms": 2.58695,
+          "p95_latency_ms": 66.4335,
+          "memory_after": {
+            "working_set_bytes": 30953472,
+            "peak_working_set_bytes": 31412224,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 0.1076645,
+          "commits_per_second": 297.2196034904727,
+          "records_per_second": 297.2196034904727,
+          "conflicts": 4,
+          "commit_latency_ms": [
+            83.757,
+            4.2339,
+            3.0573,
+            3.0013,
+            2.8972,
+            2.6923,
+            3.3404,
+            2.6698,
+            52.4595,
+            2.2943,
+            2.1993,
+            2.2063,
+            3.4907,
+            3.3194,
+            2.9365,
+            2.3298,
+            21.0485,
+            2.8632,
+            2.9563,
+            2.1803,
+            2.1647,
+            2.5858,
+            3.1358,
+            2.158,
+            2.996,
+            1.9432,
+            2.036,
+            1.7505,
+            1.8274,
+            1.7829,
+            1.7323,
+            2.1403
+          ],
+          "median_latency_ms": 2.68105,
+          "p95_latency_ms": 52.4595,
+          "memory_after": {
+            "working_set_bytes": 31014912,
+            "peak_working_set_bytes": 31600640,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 0.1203497,
+          "commits_per_second": 265.89181360651503,
+          "records_per_second": 265.89181360651503,
+          "conflicts": 5,
+          "commit_latency_ms": [
+            65.4344,
+            3.7054,
+            2.8432,
+            2.9179,
+            2.2995,
+            35.4079,
+            2.5721,
+            2.8437,
+            33.4194,
+            2.1643,
+            1.9807,
+            2.0099,
+            2.1201,
+            2.3697,
+            2.1248,
+            3.3297,
+            3.8669,
+            2.0656,
+            1.8827,
+            1.8614,
+            1.8306,
+            1.8332,
+            1.8395,
+            2.1591,
+            81.6838,
+            2.8985,
+            3.2214,
+            2.9174,
+            3.6708,
+            2.878,
+            2.4282,
+            3.2016
+          ],
+          "median_latency_ms": 2.70765,
+          "p95_latency_ms": 65.4344,
+          "memory_after": {
+            "working_set_bytes": 31047680,
+            "peak_working_set_bytes": 31600640,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        }
+      ],
+      "median_commits_per_second": 267.73560105387423,
+      "median_records_per_second": 267.73560105387423,
+      "median_conflicts": 5
+    },
+    {
+      "writers": 1,
+      "batch_records": 8,
+      "track_history": false,
+      "commits_per_writer": 8,
+      "samples": [
+        {
+          "seconds": 0.0421946,
+          "commits_per_second": 189.59772103539316,
+          "records_per_second": 1516.7817682831453,
+          "conflicts": 0,
+          "commit_latency_ms": [
+            5.5674,
+            5.212,
+            4.3281,
+            4.487,
+            4.949,
+            4.5564,
+            4.2086,
+            5.9926
+          ],
+          "median_latency_ms": 4.7527,
+          "p95_latency_ms": 5.9926,
+          "memory_after": {
+            "working_set_bytes": 31072256,
+            "peak_working_set_bytes": 31600640,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 0.0404337,
+          "commits_per_second": 197.85475976722387,
+          "records_per_second": 1582.838078137791,
+          "conflicts": 0,
+          "commit_latency_ms": [
+            4.637,
+            5.4227,
+            5.0677,
+            4.2156,
+            4.5597,
+            4.4884,
+            4.5148,
+            5.0981
+          ],
+          "median_latency_ms": 4.59835,
+          "p95_latency_ms": 5.4227,
+          "memory_after": {
+            "working_set_bytes": 31109120,
+            "peak_working_set_bytes": 31600640,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 0.0473126,
+          "commits_per_second": 169.08814987973605,
+          "records_per_second": 1352.7051990378884,
+          "conflicts": 0,
+          "commit_latency_ms": [
+            4.5239,
+            6.5217,
+            6.5457,
+            7.1016,
+            4.9369,
+            5.0791,
+            5.1861,
+            5.0403
+          ],
+          "median_latency_ms": 5.1326,
+          "p95_latency_ms": 7.1016,
+          "memory_after": {
+            "working_set_bytes": 31121408,
+            "peak_working_set_bytes": 31600640,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        }
+      ],
+      "median_commits_per_second": 189.59772103539316,
+      "median_records_per_second": 1516.7817682831453,
+      "median_conflicts": 0
+    },
+    {
+      "writers": 2,
+      "batch_records": 8,
+      "track_history": false,
+      "commits_per_writer": 8,
+      "samples": [
+        {
+          "seconds": 0.096066,
+          "commits_per_second": 166.5521620552537,
+          "records_per_second": 1332.4172964420295,
+          "conflicts": 4,
+          "commit_latency_ms": [
+            48.3732,
+            6.101,
+            6.6185,
+            8.5618,
+            6.0111,
+            5.8485,
+            5.6522,
+            6.0467,
+            4.9176,
+            4.4165,
+            6.3532,
+            4.6309,
+            4.2551,
+            4.9076,
+            4.9035,
+            4.3203
+          ],
+          "median_latency_ms": 5.750349999999999,
+          "p95_latency_ms": 48.3732,
+          "memory_after": {
+            "working_set_bytes": 30900224,
+            "peak_working_set_bytes": 31600640,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 0.1128512,
+          "commits_per_second": 141.7796177621505,
+          "records_per_second": 1134.236942097204,
+          "conflicts": 1,
+          "commit_latency_ms": [
+            6.1925,
+            5.1739,
+            4.6352,
+            4.8136,
+            5.6319,
+            6.4042,
+            4.7966,
+            4.8601,
+            64.052,
+            5.6612,
+            6.1107,
+            8.414,
+            6.7882,
+            6.4875,
+            5.9918,
+            6.4161
+          ],
+          "median_latency_ms": 6.05125,
+          "p95_latency_ms": 64.052,
+          "memory_after": {
+            "working_set_bytes": 30986240,
+            "peak_working_set_bytes": 31600640,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 0.1038128,
+          "commits_per_second": 154.12357628346408,
+          "records_per_second": 1232.9886102677126,
+          "conflicts": 6,
+          "commit_latency_ms": [
+            25.3157,
+            7.5656,
+            5.6939,
+            5.9203,
+            6.9851,
+            6.1244,
+            7.1933,
+            5.6601,
+            4.9642,
+            4.9828,
+            4.7416,
+            5.328,
+            64.6024,
+            5.6852,
+            5.7027,
+            5.7007
+          ],
+          "median_latency_ms": 5.701700000000001,
+          "p95_latency_ms": 64.6024,
+          "memory_after": {
+            "working_set_bytes": 31100928,
+            "peak_working_set_bytes": 31719424,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        }
+      ],
+      "median_commits_per_second": 154.12357628346408,
+      "median_records_per_second": 1232.9886102677126,
+      "median_conflicts": 4
+    },
+    {
+      "writers": 4,
+      "batch_records": 8,
+      "track_history": false,
+      "commits_per_writer": 8,
+      "samples": [
+        {
+          "seconds": 0.2565046,
+          "commits_per_second": 124.75409797719026,
+          "records_per_second": 998.032783817522,
+          "conflicts": 18,
+          "commit_latency_ms": [
+            8.9129,
+            4.9286,
+            4.2692,
+            5.2781,
+            5.6488,
+            5.4144,
+            5.0109,
+            5.0491,
+            159.1216,
+            9.36,
+            7.9696,
+            8.8272,
+            8.5198,
+            9.9166,
+            10.0623,
+            39.4839,
+            57.2754,
+            5.4765,
+            5.7597,
+            7.4337,
+            6.9206,
+            5.6335,
+            135.9405,
+            8.1729,
+            95.3188,
+            6.6762,
+            9.2488,
+            7.1059,
+            8.1005,
+            6.5592,
+            7.4045,
+            8.9862
+          ],
+          "median_latency_ms": 7.70165,
+          "p95_latency_ms": 135.9405,
+          "memory_after": {
+            "working_set_bytes": 31260672,
+            "peak_working_set_bytes": 32264192,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 0.2604415,
+          "commits_per_second": 122.86828328050638,
+          "records_per_second": 982.946266244051,
+          "conflicts": 13,
+          "commit_latency_ms": [
+            7.8486,
+            6.0759,
+            5.5785,
+            5.0822,
+            4.795,
+            5.133,
+            4.3621,
+            4.1489,
+            88.1636,
+            10.3811,
+            6.4561,
+            8.0337,
+            6.5816,
+            7.5947,
+            7.5467,
+            122.787,
+            145.8335,
+            8.2596,
+            7.7332,
+            7.815,
+            7.6238,
+            7.9506,
+            7.764,
+            7.8763,
+            51.8379,
+            5.8351,
+            5.6032,
+            6.3065,
+            5.7046,
+            6.2987,
+            144.901,
+            10.3992
+          ],
+          "median_latency_ms": 7.609249999999999,
+          "p95_latency_ms": 144.901,
+          "memory_after": {
+            "working_set_bytes": 31485952,
+            "peak_working_set_bytes": 32731136,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 0.3055752,
+          "commits_per_second": 104.72054014854609,
+          "records_per_second": 837.7643211883687,
+          "conflicts": 4,
+          "commit_latency_ms": [
+            52.176,
+            5.7569,
+            5.6805,
+            5.8862,
+            6.7776,
+            9.0627,
+            9.3981,
+            9.0385,
+            229.2982,
+            10.9037,
+            12.499,
+            10.7886,
+            11.9846,
+            9.7075,
+            8.4038,
+            8.7314,
+            132.4737,
+            7.8157,
+            7.542,
+            9.3998,
+            6.8034,
+            6.8536,
+            9.1342,
+            8.5131,
+            6.904,
+            4.3279,
+            4.2297,
+            5.9593,
+            6.6364,
+            5.1762,
+            6.8156,
+            4.3671
+          ],
+          "median_latency_ms": 8.10975,
+          "p95_latency_ms": 132.4737,
+          "memory_after": {
+            "working_set_bytes": 31485952,
+            "peak_working_set_bytes": 32731136,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        }
+      ],
+      "median_commits_per_second": 122.86828328050638,
+      "median_records_per_second": 982.946266244051,
+      "median_conflicts": 13
+    },
+    {
+      "writers": 1,
+      "batch_records": 4,
+      "track_history": true,
+      "commits_per_writer": 8,
+      "samples": [
+        {
+          "seconds": 0.1474734,
+          "commits_per_second": 54.24707099721034,
+          "records_per_second": 216.98828398884137,
+          "conflicts": 0,
+          "commit_latency_ms": [
+            4.4428,
+            19.6085,
+            14.6092,
+            16.9092,
+            21.6731,
+            24.06,
+            18.7083,
+            24.6242
+          ],
+          "median_latency_ms": 19.1584,
+          "p95_latency_ms": 24.6242,
+          "memory_after": {
+            "working_set_bytes": 31109120,
+            "peak_working_set_bytes": 32731136,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 0.1470058,
+          "commits_per_second": 54.419621538742014,
+          "records_per_second": 217.67848615496806,
+          "conflicts": 0,
+          "commit_latency_ms": [
+            4.074,
+            22.6169,
+            18.7688,
+            15.9611,
+            18.9335,
+            19.811,
+            23.6582,
+            21.0099
+          ],
+          "median_latency_ms": 19.37225,
+          "p95_latency_ms": 23.6582,
+          "memory_after": {
+            "working_set_bytes": 31694848,
+            "peak_working_set_bytes": 32731136,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 0.2723745,
+          "commits_per_second": 29.37132514240503,
+          "records_per_second": 117.48530056962012,
+          "conflicts": 0,
+          "commit_latency_ms": [
+            4.1118,
+            46.3005,
+            29.3909,
+            48.8273,
+            25.9301,
+            39.1121,
+            52.1073,
+            24.4135
+          ],
+          "median_latency_ms": 34.2515,
+          "p95_latency_ms": 52.1073,
+          "memory_after": {
+            "working_set_bytes": 31858688,
+            "peak_working_set_bytes": 32731136,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        }
+      ],
+      "median_commits_per_second": 54.24707099721034,
+      "median_records_per_second": 216.98828398884137,
+      "median_conflicts": 0
+    },
+    {
+      "writers": 2,
+      "batch_records": 4,
+      "track_history": true,
+      "commits_per_writer": 8,
+      "samples": [
+        {
+          "seconds": 0.6891306,
+          "commits_per_second": 23.21766004876289,
+          "records_per_second": 92.87064019505156,
+          "conflicts": 13,
+          "commit_latency_ms": [
+            31.5459,
+            23.2729,
+            22.2609,
+            102.7664,
+            63.1071,
+            45.6307,
+            114.0641,
+            45.9622,
+            5.9163,
+            101.1214,
+            37.2477,
+            65.502,
+            151.194,
+            158.2732,
+            96.9023,
+            68.9051
+          ],
+          "median_latency_ms": 64.30455,
+          "p95_latency_ms": 158.2732,
+          "memory_after": {
+            "working_set_bytes": 31408128,
+            "peak_working_set_bytes": 34193408,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 0.5419102,
+          "commits_per_second": 29.525187014379874,
+          "records_per_second": 118.1007480575195,
+          "conflicts": 12,
+          "commit_latency_ms": [
+            41.6748,
+            27.8151,
+            34.5881,
+            79.9285,
+            36.3032,
+            33.6775,
+            34.0333,
+            77.1868,
+            11.4741,
+            117.0659,
+            27.1999,
+            171.0655,
+            79.7158,
+            38.6738,
+            46.9308,
+            45.4827
+          ],
+          "median_latency_ms": 40.1743,
+          "p95_latency_ms": 171.0655,
+          "memory_after": {
+            "working_set_bytes": 31236096,
+            "peak_working_set_bytes": 34234368,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 0.5974423,
+          "commits_per_second": 26.780828876696546,
+          "records_per_second": 107.12331550678618,
+          "conflicts": 13,
+          "commit_latency_ms": [
+            35.3403,
+            19.5883,
+            82.1243,
+            33.3274,
+            39.5384,
+            44.318,
+            38.0314,
+            128.8474,
+            5.8762,
+            73.7853,
+            28.3634,
+            224.9205,
+            45.9161,
+            109.865,
+            58.9037,
+            44.6622
+          ],
+          "median_latency_ms": 44.4901,
+          "p95_latency_ms": 224.9205,
+          "memory_after": {
+            "working_set_bytes": 32653312,
+            "peak_working_set_bytes": 34304000,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        }
+      ],
+      "median_commits_per_second": 26.780828876696546,
+      "median_records_per_second": 107.12331550678618,
+      "median_conflicts": 13
+    },
+    {
+      "writers": 4,
+      "batch_records": 4,
+      "track_history": true,
+      "commits_per_writer": 8,
+      "samples": [
+        {
+          "seconds": 2.3149504,
+          "commits_per_second": 13.823190337037028,
+          "records_per_second": 55.29276134814811,
+          "conflicts": 63,
+          "commit_latency_ms": [
+            172.7585,
+            28.5777,
+            91.3874,
+            302.6964,
+            72.9359,
+            553.5834,
+            109.9631,
+            225.9422,
+            528.8484,
+            218.5302,
+            271.7349,
+            98.0463,
+            655.3175,
+            210.2593,
+            110.4461,
+            216.3136,
+            7.5326,
+            26.7223,
+            21.65,
+            22.2589,
+            26.0909,
+            32.4182,
+            264.2356,
+            64.7099,
+            244.1104,
+            99.9201,
+            486.7025,
+            91.7402,
+            512.0659,
+            225.2295,
+            212.8611,
+            327.5686
+          ],
+          "median_latency_ms": 191.50889999999998,
+          "p95_latency_ms": 553.5834,
+          "memory_after": {
+            "working_set_bytes": 34074624,
+            "peak_working_set_bytes": 41558016,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 2.6917177,
+          "commits_per_second": 11.888319492047774,
+          "records_per_second": 47.5532779681911,
+          "conflicts": 66,
+          "commit_latency_ms": [
+            309.9331,
+            55.8203,
+            70.1597,
+            77.6035,
+            497.0375,
+            259.7418,
+            512.7317,
+            132.6069,
+            75.7071,
+            43.5899,
+            1908.3205,
+            216.8823,
+            103.6969,
+            120.0611,
+            98.8817,
+            118.13,
+            50.626,
+            108.7043,
+            45.1755,
+            392.9615,
+            97.0243,
+            102.1736,
+            593.2095,
+            129.0622,
+            6.3318,
+            14.4338,
+            14.0095,
+            214.4415,
+            656.7566,
+            229.2628,
+            513.3975,
+            495.1976
+          ],
+          "median_latency_ms": 119.09555,
+          "p95_latency_ms": 656.7566,
+          "memory_after": {
+            "working_set_bytes": 35139584,
+            "peak_working_set_bytes": 43782144,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        },
+        {
+          "seconds": 3.37516,
+          "commits_per_second": 9.481032010334324,
+          "records_per_second": 37.9241280413373,
+          "conflicts": 81,
+          "commit_latency_ms": [
+            394.0764,
+            386.0545,
+            481.4917,
+            615.8788,
+            668.7995,
+            367.9481,
+            348.8938,
+            104.7933,
+            200.3685,
+            77.669,
+            180.7192,
+            75.3773,
+            68.7183,
+            81.4007,
+            1029.4178,
+            1021.1057,
+            27.367,
+            28.1636,
+            105.3518,
+            171.7938,
+            541.4874,
+            119.5095,
+            563.9611,
+            1550.3398,
+            8.6756,
+            85.6612,
+            28.5727,
+            1003.3514,
+            285.8119,
+            627.4953,
+            165.4589,
+            182.5039
+          ],
+          "median_latency_ms": 191.43619999999999,
+          "p95_latency_ms": 1029.4178,
+          "memory_after": {
+            "working_set_bytes": 35708928,
+            "peak_working_set_bytes": 47321088,
+            "scope": "whole Python/native process; peak is cumulative across cases, not an allocation quota"
+          }
+        }
+      ],
+      "median_commits_per_second": 11.888319492047774,
+      "median_records_per_second": 47.5532779681911,
+      "median_conflicts": 66
+    }
+  ]
+}

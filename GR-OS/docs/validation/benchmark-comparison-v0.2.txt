@@ -1,0 +1,11 @@
+﻿construct_100: 6.318 -> 4.705 ms (0.74x)
+validate_300: 12.643 -> 14.177 ms (1.12x)
+graph_300: 13.032 -> 15.723 ms (1.21x)
+apply_100_of_300: 31.329 -> 34.650 ms (1.11x)
+sha256_1MiB_cpu.sequential: 30.494 -> 33.686 ms (1.10x)
+sha256_1MiB_cpu.threaded: 29.452 -> 28.960 ms (0.98x)
+commit_100_memory: 14.956 -> 18.326 ms (1.23x)
+blob_4MiB_memory: 103.307 -> 110.175 ms (1.07x)
+commit_100_sqlite: 14.193 -> 15.324 ms (1.08x)
+blob_4MiB_sqlite: 108.136 -> 96.545 ms (0.89x)
+Compared 10 workloads; above 3x: []

@@ -1,0 +1,189 @@
+{
+  "format": "gr.benchmark/1",
+  "suite": "public-sdk-common/1",
+  "label": "v0.3",
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "python": "3.12.10",
+    "cpu_count": 8,
+    "library_sha256": "7324f64aef869a67498bb9ec5a5da39543f8dffb6e651ea5afa708bb86267edc"
+  },
+  "method": {
+    "clock": "perf_counter_ns",
+    "warmups": 1,
+    "repeats": 5,
+    "includes": "Python/C ABI transport, validation and native work; no isolated kernel speed claim"
+  },
+  "cases": [
+    {
+      "name": "construct_100",
+      "work": {
+        "records": 100
+      },
+      "samples_ms": [
+        4.5856,
+        4.4726,
+        5.5443,
+        4.648,
+        4.6778
+      ],
+      "median_ms": 4.648,
+      "minimum_ms": 4.4726,
+      "maximum_ms": 5.5443
+    },
+    {
+      "name": "validate_300",
+      "work": {
+        "records": 300
+      },
+      "samples_ms": [
+        9.803,
+        9.0186,
+        9.8609,
+        8.9835,
+        12.2642
+      ],
+      "median_ms": 9.803,
+      "minimum_ms": 8.9835,
+      "maximum_ms": 12.2642
+    },
+    {
+      "name": "graph_300",
+      "work": {
+        "records": 300
+      },
+      "samples_ms": [
+        11.425,
+        11.218,
+        11.0223,
+        11.0195,
+        15.0682
+      ],
+      "median_ms": 11.218,
+      "minimum_ms": 11.0195,
+      "maximum_ms": 15.0682
+    },
+    {
+      "name": "apply_100_of_300",
+      "work": {
+        "current": 300,
+        "updates": 100
+      },
+      "samples_ms": [
+        24.9674,
+        23.1232,
+        27.1931,
+        29.8961,
+        37.8361
+      ],
+      "median_ms": 27.1931,
+      "minimum_ms": 23.1232,
+      "maximum_ms": 37.8361
+    },
+    {
+      "name": "sha256_1MiB_cpu.sequential",
+      "work": {
+        "items": 16,
+        "input_bytes": 1048576,
+        "max_threads": 4
+      },
+      "samples_ms": [
+        30.0798,
+        30.4728,
+        30.5473,
+        31.1009,
+        29.0877
+      ],
+      "median_ms": 30.4728,
+      "minimum_ms": 29.0877,
+      "maximum_ms": 31.1009
+    },
+    {
+      "name": "sha256_1MiB_cpu.threaded",
+      "work": {
+        "items": 16,
+        "input_bytes": 1048576,
+        "max_threads": 4
+      },
+      "samples_ms": [
+        28.229,
+        26.4452,
+        24.292,
+        31.507,
+        25.6221
+      ],
+      "median_ms": 26.4452,
+      "minimum_ms": 24.292,
+      "maximum_ms": 31.507
+    },
+    {
+      "name": "commit_100_memory",
+      "work": {
+        "records": 100,
+        "includes_workspace_creation": true
+      },
+      "samples_ms": [
+        14.9909,
+        14.3273,
+        14.8889,
+        14.3347,
+        14.1219
+      ],
+      "median_ms": 14.3347,
+      "minimum_ms": 14.1219,
+      "maximum_ms": 14.9909
+    },
+    {
+      "name": "blob_4MiB_memory",
+      "work": {
+        "bytes": 4194304,
+        "transport": "v1 base64 convenience"
+      },
+      "samples_ms": [
+        79.9986,
+        91.3208,
+        79.1324,
+        82.619,
+        87.2022
+      ],
+      "median_ms": 82.619,
+      "minimum_ms": 79.1324,
+      "maximum_ms": 91.3208
+    },
+    {
+      "name": "commit_100_sqlite",
+      "work": {
+        "records": 100,
+        "includes_workspace_creation": true
+      },
+      "samples_ms": [
+        19.4365,
+        18.796,
+        22.0694,
+        18.2577,
+        18.7231
+      ],
+      "median_ms": 18.796,
+      "minimum_ms": 18.2577,
+      "maximum_ms": 22.0694
+    },
+    {
+      "name": "blob_4MiB_sqlite",
+      "work": {
+        "bytes": 4194304,
+        "transport": "v1 base64 convenience"
+      },
+      "samples_ms": [
+        87.4352,
+        107.6833,
+        90.5932,
+        89.5553,
+        97.2897
+      ],
+      "median_ms": 90.5932,
+      "minimum_ms": 87.4352,
+      "maximum_ms": 107.6833
+    }
+  ]
+}

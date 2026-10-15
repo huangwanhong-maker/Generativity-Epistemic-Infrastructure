@@ -1,0 +1,200 @@
+{
+  "format": "gr.benchmark/1",
+  "suite": "public-sdk-v0.2/1",
+  "label": "v0.2",
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "python": "3.12.10",
+    "cpu_count": 8,
+    "library_sha256": "ddb2d237d5998e43352e7ef75d99197a3315d3c2c7b84a925c51f36f69eeb118"
+  },
+  "method": {
+    "clock": "perf_counter_ns",
+    "warmups": 1,
+    "repeats": 5,
+    "includes": "Python/C ABI, validation and content assertions; warm temporary stores"
+  },
+  "cases": [
+    {
+      "name": "verified_open_4MiB_memory",
+      "work": {
+        "bytes": 4194304,
+        "chunk_bytes": 65536,
+        "transport": "binary C readinto"
+      },
+      "samples_ms": [
+        26.9262,
+        42.1753,
+        26.8573,
+        21.7878,
+        22.02
+      ],
+      "median_ms": 26.8573,
+      "minimum_ms": 21.7878,
+      "maximum_ms": 42.1753
+    },
+    {
+      "name": "open_and_read_4MiB_memory",
+      "work": {
+        "bytes": 4194304,
+        "chunk_bytes": 65536,
+        "transport": "binary C readinto"
+      },
+      "samples_ms": [
+        23.9976,
+        33.0592,
+        27.2067,
+        27.5541,
+        28.3442
+      ],
+      "median_ms": 27.5541,
+      "minimum_ms": 23.9976,
+      "maximum_ms": 33.0592
+    },
+    {
+      "name": "pinned_read_4MiB_memory",
+      "work": {
+        "bytes": 4194304,
+        "chunk_bytes": 65536,
+        "transport": "binary C readinto"
+      },
+      "samples_ms": [
+        2.2067,
+        2.3623,
+        1.4707,
+        2.098,
+        2.0471
+      ],
+      "median_ms": 2.098,
+      "minimum_ms": 1.4707,
+      "maximum_ms": 2.3623
+    },
+    {
+      "name": "verified_open_4MiB_sqlite",
+      "work": {
+        "bytes": 4194304,
+        "chunk_bytes": 65536,
+        "transport": "binary C readinto"
+      },
+      "samples_ms": [
+        35.1152,
+        34.0777,
+        39.5936,
+        25.2667,
+        35.032
+      ],
+      "median_ms": 35.032,
+      "minimum_ms": 25.2667,
+      "maximum_ms": 39.5936
+    },
+    {
+      "name": "open_and_read_4MiB_sqlite",
+      "work": {
+        "bytes": 4194304,
+        "chunk_bytes": 65536,
+        "transport": "binary C readinto"
+      },
+      "samples_ms": [
+        33.1848,
+        41.6212,
+        40.7898,
+        35.1104,
+        38.5766
+      ],
+      "median_ms": 38.5766,
+      "minimum_ms": 33.1848,
+      "maximum_ms": 41.6212
+    },
+    {
+      "name": "pinned_read_4MiB_sqlite",
+      "work": {
+        "bytes": 4194304,
+        "chunk_bytes": 65536,
+        "transport": "binary C readinto"
+      },
+      "samples_ms": [
+        7.1592,
+        6.775,
+        6.8477,
+        6.5775,
+        6.6882
+      ],
+      "median_ms": 6.775,
+      "minimum_ms": 6.5775,
+      "maximum_ms": 7.1592
+    },
+    {
+      "name": "history_validate_24_checkpoints",
+      "work": {
+        "nodes": 24,
+        "current_per_checkpoint": 16,
+        "json_bytes": 134252
+      },
+      "samples_ms": [
+        44.4532,
+        42.8319,
+        22.2937,
+        21.8445,
+        22.2022
+      ],
+      "median_ms": 22.2937,
+      "minimum_ms": 21.8445,
+      "maximum_ms": 44.4532
+    },
+    {
+      "name": "history_reconstruct_24_checkpoints",
+      "work": {
+        "nodes": 24,
+        "current_per_checkpoint": 16,
+        "json_bytes": 134252
+      },
+      "samples_ms": [
+        35.8708,
+        34.8984,
+        36.0485,
+        39.1479,
+        36.0896
+      ],
+      "median_ms": 36.0485,
+      "minimum_ms": 34.8984,
+      "maximum_ms": 39.1479
+    },
+    {
+      "name": "typed_identity_1024_cpu.sequential",
+      "work": {
+        "items": 1024,
+        "input_bytes": 1024,
+        "max_threads": 4
+      },
+      "samples_ms": [
+        62.5266,
+        64.3409,
+        64.2495,
+        56.7972,
+        103.0088
+      ],
+      "median_ms": 64.2495,
+      "minimum_ms": 56.7972,
+      "maximum_ms": 103.0088
+    },
+    {
+      "name": "typed_identity_1024_cpu.threaded",
+      "work": {
+        "items": 1024,
+        "input_bytes": 1024,
+        "max_threads": 4
+      },
+      "samples_ms": [
+        62.5757,
+        66.9739,
+        92.7674,
+        107.2879,
+        114.4079
+      ],
+      "median_ms": 92.7674,
+      "minimum_ms": 62.5757,
+      "maximum_ms": 114.4079
+    }
+  ]
+}

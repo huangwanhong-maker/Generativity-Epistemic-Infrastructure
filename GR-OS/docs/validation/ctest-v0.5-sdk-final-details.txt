@@ -1,0 +1,183 @@
+Start testing: Oct 14 00:59 Tokyo Standard Time
+----------------------------------------------------------
+30/35 Testing: python_data
+30/35 Test: python_data
+Command: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "-E" "env" "GR_OS_LIBRARY=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/gr_native.dll" "GR_OS_CLI=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/gr.exe" "PYTHONPATH=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/bindings/python/src" "PYTHONDONTWRITEBYTECODE=1" "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "-m" "unittest" "discover" "-s" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration" "-p" "test_data.py" "-v"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"python_data" start time: Oct 14 00:59 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+test_async_lifetimes_and_actual_plan_identity (test_data.DataTests.test_async_lifetimes_and_actual_plan_identity) ... ok
+test_cli_uses_same_language_handles (test_data.DataTests.test_cli_uses_same_language_handles) ... ok
+test_explicit_missing_policies_and_overflow (test_data.DataTests.test_explicit_missing_policies_and_overflow) ... ok
+test_full_int64_binary_and_finite_double_storage (test_data.DataTests.test_full_int64_binary_and_finite_double_storage) ... ok
+test_named_chunk_binding_ownership_and_rebinding (test_data.DataTests.test_named_chunk_binding_ownership_and_rebinding) ... ok
+test_native_freeze_and_generic_import (test_data.DataTests.test_native_freeze_and_generic_import) ... ok
+test_nullable_table_transform_filter_reduce (test_data.DataTests.test_nullable_table_transform_filter_reduce) ... ok
+test_numpy_copy_import_readonly_export_lifetime_endian_and_strides (test_data.DataTests.test_numpy_copy_import_readonly_export_lifetime_endian_and_strides) ... ok
+test_qualified_historical_revision_selection (test_data.DataTests.test_qualified_historical_revision_selection) ... ok
+test_sparse_two_physical_providers (test_data.DataTests.test_sparse_two_physical_providers) ... ok
+test_uninstalled_extension_type_errors_and_strict_wire (test_data.DataTests.test_uninstalled_extension_type_errors_and_strict_wire) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.255s
+
+OK
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"python_data" end time: Oct 14 00:59 Tokyo Standard Time
+"python_data" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/35 Testing: installed_sdk
+35/35 Test: installed_sdk
+Command: "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tools/test_installed_sdk.py" "--cmake" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "--build" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build" "--source" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS" "--config" "Release"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"installed_sdk" start time: Oct 14 00:59 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/bin/_gr_buffer.pyd
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/c_api.h
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/bin/gr.exe
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/gr_sqlite.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/gr_common.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/gr_buffer.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/gr_semantics.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/gr_core.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/gr_storage.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/gr_execution.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/gr_runtime.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/gr_data.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/gr_data_standard.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/gr_data_sparse.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/gr_data_relational.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/gr_experimental_data.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/gr_native.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/bin/gr_native.dll
+-- Up-to-date: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include
+-- Up-to-date: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/common.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/core.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/data
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/data/language.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/data/relational.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/data/sparse.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/data/standard.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/data.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/execution
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/execution/backend.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/execution/cpu.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/execution/implementation.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/execution.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/experimental
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/experimental/data.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/kernel
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/kernel/compact_history.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/kernel/history.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/kernel/numerical.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/kernel/operations.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/kernel/projections.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/kernel/records.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/kernel/record_operations.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/kernel/types.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/memory
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/memory/buffer.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/runtime
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/runtime/catalog.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/runtime/history_store.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/runtime/planner.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/runtime/scheduler.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/runtime/transaction.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/runtime.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/storage
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/storage/blob_reader.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/storage/contracts.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/storage/memory_store.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/storage/sqlite_store.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/storage.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/support
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/gr/support/common.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/include/nlohmann/json.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/share/GR/licenses
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/share/GR/licenses/MANIFEST.json
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/share/GR/licenses/nlohmann
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/share/GR/licenses/nlohmann/LICENSE.MIT
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/share/GR/licenses/picosha2
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/share/GR/licenses/picosha2/LICENSE
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/share/GR/licenses/README.md
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/share/GR/licenses/sqlite
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/cmake/GR/GRTargets.cmake
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/cmake/GR/GRTargets-release.cmake
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/cmake/GR/GRConfig.cmake
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\stage/lib/cmake/GR/GRConfigVersion.cmake
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- The C compiler identification is MSVC 19.44.35209.0
+-- The CXX compiler identification is MSVC 19.44.35209.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Configuring done (6.7s)
+-- Generating done (0.1s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_BUILD_TYPE
+
+
+-- Build files have been written to: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/p/1417994a/c
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/installed/CMakeLists.txt
+  main.c
+  consumer_c.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\c\Release\consumer_c.exe
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/installed/CMakeLists.txt
+  main.cpp
+  consumer_cpp.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\1417994a\c\Release\consumer_cpp.exe
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/installed/CMakeLists.txt
+Processing c:\users\micro\desktop\relational_being_infrastructure\frameworks\generativity_standards_program\gr-os\build\p\1417994a\python-source
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: gr-os
+  Building wheel for gr-os (pyproject.toml): started
+  Building wheel for gr-os (pyproject.toml): finished with status 'done'
+  Created wheel for gr-os: filename=gr_os-0.5.0-py3-none-any.whl size=23063 sha256=aff28b1b20b9bad5ddc9469e49a032a3be9004aba0e9ea8624c27330df2d40e7
+  Stored in directory: C:\Users\Micro\AppData\Local\Temp\pip-ephem-wheel-cache-kxjzb8iw\wheels\8c\56\b9\2a7823d5627e0a1e221bd1b1af5c31fe2f80a142725df99757
+Successfully built gr-os
+Processing c:\users\micro\desktop\relational_being_infrastructure\frameworks\generativity_standards_program\gr-os\build\p\1417994a\wheels\gr_os-0.5.0-py3-none-any.whl
+Installing collected packages: gr-os
+Successfully installed gr-os-0.5.0
+Relocated C/C++ and installed Python wheel runtime/buffer consumers passed
+Relocated native CLI runtime consumer passed
+<end of output>
+Test time =  19.42 sec
+----------------------------------------------------------
+Test Passed.
+"installed_sdk" end time: Oct 14 01:00 Tokyo Standard Time
+"installed_sdk" time elapsed: 00:00:19
+----------------------------------------------------------
+
+End testing: Oct 14 01:00 Tokyo Standard Time
+
+integration =   0.51 sec*proc
+
+packaging =  19.42 sec*proc
+

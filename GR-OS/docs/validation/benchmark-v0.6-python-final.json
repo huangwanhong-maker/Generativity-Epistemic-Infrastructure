@@ -1,0 +1,238 @@
+{
+  "version": "0.5.0",
+  "python": "3.12.10",
+  "numpy": "2.5.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "native_library": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\gr_native.dll",
+  "native_sha256": "bb2f6850187ef760e423db207bdc8d2920404c5fe6db1ca50ceb0ea37e0fb77a",
+  "source_sha256": "efefbfd80777863019ebc5fcc753ad6c9ee5643249270e3732c6722ae7db4916",
+  "warmups": 1,
+  "repeats": 5,
+  "cases": [
+    {
+      "name": "python_nullable_column_copy_import",
+      "elements": 65536,
+      "samples_ms": [
+        36.0602,
+        29.7432,
+        24.4357,
+        26.7365,
+        47.253
+      ],
+      "median_ms": 29.7432,
+      "minimum_ms": 24.4357,
+      "maximum_ms": 47.253
+    },
+    {
+      "name": "python_inference_call",
+      "elements": 65536,
+      "samples_ms": [
+        0.1946,
+        0.1128,
+        0.1077,
+        0.0921,
+        0.0885
+      ],
+      "median_ms": 0.1077,
+      "minimum_ms": 0.0885,
+      "maximum_ms": 0.1946
+    },
+    {
+      "name": "python_compile_warm_literals",
+      "elements": 65536,
+      "samples_ms": [
+        3.5316,
+        4.4341,
+        3.5095,
+        4.1686,
+        2.9799
+      ],
+      "median_ms": 3.5316,
+      "minimum_ms": 2.9799,
+      "maximum_ms": 4.4341
+    },
+    {
+      "name": "python_prepared_program_run_and_materialize",
+      "elements": 65536,
+      "samples_ms": [
+        2.7026,
+        2.0943,
+        2.6473,
+        2.1858,
+        2.4941
+      ],
+      "median_ms": 2.4941,
+      "minimum_ms": 2.0943,
+      "maximum_ms": 2.7026
+    },
+    {
+      "name": "c_json_value_items_to_python_list",
+      "elements": 65536,
+      "samples_ms": [
+        13.1313,
+        14.4558,
+        13.73,
+        15.1309,
+        15.51
+      ],
+      "median_ms": 14.4558,
+      "minimum_ms": 13.1313,
+      "maximum_ms": 15.51
+    },
+    {
+      "name": "numpy_native_copy_import",
+      "elements": 65536,
+      "samples_ms": [
+        1.7993,
+        1.6861,
+        1.5041,
+        1.6146,
+        1.5604
+      ],
+      "median_ms": 1.6146,
+      "minimum_ms": 1.5041,
+      "maximum_ms": 1.7993
+    },
+    {
+      "name": "numpy_readonly_export",
+      "elements": 65536,
+      "samples_ms": [
+        0.3541,
+        0.3096,
+        0.22,
+        0.1565,
+        0.1455
+      ],
+      "median_ms": 0.22,
+      "minimum_ms": 0.1455,
+      "maximum_ms": 0.3541
+    },
+    {
+      "name": "numpy_writable_copy_export",
+      "elements": 65536,
+      "samples_ms": [
+        0.5109,
+        0.418,
+        0.4575,
+        0.6662,
+        0.4244
+      ],
+      "median_ms": 0.4575,
+      "minimum_ms": 0.418,
+      "maximum_ms": 0.6662
+    },
+    {
+      "name": "python_nullable_column_copy_import",
+      "elements": 262144,
+      "samples_ms": [
+        106.5521,
+        103.1318,
+        101.3124,
+        190.8452,
+        167.8688
+      ],
+      "median_ms": 106.5521,
+      "minimum_ms": 101.3124,
+      "maximum_ms": 190.8452
+    },
+    {
+      "name": "python_inference_call",
+      "elements": 262144,
+      "samples_ms": [
+        0.1058,
+        0.0959,
+        0.0906,
+        0.0842,
+        0.0832
+      ],
+      "median_ms": 0.0906,
+      "minimum_ms": 0.0832,
+      "maximum_ms": 0.1058
+    },
+    {
+      "name": "python_compile_warm_literals",
+      "elements": 262144,
+      "samples_ms": [
+        3.9256,
+        3.663,
+        3.1259,
+        2.8455,
+        2.7023
+      ],
+      "median_ms": 3.1259,
+      "minimum_ms": 2.7023,
+      "maximum_ms": 3.9256
+    },
+    {
+      "name": "python_prepared_program_run_and_materialize",
+      "elements": 262144,
+      "samples_ms": [
+        10.0641,
+        6.4036,
+        5.2761,
+        6.4802,
+        7.3141
+      ],
+      "median_ms": 6.4802,
+      "minimum_ms": 5.2761,
+      "maximum_ms": 10.0641
+    },
+    {
+      "name": "c_json_value_items_to_python_list",
+      "elements": 262144,
+      "samples_ms": [
+        62.6127,
+        54.8871,
+        57.6595,
+        61.3514,
+        64.7978
+      ],
+      "median_ms": 61.3514,
+      "minimum_ms": 54.8871,
+      "maximum_ms": 64.7978
+    },
+    {
+      "name": "numpy_native_copy_import",
+      "elements": 262144,
+      "samples_ms": [
+        5.7592,
+        8.2026,
+        14.4159,
+        8.2587,
+        11.6577
+      ],
+      "median_ms": 8.2587,
+      "minimum_ms": 5.7592,
+      "maximum_ms": 14.4159
+    },
+    {
+      "name": "numpy_readonly_export",
+      "elements": 262144,
+      "samples_ms": [
+        0.5928,
+        0.1798,
+        0.6748,
+        0.716,
+        0.6165
+      ],
+      "median_ms": 0.6165,
+      "minimum_ms": 0.1798,
+      "maximum_ms": 0.716
+    },
+    {
+      "name": "numpy_writable_copy_export",
+      "elements": 262144,
+      "samples_ms": [
+        3.6568,
+        3.9999,
+        3.2033,
+        4.4627,
+        4.9735
+      ],
+      "median_ms": 3.9999,
+      "minimum_ms": 3.2033,
+      "maximum_ms": 4.9735
+    }
+  ],
+  "scope": "End-to-end Python/C ABI phases; cleanup and output checks outside timing. No v0.4 language API equivalent. Uncontrolled host background/power state."
+}

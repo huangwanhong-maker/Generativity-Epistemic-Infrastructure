@@ -1,0 +1,97 @@
+{
+  "format": "gr.canonical-json-vectors/1",
+  "accepted": [
+    {
+      "name": "sorted",
+      "input": "{\"z\":2, \"a\":1}",
+      "canonical": "{\"a\":1,\"z\":2}",
+      "sha256": "99168216144c7fed5d4c54916cf98d9c66096280c04a499822a99b6658bd177a"
+    },
+    {
+      "name": "negative-zero",
+      "input": "-0",
+      "canonical": "0",
+      "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+    },
+    {
+      "name": "safe-limits",
+      "input": "[-9007199254740991,9007199254740991]",
+      "canonical": "[-9007199254740991,9007199254740991]",
+      "sha256": "cbad3dd0e71e92fb3519919946bde0ab3086ddacce65983bddec595cb27c19da"
+    },
+    {
+      "name": "escapes",
+      "input": "\"a\\/b\\t\\n\\r\\b\\f\\u0000\\\\\\\"\"",
+      "canonical": "\"a/b\\t\\n\\r\\b\\f\\u0000\\\\\\\"\"",
+      "sha256": "3c2922a0c12f1119c86c46357a7aef2868ba8373c1d0f71a6edaaadf3a70fd9d"
+    },
+    {
+      "name": "unicode",
+      "input": "{\"\\uD800\\uDC00\":1,\"\\ue000\":2}",
+      "canonical": "{\"\":2,\"𐀀\":1}",
+      "sha256": "daec79d8b6582badd3b46bd783a72379bc0b5ae29f5d59f6133025aad69bc8d4"
+    },
+    {
+      "name": "nfc",
+      "input": "\"\\u00e9\"",
+      "canonical": "\"é\"",
+      "sha256": "f2886017e9c7abacf804b54d64787dce2b611c9544ba21f3affdd126a6e50086"
+    },
+    {
+      "name": "nfd",
+      "input": "\"e\\u0301\"",
+      "canonical": "\"é\"",
+      "sha256": "3d68ce21f2899a475713cdbe7562ba9bdb6b1dfde8af1f221bdff4a0935b53b2"
+    },
+    {
+      "name": "line-separators",
+      "input": "\"\\u2028\\u2029\"",
+      "canonical": "\"  \"",
+      "sha256": "e3a0e2262ac7790f4df36b522a8fbdd4ee3370d568eb15dc25c5f1775f14ed6c"
+    },
+    {
+      "name": "nested",
+      "input": "{\"b\":[true,false,null],\"a\":{}}",
+      "canonical": "{\"a\":{},\"b\":[true,false,null]}",
+      "sha256": "1e9c230439693bbb2656b20a19238f63bf15f2657c4ca5ebe124f6bdf74c5e73"
+    }
+  ],
+  "rejected": [
+    {
+      "name": "duplicate",
+      "input": "{\"a\":1,\"a\":2}"
+    },
+    {
+      "name": "escaped-duplicate",
+      "input": "{\"a\":1,\"\\u0061\":2}"
+    },
+    {
+      "name": "float",
+      "input": "1.0"
+    },
+    {
+      "name": "exponent",
+      "input": "1e0"
+    },
+    {
+      "name": "unsafe-positive",
+      "input": "9007199254740992"
+    },
+    {
+      "name": "unsafe-negative",
+      "input": "-9007199254740992"
+    },
+    {
+      "name": "lone-surrogate",
+      "input": "\"\\ud800\""
+    },
+    {
+      "name": "trailing",
+      "input": "{}{}"
+    },
+    {
+      "name": "nonfinite",
+      "input": "NaN"
+    }
+  ]
+}

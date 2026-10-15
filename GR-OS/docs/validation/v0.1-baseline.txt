@@ -1,0 +1,14 @@
+Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+Test project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+    Start 1: core
+1/4 Test #1: core .............................   Passed    0.02 sec
+    Start 2: storage
+2/4 Test #2: storage ..........................   Passed    0.29 sec
+    Start 3: execution
+3/4 Test #3: execution ........................   Passed    0.18 sec
+    Start 4: python_binding
+4/4 Test #4: python_binding ...................   Passed    0.37 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Total Test time (real) =   0.87 sec

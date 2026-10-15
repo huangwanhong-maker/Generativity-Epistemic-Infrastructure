@@ -1,0 +1,364 @@
+{
+  "suite": "gr.history.selection/1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "path": "native compact selection",
+  "native_sha256": "0ee1ba62b827cd55dbfad0fd31027c168b70777735bcf9cd517b0f71bc59a0d1",
+  "runner_sha256": "a3cedbd51cfc9aba5d3ffb0d37698585362b914f68b84642fe316dd20bdd34c4",
+  "method": "32 records with 256-byte padding; seed plus 32 single updates; one query warmup; checks outside timing",
+  "limitations": "Includes each available SDK transport path. Not pure codec timing. Tiny local histories, no branch/merge throughput claim.",
+  "cases": [
+    {
+      "backend": "memory",
+      "selected_node": 17,
+      "pinned_node": 17,
+      "semantic_revision": "sha256:9a0344a94ca2e7d84c510f771a652a4022ed960a95e1d1e8f5822a472a652eb3",
+      "catalogue_lookup": false,
+      "samples_ms": [
+        4.7964,
+        3.7941,
+        4.2284,
+        3.8497,
+        3.6567
+      ],
+      "median_ms": 3.8497,
+      "diagnostics": {
+        "bytes": 17964,
+        "objects": 2,
+        "read_bytes": 18471,
+        "reconstructed_nodes": 1
+      },
+      "verified": true
+    },
+    {
+      "backend": "memory",
+      "selected_node": 17,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:9a0344a94ca2e7d84c510f771a652a4022ed960a95e1d1e8f5822a472a652eb3",
+      "catalogue_lookup": true,
+      "samples_ms": [
+        7.7279,
+        7.9295,
+        9.072,
+        7.7242,
+        7.9882
+      ],
+      "median_ms": 7.9295,
+      "diagnostics": {
+        "bytes": 17964,
+        "objects": 2,
+        "read_bytes": 34617,
+        "reconstructed_nodes": 1
+      },
+      "verified": true
+    },
+    {
+      "backend": "memory",
+      "selected_node": 24,
+      "pinned_node": 24,
+      "semantic_revision": "sha256:144738a0a7ce902781a5622082997593c2c28f57d0965a538fa479209beb9006",
+      "catalogue_lookup": false,
+      "samples_ms": [
+        11.622,
+        11.5637,
+        12.0705,
+        11.6735,
+        11.6081
+      ],
+      "median_ms": 11.622,
+      "diagnostics": {
+        "bytes": 33896,
+        "objects": 16,
+        "read_bytes": 34403,
+        "reconstructed_nodes": 8
+      },
+      "verified": true
+    },
+    {
+      "backend": "memory",
+      "selected_node": 24,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:144738a0a7ce902781a5622082997593c2c28f57d0965a538fa479209beb9006",
+      "catalogue_lookup": true,
+      "samples_ms": [
+        19.9782,
+        19.5268,
+        18.903,
+        16.8025,
+        18.632
+      ],
+      "median_ms": 18.903,
+      "diagnostics": {
+        "bytes": 33896,
+        "objects": 16,
+        "read_bytes": 50549,
+        "reconstructed_nodes": 8
+      },
+      "verified": true
+    },
+    {
+      "backend": "memory",
+      "selected_node": 32,
+      "pinned_node": 32,
+      "semantic_revision": "sha256:0ff5e377178805395a59bb89d22ef3944f6c76174660e17fcbd5b239e2ff5793",
+      "catalogue_lookup": false,
+      "samples_ms": [
+        24.8129,
+        33.9589,
+        33.2893,
+        28.694,
+        27.3431
+      ],
+      "median_ms": 28.694,
+      "diagnostics": {
+        "bytes": 52110,
+        "objects": 32,
+        "read_bytes": 52617,
+        "reconstructed_nodes": 16
+      },
+      "verified": true
+    },
+    {
+      "backend": "memory",
+      "selected_node": 32,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:0ff5e377178805395a59bb89d22ef3944f6c76174660e17fcbd5b239e2ff5793",
+      "catalogue_lookup": true,
+      "samples_ms": [
+        25.0645,
+        38.7264,
+        32.6257,
+        28.6991,
+        31.3582
+      ],
+      "median_ms": 31.3582,
+      "diagnostics": {
+        "bytes": 52110,
+        "objects": 32,
+        "read_bytes": 68763,
+        "reconstructed_nodes": 16
+      },
+      "verified": true
+    },
+    {
+      "backend": "memory",
+      "selected_node": 33,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:adab23ae83d6b7dccb4d7cce54bbbb84ccf980012fd714fd07d01bd5c5b1f00b",
+      "catalogue_lookup": false,
+      "samples_ms": [
+        3.5534,
+        3.5989,
+        3.4576,
+        3.3447,
+        3.3111
+      ],
+      "median_ms": 3.4576,
+      "diagnostics": {
+        "bytes": 17980,
+        "objects": 2,
+        "read_bytes": 18487,
+        "reconstructed_nodes": 1
+      },
+      "verified": true
+    },
+    {
+      "backend": "memory",
+      "selected_node": 33,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:adab23ae83d6b7dccb4d7cce54bbbb84ccf980012fd714fd07d01bd5c5b1f00b",
+      "catalogue_lookup": true,
+      "samples_ms": [
+        3.637,
+        3.5318,
+        3.4066,
+        3.4809,
+        3.4814
+      ],
+      "median_ms": 3.4814,
+      "diagnostics": {
+        "bytes": 17980,
+        "objects": 2,
+        "read_bytes": 18487,
+        "reconstructed_nodes": 1
+      },
+      "verified": true
+    },
+    {
+      "backend": "sqlite",
+      "selected_node": 17,
+      "pinned_node": 17,
+      "semantic_revision": "sha256:9a0344a94ca2e7d84c510f771a652a4022ed960a95e1d1e8f5822a472a652eb3",
+      "catalogue_lookup": false,
+      "samples_ms": [
+        9.4507,
+        10.0086,
+        9.2398,
+        11.1114,
+        9.2625
+      ],
+      "median_ms": 9.4507,
+      "diagnostics": {
+        "bytes": 17964,
+        "objects": 2,
+        "read_bytes": 18471,
+        "reconstructed_nodes": 1
+      },
+      "verified": true
+    },
+    {
+      "backend": "sqlite",
+      "selected_node": 17,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:9a0344a94ca2e7d84c510f771a652a4022ed960a95e1d1e8f5822a472a652eb3",
+      "catalogue_lookup": true,
+      "samples_ms": [
+        34.0577,
+        33.3558,
+        36.5182,
+        43.5889,
+        37.1569
+      ],
+      "median_ms": 36.5182,
+      "diagnostics": {
+        "bytes": 17964,
+        "objects": 2,
+        "read_bytes": 34617,
+        "reconstructed_nodes": 1
+      },
+      "verified": true
+    },
+    {
+      "backend": "sqlite",
+      "selected_node": 24,
+      "pinned_node": 24,
+      "semantic_revision": "sha256:144738a0a7ce902781a5622082997593c2c28f57d0965a538fa479209beb9006",
+      "catalogue_lookup": false,
+      "samples_ms": [
+        37.8492,
+        33.9555,
+        31.6889,
+        42.5395,
+        34.7928
+      ],
+      "median_ms": 34.7928,
+      "diagnostics": {
+        "bytes": 33896,
+        "objects": 16,
+        "read_bytes": 34403,
+        "reconstructed_nodes": 8
+      },
+      "verified": true
+    },
+    {
+      "backend": "sqlite",
+      "selected_node": 24,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:144738a0a7ce902781a5622082997593c2c28f57d0965a538fa479209beb9006",
+      "catalogue_lookup": true,
+      "samples_ms": [
+        76.1265,
+        69.0931,
+        59.6884,
+        63.4891,
+        78.2685
+      ],
+      "median_ms": 69.0931,
+      "diagnostics": {
+        "bytes": 33896,
+        "objects": 16,
+        "read_bytes": 50549,
+        "reconstructed_nodes": 8
+      },
+      "verified": true
+    },
+    {
+      "backend": "sqlite",
+      "selected_node": 32,
+      "pinned_node": 32,
+      "semantic_revision": "sha256:0ff5e377178805395a59bb89d22ef3944f6c76174660e17fcbd5b239e2ff5793",
+      "catalogue_lookup": false,
+      "samples_ms": [
+        66.86,
+        56.1585,
+        61.7137,
+        63.3854,
+        68.1415
+      ],
+      "median_ms": 63.3854,
+      "diagnostics": {
+        "bytes": 52110,
+        "objects": 32,
+        "read_bytes": 52617,
+        "reconstructed_nodes": 16
+      },
+      "verified": true
+    },
+    {
+      "backend": "sqlite",
+      "selected_node": 32,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:0ff5e377178805395a59bb89d22ef3944f6c76174660e17fcbd5b239e2ff5793",
+      "catalogue_lookup": true,
+      "samples_ms": [
+        115.8975,
+        133.7868,
+        125.4783,
+        116.5966,
+        101.4806
+      ],
+      "median_ms": 116.5966,
+      "diagnostics": {
+        "bytes": 52110,
+        "objects": 32,
+        "read_bytes": 68763,
+        "reconstructed_nodes": 16
+      },
+      "verified": true
+    },
+    {
+      "backend": "sqlite",
+      "selected_node": 33,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:adab23ae83d6b7dccb4d7cce54bbbb84ccf980012fd714fd07d01bd5c5b1f00b",
+      "catalogue_lookup": false,
+      "samples_ms": [
+        10.391,
+        9.5529,
+        9.6382,
+        8.3235,
+        14.5347
+      ],
+      "median_ms": 9.6382,
+      "diagnostics": {
+        "bytes": 17980,
+        "objects": 2,
+        "read_bytes": 18487,
+        "reconstructed_nodes": 1
+      },
+      "verified": true
+    },
+    {
+      "backend": "sqlite",
+      "selected_node": 33,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:adab23ae83d6b7dccb4d7cce54bbbb84ccf980012fd714fd07d01bd5c5b1f00b",
+      "catalogue_lookup": true,
+      "samples_ms": [
+        13.7879,
+        8.2776,
+        18.9041,
+        18.9415,
+        7.3294
+      ],
+      "median_ms": 13.7879,
+      "diagnostics": {
+        "bytes": 17980,
+        "objects": 2,
+        "read_bytes": 18487,
+        "reconstructed_nodes": 1
+      },
+      "verified": true
+    }
+  ]
+}

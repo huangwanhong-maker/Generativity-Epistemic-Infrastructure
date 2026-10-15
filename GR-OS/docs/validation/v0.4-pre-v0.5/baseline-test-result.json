@@ -1,0 +1,18 @@
+{
+  "version": "0.4.0",
+  "ctest_cases": 28,
+  "passed": 28,
+  "failed": 0,
+  "seconds": 46.18,
+  "source_hashes_rechecked": 161,
+  "changed": [],
+  "command": [
+    "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe",
+    "--test-dir",
+    "GR-OS/build",
+    "-C",
+    "Release",
+    "--output-on-failure"
+  ],
+  "notes": "Existing Release binaries, ordinary timeout multiplier1. No configure or build before baseline test. Installed SDK test writes only fresh build-local consumer artifacts."
+}

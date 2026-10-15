@@ -1,0 +1,61 @@
+CMake is re-running because C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/CMakeFiles/generate.stamp is out-of-date.
+  the file 'C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt'
+  is newer than 'C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/CMakeFiles/generate.stamp.depend'
+  result='-1'
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- Configuring done (0.3s)
+-- Generating done (0.8s)
+-- Build files have been written to: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  gr_sqlite.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_sqlite.lib
+  gr_common.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_common.lib
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  test_canonical.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_canonical.exe
+  gr_semantics.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_semantics.lib
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  gr_core.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_core.lib
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  gr_execution.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_execution.lib
+  gr_storage.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_storage.lib
+  test_records.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_records.exe
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  test_history.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_history.exe
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  test_storage.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_storage.exe
+  test_sqlite.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_sqlite.exe
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  test_operations.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_operations.exe
+  test_execution.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_execution.exe
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  test_prepared.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_prepared.exe
+  scheduler.cpp
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\runtime\scheduler.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_runtime.vcxproj]
+  gr_runtime.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_runtime.lib
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_transactions.vcxproj]
+  test_transactions.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_transactions.exe
+  runtime_recovery.cpp
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_planner.vcxproj]
+  test_planner.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_planner.exe
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\runtime_crash_worker.vcxproj]
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  runtime_crash_worker.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\runtime_crash_worker.exe
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_runtime.vcxproj]
+  test_runtime.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_runtime.exe
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tests\unit\runtime_recovery.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_runtime_recovery.vcxproj]
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_runtime_recovery.vcxproj]
+  test_runtime_recovery.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_runtime_recovery.exe
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt

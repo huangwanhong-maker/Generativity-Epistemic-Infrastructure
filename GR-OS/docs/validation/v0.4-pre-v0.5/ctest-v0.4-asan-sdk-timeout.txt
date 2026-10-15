@@ -1,0 +1,44 @@
+Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+Test project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+    Start 23: python_binding
+1/6 Test #23: python_binding ...................***Timeout 120.09 sec
+test_artifact_closure_integrity_and_atomic_rejection (test_python.BindingTests.test_artifact_closure_integrity_and_atomic_rejection) ... ok
+test_c_boundary_invalid_requests_and_allocated_error_responses (test_python.BindingTests.test_c_boundary_invalid_requests_and_allocated_error_responses) ... ok
+test_competing_sqlite_handles_do_not_lose_accepted_write (test_python.BindingTests.test_competing_sqlite_handles_do_not_lose_accepted_write) ... ok
+test_core_graph_match_and_temporal_selection (test_python.BindingTests.test_core_graph_match_and_temporal_selection) ... ok
+test_execution_exact_bytes_and_failures (test_python.BindingTests.test_execution_exact_bytes_and_failures) ... ok
+test_invalid_candidate_does_not_reach_storage (test_python.BindingTests.test_invalid_candidate_does_not_reach_storage) ... ok
+test_invalid_options_are_rejected_before_consuming_generators (test_python.BindingTests.test_invalid_options_are_rejected_before_consuming_generators) ... ok
+test_memory_and_sqlite_round_trip_retry_and_history (test_python.BindingTests.test_memory_and_sqlite_round_trip_retry_and_history) ... ok
+test_numbers_are_rejected_without_cross_language_rounding (test_python.BindingTests.test_numbers_are_rejected_without_cross_language_rounding) ... ok
+test_pinned_old_record_hydration (test_python.BindingTests.test_pinned_old_record_hydration) ... ok
+
+    Start 24: python_runtime
+2/6 Test #24: python_runtime ...................   Passed    5.38 sec
+    Start 25: python_buffers
+3/6 Test #25: python_buffers ...................   Passed    3.48 sec
+    Start 26: example_python
+4/6 Test #26: example_python ...................   Passed    1.59 sec
+    Start 27: example_runtime
+5/6 Test #27: example_runtime ..................   Passed    2.10 sec
+    Start 28: installed_sdk
+6/6 Test #28: installed_sdk ....................   Passed   26.72 sec
+
+83% tests passed, 1 tests failed out of 6
+
+Label Time Summary:
+examples       =   3.69 sec*proc (2 tests)
+integration    = 128.94 sec*proc (3 tests)
+packaging      =  26.72 sec*proc (1 test)
+
+Total Test time (real) = 159.37 sec
+
+The following tests FAILED:
+	 23 - python_binding (Timeout)                          integration
+ctest.exe : Errors while running CTest
+At line:2 char:629
++ ... n_error=1'; & 'C:\Program Files\Microsoft Visual Studio\2022\Communit ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Errors while running CTest:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

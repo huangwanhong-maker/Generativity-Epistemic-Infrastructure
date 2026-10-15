@@ -1,0 +1,93 @@
+{
+  "rows": [
+    {
+      "backend": "memory",
+      "begin_ms": 216.7172,
+      "commit_ms": 415.0809,
+      "commits": 32,
+      "records": 128,
+      "retained_blob_bytes": 0,
+      "retained_blob_count": 0,
+      "selected_snapshot_ms": 5.9549,
+      "stage_ms": 1.4133999999999998,
+      "storage_boundary_ms": {
+        "commit": 124.7501,
+        "snapshot": 75.37089999999999
+      },
+      "storage_calls": {
+        "commit": 32,
+        "snapshot": 32
+      },
+      "tracked": false,
+      "verification": "128 current records; 33 physical publications"
+    },
+    {
+      "backend": "memory",
+      "begin_ms": 4646.1015,
+      "commit_ms": 9529.6056,
+      "commits": 32,
+      "records": 128,
+      "retained_blob_bytes": 37150477,
+      "retained_blob_count": 33,
+      "selected_snapshot_ms": 280.334,
+      "stage_ms": 1.7957000000000003,
+      "storage_boundary_ms": {
+        "commit": 692.0493,
+        "open_blob": 222.3199,
+        "snapshot": 81.2529
+      },
+      "storage_calls": {
+        "commit": 32,
+        "open_blob": 32,
+        "snapshot": 32
+      },
+      "tracked": true,
+      "verification": "128 current records; 33 physical publications"
+    },
+    {
+      "backend": "sqlite",
+      "begin_ms": 251.17449999999997,
+      "commit_ms": 542.7783,
+      "commits": 32,
+      "records": 128,
+      "retained_blob_bytes": 0,
+      "retained_blob_count": 0,
+      "selected_snapshot_ms": 8.4947,
+      "stage_ms": 1.2188999999999999,
+      "storage_boundary_ms": {
+        "commit": 280.53950000000003,
+        "snapshot": 117.84470000000002
+      },
+      "storage_calls": {
+        "commit": 32,
+        "snapshot": 32
+      },
+      "tracked": false,
+      "verification": "128 current records; 33 physical publications"
+    },
+    {
+      "backend": "sqlite",
+      "begin_ms": 5384.3737,
+      "commit_ms": 10373.5341,
+      "commits": 32,
+      "records": 128,
+      "retained_blob_bytes": 37150477,
+      "retained_blob_count": 33,
+      "selected_snapshot_ms": 296.4979,
+      "stage_ms": 2.1559999999999993,
+      "storage_boundary_ms": {
+        "commit": 1169.5215,
+        "open_blob": 625.1538999999999,
+        "snapshot": 144.41709999999998
+      },
+      "storage_calls": {
+        "commit": 32,
+        "open_blob": 32,
+        "snapshot": 32
+      },
+      "tracked": true,
+      "verification": "128 current records; 33 physical publications"
+    }
+  ],
+  "suite": "gr.admission.profile/1"
+}

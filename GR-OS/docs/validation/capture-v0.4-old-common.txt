@@ -1,0 +1,13 @@
+command: C:\Users\Micro\AppData\Local\Programs\Python\Python312\python.exe -B C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\baselines\v0.3\benchmarks\run.py --output C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\docs\validation\v0.3-pre-v0.4\benchmark-common-rerun.json --label v0.3-matched --repeats 5
+GR_OS_LIBRARY=C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\baselines\v0.3\install\bin\gr_native.dll
+PYTHONPATH=C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\baselines\v0.3\python\src
+construct_100: 6.128 ms median
+validate_300: 11.295 ms median
+graph_300: 15.488 ms median
+apply_100_of_300: 29.120 ms median
+sha256_1MiB_cpu.sequential: 36.547 ms median
+sha256_1MiB_cpu.threaded: 28.644 ms median
+commit_100_memory: 14.461 ms median
+blob_4MiB_memory: 87.679 ms median
+commit_100_sqlite: 18.973 ms median
+blob_4MiB_sqlite: 95.843 ms median

@@ -1,0 +1,1447 @@
+{
+  "cases": [
+    {
+      "bind_existing_function": {
+        "median_ms": 3.9173,
+        "samples_ms": [
+          3.5446,
+          5.0934,
+          3.6139,
+          3.9173,
+          4.3188
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 24,
+          "successful_validation_ns": 223800
+        }
+      },
+      "bind_runtime_and_materialization": {
+        "median_ms": 6.0462,
+        "samples_ms": [
+          6.4842,
+          4.6879,
+          6.0462,
+          4.4771,
+          6.0832
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 90,
+          "successful_validation_ns": 951100
+        }
+      },
+      "expected_sum": -736,
+      "final_validation_statistics": {
+        "charged_bytes": 0,
+        "entries": 0,
+        "evictions": 0,
+        "expired": 0,
+        "failures": 0,
+        "hits": 0,
+        "max_bytes": 16777216,
+        "max_entries": 0,
+        "misses": 198,
+        "ownership": "weak immutable payload; no payload retention",
+        "profile_timing": true,
+        "successful_validation_ns": 2208000
+      },
+      "memo": false,
+      "nullable": false,
+      "prepared_runtime_and_materialization": {
+        "median_ms": 0.6339,
+        "samples_ms": [
+          0.815,
+          0.6978,
+          0.6339,
+          0.525,
+          0.5353
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 66,
+          "successful_validation_ns": 839500
+        }
+      },
+      "rows": 8,
+      "validate_cold_owner_certificate": {
+        "median_ms": 0.0146,
+        "samples_ms": [
+          0.015,
+          0.0148,
+          0.0146,
+          0.0146,
+          0.0145
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 53800
+        }
+      },
+      "validate_repeated_owner": {
+        "median_ms": 0.0181,
+        "samples_ms": [
+          0.024,
+          0.0237,
+          0.0181,
+          0.0136,
+          0.0135
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 69500
+        }
+      }
+    },
+    {
+      "bind_existing_function": {
+        "median_ms": 3.9932,
+        "samples_ms": [
+          3.9932,
+          3.3639,
+          3.5352,
+          4.1058,
+          4.8798
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 991,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 21,
+          "misses": 3,
+          "successful_validation_ns": 20600
+        }
+      },
+      "bind_runtime_and_materialization": {
+        "median_ms": 4.7238,
+        "samples_ms": [
+          4.4601,
+          4.7238,
+          5.4618,
+          4.9438,
+          4.006
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 991,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 12,
+          "failures": 0,
+          "hits": 78,
+          "misses": 12,
+          "successful_validation_ns": 152100
+        }
+      },
+      "expected_sum": -736,
+      "final_validation_statistics": {
+        "charged_bytes": 991,
+        "entries": 4,
+        "evictions": 0,
+        "expired": 24,
+        "failures": 0,
+        "hits": 159,
+        "max_bytes": 16777216,
+        "max_entries": 64,
+        "misses": 39,
+        "ownership": "weak immutable payload; no payload retention",
+        "profile_timing": true,
+        "successful_validation_ns": 414600
+      },
+      "memo": true,
+      "nullable": false,
+      "prepared_runtime_and_materialization": {
+        "median_ms": 0.3099,
+        "samples_ms": [
+          0.3687,
+          0.3218,
+          0.3099,
+          0.2613,
+          0.2518
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 991,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 12,
+          "failures": 0,
+          "hits": 54,
+          "misses": 12,
+          "successful_validation_ns": 107800
+        }
+      },
+      "rows": 8,
+      "validate_cold_owner_certificate": {
+        "median_ms": 0.0243,
+        "samples_ms": [
+          0.0377,
+          0.0239,
+          0.0232,
+          0.026,
+          0.0243
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 269,
+          "entries_after": 1,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 85500
+        }
+      },
+      "validate_repeated_owner": {
+        "median_ms": 0.0055,
+        "samples_ms": [
+          0.0056,
+          0.0052,
+          0.0053,
+          0.0055,
+          0.0108
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 1255,
+          "entries_after": 6,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 6,
+          "misses": 0,
+          "successful_validation_ns": 0
+        }
+      }
+    },
+    {
+      "bind_existing_function": {
+        "median_ms": 4.3842,
+        "samples_ms": [
+          4.3842,
+          3.9724,
+          4.4849,
+          3.3348,
+          4.491
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 24,
+          "successful_validation_ns": 238200
+        }
+      },
+      "bind_runtime_and_materialization": {
+        "median_ms": 6.5054,
+        "samples_ms": [
+          7.2025,
+          7.4463,
+          6.5054,
+          4.2169,
+          5.1264
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 90,
+          "successful_validation_ns": 1251600
+        }
+      },
+      "expected_sum": -552,
+      "final_validation_statistics": {
+        "charged_bytes": 0,
+        "entries": 0,
+        "evictions": 0,
+        "expired": 0,
+        "failures": 0,
+        "hits": 0,
+        "max_bytes": 16777216,
+        "max_entries": 0,
+        "misses": 198,
+        "ownership": "weak immutable payload; no payload retention",
+        "profile_timing": true,
+        "successful_validation_ns": 2755900
+      },
+      "memo": false,
+      "nullable": true,
+      "prepared_runtime_and_materialization": {
+        "median_ms": 0.874,
+        "samples_ms": [
+          0.8983,
+          0.8488,
+          0.874,
+          1.0767,
+          0.4665
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 66,
+          "successful_validation_ns": 1086500
+        }
+      },
+      "rows": 8,
+      "validate_cold_owner_certificate": {
+        "median_ms": 0.0161,
+        "samples_ms": [
+          0.0163,
+          0.0161,
+          0.0161,
+          0.0161,
+          0.0162
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 59100
+        }
+      },
+      "validate_repeated_owner": {
+        "median_ms": 0.0164,
+        "samples_ms": [
+          0.0175,
+          0.0168,
+          0.0164,
+          0.0164,
+          0.0163
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 64700
+        }
+      }
+    },
+    {
+      "bind_existing_function": {
+        "median_ms": 3.5419,
+        "samples_ms": [
+          3.4152,
+          5.0832,
+          3.5419,
+          3.9413,
+          3.134
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 1005,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 21,
+          "misses": 3,
+          "successful_validation_ns": 22100
+        }
+      },
+      "bind_runtime_and_materialization": {
+        "median_ms": 6.211,
+        "samples_ms": [
+          5.3017,
+          6.211,
+          7.0487,
+          6.7826,
+          6.1542
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 1005,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 12,
+          "failures": 0,
+          "hits": 78,
+          "misses": 12,
+          "successful_validation_ns": 173100
+        }
+      },
+      "expected_sum": -552,
+      "final_validation_statistics": {
+        "charged_bytes": 1005,
+        "entries": 4,
+        "evictions": 0,
+        "expired": 24,
+        "failures": 0,
+        "hits": 159,
+        "max_bytes": 16777216,
+        "max_entries": 64,
+        "misses": 39,
+        "ownership": "weak immutable payload; no payload retention",
+        "profile_timing": true,
+        "successful_validation_ns": 495500
+      },
+      "memo": true,
+      "nullable": true,
+      "prepared_runtime_and_materialization": {
+        "median_ms": 0.5274,
+        "samples_ms": [
+          0.5987,
+          0.5441,
+          0.5274,
+          0.4661,
+          0.4912
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 1005,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 12,
+          "failures": 0,
+          "hits": 54,
+          "misses": 12,
+          "successful_validation_ns": 187300
+        }
+      },
+      "rows": 8,
+      "validate_cold_owner_certificate": {
+        "median_ms": 0.02,
+        "samples_ms": [
+          0.0201,
+          0.02,
+          0.0193,
+          0.0198,
+          0.0203
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 276,
+          "entries_after": 1,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 72600
+        }
+      },
+      "validate_repeated_owner": {
+        "median_ms": 0.0079,
+        "samples_ms": [
+          0.008,
+          0.0074,
+          0.0079,
+          0.0071,
+          0.008
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 1269,
+          "entries_after": 6,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 6,
+          "misses": 0,
+          "successful_validation_ns": 0
+        }
+      }
+    },
+    {
+      "bind_existing_function": {
+        "median_ms": 5.3124,
+        "samples_ms": [
+          5.3124,
+          5.2112,
+          5.2529,
+          6.7845,
+          5.6113
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 24,
+          "successful_validation_ns": 265600
+        }
+      },
+      "bind_runtime_and_materialization": {
+        "median_ms": 5.5416,
+        "samples_ms": [
+          4.6453,
+          4.9731,
+          5.703,
+          5.5416,
+          6.7083
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 90,
+          "successful_validation_ns": 980100
+        }
+      },
+      "expected_sum": 1576,
+      "final_validation_statistics": {
+        "charged_bytes": 0,
+        "entries": 0,
+        "evictions": 0,
+        "expired": 0,
+        "failures": 0,
+        "hits": 0,
+        "max_bytes": 16777216,
+        "max_entries": 0,
+        "misses": 198,
+        "ownership": "weak immutable payload; no payload retention",
+        "profile_timing": true,
+        "successful_validation_ns": 2091500
+      },
+      "memo": false,
+      "nullable": false,
+      "prepared_runtime_and_materialization": {
+        "median_ms": 0.6418,
+        "samples_ms": [
+          0.6418,
+          0.589,
+          0.5233,
+          0.8656,
+          0.8758
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 66,
+          "successful_validation_ns": 642700
+        }
+      },
+      "rows": 4096,
+      "validate_cold_owner_certificate": {
+        "median_ms": 0.0124,
+        "samples_ms": [
+          0.0126,
+          0.0125,
+          0.0124,
+          0.0124,
+          0.0122
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 44300
+        }
+      },
+      "validate_repeated_owner": {
+        "median_ms": 0.0126,
+        "samples_ms": [
+          0.0134,
+          0.013,
+          0.0123,
+          0.0126,
+          0.0123
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 47100
+        }
+      }
+    },
+    {
+      "bind_existing_function": {
+        "median_ms": 4.0182,
+        "samples_ms": [
+          4.0182,
+          3.2143,
+          4.8212,
+          3.1871,
+          5.2435
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 66399,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 21,
+          "misses": 3,
+          "successful_validation_ns": 28200
+        }
+      },
+      "bind_runtime_and_materialization": {
+        "median_ms": 4.6644,
+        "samples_ms": [
+          5.5056,
+          4.2982,
+          4.4679,
+          4.9785,
+          4.6644
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 66399,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 12,
+          "failures": 0,
+          "hits": 78,
+          "misses": 12,
+          "successful_validation_ns": 174500
+        }
+      },
+      "expected_sum": 1576,
+      "final_validation_statistics": {
+        "charged_bytes": 66399,
+        "entries": 4,
+        "evictions": 0,
+        "expired": 24,
+        "failures": 0,
+        "hits": 159,
+        "max_bytes": 16777216,
+        "max_entries": 64,
+        "misses": 39,
+        "ownership": "weak immutable payload; no payload retention",
+        "profile_timing": true,
+        "successful_validation_ns": 501400
+      },
+      "memo": true,
+      "nullable": false,
+      "prepared_runtime_and_materialization": {
+        "median_ms": 0.6412,
+        "samples_ms": [
+          0.6412,
+          0.6459,
+          0.5053,
+          0.5124,
+          0.7224
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 66399,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 12,
+          "failures": 0,
+          "hits": 54,
+          "misses": 12,
+          "successful_validation_ns": 171300
+        }
+      },
+      "rows": 4096,
+      "validate_cold_owner_certificate": {
+        "median_ms": 0.0215,
+        "samples_ms": [
+          0.0215,
+          0.0239,
+          0.0228,
+          0.0206,
+          0.0182
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 32973,
+          "entries_after": 1,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 73300
+        }
+      },
+      "validate_repeated_owner": {
+        "median_ms": 0.0084,
+        "samples_ms": [
+          0.0084,
+          0.0083,
+          0.0091,
+          0.0099,
+          0.0076
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 66663,
+          "entries_after": 6,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 6,
+          "misses": 0,
+          "successful_validation_ns": 0
+        }
+      }
+    },
+    {
+      "bind_existing_function": {
+        "median_ms": 6.1159,
+        "samples_ms": [
+          4.9021,
+          5.0961,
+          6.1159,
+          6.1256,
+          6.1559
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 24,
+          "successful_validation_ns": 448900
+        }
+      },
+      "bind_runtime_and_materialization": {
+        "median_ms": 4.8546,
+        "samples_ms": [
+          4.8341,
+          5.3615,
+          4.8546,
+          4.4108,
+          7.1424
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 90,
+          "successful_validation_ns": 1329900
+        }
+      },
+      "expected_sum": 1302,
+      "final_validation_statistics": {
+        "charged_bytes": 0,
+        "entries": 0,
+        "evictions": 0,
+        "expired": 0,
+        "failures": 0,
+        "hits": 0,
+        "max_bytes": 16777216,
+        "max_entries": 0,
+        "misses": 198,
+        "ownership": "weak immutable payload; no payload retention",
+        "profile_timing": true,
+        "successful_validation_ns": 2906700
+      },
+      "memo": false,
+      "nullable": true,
+      "prepared_runtime_and_materialization": {
+        "median_ms": 0.5863,
+        "samples_ms": [
+          0.6424,
+          0.685,
+          0.5863,
+          0.5677,
+          0.5468
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 66,
+          "successful_validation_ns": 748800
+        }
+      },
+      "rows": 4096,
+      "validate_cold_owner_certificate": {
+        "median_ms": 0.0327,
+        "samples_ms": [
+          0.0308,
+          0.0335,
+          0.0327,
+          0.0348,
+          0.0316
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 147100
+        }
+      },
+      "validate_repeated_owner": {
+        "median_ms": 0.0355,
+        "samples_ms": [
+          0.0387,
+          0.0369,
+          0.0353,
+          0.0355,
+          0.0347
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 165100
+        }
+      }
+    },
+    {
+      "bind_existing_function": {
+        "median_ms": 5.592,
+        "samples_ms": [
+          4.648,
+          5.592,
+          5.6541,
+          5.5381,
+          6.1771
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 74589,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 21,
+          "misses": 3,
+          "successful_validation_ns": 43900
+        }
+      },
+      "bind_runtime_and_materialization": {
+        "median_ms": 6.7652,
+        "samples_ms": [
+          8.2464,
+          6.8351,
+          6.6648,
+          6.5072,
+          6.7652
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 74589,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 12,
+          "failures": 0,
+          "hits": 78,
+          "misses": 12,
+          "successful_validation_ns": 205500
+        }
+      },
+      "expected_sum": 1302,
+      "final_validation_statistics": {
+        "charged_bytes": 74589,
+        "entries": 4,
+        "evictions": 0,
+        "expired": 24,
+        "failures": 0,
+        "hits": 159,
+        "max_bytes": 16777216,
+        "max_entries": 64,
+        "misses": 39,
+        "ownership": "weak immutable payload; no payload retention",
+        "profile_timing": true,
+        "successful_validation_ns": 782300
+      },
+      "memo": true,
+      "nullable": true,
+      "prepared_runtime_and_materialization": {
+        "median_ms": 0.772,
+        "samples_ms": [
+          0.8177,
+          0.772,
+          0.8165,
+          0.721,
+          0.7474
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 74589,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 12,
+          "failures": 0,
+          "hits": 54,
+          "misses": 12,
+          "successful_validation_ns": 289100
+        }
+      },
+      "rows": 4096,
+      "validate_cold_owner_certificate": {
+        "median_ms": 0.0333,
+        "samples_ms": [
+          0.0331,
+          0.0326,
+          0.0375,
+          0.0337,
+          0.0333
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 37068,
+          "entries_after": 1,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 146700
+        }
+      },
+      "validate_repeated_owner": {
+        "median_ms": 0.0094,
+        "samples_ms": [
+          0.0116,
+          0.0099,
+          0.0093,
+          0.0093,
+          0.0094
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 74853,
+          "entries_after": 6,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 6,
+          "misses": 0,
+          "successful_validation_ns": 0
+        }
+      }
+    },
+    {
+      "bind_existing_function": {
+        "median_ms": 4.9082,
+        "samples_ms": [
+          4.0786,
+          4.9082,
+          5.7122,
+          5.5595,
+          3.3851
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 24,
+          "successful_validation_ns": 265500
+        }
+      },
+      "bind_runtime_and_materialization": {
+        "median_ms": 18.4695,
+        "samples_ms": [
+          18.324,
+          18.5247,
+          16.1411,
+          18.9804,
+          18.4695
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 90,
+          "successful_validation_ns": 1464300
+        }
+      },
+      "expected_sum": 259596,
+      "final_validation_statistics": {
+        "charged_bytes": 0,
+        "entries": 0,
+        "evictions": 0,
+        "expired": 0,
+        "failures": 0,
+        "hits": 0,
+        "max_bytes": 16777216,
+        "max_entries": 0,
+        "misses": 198,
+        "ownership": "weak immutable payload; no payload retention",
+        "profile_timing": true,
+        "successful_validation_ns": 2717600
+      },
+      "memo": false,
+      "nullable": false,
+      "prepared_runtime_and_materialization": {
+        "median_ms": 13.1299,
+        "samples_ms": [
+          11.721,
+          10.8693,
+          14.0729,
+          13.1299,
+          13.3509
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 66,
+          "successful_validation_ns": 854200
+        }
+      },
+      "rows": 262144,
+      "validate_cold_owner_certificate": {
+        "median_ms": 0.0123,
+        "samples_ms": [
+          0.0123,
+          0.0123,
+          0.0128,
+          0.0123,
+          0.0123
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 44100
+        }
+      },
+      "validate_repeated_owner": {
+        "median_ms": 0.0125,
+        "samples_ms": [
+          0.0132,
+          0.0128,
+          0.0124,
+          0.0125,
+          0.0123
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 46700
+        }
+      }
+    },
+    {
+      "bind_existing_function": {
+        "median_ms": 5.2993,
+        "samples_ms": [
+          6.4926,
+          5.2993,
+          5.7658,
+          4.5475,
+          3.1638
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 4195167,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 21,
+          "misses": 3,
+          "successful_validation_ns": 40100
+        }
+      },
+      "bind_runtime_and_materialization": {
+        "median_ms": 19.5217,
+        "samples_ms": [
+          15.6398,
+          19.5217,
+          21.5392,
+          20.5129,
+          17.8854
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 4195167,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 12,
+          "failures": 0,
+          "hits": 78,
+          "misses": 12,
+          "successful_validation_ns": 188500
+        }
+      },
+      "expected_sum": 259596,
+      "final_validation_statistics": {
+        "charged_bytes": 4195167,
+        "entries": 4,
+        "evictions": 0,
+        "expired": 24,
+        "failures": 0,
+        "hits": 159,
+        "max_bytes": 16777216,
+        "max_entries": 64,
+        "misses": 39,
+        "ownership": "weak immutable payload; no payload retention",
+        "profile_timing": true,
+        "successful_validation_ns": 573300
+      },
+      "memo": true,
+      "nullable": false,
+      "prepared_runtime_and_materialization": {
+        "median_ms": 11.988,
+        "samples_ms": [
+          11.6597,
+          11.2424,
+          12.0949,
+          12.3275,
+          11.988
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 4195167,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 12,
+          "failures": 0,
+          "hits": 54,
+          "misses": 12,
+          "successful_validation_ns": 166700
+        }
+      },
+      "rows": 262144,
+      "validate_cold_owner_certificate": {
+        "median_ms": 0.029,
+        "samples_ms": [
+          0.029,
+          0.0313,
+          0.0296,
+          0.0244,
+          0.023
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 2097357,
+          "entries_after": 1,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 95400
+        }
+      },
+      "validate_repeated_owner": {
+        "median_ms": 0.0141,
+        "samples_ms": [
+          0.0544,
+          0.0161,
+          0.0141,
+          0.0111,
+          0.0106
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 4195431,
+          "entries_after": 6,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 6,
+          "misses": 0,
+          "successful_validation_ns": 0
+        }
+      }
+    },
+    {
+      "bind_existing_function": {
+        "median_ms": 8.5809,
+        "samples_ms": [
+          8.9,
+          7.806,
+          8.5809,
+          7.9695,
+          15.248
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 24,
+          "successful_validation_ns": 9981200
+        }
+      },
+      "bind_runtime_and_materialization": {
+        "median_ms": 27.8556,
+        "samples_ms": [
+          20.0923,
+          20.3606,
+          30.1155,
+          31.901,
+          27.8556
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 90,
+          "successful_validation_ns": 28347600
+        }
+      },
+      "expected_sum": 222468,
+      "final_validation_statistics": {
+        "charged_bytes": 0,
+        "entries": 0,
+        "evictions": 0,
+        "expired": 0,
+        "failures": 0,
+        "hits": 0,
+        "max_bytes": 16777216,
+        "max_entries": 0,
+        "misses": 198,
+        "ownership": "weak immutable payload; no payload retention",
+        "profile_timing": true,
+        "successful_validation_ns": 63870800
+      },
+      "memo": false,
+      "nullable": true,
+      "prepared_runtime_and_materialization": {
+        "median_ms": 16.6019,
+        "samples_ms": [
+          17.6317,
+          15.7975,
+          16.6019,
+          15.3009,
+          17.2662
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 66,
+          "successful_validation_ns": 17709200
+        }
+      },
+      "rows": 262144,
+      "validate_cold_owner_certificate": {
+        "median_ms": 0.3544,
+        "samples_ms": [
+          0.5127,
+          0.3937,
+          0.3503,
+          0.3544,
+          0.3467
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 2293200
+        }
+      },
+      "validate_repeated_owner": {
+        "median_ms": 0.7345,
+        "samples_ms": [
+          0.7345,
+          1.06,
+          0.826,
+          0.4342,
+          0.3512
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 0,
+          "entries_after": 0,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 4076200
+        }
+      }
+    },
+    {
+      "bind_existing_function": {
+        "median_ms": 5.3204,
+        "samples_ms": [
+          6.3901,
+          6.5823,
+          5.1099,
+          5.3204,
+          4.5651
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 4719453,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 21,
+          "misses": 3,
+          "successful_validation_ns": 949100
+        }
+      },
+      "bind_runtime_and_materialization": {
+        "median_ms": 21.1958,
+        "samples_ms": [
+          26.7387,
+          20.5398,
+          21.1958,
+          19.7807,
+          21.2271
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 4719453,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 12,
+          "failures": 0,
+          "hits": 78,
+          "misses": 12,
+          "successful_validation_ns": 3971200
+        }
+      },
+      "expected_sum": 222468,
+      "final_validation_statistics": {
+        "charged_bytes": 4719453,
+        "entries": 4,
+        "evictions": 0,
+        "expired": 24,
+        "failures": 0,
+        "hits": 159,
+        "max_bytes": 16777216,
+        "max_entries": 64,
+        "misses": 39,
+        "ownership": "weak immutable payload; no payload retention",
+        "profile_timing": true,
+        "successful_validation_ns": 15802900
+      },
+      "memo": true,
+      "nullable": true,
+      "prepared_runtime_and_materialization": {
+        "median_ms": 15.2038,
+        "samples_ms": [
+          13.3607,
+          20.4223,
+          18.0405,
+          14.6473,
+          15.2038
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 4719453,
+          "entries_after": 4,
+          "evictions": 0,
+          "expired": 12,
+          "failures": 0,
+          "hits": 54,
+          "misses": 12,
+          "successful_validation_ns": 4281100
+        }
+      },
+      "rows": 262144,
+      "validate_cold_owner_certificate": {
+        "median_ms": 0.73,
+        "samples_ms": [
+          0.7373,
+          0.7421,
+          0.7156,
+          0.703,
+          0.73
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 2359500,
+          "entries_after": 1,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 0,
+          "misses": 6,
+          "successful_validation_ns": 4408500
+        }
+      },
+      "validate_repeated_owner": {
+        "median_ms": 0.0116,
+        "samples_ms": [
+          0.0253,
+          0.0164,
+          0.0116,
+          0.0109,
+          0.0113
+        ],
+        "validation_profile_including_warmup": {
+          "charged_bytes_after": 4719717,
+          "entries_after": 6,
+          "evictions": 0,
+          "expired": 0,
+          "failures": 0,
+          "hits": 6,
+          "misses": 0,
+          "successful_validation_ns": 0
+        }
+      }
+    }
+  ],
+  "limits": "Weak payload-owner reuse, 64 entries/16 MiB conservative source+spec charge; counters are not RSS. Clear can repopulate during concurrent validation.",
+  "method": "One warmup plus five samples; result verification and destruction outside timing. Instrumented validation counters include warmup; timings cover successful representation validation, size checks and cache-charge calculation. Not sampled CPU profiling.",
+  "suite": "gr.data.language-profile/1"
+}

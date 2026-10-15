@@ -1,0 +1,117 @@
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  common.cpp
+  sqlite3.c
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\third_party\sqlite\sqlite3.c(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_sqlite.vcxproj]
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\support\common.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_common.vcxproj]
+  gr_common.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_common.lib
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  types.cpp
+  canonical.cpp
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tests\conformance\canonical.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_canonical.vcxproj]
+  operations.cpp
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_canonical.vcxproj]
+  test_canonical.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_canonical.exe
+  gr_sqlite.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_sqlite.lib
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  contracts.cpp
+  Generating Code...
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\kernel\operations.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_semantics.vcxproj]
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\kernel\types.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_semantics.vcxproj]
+  gr_semantics.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_semantics.lib
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  records.cpp
+  implementation.cpp
+  memory.cpp
+  cpu.cpp
+  projections.cpp
+  sqlite.cpp
+  Generating Code...
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\storage\sqlite.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_storage.vcxproj]
+  Generating Code...
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\execution\cpu.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_execution.vcxproj]
+  history.cpp
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\storage\memory.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_storage.vcxproj]
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\execution\implementation.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_execution.vcxproj]
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\storage\contracts.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_storage.vcxproj]
+  gr_execution.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_execution.lib
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  prepared.cpp
+  operations.cpp
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  execution.cpp
+  gr_storage.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_storage.lib
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  sqlite.cpp
+  storage.cpp
+  record_operations.cpp
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tests\conformance\prepared.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_prepared.vcxproj]
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tests\conformance\operations.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_operations.vcxproj]
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tests\conformance\storage.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_storage.vcxproj]
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_prepared.vcxproj]
+  test_prepared.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_prepared.exe
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tests\integration\sqlite.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_sqlite.vcxproj]
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tests\unit\execution.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_execution.vcxproj]
+  Generating Code...
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\kernel\record_operations.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_core.vcxproj]
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_operations.vcxproj]
+  test_operations.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_operations.exe
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_sqlite.vcxproj]
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_execution.vcxproj]
+  test_sqlite.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_sqlite.exe
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\kernel\history.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_core.vcxproj]
+  test_execution.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_execution.exe
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_storage.vcxproj]
+  test_storage.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_storage.exe
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\kernel\projections.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_core.vcxproj]
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\kernel\records.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_core.vcxproj]
+  gr_core.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_core.lib
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  records.cpp
+  history.cpp
+  catalog.cpp
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tests\conformance\history.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_history.vcxproj]
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tests\unit\records.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_records.vcxproj]
+  planner.cpp
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_history.vcxproj]
+  test_history.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_history.exe
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_records.vcxproj]
+  test_records.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_records.exe
+  scheduler.cpp
+  transaction.cpp
+  Generating Code...
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\runtime\transaction.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_runtime.vcxproj]
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\runtime\scheduler.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_runtime.vcxproj]
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\runtime\planner.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_runtime.vcxproj]
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\src\runtime\catalog.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\gr_runtime.vcxproj]
+  gr_runtime.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_runtime.lib
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  runtime.cpp
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt
+  transactions.cpp
+  runtime_crash_worker.cpp
+  planner.cpp
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tests\conformance\transactions.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_transactions.vcxproj]
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tests\integration\runtime_crash_worker.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\runtime_crash_worker.vcxproj]
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tests\unit\planner.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_planner.vcxproj]
+C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tests\unit\runtime.cpp(1,1): warning C5072: ASAN enabled without debug information emission. Enable debug info for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_runtime.vcxproj]
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\runtime_crash_worker.vcxproj]
+  runtime_crash_worker.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\runtime_crash_worker.exe
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_planner.vcxproj]
+  test_planner.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_planner.exe
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_runtime.vcxproj]
+  test_runtime.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_runtime.exe
+LINK : warning LNK4302: please add '/DEBUG' to the link command line for better ASAN error reporting [C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\test_transactions.vcxproj]
+  test_transactions.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_transactions.exe
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/CMakeLists.txt

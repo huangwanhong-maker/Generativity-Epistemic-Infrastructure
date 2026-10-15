@@ -1,0 +1,16 @@
+{
+  "version": 5,
+  "cmakeMinimumRequired": {"major": 3, "minor": 24, "patch": 0},
+  "configurePresets": [
+    {"name": "windows-x64", "generator": "Visual Studio 17 2022", "architecture": "x64", "binaryDir": "${sourceDir}/build", "cacheVariables": {"GR_BUILD_TESTS": "ON", "GR_BUILD_BINDINGS": "ON", "GR_REQUIRE_PYTHON_TESTS": "ON"}},
+    {"name": "unix-release", "generator": "Unix Makefiles", "binaryDir": "${sourceDir}/build-unix", "cacheVariables": {"CMAKE_BUILD_TYPE": "Release", "GR_BUILD_TESTS": "ON", "GR_BUILD_BINDINGS": "ON", "GR_REQUIRE_PYTHON_TESTS": "ON"}}
+  ],
+  "buildPresets": [
+    {"name": "windows-release", "configurePreset": "windows-x64", "configuration": "Release"},
+    {"name": "unix-release", "configurePreset": "unix-release"}
+  ],
+  "testPresets": [
+    {"name": "windows-release", "configurePreset": "windows-x64", "configuration": "Release", "output": {"outputOnFailure": true}},
+    {"name": "unix-release", "configurePreset": "unix-release", "output": {"outputOnFailure": true}}
+  ]
+}

@@ -1,0 +1,77 @@
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  gr_common.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_common.lib
+  gr_sqlite.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_sqlite.lib
+  contracts.cpp
+  gr_buffer.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_buffer.lib
+  gr_semantics.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_semantics.lib
+  gr_execution.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_execution.lib
+  compact_history.cpp
+  sqlite.cpp
+  history.cpp
+  Generating Code...
+  projections.cpp
+  gr_storage.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_storage.lib
+  record_operations.cpp
+  records.cpp
+  Generating Code...
+  gr_core.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_core.lib
+  catalog.cpp
+  history_store.cpp
+  scheduler.cpp
+  transaction.cpp
+  Generating Code...
+  gr_runtime.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_runtime.lib
+  data.cpp
+  gr_experimental_data.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_experimental_data.lib
+  buffer_api.cpp
+  c_api.cpp
+  execution_api.cpp
+  experimental_api.cpp
+  runtime_api.cpp
+  storage_api.cpp
+  transaction_api.cpp
+  Generating Code...
+     Creating library C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/gr_native.lib and object C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/gr_native.exp
+  gr_native.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_native.dll
+  buffer_export.cpp
+     Creating library C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/_gr_buffer.lib and object C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/_gr_buffer.exp
+  gr_python_buffer.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\_gr_buffer.pyd
+  gr_cli.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr.exe
+  example_extension.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\example_extension.exe
+  runtime.cpp
+  admission.cpp
+  test_buffers.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_buffers.exe
+  test_canonical.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_canonical.exe
+  runtime_crash_worker.cpp
+  admission.cpp
+  buffer_execution.cpp
+  compact_history.cpp
+  test_execution.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_execution.exe
+  experimental_data.cpp
+  test_buffer_execution.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_buffer_execution.exe
+  benchmark_admission.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\benchmark_admission.exe
+  history.cpp
+  history_store.cpp
+  test_numerical.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_numerical.exe
+  test_compact_history.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_compact_history.exe
+  benchmark_runtime.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\benchmark_runtime.exe
+  test_operations.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_operations.exe
+  runtime_crash_worker.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\runtime_crash_worker.exe
+  planner.cpp
+  test_prepared.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_prepared.exe
+  records.cpp
+  test_admission.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_admission.exe
+  runtime.cpp
+  test_experimental_data.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_experimental_data.exe
+  test_history.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_history.exe
+  runtime_recovery.cpp
+  test_history_store.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_history_store.exe
+  test_sqlite.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_sqlite.exe
+  test_storage.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_storage.exe
+  transactions.cpp
+  test_planner.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_planner.exe
+  test_records.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_records.exe
+  test_runtime.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_runtime.exe
+  test_runtime_recovery.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_runtime_recovery.exe
+  test_transactions.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\test_transactions.exe

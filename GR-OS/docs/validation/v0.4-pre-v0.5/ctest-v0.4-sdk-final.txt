@@ -1,0 +1,23 @@
+Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+Test project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+    Start 23: python_binding
+1/6 Test #23: python_binding ...................   Passed    8.27 sec
+    Start 24: python_runtime
+2/6 Test #24: python_runtime ...................   Passed    0.50 sec
+    Start 25: python_buffers
+3/6 Test #25: python_buffers ...................   Passed    0.36 sec
+    Start 26: example_python
+4/6 Test #26: example_python ...................   Passed    0.26 sec
+    Start 27: example_runtime
+5/6 Test #27: example_runtime ..................   Passed    0.32 sec
+    Start 28: installed_sdk
+6/6 Test #28: installed_sdk ....................   Passed   18.15 sec
+
+100% tests passed, 0 tests failed out of 6
+
+Label Time Summary:
+examples       =   0.58 sec*proc (2 tests)
+integration    =   9.13 sec*proc (3 tests)
+packaging      =  18.15 sec*proc (1 test)
+
+Total Test time (real) =  27.87 sec

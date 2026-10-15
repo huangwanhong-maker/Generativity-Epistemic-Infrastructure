@@ -1,0 +1,2 @@
+#pragma once
+inline constexpr const char *package_manifest = R"grpackage(@GR_DIAGONAL_MANIFEST@)grpackage";

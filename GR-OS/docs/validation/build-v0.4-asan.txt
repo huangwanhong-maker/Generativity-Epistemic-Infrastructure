@@ -1,0 +1,47 @@
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  gr_common.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_common.lib
+  gr_sqlite.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_sqlite.lib
+  gr_buffer.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_buffer.lib
+  gr_storage.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_storage.lib
+  gr_semantics.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_semantics.lib
+  gr_execution.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_execution.lib
+  gr_core.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_core.lib
+  gr_runtime.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_runtime.lib
+  gr_experimental_data.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_experimental_data.lib
+  c_api.cpp
+  storage_api.cpp
+  execution_api.cpp
+  transaction_api.cpp
+  runtime_api.cpp
+  buffer_api.cpp
+  experimental_api.cpp
+  Generating Code...
+     Creating library C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/gr_native.lib and object C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/gr_native.exp
+  gr_native.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_native.dll
+  buffer_export.cpp
+     Creating library C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/_gr_buffer.lib and object C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/_gr_buffer.exp
+  gr_python_buffer.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\_gr_buffer.pyd
+  main.cpp
+  example_extension.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\example_extension.exe
+  runtime_crash_worker.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\runtime_crash_worker.exe
+  test_admission.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_admission.exe
+  test_buffer_execution.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_buffer_execution.exe
+  test_canonical.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_canonical.exe
+  test_buffers.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_buffers.exe
+  test_execution.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_execution.exe
+  test_compact_history.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_compact_history.exe
+  test_history.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_history.exe
+  test_experimental_data.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_experimental_data.exe
+  test_numerical.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_numerical.exe
+  test_history_store.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_history_store.exe
+  test_operations.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_operations.exe
+  test_planner.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_planner.exe
+  test_prepared.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_prepared.exe
+  test_records.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_records.exe
+  test_runtime.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_runtime.exe
+  test_runtime_recovery.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_runtime_recovery.exe
+  test_sqlite.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_sqlite.exe
+  test_storage.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_storage.exe
+  test_transactions.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\test_transactions.exe
+  gr_cli.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr.exe

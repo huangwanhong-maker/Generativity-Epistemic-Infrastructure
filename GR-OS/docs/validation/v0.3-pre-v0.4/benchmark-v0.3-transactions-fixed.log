@@ -1,0 +1,9 @@
+writers=1 batch=1 history=False: 389.84 commits/s
+writers=2 batch=1 history=False: 325.87 commits/s
+writers=4 batch=1 history=False: 291.19 commits/s
+writers=1 batch=8 history=False: 116.26 commits/s
+writers=2 batch=8 history=False: 97.93 commits/s
+writers=4 batch=8 history=False: 90.56 commits/s
+writers=1 batch=4 history=True: 13.47 commits/s
+writers=2 batch=4 history=True: 11.25 commits/s
+writers=4 batch=4 history=True: 8.96 commits/s

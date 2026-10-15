@@ -1,0 +1,1247 @@
+{
+  "format": "gr.validation-source-manifest/1",
+  "version": "0.5.0",
+  "captured_utc": "2026-10-15T06:08:20.219931+00:00",
+  "scope": "Implementation/build/test/example/benchmark/vendor inputs and tested Release/ASan binary artifacts; living documentation excluded. No native source changed after final Release and ASan acceptance.",
+  "release_ctest": "35/35 passed in 93.11 s",
+  "asan_ctest": "34/34 selected cases passed in 274.14 s; excludes legacy python_binding; optional NumPy subtest skipped in isolated environment",
+  "sources": [
+    {
+      "path": ".clang-format",
+      "bytes": 252,
+      "sha256": "155de7d855d9c31e0e5106c8e397170a70b336a319af48bed57197d0b7ec5a45"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 167,
+      "sha256": "a88f8c592830fc396eea7a98cadbbe23f6089d5a970eab43cfe1840ec34c0e9b"
+    },
+    {
+      "path": "benchmarks/admission.cpp",
+      "bytes": 6524,
+      "sha256": "239e90a0df8fc4c25c11dcd4f00f5f1cd8d43602b4d09a797b688fc157ffc101"
+    },
+    {
+      "path": "benchmarks/buffers.py",
+      "bytes": 3228,
+      "sha256": "c654ca63651ebe1d2f9e3143210920acb42d6d6d567015bb8e11fbe688754af3"
+    },
+    {
+      "path": "benchmarks/compare.py",
+      "bytes": 2218,
+      "sha256": "d2f4db49059440775cba7df1dc9cde0325bc36c2bc18c3ce46c2dfca378941d1"
+    },
+    {
+      "path": "benchmarks/data.cpp",
+      "bytes": 18345,
+      "sha256": "e82139babb44e422af86212598bc0574c1b3ede92a614f3349606e2ceff06684"
+    },
+    {
+      "path": "benchmarks/data.py",
+      "bytes": 5970,
+      "sha256": "efefbfd80777863019ebc5fcc753ad6c9ee5643249270e3732c6722ae7db4916"
+    },
+    {
+      "path": "benchmarks/data_relational.cpp",
+      "bytes": 9828,
+      "sha256": "8ca18b148e3e68f0e719cfee92b1e02dcd3b7e8bd201b3b544b6bc3e99ab6a8d"
+    },
+    {
+      "path": "benchmarks/history_reads.py",
+      "bytes": 5213,
+      "sha256": "a3cedbd51cfc9aba5d3ffb0d37698585362b914f68b84642fe316dd20bdd34c4"
+    },
+    {
+      "path": "benchmarks/run.py",
+      "bytes": 5260,
+      "sha256": "7efaa3105914435aa4dc647a1138c79c4e4af404fcfa54bf0ad21454cbce5a1d"
+    },
+    {
+      "path": "benchmarks/run_v0_2.py",
+      "bytes": 5548,
+      "sha256": "46028dc1e2d1a361406b4ff37cebcf8d68686ca505069adcb3e18e6eb4c88bcd"
+    },
+    {
+      "path": "benchmarks/runtime.cpp",
+      "bytes": 9835,
+      "sha256": "f44756049296eab1aedcc88bdc3a7173f8e2b33a1bb33c86e3334a29b469b37f"
+    },
+    {
+      "path": "benchmarks/transactions.py",
+      "bytes": 13182,
+      "sha256": "8141ec6f108511a13a115a0eafc0fbcb1b42d2017a74c409898ccf8b90858a4f"
+    },
+    {
+      "path": "bindings/c/include/gr/c_api.h",
+      "bytes": 3499,
+      "sha256": "5d6091b27805e89a4b9a809e33047810a001d0166f0df845c0f1094de461a94a"
+    },
+    {
+      "path": "bindings/c/src/buffer_api.cpp",
+      "bytes": 11953,
+      "sha256": "cabd119d215b055ca85bef84d5d0e176cf540ebaaa136d773e62129791bbfe10"
+    },
+    {
+      "path": "bindings/c/src/c_api.cpp",
+      "bytes": 11501,
+      "sha256": "997d00e1cfb4456aa070e5116a39753a3e677d22762e0a2d78eb889f8caa38fb"
+    },
+    {
+      "path": "bindings/c/src/data_api.cpp",
+      "bytes": 20822,
+      "sha256": "2b50ed9c93a1e3747f2aa5591373f69ab0c176cdfd0504e78c537ca27dddfc5d"
+    },
+    {
+      "path": "bindings/c/src/execution_api.cpp",
+      "bytes": 8446,
+      "sha256": "fab46ab5832ba71d9799cb13c2ec9f16a89c60ea0f8498536095d0f9544c7494"
+    },
+    {
+      "path": "bindings/c/src/experimental_api.cpp",
+      "bytes": 2810,
+      "sha256": "ec59bc46362471635797064b9e98395391feb0ad65660820e0aee99c34e3f9dc"
+    },
+    {
+      "path": "bindings/c/src/internal.hpp",
+      "bytes": 2014,
+      "sha256": "b6480e678bce2edf20d0f44ac6d32922d2aeef23ae9d2bebcad4cec86e327358"
+    },
+    {
+      "path": "bindings/c/src/runtime_api.cpp",
+      "bytes": 16648,
+      "sha256": "fd5fe1ec1e3d48b413530f705b6fcd43ff9435d95ed83c095f263825e8f2324e"
+    },
+    {
+      "path": "bindings/c/src/storage_api.cpp",
+      "bytes": 10856,
+      "sha256": "e36514ffc93ee71448e99cc30a0435137482fb2d7ec09afb0fd77d23d9431248"
+    },
+    {
+      "path": "bindings/c/src/transaction_api.cpp",
+      "bytes": 9610,
+      "sha256": "8430dd9bc703de7beafece25d09d3be7f6bc7f68d16093858163c37db2e35a6e"
+    },
+    {
+      "path": "bindings/python/native/buffer_export.cpp",
+      "bytes": 7550,
+      "sha256": "2cccac52500a652f73007b321f40a39bffb91fb44b801baf6b9c79a07ef037d0"
+    },
+    {
+      "path": "bindings/python/pyproject.toml",
+      "bytes": 499,
+      "sha256": "219e980bc602e49d33965cb18c832e1c6919c5ce401bf986e9ad4731e511abcd"
+    },
+    {
+      "path": "bindings/python/src/gr_os/__init__.py",
+      "bytes": 4448,
+      "sha256": "d40c49e5115cf5520963b4edf375645c46089b3fce7ed328697159e4640453a6"
+    },
+    {
+      "path": "bindings/python/src/gr_os/_native.py",
+      "bytes": 10490,
+      "sha256": "de3ea9f52926cfd6ab3a99d4310dd9ecdd8a0aa25338819e1691315238f160d1"
+    },
+    {
+      "path": "bindings/python/src/gr_os/buffers.py",
+      "bytes": 4056,
+      "sha256": "e614058233f4dcb8947d0b939b59edd3ef58448dae132ab77db297a24551e21a"
+    },
+    {
+      "path": "bindings/python/src/gr_os/data.py",
+      "bytes": 23558,
+      "sha256": "e1cbf5a4489613736cc56a4e8d5df45d32deaac6bf254a2e94c10878b6700558"
+    },
+    {
+      "path": "bindings/python/src/gr_os/execution.py",
+      "bytes": 8750,
+      "sha256": "8aa035807d5a62f8c0788f45299d123f458c6a33de7d7219dfab3b628e45bd35"
+    },
+    {
+      "path": "bindings/python/src/gr_os/experimental.py",
+      "bytes": 2332,
+      "sha256": "6804516fa788edf8cf02aab2430f7158a740851b4156af9df53bc9fe47d6e669"
+    },
+    {
+      "path": "bindings/python/src/gr_os/runtime.py",
+      "bytes": 14963,
+      "sha256": "7f18d6fbe773c54bd82b2cf0f581d10b364b639b64d4f57f4de2107e9361b29e"
+    },
+    {
+      "path": "bindings/python/src/gr_os/storage.py",
+      "bytes": 7118,
+      "sha256": "60b6f4f6e0d6e74967eaee026c38830e3341e864a1228b5dc8f86c2a914b305c"
+    },
+    {
+      "path": "cmake/GRConfig.cmake.in",
+      "bytes": 339,
+      "sha256": "2573e50a2453a7b5e00c711e9c5719033df77ae8831bac87a72aba896d2418c6"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "bytes": 19054,
+      "sha256": "389951f0491ee18a8d68c330930b7b66e6e92da6e43d2bc23f61af717210ced7"
+    },
+    {
+      "path": "CMakePresets.json",
+      "bytes": 1018,
+      "sha256": "b3219b52e3152e177424bda11409efe602a034cbd74dafb1f399c765055eb094"
+    },
+    {
+      "path": "examples/cpp/data_language.cpp",
+      "bytes": 1128,
+      "sha256": "8e64647ab2c12e4d0b19a2bd0289606208a78648e8d0c60606aee1f8db2bd9aa"
+    },
+    {
+      "path": "examples/cpp/extension.cpp",
+      "bytes": 2146,
+      "sha256": "3a78dfbdfeb343294fa3f3538ecc95fcf2c0be218bce9cd3d667422fdba11410"
+    },
+    {
+      "path": "examples/python/data_language.py",
+      "bytes": 1887,
+      "sha256": "5e643a4acc50d38e8d31809d86fce1d13e2c80c50ae65793b15bf64b2d7c5be9"
+    },
+    {
+      "path": "examples/python/historical_data.py",
+      "bytes": 1241,
+      "sha256": "079c2a25a21738df5b309562ace3964aa4830d1d2e7171fe8851dca726d4518d"
+    },
+    {
+      "path": "examples/python/layers_5_6.py",
+      "bytes": 2374,
+      "sha256": "80f1d87753d1e61415f4c6e99a916952b4db3bdd0dadf541e7588a4e0e407496"
+    },
+    {
+      "path": "examples/python/runtime.py",
+      "bytes": 3143,
+      "sha256": "b7663490635ea27b4c8c3a613e9cb48cfab790efae936e9056f01f8d59d7b02c"
+    },
+    {
+      "path": "experiments/data/data.cpp",
+      "bytes": 11777,
+      "sha256": "96356a7ba7258a684734bc908c5aee7238161d84d2134d9abe731c75480f1b42"
+    },
+    {
+      "path": "include/gr/common.hpp",
+      "bytes": 124,
+      "sha256": "b9cc972430d267c90014046c0311497a5baf6d855fe7397ed79d50a9bf73280a"
+    },
+    {
+      "path": "include/gr/core.hpp",
+      "bytes": 163,
+      "sha256": "8abc264420fcde160ab3a242977b41edfc5bb05d2b784654cb3a6671d5f6ad4d"
+    },
+    {
+      "path": "include/gr/data/language.hpp",
+      "bytes": 5726,
+      "sha256": "34f38ea37d8f942a0b32a6b5967630d49c44dac483916feb2827bf370aef4367"
+    },
+    {
+      "path": "include/gr/data/relational.hpp",
+      "bytes": 2172,
+      "sha256": "e7f3b3c55b7bfb69c4d2dbcae3ed70881e9ae44fb4b6147906497b5e3f755ded"
+    },
+    {
+      "path": "include/gr/data/sparse.hpp",
+      "bytes": 685,
+      "sha256": "15e9ca04d25c89b9c6064e154dd6229eed82f2c680a74b90b8b88166d76f887e"
+    },
+    {
+      "path": "include/gr/data/standard.hpp",
+      "bytes": 2199,
+      "sha256": "750e70fd5ad08d20bb6414229c4cdcb092d3ec97e7d8dccb139689670272adc4"
+    },
+    {
+      "path": "include/gr/data.hpp",
+      "bytes": 45,
+      "sha256": "ad6594816954e38cd7e09a202c0b1f95e49ef764b1d8b0a9b5dc73bae3a81677"
+    },
+    {
+      "path": "include/gr/execution/backend.hpp",
+      "bytes": 2596,
+      "sha256": "75b8383ae94d5f01de2a40b472c6122b207dbae7bce276f3846aec4991eb3571"
+    },
+    {
+      "path": "include/gr/execution/cpu.hpp",
+      "bytes": 2596,
+      "sha256": "507eec1cabb522af8ee88296f2a5622b327ee3465477aefa3fcc3dcddcebe1e6"
+    },
+    {
+      "path": "include/gr/execution/implementation.hpp",
+      "bytes": 1784,
+      "sha256": "27b55b593a87a9330ecd9aa47057da7b68703411dcaa6c4ce9ebc74f76f57f28"
+    },
+    {
+      "path": "include/gr/execution.hpp",
+      "bytes": 210,
+      "sha256": "4d364b5f2f6a16c0a1fdcc6642eed27c8584cbd74396e82b2ef04d4078eb8815"
+    },
+    {
+      "path": "include/gr/experimental/data.hpp",
+      "bytes": 755,
+      "sha256": "5d5fa04f788ab4d97e984b2f4ca1603e418e44182009c05b8a9db8c611214719"
+    },
+    {
+      "path": "include/gr/kernel/compact_history.hpp",
+      "bytes": 2982,
+      "sha256": "c7e5d9a34153b551bb43f9c5ccf1ffb582fd62d8523810e9d6715fa90a0d980d"
+    },
+    {
+      "path": "include/gr/kernel/history.hpp",
+      "bytes": 1372,
+      "sha256": "04273aca913a6ab7816135a99551570e29e8679bcd55666395c944ecc3b505c3"
+    },
+    {
+      "path": "include/gr/kernel/numerical.hpp",
+      "bytes": 1595,
+      "sha256": "799a831a1a5928a81c6c404381d209d967a43be53396b9008a6f552a90b0c243"
+    },
+    {
+      "path": "include/gr/kernel/operations.hpp",
+      "bytes": 3366,
+      "sha256": "08ad15dd1849bde1a7a87ee3a36e057940f2d594aae01ece9536a5a1f04707d5"
+    },
+    {
+      "path": "include/gr/kernel/projections.hpp",
+      "bytes": 521,
+      "sha256": "70d0ac5ee07340fd5b467ac17621463789a9fa6675f39672f643fc97f8226725"
+    },
+    {
+      "path": "include/gr/kernel/record_operations.hpp",
+      "bytes": 325,
+      "sha256": "f817a9a047e1ac655b1c359b3563c33ee8d2f4b43910454b3dfa93c6c6325d86"
+    },
+    {
+      "path": "include/gr/kernel/records.hpp",
+      "bytes": 3360,
+      "sha256": "6571c60907c65131fe4265c4b3166a3f73885360f421941e29bfd6ea61094cf0"
+    },
+    {
+      "path": "include/gr/kernel/types.hpp",
+      "bytes": 2853,
+      "sha256": "06ef6225cc6760d87f36ab54f4bbe8e1f76a9185bc40dca824be42a765307a7f"
+    },
+    {
+      "path": "include/gr/memory/buffer.hpp",
+      "bytes": 5794,
+      "sha256": "d0c8ae82d9417649d0137e5d53576e7972aa9dc9dfbaeb99f2f8794d32162b0e"
+    },
+    {
+      "path": "include/gr/runtime/catalog.hpp",
+      "bytes": 1799,
+      "sha256": "c346ffc5ad49382aaf42d6deace4b497be6899cf2aa97917d1486c4a9ab7912d"
+    },
+    {
+      "path": "include/gr/runtime/history_store.hpp",
+      "bytes": 2303,
+      "sha256": "24ea60beeee1329bc1aabd402caad8a8725e59e363a17cdf63a161e91ecfaf16"
+    },
+    {
+      "path": "include/gr/runtime/planner.hpp",
+      "bytes": 3134,
+      "sha256": "6cf4253651dddad4e46a1042f3633ce9419f3cf843c6fc5645458ecd38ca26e8"
+    },
+    {
+      "path": "include/gr/runtime/scheduler.hpp",
+      "bytes": 3540,
+      "sha256": "444118673eabab1218d3e5e3f767b7ffe34c38177708d5374009a47f25df9596"
+    },
+    {
+      "path": "include/gr/runtime/transaction.hpp",
+      "bytes": 3931,
+      "sha256": "f275a00e43237734895892dbe5c28bdc2e9c31e65affaf4dbb3f66ba4c6a20b1"
+    },
+    {
+      "path": "include/gr/runtime.hpp",
+      "bytes": 155,
+      "sha256": "a1d1da667e62f3aa8f94feb281798bc2e6273871fbe57f91c7f32f2e1db51020"
+    },
+    {
+      "path": "include/gr/storage/blob_reader.hpp",
+      "bytes": 1209,
+      "sha256": "77963a88b36d333120d69d115edd2a0045777c3db45c69d3fb6051e6f4e6ca93"
+    },
+    {
+      "path": "include/gr/storage/contracts.hpp",
+      "bytes": 4603,
+      "sha256": "b560b0e952e90a26dfe52eb898b47106a4c04b384ce9d4e217e56687a36095d7"
+    },
+    {
+      "path": "include/gr/storage/memory_store.hpp",
+      "bytes": 1279,
+      "sha256": "088eec1a463367eaf2c9d8f7e3485e86c9c4327775d56ae7ff090573bd9871af"
+    },
+    {
+      "path": "include/gr/storage/sqlite_store.hpp",
+      "bytes": 1467,
+      "sha256": "6e86cbf4eda50a467c86900630109a5b69ef4e002d1436108d61499babadaaf8"
+    },
+    {
+      "path": "include/gr/storage.hpp",
+      "bytes": 210,
+      "sha256": "64a331de0a8be5046f9d114cbd9b4b8ae9eed2805c7fc3eb03939a8aee732e57"
+    },
+    {
+      "path": "include/gr/support/common.hpp",
+      "bytes": 971,
+      "sha256": "aa2d8d6f412c0f87eb0e2c57099ec09812397d66f49c33fa2d4b934a9ac2cd11"
+    },
+    {
+      "path": "src/cli/main.cpp",
+      "bytes": 6248,
+      "sha256": "084f9fd184f9fcdf2aa97955584cc7c86f76542321d167c71045d038167676e0"
+    },
+    {
+      "path": "src/data/language.cpp",
+      "bytes": 33234,
+      "sha256": "d6fb2eaed6a3623baececd40e46cf92552b3fd04b335a1d73234149fdd1eb316"
+    },
+    {
+      "path": "src/data/relational.cpp",
+      "bytes": 20355,
+      "sha256": "a04db6c575c00410bbb986bfd8eacd36510e951fb10d76d73a2c303f651f356e"
+    },
+    {
+      "path": "src/data/sparse.cpp",
+      "bytes": 12360,
+      "sha256": "db5a41a79bf3a9cc9827cd66647de394e9dc327bbefcfda58f91464b144c2dd9"
+    },
+    {
+      "path": "src/data/standard.cpp",
+      "bytes": 40915,
+      "sha256": "d4d77515ed8365b491df32fa6c97afac6fe3d6342da22b6e96900401f8856211"
+    },
+    {
+      "path": "src/execution/cpu.cpp",
+      "bytes": 23058,
+      "sha256": "0a00fec33389529e24d8f2651d6a110a8bb6dd82d24dd497ee84156d26b0518a"
+    },
+    {
+      "path": "src/execution/implementation.cpp",
+      "bytes": 4106,
+      "sha256": "34b08d04aa7ec3607d4fc91851a5df8e0a8eb7cb07963382082bad215b8970da"
+    },
+    {
+      "path": "src/kernel/compact_history.cpp",
+      "bytes": 18416,
+      "sha256": "ff30facfeb18cbc86f20004ac5fc2af533569a8bd0c1b828a43e024ec31030a5"
+    },
+    {
+      "path": "src/kernel/history.cpp",
+      "bytes": 17036,
+      "sha256": "bda820f9780674580d96dde59b2e0bb603efd5bcd96c897d709b7a5eaecfdde4"
+    },
+    {
+      "path": "src/kernel/internal.hpp",
+      "bytes": 696,
+      "sha256": "235a6a9c3289c3c0343370115e6afe509092a9cf7a25f2b0dbba6c463879063e"
+    },
+    {
+      "path": "src/kernel/numerical.cpp",
+      "bytes": 5423,
+      "sha256": "1454fcd40f7f02d9a1bcc29c08d72cbe11369bee8ab1f0f191859afbb04b4b53"
+    },
+    {
+      "path": "src/kernel/operations.cpp",
+      "bytes": 13391,
+      "sha256": "e457b2d38d9c9a3d3166b0fc332ea36d9987c95f6ac26c9c6d3cb5b1533aad94"
+    },
+    {
+      "path": "src/kernel/projections.cpp",
+      "bytes": 12688,
+      "sha256": "5dfce4e426f92bb36cbb7fc593232cb1c26e1d294729d7e00c8ca08cb9543cb2"
+    },
+    {
+      "path": "src/kernel/record_operations.cpp",
+      "bytes": 1763,
+      "sha256": "ba93d71ca3512d69dc38b6f7a41002814473664c91c5c4b1af03a72da319b22b"
+    },
+    {
+      "path": "src/kernel/records.cpp",
+      "bytes": 24782,
+      "sha256": "b24ebca682a1242417288e21bd4e58cf6b59e6d89cb141170ddd3ed2847bdbb8"
+    },
+    {
+      "path": "src/kernel/types.cpp",
+      "bytes": 17621,
+      "sha256": "fcde5dfad9bccc21a0acb552590a5e2b19cacf3745b9bec1cdfe33470c485c31"
+    },
+    {
+      "path": "src/runtime/catalog.cpp",
+      "bytes": 14154,
+      "sha256": "82dadf69cd8a0290c9163a233fd4e4b42b642e356b5bcaf40353d4f1e2d56587"
+    },
+    {
+      "path": "src/runtime/history_store.cpp",
+      "bytes": 23471,
+      "sha256": "37b6ce07be272b8da8a3c4a5a00be85f73c8add65b198a1433dacfaf19ceca8a"
+    },
+    {
+      "path": "src/runtime/planner.cpp",
+      "bytes": 14705,
+      "sha256": "e4eebe060ec2e05c610a9ccc94a8673c31e05d02f6c6633554ad1a1fd046e1a9"
+    },
+    {
+      "path": "src/runtime/scheduler.cpp",
+      "bytes": 32516,
+      "sha256": "d6a0d2196df521ee93e6492a365d621282804561bf168d98c72997e51b468a2e"
+    },
+    {
+      "path": "src/runtime/transaction.cpp",
+      "bytes": 34487,
+      "sha256": "352fc0beb334146737bbd1c48c45523222ef0f35773a1d4538b235d5a35069d9"
+    },
+    {
+      "path": "src/storage/contracts.cpp",
+      "bytes": 15442,
+      "sha256": "35baa48fd624abae39301f569e3b35bfb7a4a0cf891b7fce5e1085d44200265d"
+    },
+    {
+      "path": "src/storage/internal.hpp",
+      "bytes": 1389,
+      "sha256": "3f3dd6efbbccf1d4a3f648b3c7e1a8c741523e369522dbdeb8f07349ea0189b2"
+    },
+    {
+      "path": "src/storage/memory.cpp",
+      "bytes": 9738,
+      "sha256": "d11c9e0f42751eead91ffa5872116da9f2bf0d92db9c326f2039b6a4604b6d1e"
+    },
+    {
+      "path": "src/storage/sqlite.cpp",
+      "bytes": 30066,
+      "sha256": "a4ecb6a7fe07c61d2d726387dca615799de26d4e2fff0cac1b9fd6f388dfb27d"
+    },
+    {
+      "path": "src/support/buffer.cpp",
+      "bytes": 21007,
+      "sha256": "cb2763bedc623d5ce8a7cea0a78eb878d62a701278eaadff6c69c5ade34e8ea8"
+    },
+    {
+      "path": "src/support/common.cpp",
+      "bytes": 3683,
+      "sha256": "0809a7e94b319b73eac2a0392d1aabc48cb876f0ff3d594571cc00f184be54a1"
+    },
+    {
+      "path": "tests/conformance/admission.cpp",
+      "bytes": 11458,
+      "sha256": "b6d6c15608a03ed7bf4a726513f645597683e1766f600e97d9028ae3a76ca0c3"
+    },
+    {
+      "path": "tests/conformance/buffer_execution.cpp",
+      "bytes": 7586,
+      "sha256": "cb6118121de2e68dfb0774b76d32460570ee4d118964e10e98251e3559819b9b"
+    },
+    {
+      "path": "tests/conformance/canonical-v1.json",
+      "bytes": 2672,
+      "sha256": "ca1986e543eb66695098b99606e4e5ea162a1da64ac931f2ad5c4e255ed35299"
+    },
+    {
+      "path": "tests/conformance/canonical.cpp",
+      "bytes": 2807,
+      "sha256": "68f8372ac849a73fc276bab038d4dcba5ed79bd348d1f85b04d0bc1a25d00375"
+    },
+    {
+      "path": "tests/conformance/compact_history.cpp",
+      "bytes": 10132,
+      "sha256": "c1c7528e6735f3e8d0ff8e051bb3ab6d6fa22530a3bbd73307c41d4ff8ee8544"
+    },
+    {
+      "path": "tests/conformance/data_language.cpp",
+      "bytes": 14312,
+      "sha256": "dfd9bb2a87fa1934b7d24523b55771d34584e4df918ffb7932cb48ca62ff1f4f"
+    },
+    {
+      "path": "tests/conformance/data_relational.cpp",
+      "bytes": 15608,
+      "sha256": "21560bbb246e8023f75621ec3a0904ceb3bd216cea8ad7acfd150355e33605a0"
+    },
+    {
+      "path": "tests/conformance/data_sparse.cpp",
+      "bytes": 5728,
+      "sha256": "e189f9565e16a1b8a6138d88d0edcaf19972a991a1320923041c28a21b41afea"
+    },
+    {
+      "path": "tests/conformance/data_standard.cpp",
+      "bytes": 10625,
+      "sha256": "ad627ca5766aef68273cbe3220af5dc0f78fac1453c511aff40a262eba9b524c"
+    },
+    {
+      "path": "tests/conformance/history.cpp",
+      "bytes": 11613,
+      "sha256": "ee9b8351fa26958767ff03d9cf7806a2685d35e0da28aaccbd9c3fedd84e3194"
+    },
+    {
+      "path": "tests/conformance/operations.cpp",
+      "bytes": 16353,
+      "sha256": "44d9b43933baa27c29b79499db8fe23f398e63dcb2557f3ca6d0f0d2a4a15761"
+    },
+    {
+      "path": "tests/conformance/prepared.cpp",
+      "bytes": 3368,
+      "sha256": "b0caf421fefe4d56d2d688695846d7ab7beab53600662e35870db538fc12b597"
+    },
+    {
+      "path": "tests/conformance/storage.cpp",
+      "bytes": 16544,
+      "sha256": "80222a74771a117fc2ae673f5e4b8b72b41738a70e415cffcc81b9590d947402"
+    },
+    {
+      "path": "tests/conformance/storage_support.hpp",
+      "bytes": 2265,
+      "sha256": "5c0eb0ddc4c4d785d793c58e59190161a685e92cd8c3ae7bdf3d3cfe6e546efb"
+    },
+    {
+      "path": "tests/conformance/transactions.cpp",
+      "bytes": 20369,
+      "sha256": "b3bef2b550d286a23f4c552af1c2bd9d61de128454b695b910b6b07c7f0b56ad"
+    },
+    {
+      "path": "tests/integration/experimental_data.cpp",
+      "bytes": 3541,
+      "sha256": "07335fba817d54edf212df4832923fcf3b4b400fbd2eb6631bc67f29cfd9c82a"
+    },
+    {
+      "path": "tests/integration/history_store.cpp",
+      "bytes": 12482,
+      "sha256": "67359c8c31ca78a99b80824a7fae40db55093adae27a838539f95ee48f30b8ba"
+    },
+    {
+      "path": "tests/integration/installed/CMakeLists.txt",
+      "bytes": 756,
+      "sha256": "18ed527b92b1fa2b66e64579dfc8516a9dec3d74a24ca7b76cb0b0bf0992db6b"
+    },
+    {
+      "path": "tests/integration/installed/main.c",
+      "bytes": 1951,
+      "sha256": "25eac155adffccc4adb6cfdd4714aa6bb9b084c8644456dcdd609ff80a241fb3"
+    },
+    {
+      "path": "tests/integration/installed/main.cpp",
+      "bytes": 2669,
+      "sha256": "f8f9b21c2891e402c2fb20069c7b938fbb678933bf62049982dc017537ce9a75"
+    },
+    {
+      "path": "tests/integration/runtime_crash.py",
+      "bytes": 3845,
+      "sha256": "5669695bf12064430f66e72e62b4ec575cb3b3cc0f2b02ca2d3024aea75ff3d4"
+    },
+    {
+      "path": "tests/integration/runtime_crash_worker.cpp",
+      "bytes": 7355,
+      "sha256": "b02d3e6b59b41b222d0a52b301aad60f64bd32736c08d3b292402991456dfbba"
+    },
+    {
+      "path": "tests/integration/sqlite.cpp",
+      "bytes": 12664,
+      "sha256": "5139e9f4f7e2ed504631d66217db8e2db50e383c96be73a2fd714f52462caaf7"
+    },
+    {
+      "path": "tests/integration/test_buffers.py",
+      "bytes": 12401,
+      "sha256": "31669698215f3df8b39417e6ec27e03ade3afe685fe78b9cc6afd1a212fea172"
+    },
+    {
+      "path": "tests/integration/test_data.py",
+      "bytes": 18324,
+      "sha256": "6833ee9c9242f29865d17082dad5558b39ef0ddf45f982f88a41a7405213e4f7"
+    },
+    {
+      "path": "tests/integration/test_python.py",
+      "bytes": 24715,
+      "sha256": "1775bc11e307e26acb20291d94238d4f46d4a94edcb00f015a0cda3cc80a7222"
+    },
+    {
+      "path": "tests/integration/test_runtime.py",
+      "bytes": 17301,
+      "sha256": "dc96360c006c2bfc12ffe5892695d7c21a01cf4428ad810c719fba0fe3cb05de"
+    },
+    {
+      "path": "tests/unit/buffers.cpp",
+      "bytes": 8410,
+      "sha256": "aa5f3ea18d62a6fe08fc826df9d012539137c7b72616824de5f5cd5a68ad3c0b"
+    },
+    {
+      "path": "tests/unit/execution.cpp",
+      "bytes": 13677,
+      "sha256": "04a8643265caf1120a9ca747f696c4253292c04282e0e0f1df662f3e8a43d103"
+    },
+    {
+      "path": "tests/unit/numerical.cpp",
+      "bytes": 3657,
+      "sha256": "f10801ddbc6185b7c3a6d1763cb134b2ff9bb5d761b887edd1c7ebe6144fd49b"
+    },
+    {
+      "path": "tests/unit/planner.cpp",
+      "bytes": 13762,
+      "sha256": "1aaccab192d2d77b296a0e5525c76ba0a85489bea53469c187d300399c7a997f"
+    },
+    {
+      "path": "tests/unit/records.cpp",
+      "bytes": 15128,
+      "sha256": "0cad6cdc52ec2275b61d4493f4f33b7f9093b0ecc1c5d3acaa95ad7c1462a383"
+    },
+    {
+      "path": "tests/unit/runtime.cpp",
+      "bytes": 14505,
+      "sha256": "4353d41e391d5dcc48ab9aba8871c67febc2713230912c8038df77095a877774"
+    },
+    {
+      "path": "tests/unit/runtime_recovery.cpp",
+      "bytes": 8249,
+      "sha256": "3c47b93c3a6b18ef164967bd6712690a2c811b91f49091589a0c3e06fa82704c"
+    },
+    {
+      "path": "third_party/MANIFEST.json",
+      "bytes": 2830,
+      "sha256": "75b7d488bece9834dc4e12f68aa3f863e44601c2454a1eb557fc6fcb4f402587"
+    },
+    {
+      "path": "third_party/nlohmann/json.hpp",
+      "bytes": 953436,
+      "sha256": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63"
+    },
+    {
+      "path": "third_party/nlohmann/LICENSE.MIT",
+      "bytes": 1076,
+      "sha256": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603"
+    },
+    {
+      "path": "third_party/picosha2/LICENSE",
+      "bytes": 1064,
+      "sha256": "6c30eb1f37554ec4199cb82a8c86d9e7a852da78a757832bebb03ac9ddc44ff1"
+    },
+    {
+      "path": "third_party/picosha2/picosha2.h",
+      "bytes": 13422,
+      "sha256": "b13c180161ffac8d0adc81e033e493c409457c4d1258ab9781ac80579ba3bdd8"
+    },
+    {
+      "path": "third_party/README.md",
+      "bytes": 1777,
+      "sha256": "2c633f47bcad45c57da89e3a5fcd9e6aaff2fba6836aa006b9988f050e8292d6"
+    },
+    {
+      "path": "third_party/sqlite/sqlite3.c",
+      "bytes": 9390466,
+      "sha256": "9512509b1bccb7461f79bea8aad6280ae4699e925fa4804381b71f59e7efb0c5"
+    },
+    {
+      "path": "third_party/sqlite/sqlite3.h",
+      "bytes": 671786,
+      "sha256": "19585c8b5230e9d4f223bf31b709ece7b6a0bb3faf00d8310625d8e58cda1b1d"
+    },
+    {
+      "path": "third_party/sqlite/sqlite3ext.h",
+      "bytes": 38632,
+      "sha256": "ea81fb7bd05882e0e0b92c4d60f677b205f7f1fbf085f218b12f0b5b3f0b9e48"
+    },
+    {
+      "path": "tools/bootstrap.ps1",
+      "bytes": 2125,
+      "sha256": "3acdb0151cc294dbdef459728fc48797f25fd2a16bd858458bf61d394e4414e3"
+    },
+    {
+      "path": "tools/python-build-requirements.txt",
+      "bytes": 33,
+      "sha256": "12d95d3f58681aa8e07423fd2bf2c164f8d41af73508cbc5bf093c3b6e790f4e"
+    },
+    {
+      "path": "tools/test_installed_sdk.py",
+      "bytes": 7695,
+      "sha256": "565a11f9be4cf517b1dedb539f54de6909fa6d8ae261588fc204f297e9f2edc0"
+    },
+    {
+      "path": "tools/verify_vendor.py",
+      "bytes": 729,
+      "sha256": "5cf20d9318f6e17a2562d1ff8edca9ee954467f6969b26583b50790250cc07e7"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "build-asan/Release/_gr_buffer.lib",
+      "bytes": 1784,
+      "sha256": "6fe34950a0d68d8674a3f94061a6fd33dbe512675f7a0c4cdceb39f047bebc38"
+    },
+    {
+      "path": "build-asan/Release/_gr_buffer.pyd",
+      "bytes": 63488,
+      "sha256": "b700295738e88d7104757a080ff39a298be251c1eebd03d5354fb016ec40a0e6"
+    },
+    {
+      "path": "build-asan/Release/example_data_language.exe",
+      "bytes": 3856896,
+      "sha256": "12d3f067d1b96b3fc608c50a56b94e89ffa9c5afa9f6c22229b8e2d060ad99eb"
+    },
+    {
+      "path": "build-asan/Release/example_extension.exe",
+      "bytes": 1384448,
+      "sha256": "272f51a8ce2ff9fd6e6bdcccb00f067e745af422fa2c2a7fdc5b36091a8bd5a4"
+    },
+    {
+      "path": "build-asan/Release/gr.exe",
+      "bytes": 580608,
+      "sha256": "c455158209933f044b44b90ba75f5e89063f027e2da3d6de5f676f0b1a3a756d"
+    },
+    {
+      "path": "build-asan/Release/gr_buffer.lib",
+      "bytes": 2918352,
+      "sha256": "6680c36e6918e8cf6b0555060be551f58556d422a357d187a30661a7c48b5f95"
+    },
+    {
+      "path": "build-asan/Release/gr_common.lib",
+      "bytes": 4305300,
+      "sha256": "144a6cae75361428c1753b6ff319b29dd4800b1f7ddf98d6b7d21a031856c384"
+    },
+    {
+      "path": "build-asan/Release/gr_core.lib",
+      "bytes": 24965918,
+      "sha256": "653c2a83e51e61200ec927411a31446ba94157e99b0fed031244567cdc4401dd"
+    },
+    {
+      "path": "build-asan/Release/gr_data.lib",
+      "bytes": 7205666,
+      "sha256": "e3fccf811cfed19272e3146ede0dfb32a403a6784f54ffa398b3c5254d67bbfa"
+    },
+    {
+      "path": "build-asan/Release/gr_data_relational.lib",
+      "bytes": 6814024,
+      "sha256": "9fea2cd2defd6ef5b4823fdef9d66178e4557e33f2c4338b8287d2d0863635f6"
+    },
+    {
+      "path": "build-asan/Release/gr_data_sparse.lib",
+      "bytes": 3104336,
+      "sha256": "ee27d762ee2072904c751095a6fe2a089e99472ae430135bcd485de952ecdb7d"
+    },
+    {
+      "path": "build-asan/Release/gr_data_standard.lib",
+      "bytes": 6199322,
+      "sha256": "8afb967fa18adcf2ef4fa0cb0719c0fd1262ee10dc8c02d92eed75ae5afe520e"
+    },
+    {
+      "path": "build-asan/Release/gr_execution.lib",
+      "bytes": 6587518,
+      "sha256": "a93b5a1135b353977ca1a4015c860481e35090d569999e89a54979df9b3b93a1"
+    },
+    {
+      "path": "build-asan/Release/gr_experimental_data.lib",
+      "bytes": 3964042,
+      "sha256": "e8bd6def46206d66613d9e2d44b9eacf93cf031c29ce47832e883866de689a63"
+    },
+    {
+      "path": "build-asan/Release/gr_native.dll",
+      "bytes": 7285760,
+      "sha256": "0ede378fec4a10ae18b36211d2730e81ac2edd934547a47a0454a07622fdce79"
+    },
+    {
+      "path": "build-asan/Release/gr_native.lib",
+      "bytes": 3094,
+      "sha256": "7d99fc5ec384cf668d39cf9275f8dedd17d3229a9407b98baad10cd0a1dc0875"
+    },
+    {
+      "path": "build-asan/Release/gr_runtime.lib",
+      "bytes": 22753394,
+      "sha256": "7b7796b72f6c94690781f615683707ade140cdce2d1578289e1dad6625c2dabf"
+    },
+    {
+      "path": "build-asan/Release/gr_semantics.lib",
+      "bytes": 8763776,
+      "sha256": "96389b2356a16ebb26bbd5287d441edc6cd8224af859195e24cb1961175c6f31"
+    },
+    {
+      "path": "build-asan/Release/gr_sqlite.lib",
+      "bytes": 8159328,
+      "sha256": "60a7ed59aeaf047990603c47459b3c1b4c49587f449d2a4b96ab49a0bdb7e52d"
+    },
+    {
+      "path": "build-asan/Release/gr_storage.lib",
+      "bytes": 10074618,
+      "sha256": "6fd2e3980f8ad0774d35fbea20a304085b1ded321428042030484e8ff8f6e3db"
+    },
+    {
+      "path": "build-asan/Release/runtime_crash_worker.exe",
+      "bytes": 4320256,
+      "sha256": "57602cee830fa3c81ffe956cda9feda51e3c63b6784aa6748febf6cfd4f0fff9"
+    },
+    {
+      "path": "build-asan/Release/test_admission.exe",
+      "bytes": 5649920,
+      "sha256": "903a251b8fc061306dddeec854cba4ad6374f217397eba555c359cbb8ebd66f8"
+    },
+    {
+      "path": "build-asan/Release/test_buffer_execution.exe",
+      "bytes": 3166208,
+      "sha256": "158766a6bc089c8680d1bb014de95d5d22907b0436e14cd1d75f917505c4ed4b"
+    },
+    {
+      "path": "build-asan/Release/test_buffers.exe",
+      "bytes": 829440,
+      "sha256": "232cbb591d1fd40db56011090640326c7a6c77b21e3f48d7d08a57ba2c1f57d4"
+    },
+    {
+      "path": "build-asan/Release/test_canonical.exe",
+      "bytes": 556032,
+      "sha256": "8a6b7ce08684fcbe91aad8529a852ac2bfd93a9c0189708931d6769ff7d91359"
+    },
+    {
+      "path": "build-asan/Release/test_compact_history.exe",
+      "bytes": 1677312,
+      "sha256": "68374d4858b2269a9cd9cd9cdaf7f79ebe870619804e1b154da98ac21adc4d55"
+    },
+    {
+      "path": "build-asan/Release/test_data_language.exe",
+      "bytes": 3654144,
+      "sha256": "5aa779c1eb0b5f059bb040c0c7e87ded133d6a1129fd6bf14ff648a1e9634aad"
+    },
+    {
+      "path": "build-asan/Release/test_data_relational.exe",
+      "bytes": 4051456,
+      "sha256": "67a4c5e7544255341f81bfe29049af7b58e39c83f6caf47bddf6e7f1328fb5a9"
+    },
+    {
+      "path": "build-asan/Release/test_data_sparse.exe",
+      "bytes": 3913728,
+      "sha256": "caa7eb0a6b91c82cf04fada6004aabd901d203bfd65ccb58b8f9c8ed3dc0cfa5"
+    },
+    {
+      "path": "build-asan/Release/test_data_standard.exe",
+      "bytes": 3959296,
+      "sha256": "ac06c31dc295b05de1ed30f30b636cf4fc1bf923d4535126cd5830bcbba198a2"
+    },
+    {
+      "path": "build-asan/Release/test_execution.exe",
+      "bytes": 1638912,
+      "sha256": "292928097495f26aedc0889e90929665a39fbf58bc43b40b4b4461fd2ba04922"
+    },
+    {
+      "path": "build-asan/Release/test_experimental_data.exe",
+      "bytes": 3358720,
+      "sha256": "e2029636fdfae45d2d83f20429fd7ff4037057e079f09f9411a66d489cefad34"
+    },
+    {
+      "path": "build-asan/Release/test_history.exe",
+      "bytes": 1627136,
+      "sha256": "c35e2ab54b685014cb77a7fc148692758dfabd6373ee2f8bc54aa640a18a8cfa"
+    },
+    {
+      "path": "build-asan/Release/test_history_store.exe",
+      "bytes": 4310016,
+      "sha256": "4b987a3267d5b969819d323a750efc75886d36099fdf4bdd7a9e63c685499aea"
+    },
+    {
+      "path": "build-asan/Release/test_numerical.exe",
+      "bytes": 1113088,
+      "sha256": "78590617337a9e47217d9c47eba37ab115f71738270677c7a5ac10ed4f2f03b4"
+    },
+    {
+      "path": "build-asan/Release/test_operations.exe",
+      "bytes": 1550848,
+      "sha256": "90a23e779232116aed203c59aab41c99952c7e448d782ab1601ac26487fbc0c4"
+    },
+    {
+      "path": "build-asan/Release/test_planner.exe",
+      "bytes": 2132992,
+      "sha256": "428b741417229ac62eace97d53a7e83643d69c2e601bed287563eceb9f2bed75"
+    },
+    {
+      "path": "build-asan/Release/test_prepared.exe",
+      "bytes": 1384448,
+      "sha256": "150493741a0ef0838165964425112ac9c7d6c2d397be9ae8d7c3de0851dd77d4"
+    },
+    {
+      "path": "build-asan/Release/test_records.exe",
+      "bytes": 1522688,
+      "sha256": "71011301a37ce12867762bc59fd2898749f249412be54f7c4174925c9906ec50"
+    },
+    {
+      "path": "build-asan/Release/test_runtime.exe",
+      "bytes": 3350528,
+      "sha256": "903756d4934bfb1d9c915d3895763076b1966736059abfef1e2c5a6d878831b1"
+    },
+    {
+      "path": "build-asan/Release/test_runtime_recovery.exe",
+      "bytes": 3264000,
+      "sha256": "ba3cbddfdda68328a691da081466b8b7a976bf8aab58f80d0b51bd70a0de11c2"
+    },
+    {
+      "path": "build-asan/Release/test_sqlite.exe",
+      "bytes": 3160576,
+      "sha256": "b59dc91294b5aea61baca42eb868eb14e21325e7621c7624cff9886dce5b1642"
+    },
+    {
+      "path": "build-asan/Release/test_storage.exe",
+      "bytes": 3369984,
+      "sha256": "683f6cd7491b48dc249efa3bdec4bd7f6f405c7b873a3c6921e8e1887d2d9bd5"
+    },
+    {
+      "path": "build-asan/Release/test_transactions.exe",
+      "bytes": 4746752,
+      "sha256": "91f0393ba05d2f5d71b6d7657918937243f537440f0388a75a5b671932398c89"
+    },
+    {
+      "path": "build/Release/_gr_buffer.lib",
+      "bytes": 1784,
+      "sha256": "6fe34950a0d68d8674a3f94061a6fd33dbe512675f7a0c4cdceb39f047bebc38"
+    },
+    {
+      "path": "build/Release/_gr_buffer.pyd",
+      "bytes": 19456,
+      "sha256": "3c145cdb7d23261be8965422c4e0a52182a53030b38e6e3342c1d17af716ae7c"
+    },
+    {
+      "path": "build/Release/benchmark_admission.exe",
+      "bytes": 1702912,
+      "sha256": "91ce71af9f03748e4f76def5cbd7801daafdcb3e7a3773ce9bb25dc8eabc771b"
+    },
+    {
+      "path": "build/Release/benchmark_data.exe",
+      "bytes": 1281024,
+      "sha256": "dcb1d55e7094cd3ed6f5602bf846590924486a54d15a652100c449b444fc588f"
+    },
+    {
+      "path": "build/Release/benchmark_data_relational.exe",
+      "bytes": 1154048,
+      "sha256": "e3eaf19b6630f2341e9c5bc029a2b1d0d2dad70f23ad26d8dfc69f48545bd6e4"
+    },
+    {
+      "path": "build/Release/benchmark_runtime.exe",
+      "bytes": 942592,
+      "sha256": "c352deb1d8e5ee2aa5195e385624185b7c52f1470b91ad4dba573b4bf04dd6b0"
+    },
+    {
+      "path": "build/Release/example_data_language.exe",
+      "bytes": 1167360,
+      "sha256": "d0cf49e877ef239b4bc40937d3de70b1cf12d4d44ee4aae028d170bb44831f12"
+    },
+    {
+      "path": "build/Release/example_extension.exe",
+      "bytes": 265216,
+      "sha256": "32055f624bb8da1c4509a71d9ac2d6f166bb938fac4b382c245a8b6d67f2928a"
+    },
+    {
+      "path": "build/Release/gr.exe",
+      "bytes": 153600,
+      "sha256": "b32462a413e28d749051399ca99e750f3be9ab70ac615391d05014db921ceda7"
+    },
+    {
+      "path": "build/Release/gr_buffer.lib",
+      "bytes": 695080,
+      "sha256": "fab3ebe18cecf2cfdcdba6e2a0e1db55c1904b5bca234270f4d4f08b3d495b3c"
+    },
+    {
+      "path": "build/Release/gr_common.lib",
+      "bytes": 1338162,
+      "sha256": "fbc3c0c2f012d589980f7e64f4aa1cc8acf556beef0821535c19fefdc5ce9514"
+    },
+    {
+      "path": "build/Release/gr_core.lib",
+      "bytes": 6624754,
+      "sha256": "9323c665b36b3f1a600fdfd30d0340d9b2208b8a07ec9408d428bf7733ef79ed"
+    },
+    {
+      "path": "build/Release/gr_data.lib",
+      "bytes": 1995570,
+      "sha256": "252f6eb9c13e88e753bb5e9c852cb31f1b64db33e533bf1ef43f62e39cddaedc"
+    },
+    {
+      "path": "build/Release/gr_data_relational.lib",
+      "bytes": 1965490,
+      "sha256": "b9d81db96c5a801dc5c00629e9cbcbf78123f8adca5ef3343fb4e373c8161e48"
+    },
+    {
+      "path": "build/Release/gr_data_sparse.lib",
+      "bytes": 817968,
+      "sha256": "3e372a7dea84251f044a449e0aced4e1c94be1f24ba65a6e35f81be6d22753d1"
+    },
+    {
+      "path": "build/Release/gr_data_standard.lib",
+      "bytes": 1974722,
+      "sha256": "37fbf773168d8ce753915e27464751ed95c6e3a8579b15a924dd15acce890547"
+    },
+    {
+      "path": "build/Release/gr_execution.lib",
+      "bytes": 1713238,
+      "sha256": "17fb26e2325180db93157eaefde97d3772e8db26df1a54d1ef9085261120a6ee"
+    },
+    {
+      "path": "build/Release/gr_experimental_data.lib",
+      "bytes": 1017490,
+      "sha256": "3e2708b833a071ac07dfc72f8b466d11e7e8b157f42a7a2db12af0b1eea51f8a"
+    },
+    {
+      "path": "build/Release/gr_native.dll",
+      "bytes": 2767872,
+      "sha256": "7ba373639d3027708e69ad5d53b748fcd2a0d11efa438e8f126f959e5b0dbd80"
+    },
+    {
+      "path": "build/Release/gr_native.lib",
+      "bytes": 3094,
+      "sha256": "7d99fc5ec384cf668d39cf9275f8dedd17d3229a9407b98baad10cd0a1dc0875"
+    },
+    {
+      "path": "build/Release/gr_runtime.lib",
+      "bytes": 6069704,
+      "sha256": "55ef37cb26975e318aad8dddb9ec52438d1c6a212836ad30d2ca76ecbe9740de"
+    },
+    {
+      "path": "build/Release/gr_semantics.lib",
+      "bytes": 1939774,
+      "sha256": "2b57bf4790c6a0d3f5f9664640d32c5c099c5f087e1cb658545ffbd032d347cb"
+    },
+    {
+      "path": "build/Release/gr_sqlite.lib",
+      "bytes": 2796812,
+      "sha256": "83a8e6c5f9246091f0b08b394a04e40cbd7ca2f5cbb9c9002ff7f07ed42a46d0"
+    },
+    {
+      "path": "build/Release/gr_storage.lib",
+      "bytes": 2758484,
+      "sha256": "5c960a18c0b4606fd63e0a6f58535bb6914a6889d7f5d13e475a9ccaebeaa324"
+    },
+    {
+      "path": "build/Release/runtime_crash_worker.exe",
+      "bytes": 1666048,
+      "sha256": "7d6056020c06802e99aa69a1abb468051037bc60a72ade04aa2f6b7a22ad184e"
+    },
+    {
+      "path": "build/Release/test_admission.exe",
+      "bytes": 2130944,
+      "sha256": "d566e27f9edfbf8a44115dde35ecbd0e1ce235fcca1c8902ea08ba289550f8a3"
+    },
+    {
+      "path": "build/Release/test_buffer_execution.exe",
+      "bytes": 924672,
+      "sha256": "b6f02c4a7ff6a97f65c5ce532e666df3c27cbe19ce446ec0a879ec5771329934"
+    },
+    {
+      "path": "build/Release/test_buffers.exe",
+      "bytes": 153088,
+      "sha256": "298ea46c0fbec316e93e9bc81e127a75411b80d48ccf7b25cb0888525b8db32f"
+    },
+    {
+      "path": "build/Release/test_canonical.exe",
+      "bytes": 174080,
+      "sha256": "836aa217e965366b0e75d90eb112e8e1c97c029a8ea90f4d7d6dfb32d5bafb0b"
+    },
+    {
+      "path": "build/Release/test_compact_history.exe",
+      "bytes": 399360,
+      "sha256": "33b31f056e7214af72e0f141bd647873897e4b904cab332c5933e824edc202a5"
+    },
+    {
+      "path": "build/Release/test_data_language.exe",
+      "bytes": 1065984,
+      "sha256": "38454e11354f465d59853f778c31d00552c9ede1e360b5530ba8a3ef66bcaa37"
+    },
+    {
+      "path": "build/Release/test_data_relational.exe",
+      "bytes": 1185280,
+      "sha256": "ced194c9de998d348edf2e87db2fd3dfa035a533c60d3890daf867ba84fb4c73"
+    },
+    {
+      "path": "build/Release/test_data_sparse.exe",
+      "bytes": 1187328,
+      "sha256": "10671891c27f8d8c2abf9fda380cdb4065e3dee703e43baeba5c1bd19a1505bf"
+    },
+    {
+      "path": "build/Release/test_data_standard.exe",
+      "bytes": 1206272,
+      "sha256": "f670910c6a48a165691104f6cb2cb009b2e221c87f43fdd70683fde944d78407"
+    },
+    {
+      "path": "build/Release/test_execution.exe",
+      "bytes": 372736,
+      "sha256": "72d3e84328775b7c8fac481d4b015e3efbe874a390a90090c13eb783c54a30f5"
+    },
+    {
+      "path": "build/Release/test_experimental_data.exe",
+      "bytes": 1005568,
+      "sha256": "8fdc44ad7451e08ce03bcad48f09991ac992a07ac7cc19a6730edc8ed669c9f5"
+    },
+    {
+      "path": "build/Release/test_history.exe",
+      "bytes": 304640,
+      "sha256": "9edb53e04ccf865bef458490b7e92705427645cdaae58aa13235e827eb4f529a"
+    },
+    {
+      "path": "build/Release/test_history_store.exe",
+      "bytes": 1642496,
+      "sha256": "672a5c8e445d8353222645b6462ac2a0614d2f708aefefcb000353b9833a12b2"
+    },
+    {
+      "path": "build/Release/test_numerical.exe",
+      "bytes": 178176,
+      "sha256": "ac7a2095da9473384e5e6acf565eea17a30ac5e6fea5f72fc0bfbd61a090862c"
+    },
+    {
+      "path": "build/Release/test_operations.exe",
+      "bytes": 342016,
+      "sha256": "31cb667f35a2f26e9ceffe6f85a04942af974366d0950d4322eb320349aca669"
+    },
+    {
+      "path": "build/Release/test_planner.exe",
+      "bytes": 495104,
+      "sha256": "c44a769fa24c01cc88a122fc4e54bb8297f0a6676a82ceceb02b891717ca0573"
+    },
+    {
+      "path": "build/Release/test_prepared.exe",
+      "bytes": 284160,
+      "sha256": "da3c13e59fdce977d0fc457d3fa7aeed8ed73b0380c8960599bcd83a6a0fece3"
+    },
+    {
+      "path": "build/Release/test_records.exe",
+      "bytes": 316928,
+      "sha256": "6adaaee47cf0a5f765a2611656acfe302f999d96d31ef0772f33ec5991aa5e58"
+    },
+    {
+      "path": "build/Release/test_runtime.exe",
+      "bytes": 982528,
+      "sha256": "c6c400f6314994733aec3a680aa65af3b88bd637e955c48398bd6479713220bd"
+    },
+    {
+      "path": "build/Release/test_runtime_recovery.exe",
+      "bytes": 947712,
+      "sha256": "b7dc6e2ef3035e93f13aaf58d9a0b84aa24e5038ea48b968f90dcb1f1a44fc05"
+    },
+    {
+      "path": "build/Release/test_sqlite.exe",
+      "bytes": 1337856,
+      "sha256": "58ea99437d1de376acc4a107eaf68922e35e9d4f171f7b031d2beaf26803e3e3"
+    },
+    {
+      "path": "build/Release/test_storage.exe",
+      "bytes": 1399808,
+      "sha256": "ebf1cc02dce431376f14fb35f3ca2cfb410d606d51bf71fbf4b74fe44addb565"
+    },
+    {
+      "path": "build/Release/test_transactions.exe",
+      "bytes": 1800192,
+      "sha256": "2dd37e415af8cfa616e7f8ed04342871e374fe14129f80a74b68dc72017a9e99"
+    },
+    {
+      "path": "build/p/ccf4fa6d/relocated/lib/cmake/GR/GRConfig.cmake",
+      "bytes": 1235,
+      "sha256": "f25199ecb5cdfc0c787d76f96c6fade40696a9a38eaf7494c6f0686218b08dba"
+    },
+    {
+      "path": "build/p/ccf4fa6d/relocated/lib/cmake/GR/GRConfigVersion.cmake",
+      "bytes": 3760,
+      "sha256": "0c36bfa171934c088ca8bd9f226b12b7620be0fb8c85f6dd7a4484751eb49db0"
+    },
+    {
+      "path": "build/p/ccf4fa6d/relocated/lib/cmake/GR/GRTargets-release.cmake",
+      "bytes": 7115,
+      "sha256": "045b928e2d558eb9ee79ac6f8ca00c8d228c4a6440afac6f4e39f7898583becb"
+    },
+    {
+      "path": "build/p/ccf4fa6d/relocated/lib/cmake/GR/GRTargets.cmake",
+      "bytes": 8378,
+      "sha256": "0905f059d72c32d725c8e841901884de8adbc07ac87b76c12134bf3e1ab87eb1"
+    },
+    {
+      "path": "build/p/ccf4fa6d/wheels/gr_os-0.5.0-py3-none-any.whl",
+      "bytes": 23127,
+      "sha256": "a56031172d6d7029f343773c3b8b97a46f0b460c435619331b51e771ddfe08b8"
+    }
+  ]
+}

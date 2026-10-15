@@ -1,0 +1,152 @@
+{
+  "format": "gr.diagonal.benchmark/1",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "native_library": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\b775460c\\package\\bin\\gr_diagonal_native.dll",
+  "scope": "synchronous facade total: Python copy, C transport, native construction/compile, one-worker runtime, result materialization/copy; checks outside timing",
+  "warmups": 1,
+  "repeats": 5,
+  "cases": [
+    {
+      "elements": 16,
+      "samples_ms": [
+        3.8717,
+        4.4115,
+        4.6456,
+        5.2293,
+        5.2365
+      ],
+      "median_ms": 4.6456,
+      "result_sha256": "e1d30a46908dea84adb89e07cba79600533c4ad0f892d24e19c7c8db2404ff8a",
+      "package": {
+        "compatibility": "Rebuild from source with the exact installed SDK and matching C++ compiler, standard library, runtime and configuration. No cross-compiler binary ABI claim.",
+        "effects": [
+          "pure"
+        ],
+        "exports": {
+          "operators": [
+            "example.diagonal.apply@1"
+          ],
+          "providers": [
+            "example.diagonal.cpu.checked@1"
+          ],
+          "representations": [
+            "example.diagonal.le-buffer@1"
+          ],
+          "types": [
+            "example.diagonal.int64@1"
+          ]
+        },
+        "format": "gr.source-package/1",
+        "id": "org.gr.examples.diagonal",
+        "numerics": "Exact signed int64 multiplication; reject overflow; no implicit casts or missing values.",
+        "python": "gr_diagonal: package-specific synchronous C facade; no opaque-handle interoperability with gr_os.",
+        "requires": [
+          {
+            "components": [
+              "data_standard"
+            ],
+            "id": "gr-os",
+            "version": "0.6.0"
+          }
+        ],
+        "trust": "Trusted native in-process code; no sandbox, authentication or record-access authority is conferred.",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "elements": 4096,
+      "samples_ms": [
+        14.8934,
+        12.8015,
+        12.6275,
+        11.4912,
+        10.6615
+      ],
+      "median_ms": 12.6275,
+      "result_sha256": "d9c98934629c2d663c4ed2761c966524827db929b992a48b5e2259e133f0f910",
+      "package": {
+        "compatibility": "Rebuild from source with the exact installed SDK and matching C++ compiler, standard library, runtime and configuration. No cross-compiler binary ABI claim.",
+        "effects": [
+          "pure"
+        ],
+        "exports": {
+          "operators": [
+            "example.diagonal.apply@1"
+          ],
+          "providers": [
+            "example.diagonal.cpu.checked@1"
+          ],
+          "representations": [
+            "example.diagonal.le-buffer@1"
+          ],
+          "types": [
+            "example.diagonal.int64@1"
+          ]
+        },
+        "format": "gr.source-package/1",
+        "id": "org.gr.examples.diagonal",
+        "numerics": "Exact signed int64 multiplication; reject overflow; no implicit casts or missing values.",
+        "python": "gr_diagonal: package-specific synchronous C facade; no opaque-handle interoperability with gr_os.",
+        "requires": [
+          {
+            "components": [
+              "data_standard"
+            ],
+            "id": "gr-os",
+            "version": "0.6.0"
+          }
+        ],
+        "trust": "Trusted native in-process code; no sandbox, authentication or record-access authority is conferred.",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "elements": 65536,
+      "samples_ms": [
+        74.8833,
+        65.2438,
+        68.6809,
+        85.0674,
+        59.257
+      ],
+      "median_ms": 68.6809,
+      "result_sha256": "32fc5e1809d767077e6c2b2692f8b5be8536c7e34bbef857adfb1683557ecc47",
+      "package": {
+        "compatibility": "Rebuild from source with the exact installed SDK and matching C++ compiler, standard library, runtime and configuration. No cross-compiler binary ABI claim.",
+        "effects": [
+          "pure"
+        ],
+        "exports": {
+          "operators": [
+            "example.diagonal.apply@1"
+          ],
+          "providers": [
+            "example.diagonal.cpu.checked@1"
+          ],
+          "representations": [
+            "example.diagonal.le-buffer@1"
+          ],
+          "types": [
+            "example.diagonal.int64@1"
+          ]
+        },
+        "format": "gr.source-package/1",
+        "id": "org.gr.examples.diagonal",
+        "numerics": "Exact signed int64 multiplication; reject overflow; no implicit casts or missing values.",
+        "python": "gr_diagonal: package-specific synchronous C facade; no opaque-handle interoperability with gr_os.",
+        "requires": [
+          {
+            "components": [
+              "data_standard"
+            ],
+            "id": "gr-os",
+            "version": "0.6.0"
+          }
+        ],
+        "trust": "Trusted native in-process code; no sandbox, authentication or record-access authority is conferred.",
+        "version": "0.1.0"
+      }
+    }
+  ]
+}

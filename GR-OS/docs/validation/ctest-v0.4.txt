@@ -1,0 +1,69 @@
+Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+Test project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+      Start  1: example_extension
+ 1/28 Test  #1: example_extension ................   Passed    0.06 sec
+      Start  2: buffers
+ 2/28 Test  #2: buffers ..........................   Passed    0.01 sec
+      Start  3: numerical
+ 3/28 Test  #3: numerical ........................   Passed    0.01 sec
+      Start  4: buffer_execution
+ 4/28 Test  #4: buffer_execution .................   Passed    0.06 sec
+      Start  5: compact_history
+ 5/28 Test  #5: compact_history ..................   Passed    2.07 sec
+      Start  6: history_store
+ 6/28 Test  #6: history_store ....................   Passed    1.34 sec
+      Start  7: admission
+ 7/28 Test  #7: admission ........................   Passed    0.28 sec
+      Start  8: experimental_data
+ 8/28 Test  #8: experimental_data ................   Passed    0.08 sec
+      Start  9: records
+ 9/28 Test  #9: records ..........................   Passed    0.06 sec
+      Start 10: history
+10/28 Test #10: history ..........................   Passed    1.26 sec
+      Start 11: canonical
+11/28 Test #11: canonical ........................   Passed    0.05 sec
+      Start 12: storage
+12/28 Test #12: storage ..........................   Passed    0.45 sec
+      Start 13: sqlite
+13/28 Test #13: sqlite ...........................   Passed    0.68 sec
+      Start 14: execution
+14/28 Test #14: execution ........................   Passed    0.32 sec
+      Start 15: operations
+15/28 Test #15: operations .......................   Passed    0.08 sec
+      Start 16: planner
+16/28 Test #16: planner ..........................   Passed    0.07 sec
+      Start 17: prepared
+17/28 Test #17: prepared .........................   Passed    0.05 sec
+      Start 18: transactions
+18/28 Test #18: transactions .....................   Passed    0.26 sec
+      Start 19: runtime
+19/28 Test #19: runtime ..........................   Passed    1.73 sec
+      Start 20: runtime_recovery
+20/28 Test #20: runtime_recovery .................   Passed    0.07 sec
+      Start 21: runtime_crash
+21/28 Test #21: runtime_crash ....................   Passed    1.04 sec
+      Start 22: vendor_integrity
+22/28 Test #22: vendor_integrity .................   Passed    0.08 sec
+      Start 23: python_binding
+23/28 Test #23: python_binding ...................   Passed    8.43 sec
+      Start 24: python_runtime
+24/28 Test #24: python_runtime ...................   Passed    0.48 sec
+      Start 25: python_buffers
+25/28 Test #25: python_buffers ...................   Passed    0.33 sec
+      Start 26: example_python
+26/28 Test #26: example_python ...................   Passed    0.27 sec
+      Start 27: example_runtime
+27/28 Test #27: example_runtime ..................   Passed    0.25 sec
+      Start 28: installed_sdk
+28/28 Test #28: installed_sdk ....................   Passed   19.00 sec
+
+100% tests passed, 0 tests failed out of 28
+
+Label Time Summary:
+conformance    =   4.64 sec*proc (10 tests)
+examples       =   0.59 sec*proc (3 tests)
+integration    =  12.38 sec*proc (7 tests)
+packaging      =  19.00 sec*proc (1 test)
+unit           =   2.27 sec*proc (7 tests)
+
+Total Test time (real) =  38.93 sec

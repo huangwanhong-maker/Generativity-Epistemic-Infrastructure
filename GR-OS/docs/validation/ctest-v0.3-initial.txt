@@ -1,0 +1,63 @@
+Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+Test project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+      Start  1: example_extension
+ 1/19 Test  #1: example_extension ................   Passed    0.09 sec
+      Start  2: records
+ 2/19 Test  #2: records ..........................   Passed    0.05 sec
+      Start  3: history
+ 3/19 Test  #3: history ..........................   Passed    1.15 sec
+      Start  4: canonical
+ 4/19 Test  #4: canonical ........................   Passed    0.06 sec
+      Start  5: storage
+ 5/19 Test  #5: storage ..........................   Passed    0.44 sec
+      Start  6: sqlite
+ 6/19 Test  #6: sqlite ...........................   Passed    0.68 sec
+      Start  7: execution
+ 7/19 Test  #7: execution ........................   Passed    0.34 sec
+      Start  8: operations
+ 8/19 Test  #8: operations .......................   Passed    0.07 sec
+      Start  9: planner
+ 9/19 Test  #9: planner ..........................   Passed    0.06 sec
+      Start 10: prepared
+10/19 Test #10: prepared .........................   Passed    0.02 sec
+      Start 11: transactions
+11/19 Test #11: transactions .....................   Passed    0.19 sec
+      Start 12: runtime
+12/19 Test #12: runtime ..........................***Failed    0.12 sec
+runtime failure: Live job limit includes retained completed results
+
+      Start 13: runtime_crash
+13/19 Test #13: runtime_crash ....................   Passed    1.03 sec
+      Start 14: vendor_integrity
+14/19 Test #14: vendor_integrity .................   Passed    0.20 sec
+      Start 15: python_binding
+15/19 Test #15: python_binding ...................   Passed    9.68 sec
+      Start 16: python_runtime
+16/19 Test #16: python_runtime ...................   Passed    0.43 sec
+      Start 17: example_python
+17/19 Test #17: example_python ...................   Passed    0.33 sec
+      Start 18: example_runtime
+18/19 Test #18: example_runtime ..................   Passed    0.30 sec
+      Start 19: installed_sdk
+19/19 Test #19: installed_sdk ....................   Passed   22.25 sec
+
+95% tests passed, 1 tests failed out of 19
+
+Label Time Summary:
+conformance    =   2.13 sec*proc (7 tests)
+examples       =   0.71 sec*proc (3 tests)
+integration    =  11.82 sec*proc (4 tests)
+packaging      =  22.25 sec*proc (1 test)
+unit           =   0.58 sec*proc (4 tests)
+
+Total Test time (real) =  37.53 sec
+
+The following tests FAILED:
+	 12 - runtime (Failed)                                  unit
+ctest.exe : Errors while running CTest
+At line:2 char:1
++ & 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ID ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Errors while running CTest:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

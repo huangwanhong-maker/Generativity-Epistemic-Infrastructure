@@ -1,0 +1,33 @@
+{
+  "qualification": "MSVC19.44 x64 Release executable linked only to preserved v0.3 installed libraries; identical source used for v0.4 target; three sequential fresh-directory runs",
+  "install_prefix": "build/baselines/v0.3/install",
+  "configure": "cmake -S build/baselines/v0.3/admission-source -B b03 -G \"Visual Studio 17 2022\" -A x64 -DCMAKE_PREFIX_PATH=<absolute>/build/baselines/v0.3/install",
+  "build": "cmake --build b03 --config Release",
+  "runs": [
+    "b03/Release/benchmark_admission.exe build/baselines/v0.3/profile-1",
+    "b03/Release/benchmark_admission.exe build/baselines/v0.3/profile-2",
+    "b03/Release/benchmark_admission.exe build/baselines/v0.3/profile-3"
+  ],
+  "files": [
+    {
+      "path": "benchmarks/admission.cpp",
+      "sha256": "239e90a0df8fc4c25c11dcd4f00f5f1cd8d43602b4d09a797b688fc157ffc101"
+    },
+    {
+      "path": "b03/Release/benchmark_admission.exe",
+      "sha256": "d05d6f7e4072220ed2346ffa13346da12aa73afae94225c3dfc070e613c9f8e9"
+    },
+    {
+      "path": "docs/validation/v0.3-pre-v0.4/admission-1.json",
+      "sha256": "4c4f4f368c01fbe883805febd5cd1a82acdcb20efee5c98de0893f25112ddce3"
+    },
+    {
+      "path": "docs/validation/v0.3-pre-v0.4/admission-2.json",
+      "sha256": "42c02211487658f829e66b53ad2d21e527ef09dd134ff6b5e030929fb1a3650d"
+    },
+    {
+      "path": "docs/validation/v0.3-pre-v0.4/admission-3.json",
+      "sha256": "029d7120148fafbfc61a3df6217c1db34c11e09cdefb72dbe6827912651c9fd9"
+    }
+  ]
+}

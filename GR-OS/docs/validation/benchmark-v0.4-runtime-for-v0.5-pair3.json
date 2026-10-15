@@ -1,0 +1,192 @@
+{
+  "cases": [
+    {
+      "diagnostics": {
+        "cpu_slots": 1,
+        "execution": "same caller thread; no job submission"
+      },
+      "median_ms": 1.8558,
+      "name": "prepared_identity_4096",
+      "p95_nearest_rank_ms": 3.2175,
+      "samples_ms": [
+        1.8558,
+        1.5026,
+        1.4987,
+        1.5153,
+        2.8379,
+        3.1425,
+        3.2175
+      ],
+      "workload": {
+        "bytes_per_invocation": 1,
+        "invocations": 4096
+      }
+    },
+    {
+      "diagnostics": {
+        "peak_compute_slots": 1,
+        "peak_retained_payload_bytes": 2,
+        "reservation_bytes": 1024,
+        "scope": "Logical retained payload and declared slots; not process RSS or callback allocation"
+      },
+      "median_ms": 12.8357,
+      "name": "runtime_identity_256",
+      "p95_nearest_rank_ms": 15.2086,
+      "samples_ms": [
+        13.4127,
+        12.8357,
+        14.6604,
+        12.5278,
+        12.4316,
+        12.4672,
+        15.2086
+      ],
+      "workload": {
+        "input_bytes": 1,
+        "jobs": 256,
+        "nodes_per_job": 1,
+        "trace_events": 0,
+        "workers": 1
+      }
+    },
+    {
+      "diagnostics": {
+        "peak_compute_slots": 1,
+        "peak_retained_payload_bytes": 1049100,
+        "reservation_bytes": 2097152,
+        "scope": "Logical retained payload and declared slots; not process RSS or callback allocation"
+      },
+      "median_ms": 28.5457,
+      "name": "fork_join_hash_8x512KiB_serial",
+      "p95_nearest_rank_ms": 31.6146,
+      "samples_ms": [
+        23.0608,
+        30.2098,
+        28.5457,
+        26.7929,
+        29.1338,
+        31.6146,
+        27.6668
+      ],
+      "workload": {
+        "bytes_per_hash": 524288,
+        "hash_branches": 8,
+        "nodes": 10,
+        "plan": "sha256:630bf91455bd1513457de2a09c98cc393578295472fe6ed16cf336808694fad0",
+        "serial_job": true,
+        "total_hash_bytes": 4194304,
+        "trace_events": 128,
+        "workers": 4
+      }
+    },
+    {
+      "diagnostics": {
+        "peak_compute_slots": 1,
+        "peak_retained_payload_bytes": 1049100,
+        "reservation_bytes": 2097152,
+        "scope": "Logical retained payload and declared slots; not process RSS or callback allocation"
+      },
+      "median_ms": 28.6446,
+      "name": "fork_join_hash_8x512KiB_workers1",
+      "p95_nearest_rank_ms": 33.9846,
+      "samples_ms": [
+        33.9846,
+        29.4789,
+        24.6894,
+        28.1761,
+        31.0333,
+        27.0947,
+        28.6446
+      ],
+      "workload": {
+        "bytes_per_hash": 524288,
+        "hash_branches": 8,
+        "nodes": 10,
+        "plan": "sha256:630bf91455bd1513457de2a09c98cc393578295472fe6ed16cf336808694fad0",
+        "serial_job": false,
+        "total_hash_bytes": 4194304,
+        "trace_events": 128,
+        "workers": 1
+      }
+    },
+    {
+      "diagnostics": {
+        "peak_compute_slots": 2,
+        "peak_retained_payload_bytes": 1049100,
+        "reservation_bytes": 2097152,
+        "scope": "Logical retained payload and declared slots; not process RSS or callback allocation"
+      },
+      "median_ms": 17.1704,
+      "name": "fork_join_hash_8x512KiB_workers2",
+      "p95_nearest_rank_ms": 22.9749,
+      "samples_ms": [
+        17.1704,
+        22.9749,
+        16.694,
+        16.5519,
+        17.8425,
+        18.3677,
+        16.7288
+      ],
+      "workload": {
+        "bytes_per_hash": 524288,
+        "hash_branches": 8,
+        "nodes": 10,
+        "plan": "sha256:630bf91455bd1513457de2a09c98cc393578295472fe6ed16cf336808694fad0",
+        "serial_job": false,
+        "total_hash_bytes": 4194304,
+        "trace_events": 128,
+        "workers": 2
+      }
+    },
+    {
+      "diagnostics": {
+        "peak_compute_slots": 4,
+        "peak_retained_payload_bytes": 1049100,
+        "reservation_bytes": 2097152,
+        "scope": "Logical retained payload and declared slots; not process RSS or callback allocation"
+      },
+      "median_ms": 11.8337,
+      "name": "fork_join_hash_8x512KiB_workers4",
+      "p95_nearest_rank_ms": 27.2854,
+      "samples_ms": [
+        13.3784,
+        11.9308,
+        27.2854,
+        11.8337,
+        11.5182,
+        10.2837,
+        10.9514
+      ],
+      "workload": {
+        "bytes_per_hash": 524288,
+        "hash_branches": 8,
+        "nodes": 10,
+        "plan": "sha256:630bf91455bd1513457de2a09c98cc393578295472fe6ed16cf336808694fad0",
+        "serial_job": false,
+        "total_hash_bytes": 4194304,
+        "trace_events": 128,
+        "workers": 4
+      }
+    }
+  ],
+  "environment": {
+    "build": "NDEBUG",
+    "compiler": "MSVC",
+    "compiler_version": 194435209,
+    "cplusplus": 199711,
+    "executable_sha256": "07bccadd2d0a7514b659048762a7baf12b1e16f8574853ea08296bb2d382020e",
+    "logical_threads_reported": 8,
+    "os": "Windows"
+  },
+  "format": "gr.runtime-benchmark/1",
+  "method": {
+    "clock": "steady_clock",
+    "excludes": "catalog registration, planning, runtime thread-pool construction, Python/C transport",
+    "includes": "native invocation/job completion, output correctness checks and diagnostic collection",
+    "p95": "nearest rank; with seven samples this is the maximum, not an SLA",
+    "repetitions": 7,
+    "warmups": 1
+  },
+  "suite": "native-runtime-v0.3/1"
+}

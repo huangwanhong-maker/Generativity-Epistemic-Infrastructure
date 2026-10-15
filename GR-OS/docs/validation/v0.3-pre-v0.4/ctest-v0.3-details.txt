@@ -1,0 +1,531 @@
+Start testing: Oct 13 20:08 Tokyo Standard Time
+----------------------------------------------------------
+1/20 Testing: example_extension
+1/20 Test: example_extension
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/example_extension.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"example_extension" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+{
+  "backend": "cpu.threaded",
+  "backend_version": "2",
+  "binding": "gr.host-values/1",
+  "contract_fingerprint": "sha256:8e71b8938615e54defa6470404a8588b420a59134d0e6f8486caea3cb1f4e660",
+  "deadline_monitor_threads": 0,
+  "determinism": "exact",
+  "device": "cpu:0",
+  "device_copies": 0,
+  "effect": "pure",
+  "implementation": {
+    "backend_ids": [
+      "cpu.sequential",
+      "cpu.threaded"
+    ],
+    "binding": "gr.host-values/1",
+    "contract_fingerprint": "sha256:8e71b8938615e54defa6470404a8588b420a59134d0e6f8486caea3cb1f4e660",
+    "determinism": "exact",
+    "device_kinds": [
+      "cpu"
+    ],
+    "id": "example.cpu.reverse@1",
+    "memory_domains": [
+      "host"
+    ],
+    "metadata": {},
+    "operation": "example.bytes.reverse@1",
+    "thread_safe": true
+  },
+  "implementation_id": "example.cpu.reverse@1",
+  "input_bytes": 3,
+  "input_count": 2,
+  "input_ownership": "borrowed_until_return",
+  "input_type_fingerprints": {
+    "gr.bytes@1": "sha256:8dc7bbb3e5950d9b986c0d0896059b03730992f749803b93ccce54b6b230f0e5"
+  },
+  "memory": "host",
+  "operation": "example.bytes.reverse@1",
+  "output_bytes": 3,
+  "output_ownership": "owned",
+  "output_type_fingerprints": {
+    "gr.bytes@1": "sha256:8dc7bbb3e5950d9b986c0d0896059b03730992f749803b93ccce54b6b230f0e5"
+  },
+  "threads_used": 2,
+  "validation_scope": "exact descriptors and types, declared native pre/postconditions; not universal algorithm verification"
+}
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"example_extension" end time: Oct 13 20:08 Tokyo Standard Time
+"example_extension" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/20 Testing: records
+2/20 Test: records
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/test_records.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"records" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+core: 56 checks passed
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"records" end time: Oct 13 20:08 Tokyo Standard Time
+"records" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/20 Testing: history
+3/20 Test: history
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/test_history.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"history" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+history: 63 checks passed, including 36 generated branching revisions
+<end of output>
+Test time =   1.18 sec
+----------------------------------------------------------
+Test Passed.
+"history" end time: Oct 13 20:08 Tokyo Standard Time
+"history" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/20 Testing: canonical
+4/20 Test: canonical
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/test_canonical.exe" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/conformance/canonical-v1.json"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"canonical" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+18 canonical vectors and 200 seeded fixed points passed
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"canonical" end time: Oct 13 20:08 Tokyo Standard Time
+"canonical" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/20 Testing: storage
+5/20 Test: storage
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/test_storage.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"storage" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Shared storage conformance: CAS/replay, snapshots, receipt lookup, model history, limits, ranges, cancellation and reader lifetime passed
+<end of output>
+Test time =   0.39 sec
+----------------------------------------------------------
+Test Passed.
+"storage" end time: Oct 13 20:08 Tokyo Standard Time
+"storage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/20 Testing: sqlite
+6/20 Test: sqlite
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/test_sqlite.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"sqlite" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+SQLite integration: rollback/reopen, concurrent CAS/replay, corruption, pinned WAL readers, ledger guards and bounded object ranges passed
+<end of output>
+Test time =   0.63 sec
+----------------------------------------------------------
+Test Passed.
+"sqlite" end time: Oct 13 20:08 Tokyo Standard Time
+"sqlite" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/20 Testing: execution
+7/20 Test: execution
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/test_execution.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"execution" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+execution: 48 checks passed
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"execution" end time: Oct 13 20:08 Tokyo Standard Time
+"execution" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/20 Testing: operations
+8/20 Test: operations
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/test_operations.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"operations" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+operation conformance: 74 checks passed; bounded suites, not universal equivalence
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"operations" end time: Oct 13 20:08 Tokyo Standard Time
+"operations" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/20 Testing: planner
+9/20 Test: planner
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/test_planner.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"planner" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+planner: 47 checks passed
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"planner" end time: Oct 13 20:08 Tokyo Standard Time
+"planner" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/20 Testing: prepared
+10/20 Test: prepared
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/test_prepared.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"prepared" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+prepared: 10 checks passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"prepared" end time: Oct 13 20:08 Tokyo Standard Time
+"prepared" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/20 Testing: transactions
+11/20 Test: transactions
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/test_transactions.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"transactions" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Runtime transaction conformance: staging, isolation, rollback, history, limits, cancellation, unknown outcomes and exact recovery passed
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"transactions" end time: Oct 13 20:08 Tokyo Standard Time
+"transactions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/20 Testing: runtime
+12/20 Test: runtime
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/test_runtime.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"runtime" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+runtime: 109 checks passed, including 80 concurrent-submitter jobs
+<end of output>
+Test time =   1.74 sec
+----------------------------------------------------------
+Test Passed.
+"runtime" end time: Oct 13 20:08 Tokyo Standard Time
+"runtime" time elapsed: 00:00:01
+----------------------------------------------------------
+
+13/20 Testing: runtime_recovery
+13/20 Test: runtime_recovery
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/test_runtime_recovery.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"runtime_recovery" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Runtime synchronous uncertain-outcome leases, receipt recovery and exact retry passed
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"runtime_recovery" end time: Oct 13 20:08 Tokyo Standard Time
+"runtime_recovery" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/20 Testing: runtime_crash
+14/20 Test: runtime_crash
+Command: "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/runtime_crash.py" "--worker" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/runtime_crash_worker.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"runtime_crash" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+{"process_crash_recovery": [{"phase": "before", "process_terminated": true, "committed_on_reopen": false, "exact_retry": true}, {"phase": "during", "process_terminated": true, "committed_on_reopen": false, "exact_retry": true}, {"phase": "after", "process_terminated": true, "committed_on_reopen": true, "exact_retry": true}], "power_loss_tested": false}
+<end of output>
+Test time =   1.15 sec
+----------------------------------------------------------
+Test Passed.
+"runtime_crash" end time: Oct 13 20:08 Tokyo Standard Time
+"runtime_crash" time elapsed: 00:00:01
+----------------------------------------------------------
+
+15/20 Testing: vendor_integrity
+15/20 Test: vendor_integrity
+Command: "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tools/verify_vendor.py"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"vendor_integrity" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Verified 7 vendored files
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"vendor_integrity" end time: Oct 13 20:08 Tokyo Standard Time
+"vendor_integrity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/20 Testing: python_binding
+16/20 Test: python_binding
+Command: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "-E" "env" "GR_OS_LIBRARY=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/gr_native.dll" "PYTHONPATH=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/bindings/python/src" "PYTHONDONTWRITEBYTECODE=1" "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "-m" "unittest" "discover" "-s" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration" "-p" "test_python.py" "-v"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"python_binding" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+test_artifact_closure_integrity_and_atomic_rejection (test_python.BindingTests.test_artifact_closure_integrity_and_atomic_rejection) ... ok
+test_c_boundary_invalid_requests_and_allocated_error_responses (test_python.BindingTests.test_c_boundary_invalid_requests_and_allocated_error_responses) ... ok
+test_competing_sqlite_handles_do_not_lose_accepted_write (test_python.BindingTests.test_competing_sqlite_handles_do_not_lose_accepted_write) ... ok
+test_core_graph_match_and_temporal_selection (test_python.BindingTests.test_core_graph_match_and_temporal_selection) ... ok
+test_execution_exact_bytes_and_failures (test_python.BindingTests.test_execution_exact_bytes_and_failures) ... ok
+test_invalid_candidate_does_not_reach_storage (test_python.BindingTests.test_invalid_candidate_does_not_reach_storage) ... ok
+test_invalid_options_are_rejected_before_consuming_generators (test_python.BindingTests.test_invalid_options_are_rejected_before_consuming_generators) ... ok
+test_memory_and_sqlite_round_trip_retry_and_history (test_python.BindingTests.test_memory_and_sqlite_round_trip_retry_and_history) ... ok
+test_numbers_are_rejected_without_cross_language_rounding (test_python.BindingTests.test_numbers_are_rejected_without_cross_language_rounding) ... ok
+test_pinned_old_record_hydration (test_python.BindingTests.test_pinned_old_record_hydration) ... ok
+test_replacement_at_maximum_snapshot_capacity (test_python.BindingTests.test_replacement_at_maximum_snapshot_capacity) ... ok
+test_resource_finalization_and_concurrent_idempotent_close (test_python.BindingTests.test_resource_finalization_and_concurrent_idempotent_close) ... ok
+test_strict_metadata_and_nonlinear_recording_history (test_python.BindingTests.test_strict_metadata_and_nonlinear_recording_history) ... ok
+test_typed_operations_have_explicit_compatible_implementations (test_python.BindingTests.test_typed_operations_have_explicit_compatible_implementations) ... ok
+test_unicode_integrity_and_unknown_payload_preservation (test_python.BindingTests.test_unicode_integrity_and_unknown_payload_preservation) ... ok
+test_verified_binary_reader_lifetime_cancel_and_ownership (test_python.BindingTests.test_verified_binary_reader_lifetime_cancel_and_ownership) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 9.360s
+
+OK
+<end of output>
+Test time =   9.61 sec
+----------------------------------------------------------
+Test Passed.
+"python_binding" end time: Oct 13 20:08 Tokyo Standard Time
+"python_binding" time elapsed: 00:00:09
+----------------------------------------------------------
+
+17/20 Testing: python_runtime
+17/20 Test: python_runtime
+Command: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "-E" "env" "GR_OS_LIBRARY=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/gr_native.dll" "GR_OS_CLI=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/gr.exe" "PYTHONPATH=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/bindings/python/src" "PYTHONDONTWRITEBYTECODE=1" "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "-m" "unittest" "discover" "-s" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration" "-p" "test_runtime.py" "-v"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"python_runtime" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+test_capabilities_and_run (test_runtime.CLITests.test_capabilities_and_run) ... ok
+test_strict_requests_terminal_status_and_session (test_runtime.CLITests.test_strict_requests_terminal_status_and_session) ... ok
+test_async_cancellation_is_not_masked_by_concurrent_close (test_runtime.RecoveryOwnershipTests.test_async_cancellation_is_not_masked_by_concurrent_close) ... ok
+test_chained_raise_preserves_uncertain_result (test_runtime.RecoveryOwnershipTests.test_chained_raise_preserves_uncertain_result) ... ok
+test_successful_run_releases_native_job (test_runtime.RecoveryOwnershipTests.test_successful_run_releases_native_job) ... ok
+test_uncertain_run_keeps_recovery_until_result_close (test_runtime.RecoveryOwnershipTests.test_uncertain_run_keeps_recovery_until_result_close) ... ok
+test_async_wait (test_runtime.RuntimeSDKTests.test_async_wait) ... ok
+test_deadline_structured_result_and_cancel_after_commit (test_runtime.RuntimeSDKTests.test_deadline_structured_result_and_cancel_after_commit) ... ok
+test_denied_publication_has_no_effects (test_runtime.RuntimeSDKTests.test_denied_publication_has_no_effects) ... ok
+test_fork_join_plan_lifetime_and_catalog (test_runtime.RuntimeSDKTests.test_fork_join_plan_lifetime_and_catalog) ... ok
+test_job_artifact_transaction_history_reopen (test_runtime.RuntimeSDKTests.test_job_artifact_transaction_history_reopen) ... ok
+test_large_wait_timeout_is_bounded_per_native_poll (test_runtime.RuntimeSDKTests.test_large_wait_timeout_is_bounded_per_native_poll) ... ok
+test_policy_denial_and_strict_options (test_runtime.RuntimeSDKTests.test_policy_denial_and_strict_options) ... ok
+test_record_validation_is_catalog_operation (test_runtime.RuntimeSDKTests.test_record_validation_is_catalog_operation) ... ok
+test_result_retention_capacity_and_release (test_runtime.RuntimeSDKTests.test_result_retention_capacity_and_release) ... ok
+test_same_plan_concurrent_submissions (test_runtime.RuntimeSDKTests.test_same_plan_concurrent_submissions) ... ok
+test_standalone_transaction_store_lease_and_rollback (test_runtime.RuntimeSDKTests.test_standalone_transaction_store_lease_and_rollback) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.264s
+
+OK
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"python_runtime" end time: Oct 13 20:08 Tokyo Standard Time
+"python_runtime" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/20 Testing: example_python
+18/20 Test: example_python
+Command: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "-E" "env" "GR_OS_LIBRARY=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/gr_native.dll" "PYTHONPATH=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/bindings/python/src" "PYTHONDONTWRITEBYTECODE=1" "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/examples/python/layers_5_6.py"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"example_python" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Accepted revision: r:6842e21251350ccccf0ebcff4a3c15f2bc3e009319c4c1a83b1a01d05fd5dd9c
+Graph nodes: 1
+Execution: {'backend': 'cpu.threaded', 'backend_version': '2', 'binding': 'gr.host-values/1', 'contract_fingerprint': 'sha256:60501cd32a86bb7a2cff8ef83446c7169fb780af1d99151e3d43a821b27c1d66', 'deadline_monitor_threads': 0, 'determinism': 'exact', 'device': 'cpu:0', 'device_copies': 0, 'effect': 'pure', 'implementation': {'backend_ids': ['cpu.sequential', 'cpu.threaded'], 'binding': 'gr.host-values/1', 'contract_fingerprint': 'sha256:60501cd32a86bb7a2cff8ef83446c7169fb780af1d99151e3d43a821b27c1d66', 'determinism': 'exact', 'device_kinds': ['cpu'], 'id': 'gr.cpu.sha256.oneshot@1', 'memory_domains': ['host'], 'metadata': {'algorithm': 'whole-buffer SHA-256', 'cancellation_granularity': 'before and after hashing', 'library': 'PicoSHA2'}, 'operation': 'gr.bytes.sha256@1', 'thread_safe': True}, 'implementation_id': 'gr.cpu.sha256.oneshot@1', 'input_bytes': 25, 'input_count': 1, 'input_ownership': 'borrowed_until_return', 'input_type_fingerprints': {'gr.bytes@1': 'sha256:8dc7bbb3e5950d9b986c0d0896059b03730992f749803b93ccce54b6b230f0e5'}, 'memory': 'host', 'operation': 'gr.bytes.sha256@1', 'output_bytes': 64, 'output_ownership': 'owned', 'output_type_fingerprints': {'gr.sha256-hex@1': 'sha256:27e2d8563fae229bd6840db758ff99d34a8800104b4410cd3faa50f7d2f73d22'}, 'threads_used': 1, 'validation_scope': 'exact descriptors and types, declared native pre/postconditions; not universal algorithm verification'}
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Passed.
+"example_python" end time: Oct 13 20:08 Tokyo Standard Time
+"example_python" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/20 Testing: example_runtime
+19/20 Test: example_runtime
+Command: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "-E" "env" "GR_OS_LIBRARY=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/gr_native.dll" "PYTHONPATH=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/bindings/python/src" "PYTHONDONTWRITEBYTECODE=1" "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/examples/python/runtime.py"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"example_runtime" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+6f5aa9c30ff85e8bffc554471bc6a84824afe0df1fbf89067f8abbb8d0f8968c
+{'base_revision': '0', 'history': {'bundle_digest': 'sha256:01d083df672cd9bcdbb0462c7868cc48c20e0db915fe7796691eb3c68557e640', 'head': 'sha256:3bf9ad48d6ed88607720d2e662d199058b75d39f74fa7dae4f4d28b78e5f489d', 'manifest_version': 'sha256:557f76f62e8efd7cc52d79c76649505e37e20eb6e8b6a836e8285ab437cadc53'}, 'publication': {'current_revision': 'r:acd3ad1b18631a5b6140df367a3555b4589192e21dcbce454f7a955d0bf2453e', 'parent': '0', 'replayed': False, 'revision': 'r:acd3ad1b18631a5b6140df367a3555b4589192e21dcbce454f7a955d0bf2453e'}, 'recovery_observation': '', 'request_digest': 'sha256:1f5254ebef73e4499a2a433baf4c6712ba65783abc813e430dfeab44c06e880e', 'state': 'committed', 'transaction_id': 'example:1', 'workspace': 'example'}
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Passed.
+"example_runtime" end time: Oct 13 20:08 Tokyo Standard Time
+"example_runtime" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/20 Testing: installed_sdk
+20/20 Test: installed_sdk
+Command: "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tools/test_installed_sdk.py" "--cmake" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "--build" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build" "--source" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS" "--config" "Release"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"installed_sdk" start time: Oct 13 20:08 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/c_api.h
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/bin/gr.exe
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/lib/gr_sqlite.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/lib/gr_common.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/lib/gr_semantics.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/lib/gr_core.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/lib/gr_storage.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/lib/gr_execution.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/lib/gr_runtime.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/lib/gr_native.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/bin/gr_native.dll
+-- Up-to-date: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include
+-- Up-to-date: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/common.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/core.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/execution
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/execution/backend.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/execution/cpu.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/execution/implementation.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/execution.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/kernel
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/kernel/history.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/kernel/operations.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/kernel/projections.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/kernel/records.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/kernel/record_operations.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/kernel/types.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/runtime
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/runtime/catalog.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/runtime/planner.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/runtime/scheduler.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/runtime/transaction.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/runtime.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/storage
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/storage/blob_reader.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/storage/contracts.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/storage/memory_store.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/storage/sqlite_store.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/storage.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/support
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/gr/support/common.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/include/nlohmann/json.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/share/GR/licenses
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/share/GR/licenses/MANIFEST.json
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/share/GR/licenses/nlohmann
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/share/GR/licenses/nlohmann/LICENSE.MIT
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/share/GR/licenses/picosha2
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/share/GR/licenses/picosha2/LICENSE
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/share/GR/licenses/README.md
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/share/GR/licenses/sqlite
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/lib/cmake/GR/GRTargets.cmake
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/lib/cmake/GR/GRTargets-release.cmake
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/lib/cmake/GR/GRConfig.cmake
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\stage/lib/cmake/GR/GRConfigVersion.cmake
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- The C compiler identification is MSVC 19.44.35209.0
+-- The CXX compiler identification is MSVC 19.44.35209.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Configuring done (6.7s)
+-- Generating done (0.1s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_BUILD_TYPE
+
+
+-- Build files have been written to: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/p/5d93f436/c
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/installed/CMakeLists.txt
+  main.c
+  consumer_c.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\c\Release\consumer_c.exe
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/installed/CMakeLists.txt
+  main.cpp
+  consumer_cpp.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\p\5d93f436\c\Release\consumer_cpp.exe
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/installed/CMakeLists.txt
+Processing c:\users\micro\desktop\relational_being_infrastructure\frameworks\generativity_standards_program\gr-os\build\p\5d93f436\python-source
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: gr-os
+  Building wheel for gr-os (pyproject.toml): started
+  Building wheel for gr-os (pyproject.toml): finished with status 'done'
+  Created wheel for gr-os: filename=gr_os-0.3.0-py3-none-any.whl size=13518 sha256=17c66c9618299bb782d393369420d6e24e195f5540ade12d5874567faa099503
+  Stored in directory: C:\Users\Micro\AppData\Local\Temp\pip-ephem-wheel-cache-2ineritk\wheels\c8\c2\1e\8c4cd414d3f75e4fcce4629e78e6b4a9142c32ef6d720806cd
+Successfully built gr-os
+Processing c:\users\micro\desktop\relational_being_infrastructure\frameworks\generativity_standards_program\gr-os\build\p\5d93f436\wheels\gr_os-0.3.0-py3-none-any.whl
+Installing collected packages: gr-os
+Successfully installed gr-os-0.3.0
+Relocated C/C++ and installed Python wheel runtime consumers passed
+Relocated native CLI runtime consumer passed
+<end of output>
+Test time =  18.46 sec
+----------------------------------------------------------
+Test Passed.
+"installed_sdk" end time: Oct 13 20:08 Tokyo Standard Time
+"installed_sdk" time elapsed: 00:00:18
+----------------------------------------------------------
+
+End testing: Oct 13 20:08 Tokyo Standard Time
+
+conformance =   1.96 sec*proc
+
+examples =   0.50 sec*proc
+
+integration =  11.87 sec*proc
+
+packaging =  18.46 sec*proc
+
+unit =   2.21 sec*proc
+

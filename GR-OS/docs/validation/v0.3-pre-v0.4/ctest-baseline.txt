@@ -1,0 +1,53 @@
+Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+Test project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+      Start  1: example_extension
+ 1/20 Test  #1: example_extension ................   Passed    0.02 sec
+      Start  2: records
+ 2/20 Test  #2: records ..........................   Passed    0.03 sec
+      Start  3: history
+ 3/20 Test  #3: history ..........................   Passed    1.24 sec
+      Start  4: canonical
+ 4/20 Test  #4: canonical ........................   Passed    0.04 sec
+      Start  5: storage
+ 5/20 Test  #5: storage ..........................   Passed    0.46 sec
+      Start  6: sqlite
+ 6/20 Test  #6: sqlite ...........................   Passed    0.67 sec
+      Start  7: execution
+ 7/20 Test  #7: execution ........................   Passed    0.28 sec
+      Start  8: operations
+ 8/20 Test  #8: operations .......................   Passed    0.05 sec
+      Start  9: planner
+ 9/20 Test  #9: planner ..........................   Passed    0.03 sec
+      Start 10: prepared
+10/20 Test #10: prepared .........................   Passed    0.02 sec
+      Start 11: transactions
+11/20 Test #11: transactions .....................   Passed    0.18 sec
+      Start 12: runtime
+12/20 Test #12: runtime ..........................   Passed    1.66 sec
+      Start 13: runtime_recovery
+13/20 Test #13: runtime_recovery .................   Passed    0.03 sec
+      Start 14: runtime_crash
+14/20 Test #14: runtime_crash ....................   Passed    1.17 sec
+      Start 15: vendor_integrity
+15/20 Test #15: vendor_integrity .................   Passed    0.25 sec
+      Start 16: python_binding
+16/20 Test #16: python_binding ...................   Passed   14.91 sec
+      Start 17: python_runtime
+17/20 Test #17: python_runtime ...................   Passed    0.49 sec
+      Start 18: example_python
+18/20 Test #18: example_python ...................   Passed    0.31 sec
+      Start 19: example_runtime
+19/20 Test #19: example_runtime ..................   Passed    0.25 sec
+      Start 20: installed_sdk
+20/20 Test #20: installed_sdk ....................   Passed   25.67 sec
+
+100% tests passed, 0 tests failed out of 20
+
+Label Time Summary:
+conformance    =   2.24 sec*proc (7 tests)
+examples       =   0.58 sec*proc (3 tests)
+integration    =  17.23 sec*proc (4 tests)
+packaging      =  25.67 sec*proc (1 test)
+unit           =   2.03 sec*proc (5 tests)
+
+Total Test time (real) =  47.79 sec

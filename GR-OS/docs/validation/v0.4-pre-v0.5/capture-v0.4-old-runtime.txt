@@ -1,0 +1,9 @@
+command: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\baselines\v0.3\benchmark_runtime.exe C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\docs\validation\v0.3-pre-v0.4\benchmark-runtime-rerun.json
+GR_OS_LIBRARY=C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\baselines\v0.3\install\bin\gr_native.dll
+PYTHONPATH=C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\baselines\v0.3\python\src
+prepared_identity_4096: median 1.3716 ms, p95 1.4778 ms
+runtime_identity_256: median 13.9141 ms, p95 15.305 ms
+fork_join_hash_8x512KiB_serial: median 28.5716 ms, p95 29.1164 ms
+fork_join_hash_8x512KiB_workers1: median 26.8313 ms, p95 40.8065 ms
+fork_join_hash_8x512KiB_workers2: median 17.04 ms, p95 20.7786 ms
+fork_join_hash_8x512KiB_workers4: median 9.6781 ms, p95 10.1396 ms

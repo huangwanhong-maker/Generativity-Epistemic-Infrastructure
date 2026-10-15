@@ -1,0 +1,29 @@
+[
+  {
+    "index": 1,
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\b03\\Release\\benchmark_admission.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.3\\profile-rerun-1"
+    ],
+    "exit": 0,
+    "elapsed_seconds": 52.285502433776855
+  },
+  {
+    "index": 2,
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\b03\\Release\\benchmark_admission.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.3\\profile-rerun-2"
+    ],
+    "exit": 0,
+    "elapsed_seconds": 38.808526277542114
+  },
+  {
+    "index": 3,
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\b03\\Release\\benchmark_admission.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.3\\profile-rerun-3"
+    ],
+    "exit": 0,
+    "elapsed_seconds": 32.450711727142334
+  }
+]

@@ -1,0 +1,104 @@
+command: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\benchmark_admission.exe C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\profile-v0.4-1
+GR_OS_LIBRARY=C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_native.dll
+PYTHONPATH=C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\bindings\python\src
+{
+  "rows": [
+    {
+      "backend": "memory",
+      "begin_ms": 272.2204,
+      "commit_ms": 210.17240000000004,
+      "commits": 32,
+      "records": 128,
+      "retained_blob_bytes": 0,
+      "retained_blob_count": 0,
+      "selected_snapshot_ms": 16.8737,
+      "stage_ms": 1.7338000000000002,
+      "storage_boundary_ms": {
+        "commit": 101.19770000000001,
+        "head": 0.07320000000000002,
+        "snapshot": 80.97449999999999
+      },
+      "storage_calls": {
+        "commit": 32,
+        "head": 32,
+        "snapshot": 32
+      },
+      "tracked": false,
+      "verification": "128 current records; 33 physical publications"
+    },
+    {
+      "backend": "memory",
+      "begin_ms": 2945.820900000001,
+      "commit_ms": 4588.6531,
+      "commits": 32,
+      "records": 128,
+      "retained_blob_bytes": 283208,
+      "retained_blob_count": 99,
+      "selected_snapshot_ms": 41.784,
+      "stage_ms": 3.6669000000000005,
+      "storage_boundary_ms": {
+        "commit": 200.7302,
+        "head": 0.11489999999999999,
+        "open_blob": 83.72310000000004,
+        "snapshot": 113.1686
+      },
+      "storage_calls": {
+        "commit": 32,
+        "head": 32,
+        "open_blob": 1152,
+        "snapshot": 32
+      },
+      "tracked": true,
+      "verification": "128 current records; 33 physical publications"
+    },
+    {
+      "backend": "sqlite",
+      "begin_ms": 951.4886000000001,
+      "commit_ms": 969.7368000000005,
+      "commits": 32,
+      "records": 128,
+      "retained_blob_bytes": 0,
+      "retained_blob_count": 0,
+      "selected_snapshot_ms": 15.8539,
+      "stage_ms": 5.5784,
+      "storage_boundary_ms": {
+        "commit": 682.965,
+        "head": 7.0355,
+        "snapshot": 393.64169999999996
+      },
+      "storage_calls": {
+        "commit": 32,
+        "head": 32,
+        "snapshot": 32
+      },
+      "tracked": false,
+      "verification": "128 current records; 33 physical publications"
+    },
+    {
+      "backend": "sqlite",
+      "begin_ms": 3290.5688999999998,
+      "commit_ms": 4373.047700000001,
+      "commits": 32,
+      "records": 128,
+      "retained_blob_bytes": 283208,
+      "retained_blob_count": 99,
+      "selected_snapshot_ms": 39.5689,
+      "stage_ms": 3.3678999999999997,
+      "storage_boundary_ms": {
+        "commit": 453.40599999999995,
+        "head": 5.478599999999999,
+        "open_blob": 1101.1865,
+        "snapshot": 161.02939999999998
+      },
+      "storage_calls": {
+        "commit": 32,
+        "head": 32,
+        "open_blob": 1152,
+        "snapshot": 32
+      },
+      "tracked": true,
+      "verification": "128 current records; 33 physical publications"
+    }
+  ],
+  "suite": "gr.admission.profile/1"
+}

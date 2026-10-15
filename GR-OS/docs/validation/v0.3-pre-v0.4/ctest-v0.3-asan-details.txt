@@ -1,0 +1,234 @@
+Start testing: Oct 13 20:10 Tokyo Standard Time
+----------------------------------------------------------
+1/14 Testing: records
+1/14 Test: records
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_records.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"records" start time: Oct 13 20:10 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+core: 56 checks passed
+<end of output>
+Test time =   0.34 sec
+----------------------------------------------------------
+Test Passed.
+"records" end time: Oct 13 20:10 Tokyo Standard Time
+"records" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/14 Testing: history
+2/14 Test: history
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_history.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"history" start time: Oct 13 20:10 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+history: 63 checks passed, including 36 generated branching revisions
+<end of output>
+Test time =  27.50 sec
+----------------------------------------------------------
+Test Passed.
+"history" end time: Oct 13 20:11 Tokyo Standard Time
+"history" time elapsed: 00:00:27
+----------------------------------------------------------
+
+3/14 Testing: canonical
+3/14 Test: canonical
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_canonical.exe" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/conformance/canonical-v1.json"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"canonical" start time: Oct 13 20:11 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+18 canonical vectors and 200 seeded fixed points passed
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Passed.
+"canonical" end time: Oct 13 20:11 Tokyo Standard Time
+"canonical" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/14 Testing: storage
+4/14 Test: storage
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_storage.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"storage" start time: Oct 13 20:11 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Shared storage conformance: CAS/replay, snapshots, receipt lookup, model history, limits, ranges, cancellation and reader lifetime passed
+<end of output>
+Test time =   4.12 sec
+----------------------------------------------------------
+Test Passed.
+"storage" end time: Oct 13 20:11 Tokyo Standard Time
+"storage" time elapsed: 00:00:04
+----------------------------------------------------------
+
+5/14 Testing: sqlite
+5/14 Test: sqlite
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_sqlite.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"sqlite" start time: Oct 13 20:11 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+SQLite integration: rollback/reopen, concurrent CAS/replay, corruption, pinned WAL readers, ledger guards and bounded object ranges passed
+<end of output>
+Test time =   1.26 sec
+----------------------------------------------------------
+Test Passed.
+"sqlite" end time: Oct 13 20:11 Tokyo Standard Time
+"sqlite" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/14 Testing: execution
+6/14 Test: execution
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_execution.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"execution" start time: Oct 13 20:11 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+execution: 48 checks passed
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Passed.
+"execution" end time: Oct 13 20:11 Tokyo Standard Time
+"execution" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/14 Testing: operations
+7/14 Test: operations
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_operations.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"operations" start time: Oct 13 20:11 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+operation conformance: 74 checks passed; bounded suites, not universal equivalence
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"operations" end time: Oct 13 20:11 Tokyo Standard Time
+"operations" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/14 Testing: planner
+8/14 Test: planner
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_planner.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"planner" start time: Oct 13 20:11 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+planner: 47 checks passed
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Passed.
+"planner" end time: Oct 13 20:11 Tokyo Standard Time
+"planner" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/14 Testing: prepared
+9/14 Test: prepared
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_prepared.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"prepared" start time: Oct 13 20:11 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+prepared: 10 checks passed
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"prepared" end time: Oct 13 20:11 Tokyo Standard Time
+"prepared" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/14 Testing: transactions
+10/14 Test: transactions
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_transactions.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"transactions" start time: Oct 13 20:11 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Runtime transaction conformance: staging, isolation, rollback, history, limits, cancellation, unknown outcomes and exact recovery passed
+<end of output>
+Test time =   1.22 sec
+----------------------------------------------------------
+Test Passed.
+"transactions" end time: Oct 13 20:11 Tokyo Standard Time
+"transactions" time elapsed: 00:00:01
+----------------------------------------------------------
+
+11/14 Testing: runtime
+11/14 Test: runtime
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_runtime.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"runtime" start time: Oct 13 20:11 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+runtime: 109 checks passed, including 80 concurrent-submitter jobs
+<end of output>
+Test time =   2.78 sec
+----------------------------------------------------------
+Test Passed.
+"runtime" end time: Oct 13 20:11 Tokyo Standard Time
+"runtime" time elapsed: 00:00:02
+----------------------------------------------------------
+
+12/14 Testing: runtime_recovery
+12/14 Test: runtime_recovery
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_runtime_recovery.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"runtime_recovery" start time: Oct 13 20:11 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Runtime synchronous uncertain-outcome leases, receipt recovery and exact retry passed
+<end of output>
+Test time =   0.37 sec
+----------------------------------------------------------
+Test Passed.
+"runtime_recovery" end time: Oct 13 20:11 Tokyo Standard Time
+"runtime_recovery" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/14 Testing: runtime_crash
+13/14 Test: runtime_crash
+Command: "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/runtime_crash.py" "--worker" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/runtime_crash_worker.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"runtime_crash" start time: Oct 13 20:11 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+{"process_crash_recovery": [{"phase": "before", "process_terminated": true, "committed_on_reopen": false, "exact_retry": true}, {"phase": "during", "process_terminated": true, "committed_on_reopen": false, "exact_retry": true}, {"phase": "after", "process_terminated": true, "committed_on_reopen": true, "exact_retry": true}], "power_loss_tested": false}
+<end of output>
+Test time =   3.65 sec
+----------------------------------------------------------
+Test Passed.
+"runtime_crash" end time: Oct 13 20:11 Tokyo Standard Time
+"runtime_crash" time elapsed: 00:00:03
+----------------------------------------------------------
+
+14/14 Testing: vendor_integrity
+14/14 Test: vendor_integrity
+Command: "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tools/verify_vendor.py"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"vendor_integrity" start time: Oct 13 20:11 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Verified 7 vendored files
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"vendor_integrity" end time: Oct 13 20:11 Tokyo Standard Time
+"vendor_integrity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 13 20:11 Tokyo Standard Time
+
+conformance =  33.52 sec*proc
+
+integration =   4.91 sec*proc
+
+unit =   4.31 sec*proc
+

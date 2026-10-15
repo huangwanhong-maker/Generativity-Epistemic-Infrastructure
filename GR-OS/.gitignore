@@ -1,0 +1,15 @@
+/build*/
+/b03/
+/out/
+/.vs/
+__pycache__/
+*.py[cod]
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-shm
+*.db-wal
+*.egg-info/
+/bindings/python/build/
+/bindings/python/dist/

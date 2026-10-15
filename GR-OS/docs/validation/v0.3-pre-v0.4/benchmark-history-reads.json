@@ -1,0 +1,284 @@
+{
+  "suite": "gr.history.selection/1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "path": "public snapshot + bundle transfer + v1 reconstruction",
+  "native_sha256": "7324f64aef869a67498bb9ec5a5da39543f8dffb6e651ea5afa708bb86267edc",
+  "runner_sha256": "a3cedbd51cfc9aba5d3ffb0d37698585362b914f68b84642fe316dd20bdd34c4",
+  "method": "32 records with 256-byte padding; seed plus 32 single updates; one query warmup; checks outside timing",
+  "limitations": "Includes each available SDK transport path. Not pure codec timing. Tiny local histories, no branch/merge throughput claim.",
+  "cases": [
+    {
+      "backend": "memory",
+      "selected_node": 17,
+      "pinned_node": 17,
+      "semantic_revision": "sha256:81ecae2f74dc5ac6237c4a5badcee8b45b0a97ceafea2ce0d5143cf5db909982",
+      "catalogue_lookup": false,
+      "samples_ms": [
+        115.4883,
+        120.1027,
+        128.9353,
+        176.7195,
+        142.0403
+      ],
+      "median_ms": 128.9353,
+      "diagnostics": null,
+      "verified": true
+    },
+    {
+      "backend": "memory",
+      "selected_node": 17,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:81ecae2f74dc5ac6237c4a5badcee8b45b0a97ceafea2ce0d5143cf5db909982",
+      "catalogue_lookup": true,
+      "samples_ms": [
+        254.4054,
+        244.6843,
+        275.6638,
+        271.2457,
+        234.0007
+      ],
+      "median_ms": 254.4054,
+      "diagnostics": null,
+      "verified": true
+    },
+    {
+      "backend": "memory",
+      "selected_node": 24,
+      "pinned_node": 24,
+      "semantic_revision": "sha256:9a80430c10a85134360e4d92ea5fe912160c4010113147dcbdac5cf661ec8a07",
+      "catalogue_lookup": false,
+      "samples_ms": [
+        158.0928,
+        148.0886,
+        162.5502,
+        176.3946,
+        168.7137
+      ],
+      "median_ms": 162.5502,
+      "diagnostics": null,
+      "verified": true
+    },
+    {
+      "backend": "memory",
+      "selected_node": 24,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:9a80430c10a85134360e4d92ea5fe912160c4010113147dcbdac5cf661ec8a07",
+      "catalogue_lookup": true,
+      "samples_ms": [
+        247.0096,
+        277.9803,
+        211.4299,
+        304.4449,
+        265.389
+      ],
+      "median_ms": 265.389,
+      "diagnostics": null,
+      "verified": true
+    },
+    {
+      "backend": "memory",
+      "selected_node": 32,
+      "pinned_node": 32,
+      "semantic_revision": "sha256:f101945ba384385dbb6d805f7ce5d4c651cb6efb8ed51103a234568c3c01f76f",
+      "catalogue_lookup": false,
+      "samples_ms": [
+        214.4815,
+        277.6412,
+        236.6718,
+        257.4799,
+        230.7503
+      ],
+      "median_ms": 236.6718,
+      "diagnostics": null,
+      "verified": true
+    },
+    {
+      "backend": "memory",
+      "selected_node": 32,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:f101945ba384385dbb6d805f7ce5d4c651cb6efb8ed51103a234568c3c01f76f",
+      "catalogue_lookup": true,
+      "samples_ms": [
+        274.2827,
+        220.4973,
+        251.2743,
+        235.1025,
+        196.6855
+      ],
+      "median_ms": 235.1025,
+      "diagnostics": null,
+      "verified": true
+    },
+    {
+      "backend": "memory",
+      "selected_node": 33,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:bd6966e4313574fc7b04b56f6fdf68728eb189f9e347a51dd39d2a99ab568720",
+      "catalogue_lookup": false,
+      "samples_ms": [
+        264.134,
+        209.3773,
+        269.6254,
+        260.0255,
+        250.4069
+      ],
+      "median_ms": 260.0255,
+      "diagnostics": null,
+      "verified": true
+    },
+    {
+      "backend": "memory",
+      "selected_node": 33,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:bd6966e4313574fc7b04b56f6fdf68728eb189f9e347a51dd39d2a99ab568720",
+      "catalogue_lookup": true,
+      "samples_ms": [
+        260.7534,
+        248.8917,
+        282.1787,
+        247.3564,
+        244.3109
+      ],
+      "median_ms": 248.8917,
+      "diagnostics": null,
+      "verified": true
+    },
+    {
+      "backend": "sqlite",
+      "selected_node": 17,
+      "pinned_node": 17,
+      "semantic_revision": "sha256:81ecae2f74dc5ac6237c4a5badcee8b45b0a97ceafea2ce0d5143cf5db909982",
+      "catalogue_lookup": false,
+      "samples_ms": [
+        115.5298,
+        139.1006,
+        135.3991,
+        145.8977,
+        123.9911
+      ],
+      "median_ms": 135.3991,
+      "diagnostics": null,
+      "verified": true
+    },
+    {
+      "backend": "sqlite",
+      "selected_node": 17,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:81ecae2f74dc5ac6237c4a5badcee8b45b0a97ceafea2ce0d5143cf5db909982",
+      "catalogue_lookup": true,
+      "samples_ms": [
+        276.174,
+        240.3507,
+        278.5588,
+        244.4022,
+        348.8558
+      ],
+      "median_ms": 276.174,
+      "diagnostics": null,
+      "verified": true
+    },
+    {
+      "backend": "sqlite",
+      "selected_node": 24,
+      "pinned_node": 24,
+      "semantic_revision": "sha256:9a80430c10a85134360e4d92ea5fe912160c4010113147dcbdac5cf661ec8a07",
+      "catalogue_lookup": false,
+      "samples_ms": [
+        201.7687,
+        152.3994,
+        203.382,
+        197.2135,
+        214.3213
+      ],
+      "median_ms": 201.7687,
+      "diagnostics": null,
+      "verified": true
+    },
+    {
+      "backend": "sqlite",
+      "selected_node": 24,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:9a80430c10a85134360e4d92ea5fe912160c4010113147dcbdac5cf661ec8a07",
+      "catalogue_lookup": true,
+      "samples_ms": [
+        358.0314,
+        279.9225,
+        298.2575,
+        232.3581,
+        329.5654
+      ],
+      "median_ms": 298.2575,
+      "diagnostics": null,
+      "verified": true
+    },
+    {
+      "backend": "sqlite",
+      "selected_node": 32,
+      "pinned_node": 32,
+      "semantic_revision": "sha256:f101945ba384385dbb6d805f7ce5d4c651cb6efb8ed51103a234568c3c01f76f",
+      "catalogue_lookup": false,
+      "samples_ms": [
+        239.4348,
+        284.9791,
+        249.6319,
+        251.1066,
+        332.9541
+      ],
+      "median_ms": 251.1066,
+      "diagnostics": null,
+      "verified": true
+    },
+    {
+      "backend": "sqlite",
+      "selected_node": 32,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:f101945ba384385dbb6d805f7ce5d4c651cb6efb8ed51103a234568c3c01f76f",
+      "catalogue_lookup": true,
+      "samples_ms": [
+        343.3045,
+        261.2598,
+        279.799,
+        241.7177,
+        241.5906
+      ],
+      "median_ms": 261.2598,
+      "diagnostics": null,
+      "verified": true
+    },
+    {
+      "backend": "sqlite",
+      "selected_node": 33,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:bd6966e4313574fc7b04b56f6fdf68728eb189f9e347a51dd39d2a99ab568720",
+      "catalogue_lookup": false,
+      "samples_ms": [
+        220.6112,
+        261.0287,
+        230.7731,
+        197.7238,
+        219.0495
+      ],
+      "median_ms": 220.6112,
+      "diagnostics": null,
+      "verified": true
+    },
+    {
+      "backend": "sqlite",
+      "selected_node": 33,
+      "pinned_node": 33,
+      "semantic_revision": "sha256:bd6966e4313574fc7b04b56f6fdf68728eb189f9e347a51dd39d2a99ab568720",
+      "catalogue_lookup": true,
+      "samples_ms": [
+        248.8802,
+        325.2326,
+        253.8274,
+        323.4938,
+        367.5632
+      ],
+      "median_ms": 323.4938,
+      "diagnostics": null,
+      "verified": true
+    }
+  ]
+}

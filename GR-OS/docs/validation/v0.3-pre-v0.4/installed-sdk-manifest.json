@@ -1,0 +1,296 @@
+{
+  "original_installed_prefix": "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/p/1c4e262e/relocated",
+  "preserved_root": "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/baselines/v0.3",
+  "files": [
+    {
+      "path": "benchmark_runtime.exe",
+      "bytes": 745472,
+      "sha256": "fb724f22d2749cadc7e76168c5a91afb09fce42f1424b76c6e64670ec6d1de6f"
+    },
+    {
+      "path": "benchmarks/compare.py",
+      "bytes": 2218,
+      "sha256": "d2f4db49059440775cba7df1dc9cde0325bc36c2bc18c3ce46c2dfca378941d1"
+    },
+    {
+      "path": "benchmarks/README.md",
+      "bytes": 13150,
+      "sha256": "dbfd4f0ce0baeb1a93d9e72a95475cc3684e1cbd0bb7d1c57e5dc0e72680f161"
+    },
+    {
+      "path": "benchmarks/run.py",
+      "bytes": 5260,
+      "sha256": "7efaa3105914435aa4dc647a1138c79c4e4af404fcfa54bf0ad21454cbce5a1d"
+    },
+    {
+      "path": "benchmarks/run_v0_2.py",
+      "bytes": 5548,
+      "sha256": "46028dc1e2d1a361406b4ff37cebcf8d68686ca505069adcb3e18e6eb4c88bcd"
+    },
+    {
+      "path": "benchmarks/runtime-protocol.md",
+      "bytes": 2779,
+      "sha256": "9e8f5951e32cfebaac34045ce8bb14d8a0ee9c626d093228150107cfae5db9d7"
+    },
+    {
+      "path": "benchmarks/runtime.cpp",
+      "bytes": 9835,
+      "sha256": "f44756049296eab1aedcc88bdc3a7173f8e2b33a1bb33c86e3334a29b469b37f"
+    },
+    {
+      "path": "benchmarks/transactions.py",
+      "bytes": 12870,
+      "sha256": "3d1d61f47581a2961bffe655fff531873a464169ae38f911db636e43500c106e"
+    },
+    {
+      "path": "install/bin/gr.exe",
+      "bytes": 153600,
+      "sha256": "2ee875021486502c01ac8a99a112733837135f48e86ea755f490b27ef8fe7713"
+    },
+    {
+      "path": "install/bin/gr_native.dll",
+      "bytes": 2055168,
+      "sha256": "7324f64aef869a67498bb9ec5a5da39543f8dffb6e651ea5afa708bb86267edc"
+    },
+    {
+      "path": "install/include/gr/c_api.h",
+      "bytes": 1782,
+      "sha256": "f69af7a13e274343c182b23f21518db8dc88d4ddb43f8158674516586d4db411"
+    },
+    {
+      "path": "install/include/gr/common.hpp",
+      "bytes": 124,
+      "sha256": "b9cc972430d267c90014046c0311497a5baf6d855fe7397ed79d50a9bf73280a"
+    },
+    {
+      "path": "install/include/gr/core.hpp",
+      "bytes": 163,
+      "sha256": "8abc264420fcde160ab3a242977b41edfc5bb05d2b784654cb3a6671d5f6ad4d"
+    },
+    {
+      "path": "install/include/gr/execution/backend.hpp",
+      "bytes": 2596,
+      "sha256": "75b8383ae94d5f01de2a40b472c6122b207dbae7bce276f3846aec4991eb3571"
+    },
+    {
+      "path": "install/include/gr/execution/cpu.hpp",
+      "bytes": 2596,
+      "sha256": "507eec1cabb522af8ee88296f2a5622b327ee3465477aefa3fcc3dcddcebe1e6"
+    },
+    {
+      "path": "install/include/gr/execution/implementation.hpp",
+      "bytes": 1784,
+      "sha256": "27b55b593a87a9330ecd9aa47057da7b68703411dcaa6c4ce9ebc74f76f57f28"
+    },
+    {
+      "path": "install/include/gr/execution.hpp",
+      "bytes": 210,
+      "sha256": "4d364b5f2f6a16c0a1fdcc6642eed27c8584cbd74396e82b2ef04d4078eb8815"
+    },
+    {
+      "path": "install/include/gr/kernel/history.hpp",
+      "bytes": 1372,
+      "sha256": "04273aca913a6ab7816135a99551570e29e8679bcd55666395c944ecc3b505c3"
+    },
+    {
+      "path": "install/include/gr/kernel/operations.hpp",
+      "bytes": 3198,
+      "sha256": "92ec3dd3ce4524737e21800a9cc98d23f67e56ad7514bc016d1f48d71cb0365e"
+    },
+    {
+      "path": "install/include/gr/kernel/projections.hpp",
+      "bytes": 521,
+      "sha256": "70d0ac5ee07340fd5b467ac17621463789a9fa6675f39672f643fc97f8226725"
+    },
+    {
+      "path": "install/include/gr/kernel/record_operations.hpp",
+      "bytes": 325,
+      "sha256": "f817a9a047e1ac655b1c359b3563c33ee8d2f4b43910454b3dfa93c6c6325d86"
+    },
+    {
+      "path": "install/include/gr/kernel/records.hpp",
+      "bytes": 2514,
+      "sha256": "02e332cdd461596860c590c2658a949cdc47b86e52aca9f0c7285e48223ebab3"
+    },
+    {
+      "path": "install/include/gr/kernel/types.hpp",
+      "bytes": 2557,
+      "sha256": "9551371930f1151a1ab2d60713229175ca22111e200e1c3d375c5a36d73311ff"
+    },
+    {
+      "path": "install/include/gr/runtime/catalog.hpp",
+      "bytes": 1799,
+      "sha256": "c346ffc5ad49382aaf42d6deace4b497be6899cf2aa97917d1486c4a9ab7912d"
+    },
+    {
+      "path": "install/include/gr/runtime/planner.hpp",
+      "bytes": 2906,
+      "sha256": "76264fa1b1c4c7d4441cc7cf4541f222b6918020921483d05cc238731a457efd"
+    },
+    {
+      "path": "install/include/gr/runtime/scheduler.hpp",
+      "bytes": 3540,
+      "sha256": "444118673eabab1218d3e5e3f767b7ffe34c38177708d5374009a47f25df9596"
+    },
+    {
+      "path": "install/include/gr/runtime/transaction.hpp",
+      "bytes": 3435,
+      "sha256": "4beb5b87bf14a75a150e1c67e01b3e2719de31228c95400adfddbf465da92714"
+    },
+    {
+      "path": "install/include/gr/runtime.hpp",
+      "bytes": 155,
+      "sha256": "a1d1da667e62f3aa8f94feb281798bc2e6273871fbe57f91c7f32f2e1db51020"
+    },
+    {
+      "path": "install/include/gr/storage/blob_reader.hpp",
+      "bytes": 1209,
+      "sha256": "77963a88b36d333120d69d115edd2a0045777c3db45c69d3fb6051e6f4e6ca93"
+    },
+    {
+      "path": "install/include/gr/storage/contracts.hpp",
+      "bytes": 4375,
+      "sha256": "f3fe6c2fe2047bc4ff21ac64ff901de8fdb241546fdefc10c813e0e5f0fdf6ca"
+    },
+    {
+      "path": "install/include/gr/storage/memory_store.hpp",
+      "bytes": 1279,
+      "sha256": "088eec1a463367eaf2c9d8f7e3485e86c9c4327775d56ae7ff090573bd9871af"
+    },
+    {
+      "path": "install/include/gr/storage/sqlite_store.hpp",
+      "bytes": 1411,
+      "sha256": "34468062aae30554cbb11ad9601e8133fb98b1d65399dcc7f4abcabca6d3387b"
+    },
+    {
+      "path": "install/include/gr/storage.hpp",
+      "bytes": 210,
+      "sha256": "64a331de0a8be5046f9d114cbd9b4b8ae9eed2805c7fc3eb03939a8aee732e57"
+    },
+    {
+      "path": "install/include/gr/support/common.hpp",
+      "bytes": 971,
+      "sha256": "aa2d8d6f412c0f87eb0e2c57099ec09812397d66f49c33fa2d4b934a9ac2cd11"
+    },
+    {
+      "path": "install/include/nlohmann/json.hpp",
+      "bytes": 953436,
+      "sha256": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63"
+    },
+    {
+      "path": "install/lib/cmake/GR/GRConfig.cmake",
+      "bytes": 1235,
+      "sha256": "f25199ecb5cdfc0c787d76f96c6fade40696a9a38eaf7494c6f0686218b08dba"
+    },
+    {
+      "path": "install/lib/cmake/GR/GRConfigVersion.cmake",
+      "bytes": 3760,
+      "sha256": "9dc8e96f4d881df9fb3b429b58b6bcca58fa9b5f48098efa419c409d6025fdbb"
+    },
+    {
+      "path": "install/lib/cmake/GR/GRTargets-release.cmake",
+      "bytes": 4151,
+      "sha256": "f4fbdcc16d0c6dc7c65f68508b640cd53b354c762982a5a4bcaa34035934a3df"
+    },
+    {
+      "path": "install/lib/cmake/GR/GRTargets.cmake",
+      "bytes": 6537,
+      "sha256": "bbd8b22bbef97bae63c59c694f5a2c2f5ba7101f15c4bf27f571e8ccdd8d5b72"
+    },
+    {
+      "path": "install/lib/gr_common.lib",
+      "bytes": 1338162,
+      "sha256": "fbc3c0c2f012d589980f7e64f4aa1cc8acf556beef0821535c19fefdc5ce9514"
+    },
+    {
+      "path": "install/lib/gr_core.lib",
+      "bytes": 4241548,
+      "sha256": "2e4f0fce6689594252b6ebb69dcedae091e62dc40f37fd5c2ecdfdd9fd503ec7"
+    },
+    {
+      "path": "install/lib/gr_execution.lib",
+      "bytes": 1692786,
+      "sha256": "09ecfc4149f3d3abc544b0ed42385c979260e039351e06be5e9b999d8afa87bd"
+    },
+    {
+      "path": "install/lib/gr_native.lib",
+      "bytes": 2294,
+      "sha256": "f12b17488729c7f066da60154ff5eb7916fc903cfabcea93bb263931a9c8eba5"
+    },
+    {
+      "path": "install/lib/gr_runtime.lib",
+      "bytes": 5261290,
+      "sha256": "34c2ff47b17b3402b9c172edd1ce6a7169ab1acab420a8ec967d7a5b35b1ed00"
+    },
+    {
+      "path": "install/lib/gr_semantics.lib",
+      "bytes": 1464958,
+      "sha256": "48d44bba76b428787b77b665d5e4cf115a0ec44268e811cf64770693a6b6c6db"
+    },
+    {
+      "path": "install/lib/gr_sqlite.lib",
+      "bytes": 2796812,
+      "sha256": "83a8e6c5f9246091f0b08b394a04e40cbd7ca2f5cbb9c9002ff7f07ed42a46d0"
+    },
+    {
+      "path": "install/lib/gr_storage.lib",
+      "bytes": 2738614,
+      "sha256": "24021e009ac1eb9b148359ddf6020b9587f0cb925d72bcb11a1da8c7738989b3"
+    },
+    {
+      "path": "install/share/GR/licenses/MANIFEST.json",
+      "bytes": 2830,
+      "sha256": "75b7d488bece9834dc4e12f68aa3f863e44601c2454a1eb557fc6fcb4f402587"
+    },
+    {
+      "path": "install/share/GR/licenses/nlohmann/LICENSE.MIT",
+      "bytes": 1076,
+      "sha256": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603"
+    },
+    {
+      "path": "install/share/GR/licenses/picosha2/LICENSE",
+      "bytes": 1064,
+      "sha256": "6c30eb1f37554ec4199cb82a8c86d9e7a852da78a757832bebb03ac9ddc44ff1"
+    },
+    {
+      "path": "install/share/GR/licenses/README.md",
+      "bytes": 1777,
+      "sha256": "2c633f47bcad45c57da89e3a5fcd9e6aaff2fba6836aa006b9988f050e8292d6"
+    },
+    {
+      "path": "python/pyproject.toml",
+      "bytes": 499,
+      "sha256": "7d26289066e1d40e2952f63350f72b93cdfff7c9d2d9b8053151de1e1c0b1e2b"
+    },
+    {
+      "path": "python/README.md",
+      "bytes": 755,
+      "sha256": "8f167be177bc89469b931c8e524fbe702a76f1506d5a1e99c21cdfe1539bb72b"
+    },
+    {
+      "path": "python/src/gr_os/__init__.py",
+      "bytes": 3699,
+      "sha256": "50879c83ec8cce956192be10ec3c85a8e429267d252516a31524cfd5fa794cb0"
+    },
+    {
+      "path": "python/src/gr_os/_native.py",
+      "bytes": 6869,
+      "sha256": "8e11954c62a5d2453116bcd12ac5ceda3811c32c2dd76cef476af35c4a4c1031"
+    },
+    {
+      "path": "python/src/gr_os/execution.py",
+      "bytes": 7802,
+      "sha256": "8ca6cffd04bc00acd78c6e5a7c494f6107bb4c4f875cfc91097b6145a00716ee"
+    },
+    {
+      "path": "python/src/gr_os/runtime.py",
+      "bytes": 14668,
+      "sha256": "ad674d69affe8f90bac86ca96d72be5c1d8eb33f21fd4d7b6fc3e0574c9a8c10"
+    },
+    {
+      "path": "python/src/gr_os/storage.py",
+      "bytes": 6676,
+      "sha256": "23d1d92dbf4657415205749dc28fe0c7abfd17eb2e03904de5062e041910c352"
+    }
+  ]
+}

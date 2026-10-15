@@ -1,0 +1,81 @@
+Start testing: Oct 13 17:27 Tokyo Standard Time
+----------------------------------------------------------
+1/4 Testing: core
+1/4 Test: core
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/test_core.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"core" start time: Oct 13 17:27 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+core: 47 checks passed
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"core" end time: Oct 13 17:27 Tokyo Standard Time
+"core" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: storage
+2/4 Test: storage
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/test_storage.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"storage" start time: Oct 13 17:27 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Storage contract: memory/sqlite parity, CAS, replay, pinned history, blob closure, rollback, reopen, limits, corruption and read-only checks passed
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Passed.
+"storage" end time: Oct 13 17:27 Tokyo Standard Time
+"storage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: execution
+3/4 Test: execution
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/test_execution.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"execution" start time: Oct 13 17:27 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+L6E execution checks passed
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"execution" end time: Oct 13 17:27 Tokyo Standard Time
+"execution" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: python_binding
+4/4 Test: python_binding
+Command: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "-E" "env" "GR_OS_LIBRARY=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/Release/gr_native.dll" "PYTHONPATH=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/python" "PYTHONDONTWRITEBYTECODE=1" "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "-m" "unittest" "discover" "-s" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests" "-p" "test_python.py" "-v"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"python_binding" start time: Oct 13 17:27 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+test_artifact_closure_integrity_and_atomic_rejection (test_python.BindingTests.test_artifact_closure_integrity_and_atomic_rejection) ... ok
+test_c_boundary_invalid_requests_and_allocated_error_responses (test_python.BindingTests.test_c_boundary_invalid_requests_and_allocated_error_responses) ... ok
+test_competing_sqlite_handles_do_not_lose_accepted_write (test_python.BindingTests.test_competing_sqlite_handles_do_not_lose_accepted_write) ... ok
+test_core_graph_match_and_temporal_selection (test_python.BindingTests.test_core_graph_match_and_temporal_selection) ... ok
+test_execution_exact_bytes_and_failures (test_python.BindingTests.test_execution_exact_bytes_and_failures) ... ok
+test_invalid_candidate_does_not_reach_storage (test_python.BindingTests.test_invalid_candidate_does_not_reach_storage) ... ok
+test_memory_and_sqlite_round_trip_retry_and_history (test_python.BindingTests.test_memory_and_sqlite_round_trip_retry_and_history) ... ok
+test_numbers_are_rejected_without_cross_language_rounding (test_python.BindingTests.test_numbers_are_rejected_without_cross_language_rounding) ... ok
+test_pinned_old_record_hydration (test_python.BindingTests.test_pinned_old_record_hydration) ... ok
+test_unicode_integrity_and_unknown_payload_preservation (test_python.BindingTests.test_unicode_integrity_and_unknown_payload_preservation) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.087s
+
+OK
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"python_binding" end time: Oct 13 17:27 Tokyo Standard Time
+"python_binding" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 13 17:27 Tokyo Standard Time

@@ -1,0 +1,224 @@
+Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+Test project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+      Start  1: example_data_language
+ 1/37 Test  #1: example_data_language ............   Passed    0.35 sec
+      Start  2: example_extension
+ 2/37 Test  #2: example_extension ................   Passed    0.10 sec
+      Start  3: data_language
+ 3/37 Test  #3: data_language ....................   Passed    1.61 sec
+      Start  4: data_numeric
+ 4/37 Test  #4: data_numeric .....................   Passed    3.43 sec
+      Start  5: data_standard
+ 5/37 Test  #5: data_standard ....................   Passed    2.82 sec
+      Start  6: data_sparse
+ 6/37 Test  #6: data_sparse ......................   Passed   11.96 sec
+      Start  7: data_relational
+ 7/37 Test  #7: data_relational ..................   Passed   14.87 sec
+      Start  8: buffers
+ 8/37 Test  #8: buffers ..........................   Passed    0.07 sec
+      Start  9: access
+ 9/37 Test  #9: access ...........................   Passed    0.11 sec
+      Start 10: numerical
+10/37 Test #10: numerical ........................   Passed    0.11 sec
+      Start 11: buffer_execution
+11/37 Test #11: buffer_execution .................   Passed    0.28 sec
+      Start 12: compact_history
+12/37 Test #12: compact_history ..................   Passed   92.28 sec
+      Start 13: history_store
+13/37 Test #13: history_store ....................   Passed   33.80 sec
+      Start 14: admission
+14/37 Test #14: admission ........................   Passed    1.64 sec
+      Start 15: experimental_data
+15/37 Test #15: experimental_data ................   Passed    0.49 sec
+      Start 16: records
+16/37 Test #16: records ..........................   Passed    0.40 sec
+      Start 17: history
+17/37 Test #17: history ..........................   Passed   55.63 sec
+      Start 18: canonical
+18/37 Test #18: canonical ........................   Passed    0.29 sec
+      Start 19: storage
+19/37 Test #19: storage ..........................   Passed    5.06 sec
+      Start 20: sqlite
+20/37 Test #20: sqlite ...........................   Passed    1.81 sec
+      Start 21: execution
+21/37 Test #21: execution ........................   Passed    0.78 sec
+      Start 22: operations
+22/37 Test #22: operations .......................   Passed    0.37 sec
+      Start 23: planner
+23/37 Test #23: planner ..........................   Passed    0.46 sec
+      Start 24: prepared
+24/37 Test #24: prepared .........................   Passed    0.11 sec
+      Start 25: transactions
+25/37 Test #25: transactions .....................   Passed    1.95 sec
+      Start 26: runtime
+26/37 Test #26: runtime ..........................   Passed    2.92 sec
+      Start 27: runtime_recovery
+27/37 Test #27: runtime_recovery .................   Passed    0.43 sec
+      Start 28: runtime_crash
+28/37 Test #28: runtime_crash ....................   Passed    4.25 sec
+      Start 29: vendor_integrity
+29/37 Test #29: vendor_integrity .................   Passed    0.10 sec
+      Start 30: example_data_python
+30/37 Test #30: example_data_python ..............   Passed    2.73 sec
+      Start 31: python_data
+31/37 Test #31: python_data ......................   Passed   15.98 sec
+      Start 32: python_runtime
+32/37 Test #32: python_runtime ...................   Passed    5.01 sec
+      Start 33: python_buffers
+33/37 Test #33: python_buffers ...................   Passed    3.21 sec
+      Start 34: example_python
+34/37 Test #34: example_python ...................   Passed    1.68 sec
+      Start 35: example_runtime
+35/37 Test #35: example_runtime ..................   Passed    1.64 sec
+      Start 36: installed_sdk
+36/37 Test #36: installed_sdk ....................***Failed   16.40 sec
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/bin/_gr_buffer.pyd
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/c_api.h
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/bin/gr.exe
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_sqlite.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_common.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_buffer.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_semantics.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_core.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_storage.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_execution.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_runtime.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_data.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_data_standard.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_data_numeric.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_data_sparse.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_data_relational.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_experimental_data.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_native.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/bin/gr_native.dll
+-- Up-to-date: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include
+-- Up-to-date: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/common.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/core.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/data
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/data/language.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/data/numeric.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/data/relational.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/data/sparse.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/data/standard.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/data.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/execution
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/execution/backend.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/execution/cpu.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/execution/implementation.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/execution.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/experimental
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/experimental/data.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel/compact_history.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel/history.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel/numerical.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel/operations.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel/projections.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel/records.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel/record_operations.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel/types.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/memory
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/memory/access.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/memory/buffer.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/runtime
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/runtime/catalog.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/runtime/history_store.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/runtime/planner.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/runtime/scheduler.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/runtime/transaction.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/runtime.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/storage
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/storage/blob_reader.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/storage/contracts.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/storage/memory_store.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/storage/sqlite_store.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/storage.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/support
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/support/common.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/nlohmann/json.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/share/GR/licenses
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/share/GR/licenses/MANIFEST.json
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/share/GR/licenses/nlohmann
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/share/GR/licenses/nlohmann/LICENSE.MIT
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/share/GR/licenses/picosha2
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/share/GR/licenses/picosha2/LICENSE
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/share/GR/licenses/README.md
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/share/GR/licenses/sqlite
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/cmake/GR/GRTargets.cmake
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/cmake/GR/GRTargets-release.cmake
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/cmake/GR/GRConfig.cmake
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/cmake/GR/GRConfigVersion.cmake
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- The C compiler identification is MSVC 19.44.35209.0
+-- The CXX compiler identification is MSVC 19.44.35209.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Configuring done (7.5s)
+-- Generating done (0.1s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_BUILD_TYPE
+
+
+-- Build files have been written to: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/p/718a9d26/c
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/installed/CMakeLists.txt
+  main.c
+  consumer_c.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\c\Release\consumer_c.exe
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/installed/CMakeLists.txt
+  main.cpp
+  consumer_cpp.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\c\Release\consumer_cpp.exe
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/installed/CMakeLists.txt
+Traceback (most recent call last):
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tools\test_installed_sdk.py", line 81, in <module>
+    execute([executable], env=environment, cwd=run)
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tools\test_installed_sdk.py", line 28, in execute
+    subprocess.run([str(part) for part in command], check=True, **kwargs)
+  File "C:\Users\Micro\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\p\\718a9d26\\c\\Release\\consumer_c.exe']' returned non-zero exit status 3221225781.
+
+      Start 37: independent_package
+37/37 Test #37: independent_package ..............   Passed   72.67 sec
+
+97% tests passed, 1 tests failed out of 37
+
+Label Time Summary:
+conformance    = 192.42 sec*proc (15 tests)
+examples       =   6.49 sec*proc (5 tests)
+integration    =  64.56 sec*proc (7 tests)
+packaging      =  89.07 sec*proc (2 tests)
+unit           =   5.29 sec*proc (8 tests)
+
+Total Test time (real) = 357.95 sec
+
+The following tests FAILED:
+	 36 - installed_sdk (Failed)                            packaging
+ctest.exe : Errors while running CTest
+At line:2 char:1
++ & 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ID ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Errors while running CTest:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

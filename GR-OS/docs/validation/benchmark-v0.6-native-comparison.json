@@ -1,0 +1,402 @@
+{
+  "format": "gr.v0.6-matched-native-comparison/1",
+  "scope": "Unchanged native data source; final old/new then new/old execution order. Ratios compare medians within pairs; no significance claim.",
+  "pairs": [
+    {
+      "old_capture": "benchmark-v0.5-data-for-v0.6-pair1-final.json",
+      "new_capture": "benchmark-v0.6-data-pair1-final.json",
+      "cases": [
+        {
+          "name": "nullable_table_65536_construct",
+          "v0.5_median_ms": 12.9751,
+          "v0.6_median_ms": 2.5975,
+          "new_over_old": 0.2001911353284368,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_65536_infer_existing_literals",
+          "v0.5_median_ms": 0.1416,
+          "v0.6_median_ms": 0.1001,
+          "new_over_old": 0.7069209039548022,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_65536_compile_warm_input_digests",
+          "v0.5_median_ms": 34.5068,
+          "v0.6_median_ms": 6.9873,
+          "new_over_old": 0.20249052360694125,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_65536_prepared_serial",
+          "v0.5_median_ms": 149.8035,
+          "v0.6_median_ms": 5.755,
+          "new_over_old": 0.038416992927401555,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_65536_runtime_workers1",
+          "v0.5_median_ms": 193.7097,
+          "v0.6_median_ms": 7.5456,
+          "new_over_old": 0.038953134510042606,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_65536_runtime_workers4",
+          "v0.5_median_ms": 246.9632,
+          "v0.6_median_ms": 5.1995,
+          "new_over_old": 0.0210537440395978,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_65536_specialized_fused_host_loop",
+          "v0.5_median_ms": 0.302,
+          "v0.6_median_ms": 0.3074,
+          "new_over_old": 1.0178807947019868,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_262144_construct",
+          "v0.5_median_ms": 120.3869,
+          "v0.6_median_ms": 5.9562,
+          "new_over_old": 0.04947548279754691,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_262144_infer_existing_literals",
+          "v0.5_median_ms": 0.0858,
+          "v0.6_median_ms": 0.1986,
+          "new_over_old": 2.3146853146853146,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_262144_compile_warm_input_digests",
+          "v0.5_median_ms": 232.5798,
+          "v0.6_median_ms": 7.2462,
+          "new_over_old": 0.031155758152685658,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_262144_prepared_serial",
+          "v0.5_median_ms": 854.3571,
+          "v0.6_median_ms": 24.1377,
+          "new_over_old": 0.02825247194644956,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_262144_runtime_workers1",
+          "v0.5_median_ms": 1184.7186,
+          "v0.6_median_ms": 23.6341,
+          "new_over_old": 0.019949125471652087,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_262144_runtime_workers4",
+          "v0.5_median_ms": 819.7793,
+          "v0.6_median_ms": 20.4776,
+          "new_over_old": 0.024979406042577555,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_262144_specialized_fused_host_loop",
+          "v0.5_median_ms": 2.176,
+          "v0.6_median_ms": 1.2417,
+          "new_over_old": 0.5706341911764705,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_4096_construct",
+          "v0.5_median_ms": 0.7892,
+          "v0.6_median_ms": 0.4056,
+          "new_over_old": 0.5139381652306133,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_4096_direct_compile_warm_input_digests",
+          "v0.5_median_ms": 9.3558,
+          "v0.6_median_ms": 2.2946,
+          "new_over_old": 0.24525962504542637,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_4096_direct_prepared",
+          "v0.5_median_ms": 3.6677,
+          "v0.6_median_ms": 0.2553,
+          "new_over_old": 0.06960765602421137,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_4096_decoded_compile_warm_input_digests",
+          "v0.5_median_ms": 3.0945,
+          "v0.6_median_ms": 2.5297,
+          "new_over_old": 0.8174826304734206,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_4096_decoded_prepared",
+          "v0.5_median_ms": 3.0891,
+          "v0.6_median_ms": 0.3005,
+          "new_over_old": 0.09727752419798646,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_16384_construct",
+          "v0.5_median_ms": 3.6018,
+          "v0.6_median_ms": 1.9429,
+          "new_over_old": 0.5394247320784052,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_16384_direct_compile_warm_input_digests",
+          "v0.5_median_ms": 9.1175,
+          "v0.6_median_ms": 2.3241,
+          "new_over_old": 0.25490540170002746,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_16384_direct_prepared",
+          "v0.5_median_ms": 11.6914,
+          "v0.6_median_ms": 0.9207,
+          "new_over_old": 0.07875019244915066,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_16384_decoded_compile_warm_input_digests",
+          "v0.5_median_ms": 9.213,
+          "v0.6_median_ms": 2.3374,
+          "new_over_old": 0.25370671876695977,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_16384_decoded_prepared",
+          "v0.5_median_ms": 6.4926,
+          "v0.6_median_ms": 1.1696,
+          "new_over_old": 0.18014354803930627,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        }
+      ]
+    },
+    {
+      "old_capture": "benchmark-v0.5-data-for-v0.6-pair2-final.json",
+      "new_capture": "benchmark-v0.6-data-pair2-final.json",
+      "cases": [
+        {
+          "name": "nullable_table_65536_construct",
+          "v0.5_median_ms": 21.6146,
+          "v0.6_median_ms": 1.4168,
+          "new_over_old": 0.0655482868061403,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_65536_infer_existing_literals",
+          "v0.5_median_ms": 0.082,
+          "v0.6_median_ms": 0.0832,
+          "new_over_old": 1.0146341463414634,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_65536_compile_warm_input_digests",
+          "v0.5_median_ms": 32.4232,
+          "v0.6_median_ms": 7.173,
+          "new_over_old": 0.22123047694243628,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_65536_prepared_serial",
+          "v0.5_median_ms": 151.5927,
+          "v0.6_median_ms": 6.6147,
+          "new_over_old": 0.043634686894553625,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_65536_runtime_workers1",
+          "v0.5_median_ms": 128.8239,
+          "v0.6_median_ms": 6.0272,
+          "new_over_old": 0.046786349427396616,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_65536_runtime_workers4",
+          "v0.5_median_ms": 140.3821,
+          "v0.6_median_ms": 5.2754,
+          "new_over_old": 0.03757886511172008,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_65536_specialized_fused_host_loop",
+          "v0.5_median_ms": 0.6434,
+          "v0.6_median_ms": 0.3545,
+          "new_over_old": 0.5509791731426795,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_262144_construct",
+          "v0.5_median_ms": 71.6062,
+          "v0.6_median_ms": 7.156,
+          "new_over_old": 0.09993548044722383,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_262144_infer_existing_literals",
+          "v0.5_median_ms": 0.089,
+          "v0.6_median_ms": 0.1117,
+          "new_over_old": 1.2550561797752808,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_262144_compile_warm_input_digests",
+          "v0.5_median_ms": 188.7202,
+          "v0.6_median_ms": 7.2304,
+          "new_over_old": 0.03831280382280222,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_262144_prepared_serial",
+          "v0.5_median_ms": 933.1642,
+          "v0.6_median_ms": 23.5177,
+          "new_over_old": 0.025202102695324146,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_262144_runtime_workers1",
+          "v0.5_median_ms": 864.6664,
+          "v0.6_median_ms": 24.4437,
+          "new_over_old": 0.028269515272017046,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_262144_runtime_workers4",
+          "v0.5_median_ms": 1085.8105,
+          "v0.6_median_ms": 20.5502,
+          "new_over_old": 0.018926138584955662,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "nullable_table_262144_specialized_fused_host_loop",
+          "v0.5_median_ms": 2.623,
+          "v0.6_median_ms": 1.121,
+          "new_over_old": 0.4273732367518109,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_4096_construct",
+          "v0.5_median_ms": 1.1452,
+          "v0.6_median_ms": 0.4257,
+          "new_over_old": 0.37172546280125746,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_4096_direct_compile_warm_input_digests",
+          "v0.5_median_ms": 8.7288,
+          "v0.6_median_ms": 3.1679,
+          "new_over_old": 0.362925029786454,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_4096_direct_prepared",
+          "v0.5_median_ms": 4.1219,
+          "v0.6_median_ms": 0.269,
+          "new_over_old": 0.06526116596715108,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_4096_decoded_compile_warm_input_digests",
+          "v0.5_median_ms": 8.7782,
+          "v0.6_median_ms": 2.3744,
+          "new_over_old": 0.27048825499532936,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_4096_decoded_prepared",
+          "v0.5_median_ms": 5.0725,
+          "v0.6_median_ms": 0.5069,
+          "new_over_old": 0.09993100049285362,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_16384_construct",
+          "v0.5_median_ms": 4.19,
+          "v0.6_median_ms": 1.9391,
+          "new_over_old": 0.4627923627684964,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_16384_direct_compile_warm_input_digests",
+          "v0.5_median_ms": 10.8725,
+          "v0.6_median_ms": 3.3535,
+          "new_over_old": 0.30843872154518276,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_16384_direct_prepared",
+          "v0.5_median_ms": 9.3982,
+          "v0.6_median_ms": 1.9941,
+          "new_over_old": 0.2121789278798068,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_16384_decoded_compile_warm_input_digests",
+          "v0.5_median_ms": 8.71,
+          "v0.6_median_ms": 3.8622,
+          "new_over_old": 0.4434213547646383,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        },
+        {
+          "name": "csr_16384_decoded_prepared",
+          "v0.5_median_ms": 8.1042,
+          "v0.6_median_ms": 1.0786,
+          "new_over_old": 0.13309148342834579,
+          "workload_equal": true,
+          "output_digests_equal_when_present": true
+        }
+      ]
+    }
+  ]
+}

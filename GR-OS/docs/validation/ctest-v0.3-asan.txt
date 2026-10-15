@@ -1,0 +1,39 @@
+Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+Test project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+      Start  1: records
+ 1/14 Test  #1: records ..........................   Passed    0.34 sec
+      Start  2: history
+ 2/14 Test  #2: history ..........................   Passed   27.50 sec
+      Start  3: canonical
+ 3/14 Test  #3: canonical ........................   Passed    0.24 sec
+      Start  4: storage
+ 4/14 Test  #4: storage ..........................   Passed    4.12 sec
+      Start  5: sqlite
+ 5/14 Test  #5: sqlite ...........................   Passed    1.26 sec
+      Start  6: execution
+ 6/14 Test  #6: execution ........................   Passed    0.41 sec
+      Start  7: operations
+ 7/14 Test  #7: operations .......................   Passed    0.29 sec
+      Start  8: planner
+ 8/14 Test  #8: planner ..........................   Passed    0.41 sec
+      Start  9: prepared
+ 9/14 Test  #9: prepared .........................   Passed    0.06 sec
+      Start 10: transactions
+10/14 Test #10: transactions .....................   Passed    1.22 sec
+      Start 11: runtime
+11/14 Test #11: runtime ..........................   Passed    2.78 sec
+      Start 12: runtime_recovery
+12/14 Test #12: runtime_recovery .................   Passed    0.37 sec
+      Start 13: runtime_crash
+13/14 Test #13: runtime_crash ....................   Passed    3.65 sec
+      Start 14: vendor_integrity
+14/14 Test #14: vendor_integrity .................   Passed    0.10 sec
+
+100% tests passed, 0 tests failed out of 14
+
+Label Time Summary:
+conformance    =  33.52 sec*proc (7 tests)
+integration    =   4.91 sec*proc (2 tests)
+unit           =   4.31 sec*proc (5 tests)
+
+Total Test time (real) =  42.77 sec

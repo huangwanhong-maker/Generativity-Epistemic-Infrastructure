@@ -1,0 +1,188 @@
+[
+  {
+    "name": "old-common",
+    "command": [
+      "C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.3\\benchmarks\\run.py",
+      "--output",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\v0.3-pre-v0.4\\benchmark-common-rerun.json",
+      "--label",
+      "v0.3-matched",
+      "--repeats",
+      "5"
+    ],
+    "library": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.3\\install\\bin\\gr_native.dll",
+    "elapsed_seconds": 3.065248727798462,
+    "exit": 0
+  },
+  {
+    "name": "new-common",
+    "command": [
+      "C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\benchmarks\\run.py",
+      "--output",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.4.json",
+      "--label",
+      "v0.4",
+      "--repeats",
+      "5"
+    ],
+    "library": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\gr_native.dll",
+    "elapsed_seconds": 2.9980437755584717,
+    "exit": 0
+  },
+  {
+    "name": "compare-common",
+    "command": [
+      "C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\benchmarks\\compare.py",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\v0.3-pre-v0.4\\benchmark-common-rerun.json",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.4.json",
+      "--check"
+    ],
+    "library": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\gr_native.dll",
+    "elapsed_seconds": 0.0986478328704834,
+    "exit": 0
+  },
+  {
+    "name": "old-runtime",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.3\\benchmark_runtime.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\v0.3-pre-v0.4\\benchmark-runtime-rerun.json"
+    ],
+    "library": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.3\\install\\bin\\gr_native.dll",
+    "elapsed_seconds": 0.8821299076080322,
+    "exit": 0
+  },
+  {
+    "name": "new-runtime",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_runtime.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-runtime-v0.4.json"
+    ],
+    "library": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\gr_native.dll",
+    "elapsed_seconds": 0.9656224250793457,
+    "exit": 0
+  },
+  {
+    "name": "old-transactions",
+    "command": [
+      "C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.3\\benchmarks\\transactions.py",
+      "--output",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\v0.3-pre-v0.4\\benchmark-transactions-rerun.json",
+      "--mode",
+      "fixed"
+    ],
+    "library": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.3\\install\\bin\\gr_native.dll",
+    "elapsed_seconds": 50.16698598861694,
+    "exit": 0
+  },
+  {
+    "name": "new-transactions-optimistic",
+    "command": [
+      "C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\benchmarks\\transactions.py",
+      "--output",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.4-transactions-optimistic.json",
+      "--mode",
+      "fixed",
+      "--admission",
+      "optimistic"
+    ],
+    "library": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\gr_native.dll",
+    "elapsed_seconds": 41.6655490398407,
+    "exit": 0
+  },
+  {
+    "name": "new-transactions-serialized",
+    "command": [
+      "C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\benchmarks\\transactions.py",
+      "--output",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.4-transactions-serialized.json",
+      "--mode",
+      "fixed",
+      "--admission",
+      "serialized"
+    ],
+    "library": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\gr_native.dll",
+    "elapsed_seconds": 38.00798773765564,
+    "exit": 0
+  },
+  {
+    "name": "admission-1",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_admission.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\profile-v0.4-1"
+    ],
+    "library": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\gr_native.dll",
+    "elapsed_seconds": 18.353304624557495,
+    "exit": 0
+  },
+  {
+    "name": "admission-2",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_admission.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\profile-v0.4-2"
+    ],
+    "library": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\gr_native.dll",
+    "elapsed_seconds": 12.969934225082397,
+    "exit": 0
+  },
+  {
+    "name": "admission-3",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_admission.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\profile-v0.4-3"
+    ],
+    "library": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\gr_native.dll",
+    "elapsed_seconds": 12.982395887374878,
+    "exit": 0
+  },
+  {
+    "name": "old-history-reads",
+    "command": [
+      "C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\benchmarks\\history_reads.py",
+      "--output",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\v0.3-pre-v0.4\\benchmark-history-reads.json"
+    ],
+    "library": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.3\\install\\bin\\gr_native.dll",
+    "elapsed_seconds": 34.40377473831177,
+    "exit": 0
+  },
+  {
+    "name": "new-history-reads",
+    "command": [
+      "C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\benchmarks\\history_reads.py",
+      "--output",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.4-history-reads.json"
+    ],
+    "library": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\gr_native.dll",
+    "elapsed_seconds": 8.24769902229309,
+    "exit": 0
+  },
+  {
+    "name": "buffers",
+    "command": [
+      "C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\benchmarks\\buffers.py",
+      "--output",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.4-buffers.json"
+    ],
+    "library": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\gr_native.dll",
+    "elapsed_seconds": 0.8409209251403809,
+    "exit": 0
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "sdk": "0.5.0",
+  "fixture": {
+    "node": "identity",
+    "operation": "gr.bytes.identity@1",
+    "payload_hex": "47522d4f532064656661756c742d706c616e20636f6d7061746962696c6974792066697874757265207631",
+    "output": {
+      "node": "identity",
+      "output": 0
+    }
+  },
+  "plan": {
+    "accounted_plan_bytes": 2114,
+    "cache_scope": "this sealed catalog and planner",
+    "determinism": "exact results; scheduler trace ordering is separate",
+    "effects": "pure",
+    "format": "gr.runtime-plan/1",
+    "id": "sha256:c521b4aab5d85c0c8b768f68d7dff4e2bab23743335c9e145ec359bd2c683bac",
+    "literal_bytes": 43,
+    "nodes": [
+      {
+        "cpu_slots": 1,
+        "dependencies": [],
+        "id": "identity",
+        "max_input_bytes": 67108864,
+        "max_output_bytes": 67108864,
+        "operation": "gr.bytes.identity@1",
+        "selection": {
+          "backend": "cpu.sequential",
+          "backend_capabilities": {
+            "backend": "cpu.sequential",
+            "batch_item_limit": true,
+            "binding": "gr.host-values/1",
+            "byte_limits_scope": "aggregate_payload_bytes",
+            "callback_allocation_limit": false,
+            "callback_effect_rollback": false,
+            "callback_isolation": false,
+            "cancellation": "cooperative",
+            "deadline": "cooperative",
+            "deadline_monitor_threads_max": 1,
+            "determinism": [
+              "exact"
+            ],
+            "device_ids": [
+              "cpu:0"
+            ],
+            "device_kind": "cpu",
+            "device_transfer": false,
+            "effects": [
+              "pure"
+            ],
+            "input_ownership": "borrowed_until_return",
+            "max_threads_scope": "compute_workers",
+            "memory": "host",
+            "output_ownership": "owned",
+            "parallel": false,
+            "partial_results": false,
+            "stable_output_order": true,
+            "version": "2"
+          },
+          "backend_version": "3",
+          "binding": "gr.host-values/1",
+          "compatible_candidates": 2,
+          "contract_fingerprint": "sha256:ab419707613a6d0a0b2021c856639c6283bf97243d195bf23711904bc5a2262d",
+          "cpu_slots": 1,
+          "device": "cpu:0",
+          "device_kind": "cpu",
+          "execution": "single invocation on caller-owned thread",
+          "implementation": {
+            "backend_ids": [
+              "cpu.sequential",
+              "cpu.threaded"
+            ],
+            "binding": "gr.host-values/1",
+            "contract_fingerprint": "sha256:ab419707613a6d0a0b2021c856639c6283bf97243d195bf23711904bc5a2262d",
+            "determinism": "exact",
+            "device_kinds": [
+              "cpu"
+            ],
+            "id": "gr.cpu.identity.copy@1",
+            "memory_domains": [
+              "host"
+            ],
+            "metadata": {
+              "algorithm": "owned vector copy"
+            },
+            "operation": "gr.bytes.identity@1",
+            "thread_safe": true
+          },
+          "implementation_id": "gr.cpu.identity.copy@1",
+          "memory": "host",
+          "operation": "gr.bytes.identity@1",
+          "selection_policy": "explicit constraints, ordered provider preference, stable lexical tie-break; no execution fallback",
+          "validation_scope": "pinned descriptions and native value/pre/postconditions; no universal code proof"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "node": "identity",
+        "output": 0
+      }
+    ],
+    "transformations": []
+  }
+}

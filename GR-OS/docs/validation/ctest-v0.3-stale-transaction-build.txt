@@ -1,0 +1,64 @@
+Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+Test project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+      Start  1: example_extension
+ 1/19 Test  #1: example_extension ................   Passed    0.02 sec
+      Start  2: records
+ 2/19 Test  #2: records ..........................   Passed    0.02 sec
+      Start  3: history
+ 3/19 Test  #3: history ..........................   Passed    1.08 sec
+      Start  4: canonical
+ 4/19 Test  #4: canonical ........................   Passed    0.04 sec
+      Start  5: storage
+ 5/19 Test  #5: storage ..........................   Passed    0.42 sec
+      Start  6: sqlite
+ 6/19 Test  #6: sqlite ...........................   Passed    0.54 sec
+      Start  7: execution
+ 7/19 Test  #7: execution ........................   Passed    0.26 sec
+      Start  8: operations
+ 8/19 Test  #8: operations .......................   Passed    0.03 sec
+      Start  9: planner
+ 9/19 Test  #9: planner ..........................   Passed    0.08 sec
+      Start 10: prepared
+10/19 Test #10: prepared .........................   Passed    0.01 sec
+      Start 11: transactions
+11/19 Test #11: transactions .....................***Failed    0.16 sec
+Transaction conformance failed: Expected storage_error, got transaction_outcome_unknown: Backend publication failed without an acknowledged outcome; recover or retry the same request
+Artifacts: "C:\\Users\\Micro\\AppData\\Local\\Temp\\gr-os-storage-transactions-1519127682316000"
+
+      Start 12: runtime
+12/19 Test #12: runtime ..........................   Passed    1.69 sec
+      Start 13: runtime_crash
+13/19 Test #13: runtime_crash ....................   Passed    1.00 sec
+      Start 14: vendor_integrity
+14/19 Test #14: vendor_integrity .................   Passed    0.08 sec
+      Start 15: python_binding
+15/19 Test #15: python_binding ...................   Passed    9.20 sec
+      Start 16: python_runtime
+16/19 Test #16: python_runtime ...................   Passed    0.44 sec
+      Start 17: example_python
+17/19 Test #17: example_python ...................   Passed    0.24 sec
+      Start 18: example_runtime
+18/19 Test #18: example_runtime ..................   Passed    0.30 sec
+      Start 19: installed_sdk
+19/19 Test #19: installed_sdk ....................   Passed   17.77 sec
+
+95% tests passed, 1 tests failed out of 19
+
+Label Time Summary:
+conformance    =   1.82 sec*proc (7 tests)
+examples       =   0.56 sec*proc (3 tests)
+integration    =  11.18 sec*proc (4 tests)
+packaging      =  17.77 sec*proc (1 test)
+unit           =   2.05 sec*proc (4 tests)
+
+Total Test time (real) =  33.41 sec
+
+The following tests FAILED:
+	 11 - transactions (Failed)                             conformance
+ctest.exe : Errors while running CTest
+At line:2 char:1
++ & 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ID ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Errors while running CTest:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

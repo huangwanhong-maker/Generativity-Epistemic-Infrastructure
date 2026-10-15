@@ -1,0 +1,11 @@
+Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+Test project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+    Start 23: python_binding
+1/1 Test #23: python_binding ...................   Passed  474.26 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Label Time Summary:
+integration    = 474.26 sec*proc (1 test)
+
+Total Test time (real) = 474.29 sec

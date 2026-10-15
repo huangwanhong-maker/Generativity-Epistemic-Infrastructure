@@ -1,0 +1,14 @@
+command: C:\Users\Micro\AppData\Local\Programs\Python\Python312\python.exe -B C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\benchmarks\compare.py C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\docs\validation\v0.3-pre-v0.4\benchmark-common-rerun.json C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\docs\validation\benchmark-v0.4.json --check
+GR_OS_LIBRARY=C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\gr_native.dll
+PYTHONPATH=C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\bindings\python\src
+construct_100: 6.128 -> 6.223 ms (1.02x)
+validate_300: 11.295 -> 12.268 ms (1.09x)
+graph_300: 15.488 -> 14.159 ms (0.91x)
+apply_100_of_300: 29.120 -> 28.089 ms (0.96x)
+sha256_1MiB_cpu.sequential: 36.547 -> 30.494 ms (0.83x)
+sha256_1MiB_cpu.threaded: 28.644 -> 28.169 ms (0.98x)
+commit_100_memory: 14.461 -> 11.359 ms (0.79x)
+blob_4MiB_memory: 87.679 -> 93.054 ms (1.06x)
+commit_100_sqlite: 18.973 -> 18.217 ms (0.96x)
+blob_4MiB_sqlite: 95.843 -> 98.010 ms (1.02x)
+Compared 10 workloads; above 3x: []

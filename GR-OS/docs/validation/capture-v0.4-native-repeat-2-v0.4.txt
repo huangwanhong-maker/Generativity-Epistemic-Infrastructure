@@ -1,0 +1,7 @@
+command: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\Release\benchmark_runtime.exe C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\docs\validation\benchmark-runtime-v0.4-repeat-2.json
+prepared_identity_4096: median 1.4734 ms, p95 1.7953 ms
+runtime_identity_256: median 12.7996 ms, p95 15.4978 ms
+fork_join_hash_8x512KiB_serial: median 29.0397 ms, p95 32.44 ms
+fork_join_hash_8x512KiB_workers1: median 26.4115 ms, p95 29.2406 ms
+fork_join_hash_8x512KiB_workers2: median 12.6865 ms, p95 17.0456 ms
+fork_join_hash_8x512KiB_workers4: median 9.402 ms, p95 10.304 ms

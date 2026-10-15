@@ -1,0 +1,840 @@
+Start testing: Oct 15 17:54 Tokyo Standard Time
+----------------------------------------------------------
+1/37 Testing: example_data_language
+1/37 Test: example_data_language
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/example_data_language.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"example_data_language" start time: Oct 15 17:54 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+{"lineage":{"authority":"computational lineage only","kind":"gr.data.derived@1","output":0,"plan":"sha256:39f84ad5b28550810b5fa82a79405934d709fd64631cde08774a2bad84dec0b6","recipe":{"format":"gr.data.recipe@1","nodes":[{"id":"n0","kind":"input","name":"chunk","value":{"binding":"afeeb7da018b3130f234b658d53bd65e733c5fece982e694c54eb72d0c53bd6b","content":"sha256:c206bc6cb3a49cb089079a30ff83caef6ebad1339269781dcd5061964c4cea7a","provenance":{},"spec":{"representation":"gr.data.column-buffers@1","type":{"arguments":[{"arguments":[],"family":"gr.data.int64@1","parameters":{}}],"family":"gr.data.column@1","parameters":{"nullable":false}}}}},{"attributes":{"min_count":1,"nulls":"skip"},"id":"n1","inputs":[{"node":"n0","output":0}],"kind":"call","operation":"gr.data.operation.6a8c3f1267e27c29cad559669d7a0c38b8f98ac511381db76ae8c8a5f38ae41c@1","operator":{"determinism":"exact","effect":"pure","id":"gr.data.sum@1","meaning":"Checked left-to-right int64 sum, with explicit skip/propagate missingness and minimum present count; returns optional int64.","metadata":{},"qualifications":[]},"outputs":[{"representation":"gr.data.scalar-le@1","type":{"arguments":[{"arguments":[],"family":"gr.data.int64@1","parameters":{}}],"family":"gr.data.optional@1","parameters":{}}}],"selection":{"backend":"","device":"","implementation":"","prefer_implementations":[]}}],"outputs":[{"node":"n1","output":0}]},"recipe_id":"e82eeaa658c82b5ac83cfcbb5e88971a13e2e50fd9b2745d5e3fb3b37b2c75fd"},"sum":6}
+{"lineage":{"authority":"computational lineage only","kind":"gr.data.derived@1","output":0,"plan":"sha256:7ecb88f33ab5a3621b7ce1f698a4715c59e5901ed0a784f9ff12b2d82907614b","recipe":{"format":"gr.data.recipe@1","nodes":[{"id":"n0","kind":"input","name":"chunk","value":{"binding":"afeeb7da018b3130f234b658d53bd65e733c5fece982e694c54eb72d0c53bd6b","content":"sha256:a44a873fbf092422e95cf1a47697f72a0b919cabac3d2e86fe8cbc21f5be12d8","provenance":{},"spec":{"representation":"gr.data.column-buffers@1","type":{"arguments":[{"arguments":[],"family":"gr.data.int64@1","parameters":{}}],"family":"gr.data.column@1","parameters":{"nullable":false}}}}},{"attributes":{"min_count":1,"nulls":"skip"},"id":"n1","inputs":[{"node":"n0","output":0}],"kind":"call","operation":"gr.data.operation.6a8c3f1267e27c29cad559669d7a0c38b8f98ac511381db76ae8c8a5f38ae41c@1","operator":{"determinism":"exact","effect":"pure","id":"gr.data.sum@1","meaning":"Checked left-to-right int64 sum, with explicit skip/propagate missingness and minimum present count; returns optional int64.","metadata":{},"qualifications":[]},"outputs":[{"representation":"gr.data.scalar-le@1","type":{"arguments":[{"arguments":[],"family":"gr.data.int64@1","parameters":{}}],"family":"gr.data.optional@1","parameters":{}}}],"selection":{"backend":"","device":"","implementation":"","prefer_implementations":[]}}],"outputs":[{"node":"n1","output":0}]},"recipe_id":"9d7308fe3a818db0c4e1e15e6b24bb5bbab95a95b1a66f52240ea4575fb91c52"},"sum":15}
+<end of output>
+Test time =   0.35 sec
+----------------------------------------------------------
+Test Passed.
+"example_data_language" end time: Oct 15 17:54 Tokyo Standard Time
+"example_data_language" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/37 Testing: example_extension
+2/37 Test: example_extension
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/example_extension.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"example_extension" start time: Oct 15 17:54 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+{
+  "backend": "cpu.threaded",
+  "backend_version": "2",
+  "binding": "gr.host-values/1",
+  "buffer_accounting": "per value max(logical bytes, distinct retained owner bytes) plus descriptors",
+  "contract_fingerprint": "sha256:8e71b8938615e54defa6470404a8588b420a59134d0e6f8486caea3cb1f4e660",
+  "deadline_monitor_threads": 0,
+  "determinism": "exact",
+  "device": "cpu:0",
+  "device_copies": 0,
+  "effect": "pure",
+  "implementation": {
+    "backend_ids": [
+      "cpu.sequential",
+      "cpu.threaded"
+    ],
+    "binding": "gr.host-values/1",
+    "contract_fingerprint": "sha256:8e71b8938615e54defa6470404a8588b420a59134d0e6f8486caea3cb1f4e660",
+    "determinism": "exact",
+    "device_kinds": [
+      "cpu"
+    ],
+    "id": "example.cpu.reverse@1",
+    "memory_domains": [
+      "host"
+    ],
+    "metadata": {},
+    "operation": "example.bytes.reverse@1",
+    "thread_safe": true
+  },
+  "implementation_id": "example.cpu.reverse@1",
+  "input_bytes": 3,
+  "input_count": 2,
+  "input_ownership": "borrowed_until_return",
+  "input_type_fingerprints": {
+    "gr.bytes@1": "sha256:8dc7bbb3e5950d9b986c0d0896059b03730992f749803b93ccce54b6b230f0e5"
+  },
+  "memory": "host",
+  "operation": "example.bytes.reverse@1",
+  "output_bytes": 3,
+  "output_ownership": "owned",
+  "output_type_fingerprints": {
+    "gr.bytes@1": "sha256:8dc7bbb3e5950d9b986c0d0896059b03730992f749803b93ccce54b6b230f0e5"
+  },
+  "threads_used": 2,
+  "validation_scope": "exact descriptors and types, declared native pre/postconditions; not universal algorithm verification"
+}
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"example_extension" end time: Oct 15 17:54 Tokyo Standard Time
+"example_extension" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/37 Testing: data_language
+3/37 Test: data_language
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_data_language.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"data_language" start time: Oct 15 17:54 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+data language: 83 checks passed
+<end of output>
+Test time =   1.61 sec
+----------------------------------------------------------
+Test Passed.
+"data_language" end time: Oct 15 17:54 Tokyo Standard Time
+"data_language" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/37 Testing: data_numeric
+4/37 Test: data_numeric
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_data_numeric.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"data_numeric" start time: Oct 15 17:54 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+numeric data: 89 checks passed
+<end of output>
+Test time =   3.43 sec
+----------------------------------------------------------
+Test Passed.
+"data_numeric" end time: Oct 15 17:54 Tokyo Standard Time
+"data_numeric" time elapsed: 00:00:03
+----------------------------------------------------------
+
+5/37 Testing: data_standard
+5/37 Test: data_standard
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_data_standard.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"data_standard" start time: Oct 15 17:54 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+data standard: 42 checks passed
+<end of output>
+Test time =   2.82 sec
+----------------------------------------------------------
+Test Passed.
+"data_standard" end time: Oct 15 17:54 Tokyo Standard Time
+"data_standard" time elapsed: 00:00:02
+----------------------------------------------------------
+
+6/37 Testing: data_sparse
+6/37 Test: data_sparse
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_data_sparse.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"data_sparse" start time: Oct 15 17:54 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+data sparse: 108 checks passed
+<end of output>
+Test time =  11.96 sec
+----------------------------------------------------------
+Test Passed.
+"data_sparse" end time: Oct 15 17:54 Tokyo Standard Time
+"data_sparse" time elapsed: 00:00:11
+----------------------------------------------------------
+
+7/37 Testing: data_relational
+7/37 Test: data_relational
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_data_relational.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"data_relational" start time: Oct 15 17:54 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+61 qualified relational/history checks passed
+<end of output>
+Test time =  14.87 sec
+----------------------------------------------------------
+Test Passed.
+"data_relational" end time: Oct 15 17:55 Tokyo Standard Time
+"data_relational" time elapsed: 00:00:14
+----------------------------------------------------------
+
+8/37 Testing: buffers
+8/37 Test: buffers
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_buffers.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"buffers" start time: Oct 15 17:55 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+buffers: 51 checks passed
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"buffers" end time: Oct 15 17:55 Tokyo Standard Time
+"buffers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/37 Testing: access
+9/37 Test: access
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_access.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"access" start time: Oct 15 17:55 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+access: 58 checks passed
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"access" end time: Oct 15 17:55 Tokyo Standard Time
+"access" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/37 Testing: numerical
+10/37 Test: numerical
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_numerical.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"numerical" start time: Oct 15 17:55 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+numerical: 65557 checks passed
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"numerical" end time: Oct 15 17:55 Tokyo Standard Time
+"numerical" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/37 Testing: buffer_execution
+11/37 Test: buffer_execution
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_buffer_execution.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"buffer_execution" start time: Oct 15 17:55 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+buffer execution: 19 checks passed
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"buffer_execution" end time: Oct 15 17:55 Tokyo Standard Time
+"buffer_execution" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/37 Testing: compact_history
+12/37 Test: compact_history
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_compact_history.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"compact_history" start time: Oct 15 17:55 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+compact_history: 156 checks passed; 28 differential branching states and merge
+<end of output>
+Test time =  92.28 sec
+----------------------------------------------------------
+Test Passed.
+"compact_history" end time: Oct 15 17:56 Tokyo Standard Time
+"compact_history" time elapsed: 00:01:32
+----------------------------------------------------------
+
+13/37 Testing: history_store
+13/37 Test: history_store
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_history_store.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"history_store" start time: Oct 15 17:56 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+history_store: 81 checks passed across memory and SQLite
+<end of output>
+Test time =  33.80 sec
+----------------------------------------------------------
+Test Passed.
+"history_store" end time: Oct 15 17:57 Tokyo Standard Time
+"history_store" time elapsed: 00:00:33
+----------------------------------------------------------
+
+14/37 Testing: admission
+14/37 Test: admission
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_admission.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"admission" start time: Oct 15 17:57 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Validation reuse, immutable memo guards, serialized admission, cancellation, readers, cross-thread leases and exact replay passed
+<end of output>
+Test time =   1.64 sec
+----------------------------------------------------------
+Test Passed.
+"admission" end time: Oct 15 17:57 Tokyo Standard Time
+"admission" time elapsed: 00:00:01
+----------------------------------------------------------
+
+15/37 Testing: experimental_data
+15/37 Test: experimental_data
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_experimental_data.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"experimental_data" start time: Oct 15 17:57 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Experimental historical selection, qualified provenance and serial/threaded checked transform/sum passed
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"experimental_data" end time: Oct 15 17:57 Tokyo Standard Time
+"experimental_data" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/37 Testing: records
+16/37 Test: records
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_records.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"records" start time: Oct 15 17:57 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+core: 56 checks passed
+<end of output>
+Test time =   0.40 sec
+----------------------------------------------------------
+Test Passed.
+"records" end time: Oct 15 17:57 Tokyo Standard Time
+"records" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/37 Testing: history
+17/37 Test: history
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_history.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"history" start time: Oct 15 17:57 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+history: 63 checks passed, including 36 generated branching revisions
+<end of output>
+Test time =  55.63 sec
+----------------------------------------------------------
+Test Passed.
+"history" end time: Oct 15 17:58 Tokyo Standard Time
+"history" time elapsed: 00:00:55
+----------------------------------------------------------
+
+18/37 Testing: canonical
+18/37 Test: canonical
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_canonical.exe" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/conformance/canonical-v1.json"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"canonical" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+18 canonical vectors and 200 seeded fixed points passed
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"canonical" end time: Oct 15 17:58 Tokyo Standard Time
+"canonical" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/37 Testing: storage
+19/37 Test: storage
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_storage.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"storage" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Shared storage conformance: CAS/replay, snapshots, receipt lookup, model history, limits, ranges, cancellation and reader lifetime passed
+<end of output>
+Test time =   5.06 sec
+----------------------------------------------------------
+Test Passed.
+"storage" end time: Oct 15 17:58 Tokyo Standard Time
+"storage" time elapsed: 00:00:05
+----------------------------------------------------------
+
+20/37 Testing: sqlite
+20/37 Test: sqlite
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_sqlite.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"sqlite" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+SQLite integration: rollback/reopen, concurrent CAS/replay, corruption, pinned WAL readers, ledger guards and bounded object ranges passed
+<end of output>
+Test time =   1.81 sec
+----------------------------------------------------------
+Test Passed.
+"sqlite" end time: Oct 15 17:58 Tokyo Standard Time
+"sqlite" time elapsed: 00:00:01
+----------------------------------------------------------
+
+21/37 Testing: execution
+21/37 Test: execution
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_execution.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"execution" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+execution: 48 checks passed
+<end of output>
+Test time =   0.78 sec
+----------------------------------------------------------
+Test Passed.
+"execution" end time: Oct 15 17:58 Tokyo Standard Time
+"execution" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/37 Testing: operations
+22/37 Test: operations
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_operations.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"operations" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+operation conformance: 74 checks passed; bounded suites, not universal equivalence
+<end of output>
+Test time =   0.37 sec
+----------------------------------------------------------
+Test Passed.
+"operations" end time: Oct 15 17:58 Tokyo Standard Time
+"operations" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/37 Testing: planner
+23/37 Test: planner
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_planner.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"planner" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+planner: 55 checks passed
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Passed.
+"planner" end time: Oct 15 17:58 Tokyo Standard Time
+"planner" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/37 Testing: prepared
+24/37 Test: prepared
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_prepared.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"prepared" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+prepared: 10 checks passed
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"prepared" end time: Oct 15 17:58 Tokyo Standard Time
+"prepared" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/37 Testing: transactions
+25/37 Test: transactions
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_transactions.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"transactions" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Runtime transaction conformance: staging, isolation, rollback, history, limits, cancellation, unknown outcomes and exact recovery passed
+<end of output>
+Test time =   1.95 sec
+----------------------------------------------------------
+Test Passed.
+"transactions" end time: Oct 15 17:58 Tokyo Standard Time
+"transactions" time elapsed: 00:00:01
+----------------------------------------------------------
+
+26/37 Testing: runtime
+26/37 Test: runtime
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_runtime.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"runtime" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+runtime: 109 checks passed, including 80 concurrent-submitter jobs
+<end of output>
+Test time =   2.92 sec
+----------------------------------------------------------
+Test Passed.
+"runtime" end time: Oct 15 17:58 Tokyo Standard Time
+"runtime" time elapsed: 00:00:02
+----------------------------------------------------------
+
+27/37 Testing: runtime_recovery
+27/37 Test: runtime_recovery
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/test_runtime_recovery.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"runtime_recovery" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Runtime synchronous uncertain-outcome leases, receipt recovery and exact retry passed
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Passed.
+"runtime_recovery" end time: Oct 15 17:58 Tokyo Standard Time
+"runtime_recovery" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/37 Testing: runtime_crash
+28/37 Test: runtime_crash
+Command: "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/runtime_crash.py" "--worker" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/runtime_crash_worker.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"runtime_crash" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+{"process_crash_recovery": [{"phase": "before", "process_terminated": true, "committed_on_reopen": false, "exact_retry": true}, {"phase": "during", "process_terminated": true, "committed_on_reopen": false, "exact_retry": true}, {"phase": "after", "process_terminated": true, "committed_on_reopen": true, "exact_retry": true}], "power_loss_tested": false}
+<end of output>
+Test time =   4.25 sec
+----------------------------------------------------------
+Test Passed.
+"runtime_crash" end time: Oct 15 17:58 Tokyo Standard Time
+"runtime_crash" time elapsed: 00:00:04
+----------------------------------------------------------
+
+29/37 Testing: vendor_integrity
+29/37 Test: vendor_integrity
+Command: "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tools/verify_vendor.py"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"vendor_integrity" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Verified 7 vendored files
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"vendor_integrity" end time: Oct 15 17:58 Tokyo Standard Time
+"vendor_integrity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/37 Testing: example_data_python
+30/37 Test: example_data_python
+Command: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "-E" "env" "GR_OS_LIBRARY=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/gr_native.dll" "PYTHONPATH=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/bindings/python/src" "PYTHONDONTWRITEBYTECODE=1" "C:\Users\Micro\AppData\Local\Programs\Python\Python312\python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/examples/python/data_language.py"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"example_data_python" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+{"sum": 10, "lineage": {"authority": "computational lineage only", "kind": "gr.data.derived@1", "output": 0, "plan": "sha256:cc5b536454e8bd8d0621e75fcdfb8d53d522085229d04845b23c41b65f6767a6", "recipe": {"format": "gr.data.recipe@1", "nodes": [{"id": "n0", "kind": "input", "name": "chunk", "value": {"binding": "f1aee14ccce5fb56a70f595e685442308b225d1f8c380407045e9eea885c38eb", "content": "sha256:a349c84129d10667d93e784bb4397fbb94273e73f3fce8ef0ea726cc0ee888ca", "provenance": {}, "spec": {"representation": "gr.data.column-buffers@1", "type": {"arguments": [{"arguments": [], "family": "gr.data.int64@1", "parameters": {}}], "family": "gr.data.column@1", "parameters": {"nullable": true}}}}}, {"id": "n1", "kind": "literal", "value": {"binding": "93fb10cbbc683a550b3cbc1057088fda747b474f0280628af7fa2de984d3f1cf", "content": "sha256:396b66c5a959cee1d8aa0f3f68e2b106b509bde9ed24d3a1270e4e1600c90840", "provenance": {}, "spec": {"representation": "gr.data.scalar-le@1", "type": {"arguments": [], "family": "gr.data.int64@1", "parameters": {}}}}}, {"id": "n2", "kind": "literal", "value": {"binding": "93fb10cbbc683a550b3cbc1057088fda747b474f0280628af7fa2de984d3f1cf", "content": "sha256:1a09645d4fdab4baff295d88589d8a39726de28a0c5e91eab62d7f2e3ed6bff1", "provenance": {}, "spec": {"representation": "gr.data.scalar-le@1", "type": {"arguments": [], "family": "gr.data.int64@1", "parameters": {}}}}}, {"attributes": {}, "id": "n3", "inputs": [{"node": "n0", "output": 0}, {"node": "n1", "output": 0}, {"node": "n2", "output": 0}], "kind": "call", "operation": "gr.data.operation.3e1b3e53b456939d4a7d9a07eac223e1e5ec7f392580cce6e2466dd04b63760e@1", "operator": {"determinism": "exact", "effect": "pure", "id": "gr.data.affine@1", "meaning": "For each present int64 value, checked multiplication then checked addition; preserve missing slots and source order.", "metadata": {}, "qualifications": []}, "outputs": [{"representation": "gr.data.column-buffers@1", "type": {"arguments": [{"arguments": [], "family": "gr.data.int64@1", "parameters": {}}], "family": "gr.data.column@1", "parameters": {"nullable": true}}}], "selection": {"backend": "", "device": "", "implementation": "", "prefer_implementations": []}}, {"attributes": {"min_count": 1, "nulls": "skip"}, "id": "n4", "inputs": [{"node": "n3", "output": 0}], "kind": "call", "operation": "gr.data.operation.3ebe5c0ef6d8007e27a8291131e14d3484fccdd48e4aff68e78adfac20be9b1d@1", "operator": {"determinism": "exact", "effect": "pure", "id": "gr.data.sum@1", "meaning": "Checked left-to-right int64 sum, with explicit skip/propagate missingness and minimum present count; returns optional int64.", "metadata": {}, "qualifications": []}, "outputs": [{"representation": "gr.data.scalar-le@1", "type": {"arguments": [{"arguments": [], "family": "gr.data.int64@1", "parameters": {}}], "family": "gr.data.optional@1", "parameters": {}}}], "selection": {"backend": "", "device": "", "implementation": "", "prefer_implementations": []}}], "outputs": [{"node": "n4", "output": 0}]}, "recipe_id": "fa78dc68f463036ba020c9aff5ac3bc3100647d9030265f01da51903c772059c"}}
+{"sum": 20, "lineage": {"authority": "computational lineage only", "kind": "gr.data.derived@1", "output": 0, "plan": "sha256:dbe202a8158b10fae505940a89721a2a322e7f443c48da092b1e513ce035d143", "recipe": {"format": "gr.data.recipe@1", "nodes": [{"id": "n0", "kind": "input", "name": "chunk", "value": {"binding": "f1aee14ccce5fb56a70f595e685442308b225d1f8c380407045e9eea885c38eb", "content": "sha256:b3cfe45cad3fb9e3d314fea250e17c7ba99fd3618947011ca05f48f914b9e86f", "provenance": {}, "spec": {"representation": "gr.data.column-buffers@1", "type": {"arguments": [{"arguments": [], "family": "gr.data.int64@1", "parameters": {}}], "family": "gr.data.column@1", "parameters": {"nullable": true}}}}}, {"id": "n1", "kind": "literal", "value": {"binding": "93fb10cbbc683a550b3cbc1057088fda747b474f0280628af7fa2de984d3f1cf", "content": "sha256:396b66c5a959cee1d8aa0f3f68e2b106b509bde9ed24d3a1270e4e1600c90840", "provenance": {}, "spec": {"representation": "gr.data.scalar-le@1", "type": {"arguments": [], "family": "gr.data.int64@1", "parameters": {}}}}}, {"id": "n2", "kind": "literal", "value": {"binding": "93fb10cbbc683a550b3cbc1057088fda747b474f0280628af7fa2de984d3f1cf", "content": "sha256:1a09645d4fdab4baff295d88589d8a39726de28a0c5e91eab62d7f2e3ed6bff1", "provenance": {}, "spec": {"representation": "gr.data.scalar-le@1", "type": {"arguments": [], "family": "gr.data.int64@1", "parameters": {}}}}}, {"attributes": {}, "id": "n3", "inputs": [{"node": "n0", "output": 0}, {"node": "n1", "output": 0}, {"node": "n2", "output": 0}], "kind": "call", "operation": "gr.data.operation.3e1b3e53b456939d4a7d9a07eac223e1e5ec7f392580cce6e2466dd04b63760e@1", "operator": {"determinism": "exact", "effect": "pure", "id": "gr.data.affine@1", "meaning": "For each present int64 value, checked multiplication then checked addition; preserve missing slots and source order.", "metadata": {}, "qualifications": []}, "outputs": [{"representation": "gr.data.column-buffers@1", "type": {"arguments": [{"arguments": [], "family": "gr.data.int64@1", "parameters": {}}], "family": "gr.data.column@1", "parameters": {"nullable": true}}}], "selection": {"backend": "", "device": "", "implementation": "", "prefer_implementations": []}}, {"attributes": {"min_count": 1, "nulls": "skip"}, "id": "n4", "inputs": [{"node": "n3", "output": 0}], "kind": "call", "operation": "gr.data.operation.3ebe5c0ef6d8007e27a8291131e14d3484fccdd48e4aff68e78adfac20be9b1d@1", "operator": {"determinism": "exact", "effect": "pure", "id": "gr.data.sum@1", "meaning": "Checked left-to-right int64 sum, with explicit skip/propagate missingness and minimum present count; returns optional int64.", "metadata": {}, "qualifications": []}, "outputs": [{"representation": "gr.data.scalar-le@1", "type": {"arguments": [{"arguments": [], "family": "gr.data.int64@1", "parameters": {}}], "family": "gr.data.optional@1", "parameters": {}}}], "selection": {"backend": "", "device": "", "implementation": "", "prefer_implementations": []}}], "outputs": [{"node": "n4", "output": 0}]}, "recipe_id": "35ee502b98957bafaaf0837b6f48ec84372a36875663c00d68465580de3f12aa"}}
+{"uint64": [9223372036854775809, 9], "floating_capability": {"caller_environment": "saved and restored including exception flags, rounding, FTZ/DAZ", "other_compilers": "Floating execution disabled pending explicit platform conformance; storage and checked integer operations remain available", "platform": "MSVC x64/SSE2, IEEE binary64, FLT_EVAL_METHOD=0, explicitly strict configuration", "profile": {"complex_multiply_order": "ac,bd,ac-bd,ad,bc,ad+bc; each separately rounded", "contraction": "forbidden", "domain": "finite IEEE754 binary64 components", "equality": "numeric component equality; positive and negative zero compare equal", "exact_scope": "defined machine result on qualified strict x64/SSE2 environment; not exact reals", "id": "gr.binary64-ordered-finite@1", "overflow": "reject each nonfinite intermediate", "rounding": "nearest_even", "underflow": "gradual; rounded signed zero permitted"}, "supported": true}}
+NumPy readonly native export: [9223372036854775809                   9]
+<end of output>
+Test time =   2.73 sec
+----------------------------------------------------------
+Test Passed.
+"example_data_python" end time: Oct 15 17:58 Tokyo Standard Time
+"example_data_python" time elapsed: 00:00:02
+----------------------------------------------------------
+
+31/37 Testing: python_data
+31/37 Test: python_data
+Command: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "-E" "env" "GR_OS_LIBRARY=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/gr_native.dll" "GR_OS_CLI=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/gr.exe" "PYTHONPATH=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/bindings/python/src" "PYTHONDONTWRITEBYTECODE=1" "C:\Users\Micro\AppData\Local\Programs\Python\Python312\python.exe" "-B" "-m" "unittest" "discover" "-s" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration" "-p" "test_data.py" "-v"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"python_data" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+test_async_lifetimes_and_actual_plan_identity (test_data.DataTests.test_async_lifetimes_and_actual_plan_identity) ... ok
+test_cli_uses_same_language_handles (test_data.DataTests.test_cli_uses_same_language_handles) ... ok
+test_explicit_missing_policies_and_overflow (test_data.DataTests.test_explicit_missing_policies_and_overflow) ... ok
+test_full_int64_binary_and_finite_double_storage (test_data.DataTests.test_full_int64_binary_and_finite_double_storage) ... ok
+test_function_binding_composition_and_lifetime (test_data.DataTests.test_function_binding_composition_and_lifetime) ... ok
+test_function_partial_wrap_rolls_back_all_exports (test_data.DataTests.test_function_partial_wrap_rolls_back_all_exports) ... ok
+test_named_chunk_binding_ownership_and_rebinding (test_data.DataTests.test_named_chunk_binding_ownership_and_rebinding) ... ok
+test_native_freeze_and_generic_import (test_data.DataTests.test_native_freeze_and_generic_import) ... ok
+test_nullable_table_transform_filter_reduce (test_data.DataTests.test_nullable_table_transform_filter_reduce) ... ok
+test_numeric_full_width_nullable_and_providers (test_data.DataTests.test_numeric_full_width_nullable_and_providers) ... ok
+test_numpy_copy_import_readonly_export_lifetime_endian_and_strides (test_data.DataTests.test_numpy_copy_import_readonly_export_lifetime_endian_and_strides) ... ok
+test_numpy_uint64_complex_copy_and_export_lifetime (test_data.DataTests.test_numpy_uint64_complex_copy_and_export_lifetime) ... ok
+test_partial_result_wrapping_releases_all_handles (test_data.DataTests.test_partial_result_wrapping_releases_all_handles) ... ok
+test_qualified_historical_revision_selection (test_data.DataTests.test_qualified_historical_revision_selection) ... ok
+test_sparse_two_physical_providers (test_data.DataTests.test_sparse_two_physical_providers) ... ok
+test_uninstalled_extension_type_errors_and_strict_wire (test_data.DataTests.test_uninstalled_extension_type_errors_and_strict_wire) ... ok
+test_validation_cache_scope_and_numeric_dependency (test_data.DataTests.test_validation_cache_scope_and_numeric_dependency) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 12.793s
+
+OK
+<end of output>
+Test time =  15.98 sec
+----------------------------------------------------------
+Test Passed.
+"python_data" end time: Oct 15 17:58 Tokyo Standard Time
+"python_data" time elapsed: 00:00:15
+----------------------------------------------------------
+
+32/37 Testing: python_runtime
+32/37 Test: python_runtime
+Command: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "-E" "env" "GR_OS_LIBRARY=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/gr_native.dll" "GR_OS_CLI=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/gr.exe" "PYTHONPATH=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/bindings/python/src" "PYTHONDONTWRITEBYTECODE=1" "C:\Users\Micro\AppData\Local\Programs\Python\Python312\python.exe" "-B" "-m" "unittest" "discover" "-s" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration" "-p" "test_runtime.py" "-v"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"python_runtime" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+test_capabilities_and_run (test_runtime.CLITests.test_capabilities_and_run) ... ok
+test_strict_requests_terminal_status_and_session (test_runtime.CLITests.test_strict_requests_terminal_status_and_session) ... ok
+test_async_cancellation_is_not_masked_by_concurrent_close (test_runtime.RecoveryOwnershipTests.test_async_cancellation_is_not_masked_by_concurrent_close) ... ok
+test_chained_raise_preserves_uncertain_result (test_runtime.RecoveryOwnershipTests.test_chained_raise_preserves_uncertain_result) ... ok
+test_successful_run_releases_native_job (test_runtime.RecoveryOwnershipTests.test_successful_run_releases_native_job) ... ok
+test_uncertain_run_keeps_recovery_until_result_close (test_runtime.RecoveryOwnershipTests.test_uncertain_run_keeps_recovery_until_result_close) ... ok
+test_async_wait (test_runtime.RuntimeSDKTests.test_async_wait) ... ok
+test_deadline_structured_result_and_cancel_after_commit (test_runtime.RuntimeSDKTests.test_deadline_structured_result_and_cancel_after_commit) ... ok
+test_denied_publication_has_no_effects (test_runtime.RuntimeSDKTests.test_denied_publication_has_no_effects) ... ok
+test_fork_join_plan_lifetime_and_catalog (test_runtime.RuntimeSDKTests.test_fork_join_plan_lifetime_and_catalog) ... ok
+test_job_artifact_transaction_history_reopen (test_runtime.RuntimeSDKTests.test_job_artifact_transaction_history_reopen) ... ok
+test_large_wait_timeout_is_bounded_per_native_poll (test_runtime.RuntimeSDKTests.test_large_wait_timeout_is_bounded_per_native_poll) ... ok
+test_policy_denial_and_strict_options (test_runtime.RuntimeSDKTests.test_policy_denial_and_strict_options) ... ok
+test_record_validation_is_catalog_operation (test_runtime.RuntimeSDKTests.test_record_validation_is_catalog_operation) ... ok
+test_result_retention_capacity_and_release (test_runtime.RuntimeSDKTests.test_result_retention_capacity_and_release) ... ok
+test_same_plan_concurrent_submissions (test_runtime.RuntimeSDKTests.test_same_plan_concurrent_submissions) ... ok
+test_standalone_transaction_store_lease_and_rollback (test_runtime.RuntimeSDKTests.test_standalone_transaction_store_lease_and_rollback) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 2.771s
+
+OK
+<end of output>
+Test time =   5.01 sec
+----------------------------------------------------------
+Test Passed.
+"python_runtime" end time: Oct 15 17:58 Tokyo Standard Time
+"python_runtime" time elapsed: 00:00:05
+----------------------------------------------------------
+
+33/37 Testing: python_buffers
+33/37 Test: python_buffers
+Command: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "-E" "env" "GR_OS_LIBRARY=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/gr_native.dll" "GR_OS_CLI=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/gr.exe" "PYTHONPATH=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/bindings/python/src" "PYTHONDONTWRITEBYTECODE=1" "C:\Users\Micro\AppData\Local\Programs\Python\Python312\python.exe" "-B" "-m" "unittest" "discover" "-s" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration" "-p" "test_buffers.py" "-v"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"python_buffers" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+test_cli_binary_fallback_session (test_buffers.BufferTests.test_cli_binary_fallback_session) ... ok
+test_close_race_keeps_inflight_owner (test_buffers.BufferTests.test_close_race_keeps_inflight_owner) ... ok
+test_copy_import_and_owned_readonly_export (test_buffers.BufferTests.test_copy_import_and_owned_readonly_export) ... ok
+test_exact_overflow_is_failure_and_extension_is_optional (test_buffers.BufferTests.test_exact_overflow_is_failure_and_extension_is_optional) ... ok
+test_invalid_layout_and_offsets (test_buffers.BufferTests.test_invalid_layout_and_offsets) ... ok
+test_plan_owns_buffer_after_python_handle_close (test_buffers.BufferTests.test_plan_owns_buffer_after_python_handle_close) ... ok
+test_scalar_and_opaque_parameterized_export (test_buffers.BufferTests.test_scalar_and_opaque_parameterized_export) ... ok
+test_selected_history_and_serial_threaded_agree (test_buffers.BufferTests.test_selected_history_and_serial_threaded_agree) ... ok
+test_strides_copy_and_lifetime (test_buffers.BufferTests.test_strides_copy_and_lifetime) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.570s
+
+OK
+<end of output>
+Test time =   3.21 sec
+----------------------------------------------------------
+Test Passed.
+"python_buffers" end time: Oct 15 17:58 Tokyo Standard Time
+"python_buffers" time elapsed: 00:00:03
+----------------------------------------------------------
+
+34/37 Testing: example_python
+34/37 Test: example_python
+Command: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "-E" "env" "GR_OS_LIBRARY=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/gr_native.dll" "PYTHONPATH=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/bindings/python/src" "PYTHONDONTWRITEBYTECODE=1" "C:\Users\Micro\AppData\Local\Programs\Python\Python312\python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/examples/python/layers_5_6.py"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"example_python" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Accepted revision: r:6842e21251350ccccf0ebcff4a3c15f2bc3e009319c4c1a83b1a01d05fd5dd9c
+Graph nodes: 1
+Execution: {'backend': 'cpu.threaded', 'backend_version': '2', 'binding': 'gr.host-values/1', 'buffer_accounting': 'per value max(logical bytes, distinct retained owner bytes) plus descriptors', 'contract_fingerprint': 'sha256:60501cd32a86bb7a2cff8ef83446c7169fb780af1d99151e3d43a821b27c1d66', 'deadline_monitor_threads': 0, 'determinism': 'exact', 'device': 'cpu:0', 'device_copies': 0, 'effect': 'pure', 'implementation': {'backend_ids': ['cpu.sequential', 'cpu.threaded'], 'binding': 'gr.host-values/1', 'contract_fingerprint': 'sha256:60501cd32a86bb7a2cff8ef83446c7169fb780af1d99151e3d43a821b27c1d66', 'determinism': 'exact', 'device_kinds': ['cpu'], 'id': 'gr.cpu.sha256.oneshot@1', 'memory_domains': ['host'], 'metadata': {'algorithm': 'whole-buffer SHA-256', 'cancellation_granularity': 'before and after hashing', 'library': 'PicoSHA2'}, 'operation': 'gr.bytes.sha256@1', 'thread_safe': True}, 'implementation_id': 'gr.cpu.sha256.oneshot@1', 'input_bytes': 25, 'input_count': 1, 'input_ownership': 'borrowed_until_return', 'input_type_fingerprints': {'gr.bytes@1': 'sha256:8dc7bbb3e5950d9b986c0d0896059b03730992f749803b93ccce54b6b230f0e5'}, 'memory': 'host', 'operation': 'gr.bytes.sha256@1', 'output_bytes': 64, 'output_ownership': 'owned', 'output_type_fingerprints': {'gr.sha256-hex@1': 'sha256:27e2d8563fae229bd6840db758ff99d34a8800104b4410cd3faa50f7d2f73d22'}, 'threads_used': 1, 'validation_scope': 'exact descriptors and types, declared native pre/postconditions; not universal algorithm verification'}
+<end of output>
+Test time =   1.68 sec
+----------------------------------------------------------
+Test Passed.
+"example_python" end time: Oct 15 17:58 Tokyo Standard Time
+"example_python" time elapsed: 00:00:01
+----------------------------------------------------------
+
+35/37 Testing: example_runtime
+35/37 Test: example_runtime
+Command: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "-E" "env" "GR_OS_LIBRARY=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/Release/gr_native.dll" "PYTHONPATH=C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/bindings/python/src" "PYTHONDONTWRITEBYTECODE=1" "C:\Users\Micro\AppData\Local\Programs\Python\Python312\python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/examples/python/runtime.py"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"example_runtime" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+6f5aa9c30ff85e8bffc554471bc6a84824afe0df1fbf89067f8abbb8d0f8968c
+{'base_revision': '0', 'diagnostics': {'admission_policy': 'optimistic', 'admission_wait_ms': 0.0016, 'begin_ms': 4.0538, 'candidate_admission_ms': 1.4537, 'history': {'bytes': 1030, 'delta_depth': 0, 'new_bytes': 1467, 'new_objects': 3, 'objects': 2, 'read_bytes': 0, 'reconstructed_nodes': 1}, 'physical_commit_ms': 11.1526, 'publication_preparation_ms': 24.2648, 'validation': {'memo_hits': 5, 'retained_document_bytes': 316, 'retained_wrappers': 1, 'verified_wrappers': 1}}, 'history': {'catalogue_digest': 'sha256:23dfa6c4dc0c35c11ff76e3cfbbe5716c793a44afba9a2d27d25debdec4970b6', 'head': 'sha256:3bf9ad48d6ed88607720d2e662d199058b75d39f74fa7dae4f4d28b78e5f489d', 'manifest_version': 'sha256:e67ab401e786fc8ba916772b77cce886f45f2084a8ab220882a75b557e40deae', 'node_count': 1, 'representation': 'compact/1'}, 'publication': {'current_revision': 'r:6604f43ced656d704636de5cfd9dded9293a9d98965e1e64c9c9ed7e50e5da57', 'parent': '0', 'replayed': False, 'revision': 'r:6604f43ced656d704636de5cfd9dded9293a9d98965e1e64c9c9ed7e50e5da57'}, 'recovery_observation': '', 'request_digest': 'sha256:0195cb889513ba48b034cfa88d554c7abde0f993b9dfd77c281953c73ddfa011', 'state': 'committed', 'transaction_id': 'example:1', 'workspace': 'example'}
+<end of output>
+Test time =   1.64 sec
+----------------------------------------------------------
+Test Passed.
+"example_runtime" end time: Oct 15 17:58 Tokyo Standard Time
+"example_runtime" time elapsed: 00:00:01
+----------------------------------------------------------
+
+36/37 Testing: installed_sdk
+36/37 Test: installed_sdk
+Command: "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tools/test_installed_sdk.py" "--cmake" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "--build" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan" "--source" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS" "--config" "Release"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"installed_sdk" start time: Oct 15 17:58 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/bin/_gr_buffer.pyd
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/c_api.h
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/bin/gr.exe
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_sqlite.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_common.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_buffer.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_semantics.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_core.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_storage.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_execution.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_runtime.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_data.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_data_standard.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_data_numeric.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_data_sparse.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_data_relational.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_experimental_data.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/gr_native.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/bin/gr_native.dll
+-- Up-to-date: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include
+-- Up-to-date: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/common.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/core.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/data
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/data/language.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/data/numeric.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/data/relational.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/data/sparse.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/data/standard.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/data.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/execution
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/execution/backend.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/execution/cpu.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/execution/implementation.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/execution.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/experimental
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/experimental/data.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel/compact_history.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel/history.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel/numerical.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel/operations.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel/projections.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel/records.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel/record_operations.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/kernel/types.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/memory
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/memory/access.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/memory/buffer.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/runtime
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/runtime/catalog.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/runtime/history_store.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/runtime/planner.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/runtime/scheduler.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/runtime/transaction.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/runtime.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/storage
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/storage/blob_reader.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/storage/contracts.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/storage/memory_store.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/storage/sqlite_store.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/storage.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/support
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/gr/support/common.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/include/nlohmann/json.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/share/GR/licenses
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/share/GR/licenses/MANIFEST.json
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/share/GR/licenses/nlohmann
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/share/GR/licenses/nlohmann/LICENSE.MIT
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/share/GR/licenses/picosha2
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/share/GR/licenses/picosha2/LICENSE
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/share/GR/licenses/README.md
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/share/GR/licenses/sqlite
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/cmake/GR/GRTargets.cmake
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/cmake/GR/GRTargets-release.cmake
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/cmake/GR/GRConfig.cmake
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\stage/lib/cmake/GR/GRConfigVersion.cmake
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- The C compiler identification is MSVC 19.44.35209.0
+-- The CXX compiler identification is MSVC 19.44.35209.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Configuring done (7.5s)
+-- Generating done (0.1s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_BUILD_TYPE
+
+
+-- Build files have been written to: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/p/718a9d26/c
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/installed/CMakeLists.txt
+  main.c
+  consumer_c.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\c\Release\consumer_c.exe
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/installed/CMakeLists.txt
+  main.cpp
+  consumer_cpp.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\718a9d26\c\Release\consumer_cpp.exe
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/installed/CMakeLists.txt
+Traceback (most recent call last):
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tools\test_installed_sdk.py", line 81, in <module>
+    execute([executable], env=environment, cwd=run)
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tools\test_installed_sdk.py", line 28, in execute
+    subprocess.run([str(part) for part in command], check=True, **kwargs)
+  File "C:\Users\Micro\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\p\\718a9d26\\c\\Release\\consumer_c.exe']' returned non-zero exit status 3221225781.
+<end of output>
+Test time =  16.40 sec
+----------------------------------------------------------
+Test Failed.
+"installed_sdk" end time: Oct 15 17:59 Tokyo Standard Time
+"installed_sdk" time elapsed: 00:00:16
+----------------------------------------------------------
+
+37/37 Testing: independent_package
+37/37 Test: independent_package
+Command: "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tools/test_independent_package.py" "--cmake" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "--build" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan" "--source" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS" "--config" "Release"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"independent_package" start time: Oct 15 17:59 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Independent source package: missing/wrong SDK rejected; standalone build/conformance, relocated C++ Function composition, and installed Python wheel/C facade passed
+Artifacts: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\x\ee5e8379\artifacts.json
+<end of output>
+Test time =  72.67 sec
+----------------------------------------------------------
+Test Passed.
+"independent_package" end time: Oct 15 18:00 Tokyo Standard Time
+"independent_package" time elapsed: 00:01:12
+----------------------------------------------------------
+
+End testing: Oct 15 18:00 Tokyo Standard Time
+
+conformance = 192.42 sec*proc
+
+examples =   6.49 sec*proc
+
+integration =  64.56 sec*proc
+
+packaging =  89.07 sec*proc
+
+unit =   5.29 sec*proc
+

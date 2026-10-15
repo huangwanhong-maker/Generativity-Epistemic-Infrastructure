@@ -1,0 +1,913 @@
+{
+  "cases": [
+    {
+      "batch": {
+        "inner_scans": 64,
+        "max_ms": 0.0067125,
+        "median_ms": 0.0066,
+        "min_ms": 0.0065890625,
+        "samples_ms_per_scan": [
+          0.006596875,
+          0.0065890625,
+          0.0067125,
+          0.00668125,
+          0.0066
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -615,
+      "copy_then_batch": {
+        "inner_scans": 64,
+        "max_ms": 0.0686921875,
+        "median_ms": 0.0609109375,
+        "min_ms": 0.0569234375,
+        "samples_ms_per_scan": [
+          0.0617890625,
+          0.0609109375,
+          0.0569234375,
+          0.057128125,
+          0.0686921875
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 2048,
+      "elements": 256,
+      "input_logical_bytes": 2048,
+      "input_retained_owner_bytes": 2048,
+      "layout": "contiguous",
+      "nullable": false,
+      "owner_budget_peak_through_case": 4096,
+      "scalar": {
+        "inner_scans": 64,
+        "max_ms": 0.0225140625,
+        "median_ms": 0.019775,
+        "min_ms": 0.01865625,
+        "samples_ms_per_scan": [
+          0.0209875,
+          0.0225140625,
+          0.019775,
+          0.01865625,
+          0.0195640625
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 64,
+        "max_ms": 0.0073640625,
+        "median_ms": 0.0069671875,
+        "min_ms": 0.006809375,
+        "samples_ms_per_scan": [
+          0.006821875,
+          0.0069671875,
+          0.0073421875,
+          0.0073640625,
+          0.006809375
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -615,
+      "copy_then_batch": {
+        "inner_scans": 64,
+        "max_ms": 0.070909375,
+        "median_ms": 0.0679265625,
+        "min_ms": 0.06226875,
+        "samples_ms_per_scan": [
+          0.070909375,
+          0.0679265625,
+          0.06226875,
+          0.0644453125,
+          0.0695578125
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 2048,
+      "elements": 256,
+      "input_logical_bytes": 2048,
+      "input_retained_owner_bytes": 2048,
+      "layout": "reversed",
+      "nullable": false,
+      "owner_budget_peak_through_case": 4096,
+      "scalar": {
+        "inner_scans": 64,
+        "max_ms": 0.030475,
+        "median_ms": 0.0277265625,
+        "min_ms": 0.019615625,
+        "samples_ms_per_scan": [
+          0.030475,
+          0.0277609375,
+          0.0277265625,
+          0.0242671875,
+          0.019615625
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 64,
+        "max_ms": 0.0090421875,
+        "median_ms": 0.008615625,
+        "min_ms": 0.0076609375,
+        "samples_ms_per_scan": [
+          0.0076609375,
+          0.008028125,
+          0.008684375,
+          0.008615625,
+          0.0090421875
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -31744,
+      "copy_then_batch": {
+        "inner_scans": 64,
+        "max_ms": 0.103034375,
+        "median_ms": 0.06570625,
+        "min_ms": 0.0467640625,
+        "samples_ms_per_scan": [
+          0.103034375,
+          0.07265625,
+          0.06570625,
+          0.0532203125,
+          0.0467640625
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 2048,
+      "elements": 256,
+      "input_logical_bytes": 2048,
+      "input_retained_owner_bytes": 2048,
+      "layout": "broadcast",
+      "nullable": false,
+      "owner_budget_peak_through_case": 4096,
+      "scalar": {
+        "inner_scans": 64,
+        "max_ms": 0.020271875,
+        "median_ms": 0.01903125,
+        "min_ms": 0.0178796875,
+        "samples_ms_per_scan": [
+          0.01903125,
+          0.020271875,
+          0.01935625,
+          0.0178796875,
+          0.0180890625
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 64,
+        "max_ms": 0.0050015625,
+        "median_ms": 0.0034515625,
+        "min_ms": 0.003346875,
+        "samples_ms_per_scan": [
+          0.00335,
+          0.0050015625,
+          0.0034515625,
+          0.00346875,
+          0.003346875
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -401,
+      "copy_then_batch": {
+        "inner_scans": 64,
+        "max_ms": 0.0574078125,
+        "median_ms": 0.043378125,
+        "min_ms": 0.0405234375,
+        "samples_ms_per_scan": [
+          0.0574078125,
+          0.043378125,
+          0.0405234375,
+          0.042928125,
+          0.05084375
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 2304,
+      "elements": 256,
+      "input_logical_bytes": 2304,
+      "input_retained_owner_bytes": 2304,
+      "layout": "contiguous",
+      "nullable": true,
+      "owner_budget_peak_through_case": 4608,
+      "scalar": {
+        "inner_scans": 64,
+        "max_ms": 0.020215625,
+        "median_ms": 0.0190328125,
+        "min_ms": 0.0162390625,
+        "samples_ms_per_scan": [
+          0.020215625,
+          0.0190453125,
+          0.0189921875,
+          0.0190328125,
+          0.0162390625
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 64,
+        "max_ms": 0.0021265625,
+        "median_ms": 0.0020796875,
+        "min_ms": 0.0020265625,
+        "samples_ms_per_scan": [
+          0.0020265625,
+          0.00208125,
+          0.0020765625,
+          0.0021265625,
+          0.0020796875
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -401,
+      "copy_then_batch": {
+        "inner_scans": 64,
+        "max_ms": 0.0400140625,
+        "median_ms": 0.037309375,
+        "min_ms": 0.036496875,
+        "samples_ms_per_scan": [
+          0.03683125,
+          0.036496875,
+          0.038053125,
+          0.037309375,
+          0.0400140625
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 2304,
+      "elements": 256,
+      "input_logical_bytes": 2304,
+      "input_retained_owner_bytes": 2304,
+      "layout": "reversed",
+      "nullable": true,
+      "owner_budget_peak_through_case": 4608,
+      "scalar": {
+        "inner_scans": 64,
+        "max_ms": 0.015921875,
+        "median_ms": 0.0149859375,
+        "min_ms": 0.00925625,
+        "samples_ms_per_scan": [
+          0.0149859375,
+          0.015921875,
+          0.0152515625,
+          0.014265625,
+          0.00925625
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 64,
+        "max_ms": 0.0023890625,
+        "median_ms": 0.0023046875,
+        "min_ms": 0.0023,
+        "samples_ms_per_scan": [
+          0.0023046875,
+          0.0023046875,
+          0.0023890625,
+          0.0023,
+          0.0023578125
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -31744,
+      "copy_then_batch": {
+        "inner_scans": 64,
+        "max_ms": 0.04355625,
+        "median_ms": 0.0394921875,
+        "min_ms": 0.0386671875,
+        "samples_ms_per_scan": [
+          0.0393171875,
+          0.0386671875,
+          0.0428640625,
+          0.04355625,
+          0.0394921875
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 2304,
+      "elements": 256,
+      "input_logical_bytes": 2304,
+      "input_retained_owner_bytes": 2304,
+      "layout": "broadcast",
+      "nullable": true,
+      "owner_budget_peak_through_case": 4608,
+      "scalar": {
+        "inner_scans": 64,
+        "max_ms": 0.0112703125,
+        "median_ms": 0.0101546875,
+        "min_ms": 0.0100515625,
+        "samples_ms_per_scan": [
+          0.010053125,
+          0.0100515625,
+          0.0101546875,
+          0.010165625,
+          0.0112703125
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 1,
+        "max_ms": 0.1904,
+        "median_ms": 0.1837,
+        "min_ms": 0.1836,
+        "samples_ms_per_scan": [
+          0.1836,
+          0.1836,
+          0.1837,
+          0.1844,
+          0.1904
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -6279,
+      "copy_then_batch": {
+        "inner_scans": 1,
+        "max_ms": 0.2717,
+        "median_ms": 0.2661,
+        "min_ms": 0.2638,
+        "samples_ms_per_scan": [
+          0.2681,
+          0.2661,
+          0.2638,
+          0.2642,
+          0.2717
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 131072,
+      "elements": 16384,
+      "input_logical_bytes": 131072,
+      "input_retained_owner_bytes": 131072,
+      "layout": "contiguous",
+      "nullable": false,
+      "owner_budget_peak_through_case": 262144,
+      "scalar": {
+        "inner_scans": 1,
+        "max_ms": 0.6537,
+        "median_ms": 0.4135,
+        "min_ms": 0.413,
+        "samples_ms_per_scan": [
+          0.4135,
+          0.413,
+          0.4131,
+          0.4546,
+          0.6537
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 1,
+        "max_ms": 0.2015,
+        "median_ms": 0.1952,
+        "min_ms": 0.187,
+        "samples_ms_per_scan": [
+          0.1952,
+          0.187,
+          0.1872,
+          0.199,
+          0.2015
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -6279,
+      "copy_then_batch": {
+        "inner_scans": 1,
+        "max_ms": 0.724,
+        "median_ms": 0.4969,
+        "min_ms": 0.4777,
+        "samples_ms_per_scan": [
+          0.724,
+          0.5846,
+          0.4777,
+          0.4969,
+          0.4879
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 131072,
+      "elements": 16384,
+      "input_logical_bytes": 131072,
+      "input_retained_owner_bytes": 131072,
+      "layout": "reversed",
+      "nullable": false,
+      "owner_budget_peak_through_case": 262144,
+      "scalar": {
+        "inner_scans": 1,
+        "max_ms": 0.6245,
+        "median_ms": 0.6178,
+        "min_ms": 0.6107,
+        "samples_ms_per_scan": [
+          0.615,
+          0.6216,
+          0.6245,
+          0.6178,
+          0.6107
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 1,
+        "max_ms": 0.1755,
+        "median_ms": 0.1707,
+        "min_ms": 0.1701,
+        "samples_ms_per_scan": [
+          0.1701,
+          0.1735,
+          0.1755,
+          0.1707,
+          0.1704
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -2031616,
+      "copy_then_batch": {
+        "inner_scans": 1,
+        "max_ms": 0.5345,
+        "median_ms": 0.4516,
+        "min_ms": 0.4429,
+        "samples_ms_per_scan": [
+          0.5345,
+          0.4516,
+          0.4435,
+          0.4429,
+          0.4518
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 131072,
+      "elements": 16384,
+      "input_logical_bytes": 131072,
+      "input_retained_owner_bytes": 131072,
+      "layout": "broadcast",
+      "nullable": false,
+      "owner_budget_peak_through_case": 262144,
+      "scalar": {
+        "inner_scans": 1,
+        "max_ms": 0.4934,
+        "median_ms": 0.4895,
+        "min_ms": 0.4883,
+        "samples_ms_per_scan": [
+          0.4883,
+          0.4883,
+          0.4934,
+          0.4895,
+          0.4896
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 1,
+        "max_ms": 0.1298,
+        "median_ms": 0.1291,
+        "min_ms": 0.1288,
+        "samples_ms_per_scan": [
+          0.1298,
+          0.1288,
+          0.1289,
+          0.1291,
+          0.1292
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -5220,
+      "copy_then_batch": {
+        "inner_scans": 1,
+        "max_ms": 0.2941,
+        "median_ms": 0.2174,
+        "min_ms": 0.212,
+        "samples_ms_per_scan": [
+          0.2174,
+          0.212,
+          0.2173,
+          0.2941,
+          0.2755
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 147456,
+      "elements": 16384,
+      "input_logical_bytes": 147456,
+      "input_retained_owner_bytes": 147456,
+      "layout": "contiguous",
+      "nullable": true,
+      "owner_budget_peak_through_case": 294912,
+      "scalar": {
+        "inner_scans": 1,
+        "max_ms": 0.6677,
+        "median_ms": 0.6599,
+        "min_ms": 0.6474,
+        "samples_ms_per_scan": [
+          0.6677,
+          0.6599,
+          0.657,
+          0.6624,
+          0.6474
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 1,
+        "max_ms": 0.133,
+        "median_ms": 0.1285,
+        "min_ms": 0.128,
+        "samples_ms_per_scan": [
+          0.1285,
+          0.1285,
+          0.1281,
+          0.128,
+          0.133
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -5220,
+      "copy_then_batch": {
+        "inner_scans": 1,
+        "max_ms": 0.8121,
+        "median_ms": 0.6924,
+        "min_ms": 0.6277,
+        "samples_ms_per_scan": [
+          0.6924,
+          0.6948,
+          0.8121,
+          0.6308,
+          0.6277
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 147456,
+      "elements": 16384,
+      "input_logical_bytes": 147456,
+      "input_retained_owner_bytes": 147456,
+      "layout": "reversed",
+      "nullable": true,
+      "owner_budget_peak_through_case": 294912,
+      "scalar": {
+        "inner_scans": 1,
+        "max_ms": 0.6806,
+        "median_ms": 0.6197,
+        "min_ms": 0.5926,
+        "samples_ms_per_scan": [
+          0.6806,
+          0.6197,
+          0.6465,
+          0.6021,
+          0.5926
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 1,
+        "max_ms": 0.1442,
+        "median_ms": 0.1439,
+        "min_ms": 0.1439,
+        "samples_ms_per_scan": [
+          0.1442,
+          0.1439,
+          0.144,
+          0.1439,
+          0.1439
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -2031616,
+      "copy_then_batch": {
+        "inner_scans": 1,
+        "max_ms": 1.4974,
+        "median_ms": 1.0015,
+        "min_ms": 0.6756,
+        "samples_ms_per_scan": [
+          0.6756,
+          1.2681,
+          1.4974,
+          1.0015,
+          0.9165
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 147456,
+      "elements": 16384,
+      "input_logical_bytes": 147456,
+      "input_retained_owner_bytes": 147456,
+      "layout": "broadcast",
+      "nullable": true,
+      "owner_budget_peak_through_case": 294912,
+      "scalar": {
+        "inner_scans": 1,
+        "max_ms": 0.6706,
+        "median_ms": 0.645,
+        "min_ms": 0.636,
+        "samples_ms_per_scan": [
+          0.645,
+          0.6457,
+          0.6706,
+          0.6393,
+          0.636
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 1,
+        "max_ms": 2.6576,
+        "median_ms": 2.5088,
+        "min_ms": 2.3528,
+        "samples_ms_per_scan": [
+          2.6048,
+          2.6576,
+          2.4028,
+          2.3528,
+          2.5088
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -7550,
+      "copy_then_batch": {
+        "inner_scans": 1,
+        "max_ms": 3.5094,
+        "median_ms": 3.2384,
+        "min_ms": 2.9201,
+        "samples_ms_per_scan": [
+          2.9201,
+          3.2635,
+          3.1335,
+          3.5094,
+          3.2384
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 2097152,
+      "elements": 262144,
+      "input_logical_bytes": 2097152,
+      "input_retained_owner_bytes": 2097152,
+      "layout": "contiguous",
+      "nullable": false,
+      "owner_budget_peak_through_case": 4194304,
+      "scalar": {
+        "inner_scans": 1,
+        "max_ms": 9.185,
+        "median_ms": 8.4951,
+        "min_ms": 7.8784,
+        "samples_ms_per_scan": [
+          7.8784,
+          9.185,
+          8.156,
+          8.4951,
+          8.8333
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 1,
+        "max_ms": 3.1059,
+        "median_ms": 3.0532,
+        "min_ms": 2.495,
+        "samples_ms_per_scan": [
+          2.5789,
+          2.495,
+          3.1039,
+          3.0532,
+          3.1059
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -7550,
+      "copy_then_batch": {
+        "inner_scans": 1,
+        "max_ms": 6.6934,
+        "median_ms": 6.2581,
+        "min_ms": 6.1374,
+        "samples_ms_per_scan": [
+          6.4383,
+          6.2581,
+          6.1374,
+          6.6934,
+          6.2405
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 2097152,
+      "elements": 262144,
+      "input_logical_bytes": 2097152,
+      "input_retained_owner_bytes": 2097152,
+      "layout": "reversed",
+      "nullable": false,
+      "owner_budget_peak_through_case": 4194304,
+      "scalar": {
+        "inner_scans": 1,
+        "max_ms": 7.8217,
+        "median_ms": 7.0972,
+        "min_ms": 6.8736,
+        "samples_ms_per_scan": [
+          7.0972,
+          7.8217,
+          7.078,
+          6.8736,
+          7.1385
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 1,
+        "max_ms": 2.4439,
+        "median_ms": 2.3491,
+        "min_ms": 2.2665,
+        "samples_ms_per_scan": [
+          2.3094,
+          2.2665,
+          2.4439,
+          2.3576,
+          2.3491
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -32505856,
+      "copy_then_batch": {
+        "inner_scans": 1,
+        "max_ms": 8.9929,
+        "median_ms": 8.6457,
+        "min_ms": 6.5197,
+        "samples_ms_per_scan": [
+          6.5197,
+          8.6457,
+          7.3651,
+          8.9929,
+          8.8272
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 2097152,
+      "elements": 262144,
+      "input_logical_bytes": 2097152,
+      "input_retained_owner_bytes": 2097152,
+      "layout": "broadcast",
+      "nullable": false,
+      "owner_budget_peak_through_case": 4194304,
+      "scalar": {
+        "inner_scans": 1,
+        "max_ms": 8.857,
+        "median_ms": 6.7397,
+        "min_ms": 6.607,
+        "samples_ms_per_scan": [
+          6.6585,
+          6.607,
+          6.9955,
+          6.7397,
+          8.857
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 1,
+        "max_ms": 3.7596,
+        "median_ms": 2.6645,
+        "min_ms": 2.4828,
+        "samples_ms_per_scan": [
+          2.4828,
+          3.0614,
+          2.6271,
+          2.6645,
+          3.7596
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -6335,
+      "copy_then_batch": {
+        "inner_scans": 1,
+        "max_ms": 4.5853,
+        "median_ms": 3.8847,
+        "min_ms": 3.7222,
+        "samples_ms_per_scan": [
+          3.8847,
+          4.5853,
+          4.044,
+          3.7222,
+          3.7273
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 2359296,
+      "elements": 262144,
+      "input_logical_bytes": 2359296,
+      "input_retained_owner_bytes": 2359296,
+      "layout": "contiguous",
+      "nullable": true,
+      "owner_budget_peak_through_case": 4718592,
+      "scalar": {
+        "inner_scans": 1,
+        "max_ms": 19.9009,
+        "median_ms": 11.3376,
+        "min_ms": 10.0993,
+        "samples_ms_per_scan": [
+          11.3376,
+          10.2246,
+          10.0993,
+          15.4534,
+          19.9009
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 1,
+        "max_ms": 2.4714,
+        "median_ms": 2.2782,
+        "min_ms": 2.0653,
+        "samples_ms_per_scan": [
+          2.0771,
+          2.2782,
+          2.4714,
+          2.304,
+          2.0653
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -6335,
+      "copy_then_batch": {
+        "inner_scans": 1,
+        "max_ms": 12.017,
+        "median_ms": 10.3549,
+        "min_ms": 9.8108,
+        "samples_ms_per_scan": [
+          9.8108,
+          10.3549,
+          12.017,
+          10.0781,
+          10.3876
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 2359296,
+      "elements": 262144,
+      "input_logical_bytes": 2359296,
+      "input_retained_owner_bytes": 2359296,
+      "layout": "reversed",
+      "nullable": true,
+      "owner_budget_peak_through_case": 4718592,
+      "scalar": {
+        "inner_scans": 1,
+        "max_ms": 16.7931,
+        "median_ms": 10.9596,
+        "min_ms": 10.0741,
+        "samples_ms_per_scan": [
+          10.0741,
+          16.7931,
+          10.7282,
+          12.8336,
+          10.9596
+        ]
+      }
+    },
+    {
+      "batch": {
+        "inner_scans": 1,
+        "max_ms": 3.751,
+        "median_ms": 2.3198,
+        "min_ms": 2.3046,
+        "samples_ms_per_scan": [
+          2.3198,
+          2.3046,
+          2.3051,
+          3.3839,
+          3.751
+        ]
+      },
+      "batch_payload_copies": 0,
+      "checksum": -32505856,
+      "copy_then_batch": {
+        "inner_scans": 1,
+        "max_ms": 11.9899,
+        "median_ms": 10.1439,
+        "min_ms": 9.7567,
+        "samples_ms_per_scan": [
+          10.792,
+          10.1439,
+          10.0003,
+          9.7567,
+          11.9899
+        ]
+      },
+      "copy_then_batch_payload_bytes_per_scan": 2359296,
+      "elements": 262144,
+      "input_logical_bytes": 2359296,
+      "input_retained_owner_bytes": 2359296,
+      "layout": "broadcast",
+      "nullable": true,
+      "owner_budget_peak_through_case": 4718592,
+      "scalar": {
+        "inner_scans": 1,
+        "max_ms": 14.5718,
+        "median_ms": 11.1279,
+        "min_ms": 10.5413,
+        "samples_ms_per_scan": [
+          14.5718,
+          11.1279,
+          11.5621,
+          10.7412,
+          10.5413
+        ]
+      }
+    }
+  ],
+  "format": "gr.access-profile/1",
+  "method": {
+    "memory": "Requested owned buffer bytes; not metadata, temporary vectors or process RSS",
+    "purpose": "Controlled checked scalar geometry/name lookup versus owning batch access; both use same endian load and checked sum",
+    "samples": 5,
+    "scope": "Access and explicit copying only; not full operation validation, compilation, transport or scheduler",
+    "timing": "Per-scan wall clock; checks outside timed interval; copy case includes allocation/destruction",
+    "warmups": 1
+  }
+}

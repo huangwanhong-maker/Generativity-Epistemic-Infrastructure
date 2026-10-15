@@ -1,0 +1,229 @@
+[
+  {
+    "name": "benchmark-v0.5-data-for-v0.6-pair1",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.5\\benchmark_data.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.5-data-for-v0.6-pair1-final.json"
+    ],
+    "started_utc": "2026-10-15T09:03:05.314119+00:00",
+    "elapsed_s": 29.140000000130385,
+    "returncode": 0,
+    "command_file_sha256": {
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.5\\benchmark_data.exe": "dcb1d55e7094cd3ed6f5602bf846590924486a54d15a652100c449b444fc588f"
+    },
+    "environment_overrides": {},
+    "capture_sha256": "008ed213688803933ce1663bb82dbf914775188e24169413d24e5d69bf835cc7"
+  },
+  {
+    "name": "benchmark-v0.6-data-pair1",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_data.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.6-data-pair1-final.json"
+    ],
+    "started_utc": "2026-10-15T09:03:34.475237+00:00",
+    "elapsed_s": 1.577999999979511,
+    "returncode": 0,
+    "command_file_sha256": {
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_data.exe": "b4f8dc192393117b3f48b9a14c355c64355e8aa24392b1ba214ff69fd113f5ee"
+    },
+    "environment_overrides": {},
+    "capture_sha256": "ebc1dd291c087cc7387660738716c86f953dcdee8eb65f61a08b4989bf8b0586"
+  },
+  {
+    "name": "benchmark-v0.6-data-pair2",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_data.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.6-data-pair2-final.json"
+    ],
+    "started_utc": "2026-10-15T09:03:36.060697+00:00",
+    "elapsed_s": 1.4839999999385327,
+    "returncode": 0,
+    "command_file_sha256": {
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_data.exe": "b4f8dc192393117b3f48b9a14c355c64355e8aa24392b1ba214ff69fd113f5ee"
+    },
+    "environment_overrides": {},
+    "capture_sha256": "f49ff2b89dc68a1851ee84df966f037a8b3546da4d4c9d7314d657dd14bd99fe"
+  },
+  {
+    "name": "benchmark-v0.5-data-for-v0.6-pair2",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.5\\benchmark_data.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.5-data-for-v0.6-pair2-final.json"
+    ],
+    "started_utc": "2026-10-15T09:03:37.569588+00:00",
+    "elapsed_s": 26.812000000150874,
+    "returncode": 0,
+    "command_file_sha256": {
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.5\\benchmark_data.exe": "dcb1d55e7094cd3ed6f5602bf846590924486a54d15a652100c449b444fc588f"
+    },
+    "environment_overrides": {},
+    "capture_sha256": "9a46747cbf0a811a10febb769645d0a7537e46246d35b29b6cade956efe70bdd"
+  },
+  {
+    "name": "benchmark-v0.5-relational-for-v0.6",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.5\\benchmark_data_relational.exe"
+    ],
+    "started_utc": "2026-10-15T09:04:04.396659+00:00",
+    "elapsed_s": 5.344000000040978,
+    "returncode": 0,
+    "command_file_sha256": {
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.5\\benchmark_data_relational.exe": "e3eaf19b6630f2341e9c5bc029a2b1d0d2dad70f23ad26d8dfc69f48545bd6e4"
+    },
+    "environment_overrides": {},
+    "capture_sha256": "82d63c257ac4742e015f0ede887559df5187214383d553232c4708ca0c2b8760"
+  },
+  {
+    "name": "benchmark-v0.6-relational",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_data_relational.exe"
+    ],
+    "started_utc": "2026-10-15T09:04:09.750725+00:00",
+    "elapsed_s": 2.031999999890104,
+    "returncode": 0,
+    "command_file_sha256": {
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_data_relational.exe": "4e38f89cf9467422398b845f6650485a1ae416ee4f4fe4846ea45d4cb82641d9"
+    },
+    "environment_overrides": {},
+    "capture_sha256": "4378f22eb9e8546f369bff3dc99841aa220021b342e718eadf327f994816bfad"
+  },
+  {
+    "name": "benchmark-v0.5-runtime-for-v0.6",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.5\\benchmark_runtime.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.5-runtime-for-v0.6-final.json"
+    ],
+    "started_utc": "2026-10-15T09:04:11.798184+00:00",
+    "elapsed_s": 0.8600000001024455,
+    "returncode": 0,
+    "command_file_sha256": {
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.5\\benchmark_runtime.exe": "c352deb1d8e5ee2aa5195e385624185b7c52f1470b91ad4dba573b4bf04dd6b0"
+    },
+    "environment_overrides": {},
+    "capture_sha256": "e146220e88a5fffeab5ff6b7fe304e0e3ebbc8fbca345f9f5baf2c4b0bda679d"
+  },
+  {
+    "name": "benchmark-v0.6-runtime",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_runtime.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.6-runtime-final.json"
+    ],
+    "started_utc": "2026-10-15T09:04:12.667209+00:00",
+    "elapsed_s": 0.8430000001098961,
+    "returncode": 0,
+    "command_file_sha256": {
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_runtime.exe": "9e8882844b521e78e4e618d402deafde8bfeeb87277c9dcad85c977d25520f0c"
+    },
+    "environment_overrides": {},
+    "capture_sha256": "120b2fce4af5dad7e72d109c4d884827fd9eb1bf09d8cee1b0c913537bae4437"
+  },
+  {
+    "name": "benchmark-v0.5-python-for-v0.6",
+    "command": [
+      "C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.5\\benchmarks\\data.py",
+      "--output",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.5-python-for-v0.6-final.json"
+    ],
+    "started_utc": "2026-10-15T09:04:13.520582+00:00",
+    "elapsed_s": 5.641000000061467,
+    "returncode": 0,
+    "command_file_sha256": {
+      "C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.5\\benchmarks\\data.py": "efefbfd80777863019ebc5fcc753ad6c9ee5643249270e3732c6722ae7db4916"
+    },
+    "environment_overrides": {
+      "PYTHONPATH": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.5\\python",
+      "GR_OS_LIBRARY": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.5\\installed\\bin\\gr_native.dll"
+    },
+    "capture_sha256": "8852ec1dace55c1a5757919155c9b70c1c253f90a44cb949d91120cc07e087ac"
+  },
+  {
+    "name": "benchmark-v0.6-python",
+    "command": [
+      "C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\benchmarks\\data.py",
+      "--output",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.6-python-final.json"
+    ],
+    "started_utc": "2026-10-15T09:04:19.182500+00:00",
+    "elapsed_s": 3.875,
+    "returncode": 0,
+    "command_file_sha256": {
+      "C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\benchmarks\\data.py": "efefbfd80777863019ebc5fcc753ad6c9ee5643249270e3732c6722ae7db4916"
+    },
+    "environment_overrides": {
+      "PYTHONPATH": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\bindings\\python\\src",
+      "GR_OS_LIBRARY": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\gr_native.dll"
+    },
+    "capture_sha256": "27db1adea437e0f04abba8296a915289122e0b0e7331f0230bea167d327c403a"
+  },
+  {
+    "name": "benchmark-v0.6-access",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_access.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.6-access-final.json"
+    ],
+    "started_utc": "2026-10-15T09:04:23.071635+00:00",
+    "elapsed_s": 1.047000000020489,
+    "returncode": 0,
+    "command_file_sha256": {
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_access.exe": "9ea1b00362c1b94a288e4f113cf656b12cc63fdd72ff1cbef2c79e3ee85ba242"
+    },
+    "environment_overrides": {},
+    "capture_sha256": "025816266584df7b81d7e1887b366b50f75aafc46757bfef8ee69f7b96a5a6c4"
+  },
+  {
+    "name": "benchmark-v0.6-language-profile",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_data_language_profile.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.6-language-profile-final.json"
+    ],
+    "started_utc": "2026-10-15T09:04:24.120556+00:00",
+    "elapsed_s": 1.625,
+    "returncode": 0,
+    "command_file_sha256": {
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_data_language_profile.exe": "4f37ccd9d0f91da027f28708f1a749cbcefbfd7814373a504cc96981f924f4eb"
+    },
+    "environment_overrides": {},
+    "capture_sha256": "6f1206bf6d6e903d491fa802a76d9985f6cb1611a48cbfdb3398e9b70ed2e1d5"
+  },
+  {
+    "name": "benchmark-v0.6-relational-profile",
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_data_relational_profile.exe"
+    ],
+    "started_utc": "2026-10-15T09:04:25.752941+00:00",
+    "elapsed_s": 30.04699999978766,
+    "returncode": 0,
+    "command_file_sha256": {
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_data_relational_profile.exe": "bb7fdd2c03b67a8c33df8c3c4b638f26fa85822eb365f5c49300dcf226c06c77"
+    },
+    "environment_overrides": {},
+    "capture_sha256": "d5ff18b12aa424c84fd6376942b58996c5381d4c5d9171b8bcbc58430ee94110"
+  },
+  {
+    "name": "benchmark-v0.6-independent-package",
+    "command": [
+      "C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-B",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\packages\\gr_diagonal\\benchmark.py",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.6-independent-package-final.json"
+    ],
+    "started_utc": "2026-10-15T09:04:55.837495+00:00",
+    "elapsed_s": 0.8599999998696148,
+    "returncode": 0,
+    "command_file_sha256": {
+      "C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\packages\\gr_diagonal\\benchmark.py": "2435de51d1e2df65137db2504dfb5cfb24f45be19259a0d29cb7880290e656c8"
+    },
+    "environment_overrides": {
+      "PYTHONPATH": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\b775460c\\python",
+      "GR_DIAGONAL_LIBRARY": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\b775460c\\package\\bin\\gr_diagonal_native.dll"
+    },
+    "capture_sha256": "e92a757ec2d07db0a11234d59b5036367da96f588a16be5246a8ed0378244ea7"
+  }
+]

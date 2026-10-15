@@ -1,0 +1,331 @@
+Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+Test project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+      Start  1: example_extension
+ 1/28 Test  #1: example_extension ................   Passed    0.09 sec
+      Start  2: buffers
+ 2/28 Test  #2: buffers ..........................   Passed    0.16 sec
+      Start  3: numerical
+ 3/28 Test  #3: numerical ........................   Passed    0.11 sec
+      Start  4: buffer_execution
+ 4/28 Test  #4: buffer_execution .................   Passed    0.19 sec
+      Start  5: compact_history
+ 5/28 Test  #5: compact_history ..................   Passed   54.32 sec
+      Start  6: history_store
+ 6/28 Test  #6: history_store ....................   Passed   20.75 sec
+      Start  7: admission
+ 7/28 Test  #7: admission ........................   Passed    2.07 sec
+      Start  8: experimental_data
+ 8/28 Test  #8: experimental_data ................   Passed    0.71 sec
+      Start  9: records
+ 9/28 Test  #9: records ..........................   Passed    0.56 sec
+      Start 10: history
+10/28 Test #10: history ..........................   Passed   36.60 sec
+      Start 11: canonical
+11/28 Test #11: canonical ........................   Passed    0.36 sec
+      Start 12: storage
+12/28 Test #12: storage ..........................   Passed    4.05 sec
+      Start 13: sqlite
+13/28 Test #13: sqlite ...........................   Passed    1.43 sec
+      Start 14: execution
+14/28 Test #14: execution ........................   Passed    0.50 sec
+      Start 15: operations
+15/28 Test #15: operations .......................   Passed    0.36 sec
+      Start 16: planner
+16/28 Test #16: planner ..........................   Passed    0.41 sec
+      Start 17: prepared
+17/28 Test #17: prepared .........................   Passed    0.10 sec
+      Start 18: transactions
+18/28 Test #18: transactions .....................   Passed    2.00 sec
+      Start 19: runtime
+19/28 Test #19: runtime ..........................   Passed    2.90 sec
+      Start 20: runtime_recovery
+20/28 Test #20: runtime_recovery .................   Passed    0.49 sec
+      Start 21: runtime_crash
+21/28 Test #21: runtime_crash ....................   Passed    3.93 sec
+      Start 22: vendor_integrity
+22/28 Test #22: vendor_integrity .................   Passed    0.11 sec
+      Start 23: python_binding
+23/28 Test #23: python_binding ...................***Failed    0.34 sec
+setUpClass (test_python.BindingTests) ... ERROR
+
+======================================================================
+ERROR: setUpClass (test_python.BindingTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tests\integration\test_python.py", line 53, in setUpClass
+    cls.native = Native()
+                 ^^^^^^^^
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\bindings\python\src\gr_os\_native.py", line 35, in __init__
+    self._lib = ctypes.CDLL(str(self.path))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Micro\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_native.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.051s
+
+FAILED (errors=1)
+
+      Start 24: python_runtime
+24/28 Test #24: python_runtime ...................***Failed    1.19 sec
+test_capabilities_and_run (test_runtime.CLITests.test_capabilities_and_run) ... ok
+test_strict_requests_terminal_status_and_session (test_runtime.CLITests.test_strict_requests_terminal_status_and_session) ... ok
+test_async_cancellation_is_not_masked_by_concurrent_close (test_runtime.RecoveryOwnershipTests.test_async_cancellation_is_not_masked_by_concurrent_close) ... ok
+test_chained_raise_preserves_uncertain_result (test_runtime.RecoveryOwnershipTests.test_chained_raise_preserves_uncertain_result) ... ok
+test_successful_run_releases_native_job (test_runtime.RecoveryOwnershipTests.test_successful_run_releases_native_job) ... ok
+test_uncertain_run_keeps_recovery_until_result_close (test_runtime.RecoveryOwnershipTests.test_uncertain_run_keeps_recovery_until_result_close) ... ok
+setUpClass (test_runtime.RuntimeSDKTests) ... ERROR
+
+======================================================================
+ERROR: setUpClass (test_runtime.RuntimeSDKTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tests\integration\test_runtime.py", line 45, in setUpClass
+    cls.native = gr.Native()
+                 ^^^^^^^^^^^
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\bindings\python\src\gr_os\_native.py", line 35, in __init__
+    self._lib = ctypes.CDLL(str(self.path))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Micro\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_native.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.886s
+
+FAILED (errors=1)
+
+      Start 25: python_buffers
+25/28 Test #25: python_buffers ...................***Failed    0.24 sec
+setUpClass (test_buffers.BufferTests) ... ERROR
+
+======================================================================
+ERROR: setUpClass (test_buffers.BufferTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tests\integration\test_buffers.py", line 41, in setUpClass
+    cls.native = gr.Native()
+                 ^^^^^^^^^^^
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\bindings\python\src\gr_os\_native.py", line 35, in __init__
+    self._lib = ctypes.CDLL(str(self.path))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Micro\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_native.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.003s
+
+FAILED (errors=1)
+
+      Start 26: example_python
+26/28 Test #26: example_python ...................***Failed    0.23 sec
+Traceback (most recent call last):
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\examples\python\layers_5_6.py", line 62, in <module>
+    main()
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\examples\python\layers_5_6.py", line 17, in main
+    observation = construct(
+                  ^^^^^^^^^^
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\bindings\python\src\gr_os\__init__.py", line 76, in construct
+    return _native(native).call("core.construct", document=document)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\bindings\python\src\gr_os\_native.py", line 215, in _native
+    _default = Native()
+               ^^^^^^^^
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\bindings\python\src\gr_os\_native.py", line 35, in __init__
+    self._lib = ctypes.CDLL(str(self.path))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Micro\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_native.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+
+      Start 27: example_runtime
+27/28 Test #27: example_runtime ..................***Failed    0.24 sec
+Traceback (most recent call last):
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\examples\python\runtime.py", line 83, in <module>
+    main()
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\examples\python\runtime.py", line 19, in main
+    native = Native()
+             ^^^^^^^^
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\bindings\python\src\gr_os\_native.py", line 35, in __init__
+    self._lib = ctypes.CDLL(str(self.path))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Micro\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\Release\gr_native.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+
+      Start 28: installed_sdk
+28/28 Test #28: installed_sdk ....................***Failed   19.16 sec
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/bin/_gr_buffer.pyd
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/c_api.h
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/bin/gr.exe
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/lib/gr_sqlite.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/lib/gr_common.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/lib/gr_buffer.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/lib/gr_semantics.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/lib/gr_core.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/lib/gr_storage.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/lib/gr_execution.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/lib/gr_runtime.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/lib/gr_experimental_data.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/lib/gr_native.lib
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/bin/gr_native.dll
+-- Up-to-date: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include
+-- Up-to-date: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/common.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/core.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/execution
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/execution/backend.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/execution/cpu.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/execution/implementation.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/execution.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/experimental
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/experimental/data.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/kernel
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/kernel/compact_history.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/kernel/history.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/kernel/numerical.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/kernel/operations.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/kernel/projections.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/kernel/records.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/kernel/record_operations.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/kernel/types.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/memory
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/memory/buffer.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/runtime
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/runtime/catalog.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/runtime/history_store.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/runtime/planner.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/runtime/scheduler.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/runtime/transaction.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/runtime.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/storage
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/storage/blob_reader.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/storage/contracts.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/storage/memory_store.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/storage/sqlite_store.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/storage.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/support
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/gr/support/common.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/include/nlohmann/json.hpp
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/share/GR/licenses
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/share/GR/licenses/MANIFEST.json
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/share/GR/licenses/nlohmann
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/share/GR/licenses/nlohmann/LICENSE.MIT
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/share/GR/licenses/picosha2
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/share/GR/licenses/picosha2/LICENSE
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/share/GR/licenses/README.md
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/share/GR/licenses/sqlite
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/lib/cmake/GR/GRTargets.cmake
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/lib/cmake/GR/GRTargets-release.cmake
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/lib/cmake/GR/GRConfig.cmake
+-- Installing: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\stage/lib/cmake/GR/GRConfigVersion.cmake
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- The C compiler identification is MSVC 19.44.35209.0
+-- The CXX compiler identification is MSVC 19.44.35209.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Configuring done (7.0s)
+-- Generating done (0.1s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_BUILD_TYPE
+
+
+-- Build files have been written to: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/p/659dc272/c
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/installed/CMakeLists.txt
+  main.c
+  consumer_c.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\c\Release\consumer_c.exe
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/installed/CMakeLists.txt
+  main.cpp
+  consumer_cpp.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\c\Release\consumer_cpp.exe
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tests/integration/installed/CMakeLists.txt
+Processing c:\users\micro\desktop\relational_being_infrastructure\frameworks\generativity_standards_program\gr-os\build-asan\p\659dc272\python-source
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: gr-os
+  Building wheel for gr-os (pyproject.toml): started
+  Building wheel for gr-os (pyproject.toml): finished with status 'done'
+  Created wheel for gr-os: filename=gr_os-0.4.0-py3-none-any.whl size=17106 sha256=a69987033ce89d6e981e29e7747e5d374d9205a7124dd331707ef4a32e093c2a
+  Stored in directory: C:\Users\Micro\AppData\Local\Temp\pip-ephem-wheel-cache-6fr_vn7m\wheels\0c\d0\60\f8210e59875d6d1dc380a2884d2e9cea25a96c9df1c1aeff0e
+Successfully built gr-os
+Processing c:\users\micro\desktop\relational_being_infrastructure\frameworks\generativity_standards_program\gr-os\build-asan\p\659dc272\wheels\gr_os-0.4.0-py3-none-any.whl
+Installing collected packages: gr-os
+Successfully installed gr-os-0.4.0
+Traceback (most recent call last):
+  File "<string>", line 5, in <module>
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\python-installed\gr_os\execution.py", line 94, in execute
+    result = _native(native).call(
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\python-installed\gr_os\_native.py", line 215, in _native
+    _default = Native()
+               ^^^^^^^^
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\python-installed\gr_os\_native.py", line 35, in __init__
+    self._lib = ctypes.CDLL(str(self.path))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Micro\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\p\659dc272\relocated\bin\gr_native.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+Traceback (most recent call last):
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tools\test_installed_sdk.py", line 163, in <module>
+    execute([python, "-I", "-B", "-c", code, destination], env=environment, cwd=run)
+  File "C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\tools\test_installed_sdk.py", line 28, in execute
+    subprocess.run([str(part) for part in command], check=True, **kwargs)
+  File "C:\Users\Micro\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\sdk-venv\\Scripts\\python.exe', '-I', '-B', '-c', "import sys\nsys.path.insert(0,sys.argv[1])\nimport gr_os as gr\nassert gr.__file__.startswith(sys.argv[1])\nassert gr.execute('identity',[b'installed']).outputs==[b'installed']\nwith gr.Runtime() as runtime:\n    graph=gr.Graph([gr.Node('installed','gr.bytes.identity@1',[gr.Value.bytes(b'wheel')])],[gr.OutputRef('installed')])\n    result=runtime.run(graph).raise_for_status()\n    assert result.outputs[0].data==b'wheel'\nwith gr.Buffer(b'installed-readonly') as buffer:\n    assert buffer.to_bytes() == b'installed-readonly'\n    from pathlib import Path\n    import os\n    siblings = Path(os.environ['GR_OS_LIBRARY']).parent\n    if list(siblings.glob('_gr_buffer*.pyd')) + list(siblings.glob('_gr_buffer*.so')):\n        exported = buffer.memoryview()\n    else:\n        exported = memoryview(buffer.to_bytes())\nassert exported.readonly and exported.tobytes() == b'installed-readonly'\nexported.release()\nprint('Relocated C/C++ and installed Python wheel runtime/buffer consumers passed')\n", 'C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\p\\659dc272\\python-installed']' returned non-zero exit status 1.
+
+
+79% tests passed, 6 tests failed out of 28
+
+Label Time Summary:
+conformance    = 100.15 sec*proc (10 tests)
+examples       =   0.56 sec*proc (3 tests)
+integration    =  28.60 sec*proc (7 tests)
+packaging      =  19.16 sec*proc (1 test)
+unit           =   5.13 sec*proc (7 tests)
+
+Total Test time (real) = 153.65 sec
+
+The following tests FAILED:
+	 23 - python_binding (Failed)                           integration
+	 24 - python_runtime (Failed)                           integration
+	 25 - python_buffers (Failed)                           integration
+	 26 - example_python (Failed)                           examples
+	 27 - example_runtime (Failed)                          examples
+	 28 - installed_sdk (Failed)                            packaging
+ctest.exe : Errors while running CTest
+At line:2 char:992
++ ... n_error=1'; & 'C:\Program Files\Microsoft Visual Studio\2022\Communit ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Errors while running CTest:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

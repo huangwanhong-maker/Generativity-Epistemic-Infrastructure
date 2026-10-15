@@ -1,0 +1,89 @@
+Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+Test project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+      Start  1: example_data_language
+ 1/38 Test  #1: example_data_language ............   Passed    0.11 sec
+      Start  2: example_extension
+ 2/38 Test  #2: example_extension ................   Passed    0.07 sec
+      Start  3: data_language
+ 3/38 Test  #3: data_language ....................   Passed    0.20 sec
+      Start  4: data_numeric
+ 4/38 Test  #4: data_numeric .....................   Passed    0.22 sec
+      Start  5: data_standard
+ 5/38 Test  #5: data_standard ....................   Passed    0.17 sec
+      Start  6: data_sparse
+ 6/38 Test  #6: data_sparse ......................   Passed    0.45 sec
+      Start  7: data_relational
+ 7/38 Test  #7: data_relational ..................   Passed    0.79 sec
+      Start  8: buffers
+ 8/38 Test  #8: buffers ..........................   Passed    0.02 sec
+      Start  9: access
+ 9/38 Test  #9: access ...........................   Passed    0.06 sec
+      Start 10: numerical
+10/38 Test #10: numerical ........................   Passed    0.05 sec
+      Start 11: buffer_execution
+11/38 Test #11: buffer_execution .................   Passed    0.07 sec
+      Start 12: compact_history
+12/38 Test #12: compact_history ..................   Passed    2.36 sec
+      Start 13: history_store
+13/38 Test #13: history_store ....................   Passed    1.58 sec
+      Start 14: admission
+14/38 Test #14: admission ........................   Passed    0.39 sec
+      Start 15: experimental_data
+15/38 Test #15: experimental_data ................   Passed    0.10 sec
+      Start 16: records
+16/38 Test #16: records ..........................   Passed    0.13 sec
+      Start 17: history
+17/38 Test #17: history ..........................   Passed    1.57 sec
+      Start 18: canonical
+18/38 Test #18: canonical ........................   Passed    0.04 sec
+      Start 19: storage
+19/38 Test #19: storage ..........................   Passed    0.42 sec
+      Start 20: sqlite
+20/38 Test #20: sqlite ...........................   Passed    0.57 sec
+      Start 21: execution
+21/38 Test #21: execution ........................   Passed    0.33 sec
+      Start 22: operations
+22/38 Test #22: operations .......................   Passed    0.16 sec
+      Start 23: planner
+23/38 Test #23: planner ..........................   Passed    0.08 sec
+      Start 24: prepared
+24/38 Test #24: prepared .........................   Passed    0.06 sec
+      Start 25: transactions
+25/38 Test #25: transactions .....................   Passed    0.28 sec
+      Start 26: runtime
+26/38 Test #26: runtime ..........................   Passed    1.76 sec
+      Start 27: runtime_recovery
+27/38 Test #27: runtime_recovery .................   Passed    0.09 sec
+      Start 28: runtime_crash
+28/38 Test #28: runtime_crash ....................   Passed    1.08 sec
+      Start 29: vendor_integrity
+29/38 Test #29: vendor_integrity .................   Passed    0.11 sec
+      Start 30: python_binding
+30/38 Test #30: python_binding ...................   Passed   11.87 sec
+      Start 31: example_data_python
+31/38 Test #31: example_data_python ..............   Passed    0.34 sec
+      Start 32: python_data
+32/38 Test #32: python_data ......................   Passed    1.01 sec
+      Start 33: python_runtime
+33/38 Test #33: python_runtime ...................   Passed    0.53 sec
+      Start 34: python_buffers
+34/38 Test #34: python_buffers ...................   Passed    0.40 sec
+      Start 35: example_python
+35/38 Test #35: example_python ...................   Passed    0.32 sec
+      Start 36: example_runtime
+36/38 Test #36: example_runtime ..................   Passed    0.40 sec
+      Start 37: installed_sdk
+37/38 Test #37: installed_sdk ....................   Passed   24.54 sec
+      Start 38: independent_package
+38/38 Test #38: independent_package ..............   Passed   57.47 sec
+
+100% tests passed, 0 tests failed out of 38
+
+Label Time Summary:
+conformance    =   7.29 sec*proc (15 tests)
+examples       =   1.23 sec*proc (5 tests)
+integration    =  17.14 sec*proc (8 tests)
+packaging      =  82.01 sec*proc (2 tests)
+unit           =   2.52 sec*proc (8 tests)
+
+Total Test time (real) = 110.28 sec
