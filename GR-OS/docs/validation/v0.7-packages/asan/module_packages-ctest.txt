@@ -1,0 +1,28 @@
+39/39 Testing: module_packages
+39/39 Test: module_packages
+Command: "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tools/test_module_packages.py" "--cmake" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "--build" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan" "--source" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS" "--config" "Release"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan
+"module_packages" start time: Oct 17 00:48 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Independent installed packages and C++/Python composition passed: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\m\e541e34f\artifacts.json
+<end of output>
+Test time = 316.30 sec
+----------------------------------------------------------
+Test Passed.
+"module_packages" end time: Oct 17 00:53 Tokyo Standard Time
+"module_packages" time elapsed: 00:05:16
+----------------------------------------------------------
+
+End testing: Oct 17 00:53 Tokyo Standard Time
+
+conformance = 247.52 sec*proc
+
+examples =  10.51 sec*proc
+
+integration =  89.48 sec*proc
+
+packaging = 478.68 sec*proc
+
+unit =   5.88 sec*proc
+

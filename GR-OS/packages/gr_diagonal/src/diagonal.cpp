@@ -41,7 +41,7 @@ gr::data::DataValue make(std::span<const std::int64_t> values, gr::data::Standar
     const auto &v = column.payload.as_buffers().at("values");
     return {spec(),
             gr::kernel::Value::buffers("example.diagonal.payload@1", gr::memory::BufferSet({{"values", v}})),
-            {{"package", manifest().at("id")}, {"version", "0.1.0"}}};
+            {{"package", manifest().at("id")}, {"version", manifest().at("version")}}};
 }
 void install(gr::data::Library &library, gr::data::StandardOptions options) {
     require(options.max_elements > 0 && options.max_elements <= 16 * 1024 * 1024 && options.max_columns > 0 &&

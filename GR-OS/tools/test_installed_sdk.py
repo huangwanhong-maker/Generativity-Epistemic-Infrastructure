@@ -131,7 +131,7 @@ execute(
         package_source,
     ]
 )
-wheel = next(wheels.glob("gr_os-0.6.0-py3-none-any.whl"))
+wheel = next(wheels.glob("gr_os-0.7.0-py3-none-any.whl"))
 destination = run / "python-installed"
 execute(
     [
@@ -166,7 +166,7 @@ code = """import sys
 sys.path.insert(0,sys.argv[1])
 import gr_os as gr
 assert gr.__file__.startswith(sys.argv[1])
-assert gr.__version__ == '0.6.0'
+assert gr.__version__ == '0.7.0'
 assert gr.execute('identity',[b'installed']).outputs==[b'installed']
 with gr.Runtime() as runtime:
     graph=gr.Graph([gr.Node('installed','gr.bytes.identity@1',[gr.Value.bytes(b'wheel')])],[gr.OutputRef('installed')])

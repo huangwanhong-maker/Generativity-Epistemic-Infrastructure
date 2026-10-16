@@ -1,0 +1,31 @@
+Command: ['C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-B', 'build/finalize-v07-python.py']
+Processing c:\users\micro\desktop\relational_being_infrastructure\frameworks\generativity_standards_program\gr-os\build\m\9b198579\as\python
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: gr-relational-analysis
+  Building wheel for gr-relational-analysis (pyproject.toml): started
+  Building wheel for gr-relational-analysis (pyproject.toml): finished with status 'done'
+  Created wheel for gr-relational-analysis: filename=gr_relational_analysis-0.1.0-py3-none-any.whl size=5462 sha256=023cfa6e509e75599848a0aa659e81d6b09475b2d00870a55643b1d74b6777ee
+  Stored in directory: C:\Users\Micro\AppData\Local\Temp\pip-ephem-wheel-cache-7_0iy7qe\wheels\a0\da\af\807149cae571517ce3ed2a2c3157a9388113892c3f0bed36f0
+Successfully built gr-relational-analysis
+Processing c:\users\micro\desktop\relational_being_infrastructure\frameworks\generativity_standards_program\gr-os\build\m\9b198579\python-final-wheels\gr_relational_analysis-0.1.0-py3-none-any.whl
+Installing collected packages: gr-relational-analysis
+Successfully installed gr-relational-analysis-0.1.0
+test_c_transport_invalid_and_duplicate_metadata (__main__.Composition.test_c_transport_invalid_and_duplicate_metadata) ... ok
+test_close_and_concurrent_calls (__main__.Composition.test_close_and_concurrent_calls) ... ok
+test_handle_limit_and_failure_cleanup (__main__.Composition.test_handle_limit_and_failure_cleanup) ... ok
+test_main_sdk_explicit_copy (__main__.Composition.test_main_sdk_explicit_copy) ... ok
+test_native_and_python_identity_and_composition (__main__.Composition.test_native_and_python_identity_and_composition) ... ok
+test_portable_import_tamper_and_mutability (__main__.Composition.test_portable_import_tamper_and_mutability) ... ok
+test_provenance_is_part_of_identity (__main__.Composition.test_provenance_is_part_of_identity) ... ok
+test_rejected_main_buffer_export_closes_before_traceback_release (__main__.Composition.test_rejected_main_buffer_export_closes_before_traceback_release) ... ok
+test_svg_options_and_escape (__main__.Composition.test_svg_options_and_escape) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.343s
+
+OK
+{"owners": 2, "occurrences": 5, "weighted_sum": 10}
+Final Release Python correction accepted: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\m\9b198579\artifacts.json
+
+Exit code: 0

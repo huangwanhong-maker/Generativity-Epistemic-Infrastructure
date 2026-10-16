@@ -1,0 +1,23 @@
+{
+  "command": [
+    "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+    "-S",
+    "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\packages\\gr_relational_analysis",
+    "-B",
+    "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\oc",
+    "-G",
+    "Visual Studio 17 2022",
+    "-A",
+    "x64",
+    "-DGR_DIR=C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.6\\installed\\lib\\cmake\\GR",
+    "-DCMAKE_PREFIX_PATH=C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.6\\installed",
+    "-DCMAKE_FIND_USE_PACKAGE_REGISTRY=OFF",
+    "-DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=OFF",
+    "-DCMAKE_FIND_ROOT_PATH=C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.6\\installed",
+    "-DCMAKE_FIND_ROOT_PATH_MODE_PACKAGE=ONLY"
+  ],
+  "returncode": 1,
+  "baseline_commit": "bcbb477479d4f5e5988a7cd078a47bd76eb3ac57",
+  "kind": "actual preserved v0.6 SDK version rejection; no package build attempted",
+  "passed": true
+}

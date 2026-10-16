@@ -11,7 +11,16 @@ import operator
 import os
 from pathlib import Path
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
+
+
+def manifest():
+    """Read package metadata without loading the native library."""
+    from importlib.resources import files
+
+    return json.loads(
+        files(__package__).joinpath("manifest.json").read_text(encoding="utf-8")
+    )
 
 
 class ExtensionError(RuntimeError):

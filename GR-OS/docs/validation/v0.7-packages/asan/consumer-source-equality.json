@@ -1,0 +1,54 @@
+[
+  {
+    "source": {
+      "path": "tests\\integration\\modules\\main.cpp",
+      "bytes": 9307,
+      "sha256": "947cf1ce67212888769fb7814052b20ff96cb84676dc6fda34b7984244b84295"
+    },
+    "copied": {
+      "path": "build-asan\\m\\e541e34f\\cs\\main.cpp",
+      "bytes": 9307,
+      "sha256": "947cf1ce67212888769fb7814052b20ff96cb84676dc6fda34b7984244b84295"
+    },
+    "equal": true
+  },
+  {
+    "source": {
+      "path": "tests\\integration\\modules\\CMakeLists.txt",
+      "bytes": 699,
+      "sha256": "19a9c043dca6ce175974d3dffe487239bfe8e71ea23ce77950797c9954476b0e"
+    },
+    "copied": {
+      "path": "build-asan\\m\\e541e34f\\cs\\CMakeLists.txt",
+      "bytes": 699,
+      "sha256": "19a9c043dca6ce175974d3dffe487239bfe8e71ea23ce77950797c9954476b0e"
+    },
+    "equal": true
+  },
+  {
+    "source": {
+      "path": "tests\\integration\\modules\\python_consumer.py",
+      "bytes": 10973,
+      "sha256": "373f5fe5a28acfe854b4ba33fefde9c70ce158159a6380ec701cf3033897993b"
+    },
+    "copied": {
+      "path": "build-asan\\m\\e541e34f\\cs\\python_consumer.py",
+      "bytes": 10973,
+      "sha256": "373f5fe5a28acfe854b4ba33fefde9c70ce158159a6380ec701cf3033897993b"
+    },
+    "equal": true
+  },
+  {
+    "source": {
+      "path": "examples\\python\\modules.py",
+      "bytes": 2317,
+      "sha256": "cae5fee35d4133aaf6fcf55cb939c1068fbebe2283f2b656734460f90cfd15db"
+    },
+    "copied": {
+      "path": "build-asan\\m\\e541e34f\\cs\\python_example.py",
+      "bytes": 2317,
+      "sha256": "cae5fee35d4133aaf6fcf55cb939c1068fbebe2283f2b656734460f90cfd15db"
+    },
+    "equal": true
+  }
+]

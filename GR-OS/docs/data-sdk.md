@@ -1,6 +1,6 @@
 # Layer 3 SDK
 
-Status: experimental implementation, version 0.5. This is an operational software
+Status: experimental implementation, version 0.7. This is an operational software
 API, not an adopted GR Standard or a claim that these data types exhaust GR theory.
 
 The C++, Python and JSON interfaces share one native logical library, inference
@@ -198,3 +198,14 @@ numerical contracts for supported host environment, ordering and error behavior.
 
 For separately distributed trusted source extensions and their C++/Python boundary,
 see the [independent diagonal package](../packages/gr_diagonal/README.md).
+
+## Independent module imports (v0.7)
+
+`DataValue.describe()` returns a detached copy of its authoritative native
+specification and computational provenance. It supports explicit copied imports
+into independent native packages without exposing a main-SDK opaque handle.
+The qualified analysis and visualization packages use this boundary; native C++
+consumers instead share retained typed values and views. Their installation,
+manifest discovery, lifetime and validation distinctions are documented in
+[module packaging](module-packaging.md). No external provider registration switch
+was added to the main C/Python engine.

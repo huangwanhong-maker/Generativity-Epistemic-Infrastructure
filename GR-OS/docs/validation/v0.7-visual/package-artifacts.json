@@ -1,0 +1,48 @@
+{
+  "sdk": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\sdk",
+  "prefixes": {
+    "gr_relational_analysis": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\a",
+    "gr_visualization": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\v",
+    "gr_diagonal": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\d"
+  },
+  "python": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\python",
+  "fixture": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\fixture",
+  "sanitizer": false,
+  "historical_sdk_probe": null,
+  "wheels": [
+    {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\wheels\\gr_diagonal-0.2.0-py3-none-any.whl",
+      "sha256": "a67e3c4bbb4e431fe8f13a690550823ec33ab1a1df1fca47c107c8d4d035cb41"
+    },
+    {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\wheels\\gr_os-0.7.0-py3-none-any.whl",
+      "sha256": "a7c17146ba84e0031ce62ea8e63e6e0146cf5badcc7d01403fa31f330ca122e9"
+    },
+    {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\wheels\\gr_relational_analysis-0.1.0-py3-none-any.whl",
+      "sha256": "be86bc40fd35315c2dfdd829d8b1b702fda89a94f2960a1acb22647b0cacdb8f"
+    },
+    {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\wheels\\gr_visualization-0.1.0-py3-none-any.whl",
+      "sha256": "ac08becd211eec1b6b8dcaa0ff8753dc137da5853c891aa34363f0b8b8039c70"
+    }
+  ],
+  "libraries": {
+    "GR_OS_LIBRARY": {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\sdk\\bin\\gr_native.dll",
+      "sha256": "bb9f7286f8391d43754995dd0bb3a9e8a1ac9a0c6fbb49701f58a31108936998"
+    },
+    "GR_ANALYSIS_LIBRARY": {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\a\\bin\\gr_relational_analysis_native.dll",
+      "sha256": "dc8e265acd8e86c97a39cd337a666c44c578f9b1099ce44320e36f0b59bd586c"
+    },
+    "GR_VISUALIZATION_LIBRARY": {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\v\\bin\\gr_visualization_native.dll",
+      "sha256": "5def15001e0c436b255a4f1a92dd3a24545032473d0147143087182fca2b590c"
+    },
+    "GR_DIAGONAL_LIBRARY": {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\d\\bin\\gr_diagonal_native.dll",
+      "sha256": "7ce418697a70378cce818f4cfbc19a563f72d76553e78a6876857c19e955fa6b"
+    }
+  }
+}

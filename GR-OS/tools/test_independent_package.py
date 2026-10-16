@@ -127,21 +127,24 @@ try:
         or "GRConfig.cmake" not in missing_diagnostic
     ):
         raise AssertionError("Missing-SDK probe failed for an unrelated reason")
-    old_sdk = source / "build/baselines/v0.5/installed"
-    if not (old_sdk / "lib/cmake/GR/GRConfigVersion.cmake").is_file():
-        raise RuntimeError(
-            "Preserved v0.5 installed SDK is required for the wrong-version compatibility test"
-        )
+    # Deliberately incompatible declaration against this actual installed SDK.
+    # This checks CMake version rejection without requiring ignored old binaries.
+    # It is not evidence of building against a historical SDK.
+    wrong_source = run / "wrong-source"
+    wrong_source.mkdir()
+    (wrong_source / "CMakeLists.txt").write_text(
+        "cmake_minimum_required(VERSION 3.24)\nproject(WrongSDK NONE)\nfind_package(GR 0.6.0 EXACT REQUIRED)\n",
+        encoding="utf-8",
+    )
     wrong = execute(
         [
             args.cmake,
             "-S",
-            package,
+            wrong_source,
             "-B",
             run / "wrong",
             *generator,
-            "-DCMAKE_PREFIX_PATH=" + str(old_sdk),
-            "-DGR_DIR=" + str(old_sdk / "lib/cmake/GR"),
+            "-DGR_DIR=" + str(sdk / "lib/cmake/GR"),
         ],
         expected_failure=True,
         env=environment,
@@ -150,10 +153,10 @@ try:
     if (
         'configuration file for package "GR" that exactly matches'
         not in wrong_diagnostic
-        or "version: 0.5.0" not in wrong_diagnostic
+        or "version: 0.7.0" not in wrong_diagnostic
         or "0.6.0" not in wrong_diagnostic
     ):
-        raise AssertionError("Wrong-version probe failed for an unrelated reason")
+        raise AssertionError("Wrong-version declaration failed for an unrelated reason")
     native_build = run / "b"
     execute(
         [
@@ -205,7 +208,7 @@ try:
     consumer.mkdir()
     shutil.copy2(package / "tests/conformance.cpp", consumer / "main.cpp")
     (consumer / "CMakeLists.txt").write_text(
-        "cmake_minimum_required(VERSION 3.24)\nproject(PackageConsumer LANGUAGES CXX)\nfind_package(GRDiagonal 0.1.0 EXACT REQUIRED)\nadd_executable(consumer main.cpp)\ntarget_link_libraries(consumer PRIVATE GRDiagonal::diagonal)\n",
+        "cmake_minimum_required(VERSION 3.24)\nproject(PackageConsumer LANGUAGES CXX)\nfind_package(GRDiagonal 0.2.0 EXACT REQUIRED)\nadd_executable(consumer main.cpp)\ntarget_link_libraries(consumer PRIVATE GRDiagonal::diagonal)\n",
         encoding="utf-8",
     )
     consumer_build = run / "c"
@@ -258,7 +261,7 @@ try:
             package / "python",
         ]
     )
-    wheel = next(wheels.glob("gr_diagonal-0.1.0-*.whl"))
+    wheel = next(wheels.glob("gr_diagonal-0.2.0-*.whl"))
     destination = run / "python"
     execute(
         [

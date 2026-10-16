@@ -568,11 +568,39 @@ Json counted_view(const Parsed &input, std::stop_token stop) {
 struct Session::Impl : Memo {
     using Memo::Memo;
 };
+struct QualifiedView::Impl {
+    DataValue value;
+    std::shared_ptr<const Parsed> parsed;
+};
+QualifiedView::QualifiedView(std::shared_ptr<const Impl> impl) : impl_(std::move(impl)) {}
+QualifiedView::operator bool() const noexcept {
+    return bool(impl_);
+}
+const DataValue &QualifiedView::value() const {
+    require(bool(impl_), "Empty qualified view");
+    return impl_->value;
+}
+const Json &QualifiedView::source() const {
+    require(bool(impl_), "Empty qualified view");
+    return impl_->parsed->source->document;
+}
+const Json &QualifiedView::derivation() const {
+    require(bool(impl_), "Empty qualified view");
+    return impl_->parsed->view;
+}
 Session::Session(std::shared_ptr<Impl> impl) : impl_(std::move(impl)) {}
 Session::~Session() = default;
 Json Session::inspect(const DataValue &value) const {
     require(value.spec.representation == representation, "Unsupported qualified representation");
     return presented(*impl_->get(value.spec.type, value.payload));
+}
+QualifiedView Session::view(const DataValue &value) const {
+    require(value.spec.representation == representation, "Unsupported qualified representation");
+    require(value.provenance.is_object(), "Computational provenance must be an object");
+    (void)canonical(value.provenance);
+    auto parsed = impl_->get(value.spec.type, value.payload);
+    return QualifiedView(
+        std::make_shared<const QualifiedView::Impl>(QualifiedView::Impl{value, std::move(parsed)}));
 }
 Json Session::statistics() const {
     return impl_->statistics();

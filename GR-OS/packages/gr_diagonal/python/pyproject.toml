@@ -3,8 +3,13 @@ requires = ["setuptools==80.9.0", "wheel==0.45.1"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "gr-diagonal"
-version = "0.1.0"
+version = "0.2.0"
 description = "Independent exact diagonal extension for the installed GR-OS SDK"
 requires-python = ">=3.10"
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[project.entry-points."gr_os.modules"]
+"org.gr.examples.diagonal" = "gr_diagonal:manifest"
+[tool.setuptools.package-data]
+gr_diagonal = ["manifest.json"]

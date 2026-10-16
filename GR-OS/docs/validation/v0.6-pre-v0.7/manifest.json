@@ -1,0 +1,479 @@
+{
+  "format": "gr.baseline-preservation/1",
+  "version": "0.6.0",
+  "commit": "bcbb477479d4f5e5988a7cd078a47bd76eb3ac57",
+  "captured_utc": "2026-10-16T14:48:56.081490+00:00",
+  "verified_source_entries": 172,
+  "files": [
+    {
+      "path": "build/baselines/v0.6/benchmark_access.exe",
+      "bytes": 164864,
+      "sha256": "9ea1b00362c1b94a288e4f113cf656b12cc63fdd72ff1cbef2c79e3ee85ba242"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmark_data.exe",
+      "bytes": 1292800,
+      "sha256": "b4f8dc192393117b3f48b9a14c355c64355e8aa24392b1ba214ff69fd113f5ee"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmark_data_language_profile.exe",
+      "bytes": 1189376,
+      "sha256": "4f37ccd9d0f91da027f28708f1a749cbcefbfd7814373a504cc96981f924f4eb"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmark_data_relational.exe",
+      "bytes": 1192448,
+      "sha256": "4e38f89cf9467422398b845f6650485a1ae416ee4f4fe4846ea45d4cb82641d9"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmark_data_relational_profile.exe",
+      "bytes": 1213952,
+      "sha256": "bb7fdd2c03b67a8c33df8c3c4b638f26fa85822eb365f5c49300dcf226c06c77"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmark_runtime.exe",
+      "bytes": 942592,
+      "sha256": "9e8882844b521e78e4e618d402deafde8bfeeb87277c9dcad85c977d25520f0c"
+    },
+    {
+      "path": "build/baselines/v0.6/source.zip",
+      "bytes": 4132267,
+      "sha256": "182fa8cdc9a8ffa28a8d333e39d9db6b435412faea3d3d51799a948cb0d087fe"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmarks/access.cpp",
+      "bytes": 7430,
+      "sha256": "6964643a7a5581cb275b830d77bf9b8b9bcb3643141692b8e3600a91c2fbb952"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmarks/admission.cpp",
+      "bytes": 6524,
+      "sha256": "239e90a0df8fc4c25c11dcd4f00f5f1cd8d43602b4d09a797b688fc157ffc101"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmarks/buffers.py",
+      "bytes": 3228,
+      "sha256": "c654ca63651ebe1d2f9e3143210920acb42d6d6d567015bb8e11fbe688754af3"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmarks/compare.py",
+      "bytes": 2218,
+      "sha256": "d2f4db49059440775cba7df1dc9cde0325bc36c2bc18c3ce46c2dfca378941d1"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmarks/data.cpp",
+      "bytes": 18345,
+      "sha256": "e82139babb44e422af86212598bc0574c1b3ede92a614f3349606e2ceff06684"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmarks/data.py",
+      "bytes": 5970,
+      "sha256": "efefbfd80777863019ebc5fcc753ad6c9ee5643249270e3732c6722ae7db4916"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmarks/data_language_profile.cpp",
+      "bytes": 5428,
+      "sha256": "1446c3e6183e5b23e3a7e42c97acafd99a458e53fce7c0ff484e149126ae2ea0"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmarks/data_relational.cpp",
+      "bytes": 9828,
+      "sha256": "8ca18b148e3e68f0e719cfee92b1e02dcd3b7e8bd201b3b544b6bc3e99ab6a8d"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmarks/data_relational_profile.cpp",
+      "bytes": 11654,
+      "sha256": "c4e6a684c1a92252abee7931d176c5756bbc3c0db3db3e82fb693083c8dd783d"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmarks/history_reads.py",
+      "bytes": 5213,
+      "sha256": "a3cedbd51cfc9aba5d3ffb0d37698585362b914f68b84642fe316dd20bdd34c4"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmarks/README.md",
+      "bytes": 21779,
+      "sha256": "06bc6e49509db147a174801b3266e3e69e8a588e6a0eb34851513cc8a0dc5245"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmarks/run.py",
+      "bytes": 5260,
+      "sha256": "7efaa3105914435aa4dc647a1138c79c4e4af404fcfa54bf0ad21454cbce5a1d"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmarks/runtime-protocol.md",
+      "bytes": 2779,
+      "sha256": "9e8f5951e32cfebaac34045ce8bb14d8a0ee9c626d093228150107cfae5db9d7"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmarks/runtime.cpp",
+      "bytes": 9835,
+      "sha256": "f44756049296eab1aedcc88bdc3a7173f8e2b33a1bb33c86e3334a29b469b37f"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmarks/run_v0_2.py",
+      "bytes": 5548,
+      "sha256": "46028dc1e2d1a361406b4ff37cebcf8d68686ca505069adcb3e18e6eb4c88bcd"
+    },
+    {
+      "path": "build/baselines/v0.6/benchmarks/transactions.py",
+      "bytes": 13182,
+      "sha256": "8141ec6f108511a13a115a0eafc0fbcb1b42d2017a74c409898ccf8b90858a4f"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/bin/gr.exe",
+      "bytes": 153600,
+      "sha256": "b32462a413e28d749051399ca99e750f3be9ab70ac615391d05014db921ceda7"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/bin/gr_native.dll",
+      "bytes": 2981888,
+      "sha256": "bb2f6850187ef760e423db207bdc8d2920404c5fe6db1ca50ceb0ea37e0fb77a"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/bin/_gr_buffer.pyd",
+      "bytes": 19456,
+      "sha256": "3c145cdb7d23261be8965422c4e0a52182a53030b38e6e3342c1d17af716ae7c"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/gr_buffer.lib",
+      "bytes": 695080,
+      "sha256": "fab3ebe18cecf2cfdcdba6e2a0e1db55c1904b5bca234270f4d4f08b3d495b3c"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/gr_common.lib",
+      "bytes": 1338162,
+      "sha256": "fbc3c0c2f012d589980f7e64f4aa1cc8acf556beef0821535c19fefdc5ce9514"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/gr_core.lib",
+      "bytes": 6624754,
+      "sha256": "b7ab2f21831a93ec23b776fc68ad51cbd5532e36d7ff128eb5ab9a0d201682c5"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/gr_data.lib",
+      "bytes": 2218462,
+      "sha256": "96ec4676c2c97b4adb0fc04c5d8072324f2e19ff89a5f445f51468c119e4513f"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/gr_data_numeric.lib",
+      "bytes": 1786518,
+      "sha256": "3b960db6a6f723102dfa757ee52d08a0c975d34426d43c8a0173d777ddb383c6"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/gr_data_relational.lib",
+      "bytes": 2358896,
+      "sha256": "9427b6c819521a64f6afe069cdb8087815f0ad2eb230059072706cdc76e1115a"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/gr_data_sparse.lib",
+      "bytes": 839958,
+      "sha256": "c1cdd29fdb71c1c38dc6136fcbcfc8fb867d98046f4ab10ecefc108a6ed79bac"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/gr_data_standard.lib",
+      "bytes": 2012336,
+      "sha256": "39a6689a7a5c72096186433348ef8be6be4157d1dda8bb1751266fc137566093"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/gr_execution.lib",
+      "bytes": 1713238,
+      "sha256": "e306d191720a869907f010ee305e50d16d947e97d27ae665c20ec60bcd31e366"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/gr_experimental_data.lib",
+      "bytes": 1017490,
+      "sha256": "c286bf24a42124ea80e691a1252291744f62ded39260a069386a4732529a3bf5"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/gr_native.lib",
+      "bytes": 3094,
+      "sha256": "7d99fc5ec384cf668d39cf9275f8dedd17d3229a9407b98baad10cd0a1dc0875"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/gr_runtime.lib",
+      "bytes": 6069704,
+      "sha256": "0508fbcdb05353a7c4d82f1b7e9cea321e08b6c9f21f91122da38e16b69591e8"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/gr_semantics.lib",
+      "bytes": 1940208,
+      "sha256": "54190f1b1cc2a95db671ac02e56b6fc2abb5713a2c6003db01c7ac6efeb5c01d"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/gr_sqlite.lib",
+      "bytes": 2796812,
+      "sha256": "83a8e6c5f9246091f0b08b394a04e40cbd7ca2f5cbb9c9002ff7f07ed42a46d0"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/gr_storage.lib",
+      "bytes": 2758484,
+      "sha256": "5c960a18c0b4606fd63e0a6f58535bb6914a6889d7f5d13e475a9ccaebeaa324"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/common.hpp",
+      "bytes": 124,
+      "sha256": "b9cc972430d267c90014046c0311497a5baf6d855fe7397ed79d50a9bf73280a"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/core.hpp",
+      "bytes": 163,
+      "sha256": "8abc264420fcde160ab3a242977b41edfc5bb05d2b784654cb3a6671d5f6ad4d"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/c_api.h",
+      "bytes": 3499,
+      "sha256": "5d6091b27805e89a4b9a809e33047810a001d0166f0df845c0f1094de461a94a"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/data.hpp",
+      "bytes": 45,
+      "sha256": "ad6594816954e38cd7e09a202c0b1f95e49ef764b1d8b0a9b5dc73bae3a81677"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/execution.hpp",
+      "bytes": 210,
+      "sha256": "4d364b5f2f6a16c0a1fdcc6642eed27c8584cbd74396e82b2ef04d4078eb8815"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/runtime.hpp",
+      "bytes": 155,
+      "sha256": "a1d1da667e62f3aa8f94feb281798bc2e6273871fbe57f91c7f32f2e1db51020"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/storage.hpp",
+      "bytes": 210,
+      "sha256": "64a331de0a8be5046f9d114cbd9b4b8ae9eed2805c7fc3eb03939a8aee732e57"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/nlohmann/json.hpp",
+      "bytes": 953436,
+      "sha256": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/data/language.hpp",
+      "bytes": 6780,
+      "sha256": "3681052123384064d6c2e85586532ef2176d56ddf5da75b33759393119aaff1c"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/data/numeric.hpp",
+      "bytes": 1676,
+      "sha256": "7ec2678af52f1048540e8f5cf32cc7e7d0c56c1e7969a80440f361f3f5f397f9"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/data/relational.hpp",
+      "bytes": 3111,
+      "sha256": "ddb3f16664558661fd1b0b663d8fea581d90dabcafc087269f2a1fa490d0b678"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/data/sparse.hpp",
+      "bytes": 685,
+      "sha256": "15e9ca04d25c89b9c6064e154dd6229eed82f2c680a74b90b8b88166d76f887e"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/data/standard.hpp",
+      "bytes": 2199,
+      "sha256": "750e70fd5ad08d20bb6414229c4cdcb092d3ec97e7d8dccb139689670272adc4"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/execution/backend.hpp",
+      "bytes": 2596,
+      "sha256": "75b8383ae94d5f01de2a40b472c6122b207dbae7bce276f3846aec4991eb3571"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/execution/cpu.hpp",
+      "bytes": 2596,
+      "sha256": "507eec1cabb522af8ee88296f2a5622b327ee3465477aefa3fcc3dcddcebe1e6"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/execution/implementation.hpp",
+      "bytes": 1784,
+      "sha256": "27b55b593a87a9330ecd9aa47057da7b68703411dcaa6c4ce9ebc74f76f57f28"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/experimental/data.hpp",
+      "bytes": 755,
+      "sha256": "5d5fa04f788ab4d97e984b2f4ca1603e418e44182009c05b8a9db8c611214719"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/kernel/compact_history.hpp",
+      "bytes": 2982,
+      "sha256": "c7e5d9a34153b551bb43f9c5ccf1ffb582fd62d8523810e9d6715fa90a0d980d"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/kernel/history.hpp",
+      "bytes": 1372,
+      "sha256": "04273aca913a6ab7816135a99551570e29e8679bcd55666395c944ecc3b505c3"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/kernel/numerical.hpp",
+      "bytes": 1595,
+      "sha256": "799a831a1a5928a81c6c404381d209d967a43be53396b9008a6f552a90b0c243"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/kernel/operations.hpp",
+      "bytes": 3366,
+      "sha256": "08ad15dd1849bde1a7a87ee3a36e057940f2d594aae01ece9536a5a1f04707d5"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/kernel/projections.hpp",
+      "bytes": 521,
+      "sha256": "70d0ac5ee07340fd5b467ac17621463789a9fa6675f39672f643fc97f8226725"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/kernel/records.hpp",
+      "bytes": 3360,
+      "sha256": "6571c60907c65131fe4265c4b3166a3f73885360f421941e29bfd6ea61094cf0"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/kernel/record_operations.hpp",
+      "bytes": 325,
+      "sha256": "f817a9a047e1ac655b1c359b3563c33ee8d2f4b43910454b3dfa93c6c6325d86"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/kernel/types.hpp",
+      "bytes": 3072,
+      "sha256": "d45d1242d7756bbec9bba35e5aede41d122c29fe9200e6c7ce4d791ae328bbab"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/memory/access.hpp",
+      "bytes": 3911,
+      "sha256": "c67eaea36e0f3c8daa04f8c85d9d322ca0a634f71e53edc953d2cf99a1d6fd06"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/memory/buffer.hpp",
+      "bytes": 5794,
+      "sha256": "d0c8ae82d9417649d0137e5d53576e7972aa9dc9dfbaeb99f2f8794d32162b0e"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/runtime/catalog.hpp",
+      "bytes": 1799,
+      "sha256": "c346ffc5ad49382aaf42d6deace4b497be6899cf2aa97917d1486c4a9ab7912d"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/runtime/history_store.hpp",
+      "bytes": 2303,
+      "sha256": "24ea60beeee1329bc1aabd402caad8a8725e59e363a17cdf63a161e91ecfaf16"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/runtime/planner.hpp",
+      "bytes": 3134,
+      "sha256": "6cf4253651dddad4e46a1042f3633ce9419f3cf843c6fc5645458ecd38ca26e8"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/runtime/scheduler.hpp",
+      "bytes": 3540,
+      "sha256": "444118673eabab1218d3e5e3f767b7ffe34c38177708d5374009a47f25df9596"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/runtime/transaction.hpp",
+      "bytes": 3931,
+      "sha256": "f275a00e43237734895892dbe5c28bdc2e9c31e65affaf4dbb3f66ba4c6a20b1"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/storage/blob_reader.hpp",
+      "bytes": 1209,
+      "sha256": "77963a88b36d333120d69d115edd2a0045777c3db45c69d3fb6051e6f4e6ca93"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/storage/contracts.hpp",
+      "bytes": 4603,
+      "sha256": "b560b0e952e90a26dfe52eb898b47106a4c04b384ce9d4e217e56687a36095d7"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/storage/memory_store.hpp",
+      "bytes": 1279,
+      "sha256": "088eec1a463367eaf2c9d8f7e3485e86c9c4327775d56ae7ff090573bd9871af"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/storage/sqlite_store.hpp",
+      "bytes": 1467,
+      "sha256": "6e86cbf4eda50a467c86900630109a5b69ef4e002d1436108d61499babadaaf8"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/include/gr/support/common.hpp",
+      "bytes": 971,
+      "sha256": "aa2d8d6f412c0f87eb0e2c57099ec09812397d66f49c33fa2d4b934a9ac2cd11"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/cmake/GR/GRConfig.cmake",
+      "bytes": 1235,
+      "sha256": "f25199ecb5cdfc0c787d76f96c6fade40696a9a38eaf7494c6f0686218b08dba"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/cmake/GR/GRConfigVersion.cmake",
+      "bytes": 3760,
+      "sha256": "45e2c33f5088ee39d9fa07ef939315c89050b33acd4fa635a66746fc4ccb9bcd"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/cmake/GR/GRTargets-release.cmake",
+      "bytes": 7616,
+      "sha256": "d076e9043ea658ad8d6f962dcc1ee707a835ee2e9d4650a98785c8ccdb5e9631"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/lib/cmake/GR/GRTargets.cmake",
+      "bytes": 8695,
+      "sha256": "2718f7cc82e37dd8bd6f5eb6c510535983eb60e23ffcd14c8434648ec96e18e2"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/share/GR/licenses/MANIFEST.json",
+      "bytes": 2830,
+      "sha256": "75b7d488bece9834dc4e12f68aa3f863e44601c2454a1eb557fc6fcb4f402587"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/share/GR/licenses/README.md",
+      "bytes": 1777,
+      "sha256": "2c633f47bcad45c57da89e3a5fcd9e6aaff2fba6836aa006b9988f050e8292d6"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/share/GR/licenses/nlohmann/LICENSE.MIT",
+      "bytes": 1076,
+      "sha256": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603"
+    },
+    {
+      "path": "build/baselines/v0.6/installed/share/GR/licenses/picosha2/LICENSE",
+      "bytes": 1064,
+      "sha256": "6c30eb1f37554ec4199cb82a8c86d9e7a852da78a757832bebb03ac9ddc44ff1"
+    },
+    {
+      "path": "build/baselines/v0.6/python/gr_os/buffers.py",
+      "bytes": 4056,
+      "sha256": "e614058233f4dcb8947d0b939b59edd3ef58448dae132ab77db297a24551e21a"
+    },
+    {
+      "path": "build/baselines/v0.6/python/gr_os/data.py",
+      "bytes": 29777,
+      "sha256": "ec448e75e79475145db0e71e2e4a9bd68160c7232fd64f07cdb603c4799ce634"
+    },
+    {
+      "path": "build/baselines/v0.6/python/gr_os/execution.py",
+      "bytes": 8750,
+      "sha256": "8aa035807d5a62f8c0788f45299d123f458c6a33de7d7219dfab3b628e45bd35"
+    },
+    {
+      "path": "build/baselines/v0.6/python/gr_os/experimental.py",
+      "bytes": 2332,
+      "sha256": "6804516fa788edf8cf02aab2430f7158a740851b4156af9df53bc9fe47d6e669"
+    },
+    {
+      "path": "build/baselines/v0.6/python/gr_os/runtime.py",
+      "bytes": 14963,
+      "sha256": "7f18d6fbe773c54bd82b2cf0f581d10b364b639b64d4f57f4de2107e9361b29e"
+    },
+    {
+      "path": "build/baselines/v0.6/python/gr_os/storage.py",
+      "bytes": 7118,
+      "sha256": "60b6f4f6e0d6e74967eaee026c38830e3341e864a1228b5dc8f86c2a914b305c"
+    },
+    {
+      "path": "build/baselines/v0.6/python/gr_os/_native.py",
+      "bytes": 10490,
+      "sha256": "de3ea9f52926cfd6ab3a99d4310dd9ecdd8a0aa25338819e1691315238f160d1"
+    },
+    {
+      "path": "build/baselines/v0.6/python/gr_os/__init__.py",
+      "bytes": 4448,
+      "sha256": "882ab851a38e178f809e6abba3f09e93a900bd7b59b9c9e9486e3572424fab30"
+    }
+  ]
+}

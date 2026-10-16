@@ -1,0 +1,26 @@
+nullable_table_65536_construct: 1.9264 ms
+nullable_table_65536_infer_existing_literals: 0.085 ms
+nullable_table_65536_compile_warm_input_digests: 7.6257 ms
+nullable_table_65536_prepared_serial: 6.1558 ms
+nullable_table_65536_runtime_workers1: 10.1406 ms
+nullable_table_65536_runtime_workers4: 16.074 ms
+nullable_table_65536_specialized_fused_host_loop: 0.5604 ms
+nullable_table_262144_construct: 5.9389 ms
+nullable_table_262144_infer_existing_literals: 0.0786 ms
+nullable_table_262144_compile_warm_input_digests: 9.3776 ms
+nullable_table_262144_prepared_serial: 39.9782 ms
+nullable_table_262144_runtime_workers1: 28.8877 ms
+nullable_table_262144_runtime_workers4: 20.8467 ms
+nullable_table_262144_specialized_fused_host_loop: 1.1447 ms
+csr_4096_construct: 0.5319 ms
+csr_4096_direct_compile_warm_input_digests: 2.3575 ms
+csr_4096_direct_prepared: 0.2562 ms
+csr_4096_decoded_compile_warm_input_digests: 4.382 ms
+csr_4096_decoded_prepared: 0.5512 ms
+csr_16384_construct: 1.466 ms
+csr_16384_direct_compile_warm_input_digests: 2.6988 ms
+csr_16384_direct_prepared: 0.899 ms
+csr_16384_decoded_compile_warm_input_digests: 2.2654 ms
+csr_16384_decoded_prepared: 1.1127 ms
+
+[stderr]

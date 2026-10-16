@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.24)
-project(GR_OS VERSION 0.6.0 LANGUAGES C CXX)
+project(GR_OS VERSION 0.7.0 LANGUAGES C CXX)
 include(GNUInstallDirs)
 include(CMakePackageConfigHelpers)
 option(GR_BUILD_TESTS "Build native and Python tests" ON)
@@ -288,6 +288,10 @@ if(GR_BUILD_TESTS)
   if(Python3_Interpreter_FOUND)
     add_test(NAME runtime_crash COMMAND ${Python3_EXECUTABLE} -B ${CMAKE_CURRENT_SOURCE_DIR}/tests/integration/runtime_crash.py --worker $<TARGET_FILE:runtime_crash_worker>)
     set_tests_properties(runtime_crash PROPERTIES TIMEOUT 180 LABELS integration RUN_SERIAL TRUE)
+    add_test(NAME python_modules COMMAND ${CMAKE_COMMAND} -E env
+      "PYTHONPATH=${CMAKE_CURRENT_SOURCE_DIR}/bindings/python/src" "PYTHONDONTWRITEBYTECODE=1"
+      ${Python3_EXECUTABLE} -B -m unittest discover -s ${CMAKE_CURRENT_SOURCE_DIR}/tests/integration -p test_modules.py -v)
+    set_tests_properties(python_modules PROPERTIES TIMEOUT 60 LABELS packaging)
     add_test(NAME vendor_integrity COMMAND ${Python3_EXECUTABLE} -B ${CMAKE_CURRENT_SOURCE_DIR}/tools/verify_vendor.py)
     set_tests_properties(vendor_integrity PROPERTIES LABELS conformance)
     if(GR_BUILD_BINDINGS)
@@ -334,6 +338,9 @@ if(GR_BUILD_TESTS)
         add_test(NAME independent_package COMMAND ${Python3_EXECUTABLE} -B ${CMAKE_CURRENT_SOURCE_DIR}/tools/test_independent_package.py
           --cmake ${CMAKE_COMMAND} --build ${CMAKE_CURRENT_BINARY_DIR} --source ${CMAKE_CURRENT_SOURCE_DIR} --config $<CONFIG>)
         set_tests_properties(independent_package PROPERTIES TIMEOUT 300 LABELS packaging RUN_SERIAL TRUE)
+        add_test(NAME module_packages COMMAND ${Python3_EXECUTABLE} -B ${CMAKE_CURRENT_SOURCE_DIR}/tools/test_module_packages.py
+          --cmake ${CMAKE_COMMAND} --build ${CMAKE_CURRENT_BINARY_DIR} --source ${CMAKE_CURRENT_SOURCE_DIR} --config $<CONFIG>)
+        set_tests_properties(module_packages PROPERTIES TIMEOUT 600 LABELS packaging RUN_SERIAL TRUE)
       endif()
     endif()
   endif()

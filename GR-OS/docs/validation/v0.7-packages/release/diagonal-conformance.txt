@@ -1,0 +1,19 @@
+Start testing: Oct 17 00:34 Tokyo Standard Time
+----------------------------------------------------------
+1/1 Testing: diagonal_conformance
+1/1 Test: diagonal_conformance
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/db/Release/test_diagonal.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/db
+"diagonal_conformance" start time: Oct 17 00:34 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Independent extension: 32 oracle sizes, Function composition, overflow, shape and deadline contracts passed
+<end of output>
+Test time =   0.37 sec
+----------------------------------------------------------
+Test Passed.
+"diagonal_conformance" end time: Oct 17 00:34 Tokyo Standard Time
+"diagonal_conformance" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 17 00:34 Tokyo Standard Time

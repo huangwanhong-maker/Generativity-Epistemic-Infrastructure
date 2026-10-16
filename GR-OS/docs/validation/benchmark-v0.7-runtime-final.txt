@@ -1,0 +1,8 @@
+prepared_identity_4096: median 1.476 ms, p95 1.8432 ms
+runtime_identity_256: median 13.5124 ms, p95 15.6972 ms
+fork_join_hash_8x512KiB_serial: median 25.1146 ms, p95 27.7677 ms
+fork_join_hash_8x512KiB_workers1: median 30.6059 ms, p95 49.815 ms
+fork_join_hash_8x512KiB_workers2: median 20.5434 ms, p95 31.9433 ms
+fork_join_hash_8x512KiB_workers4: median 10.2324 ms, p95 11.9083 ms
+
+[stderr]

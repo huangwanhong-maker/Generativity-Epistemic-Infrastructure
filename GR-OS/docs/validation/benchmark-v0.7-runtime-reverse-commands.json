@@ -1,0 +1,27 @@
+{
+  "scope": "Targeted new/old reverse-order diagnostic after initial runtime variability; other builds/tests/benchmarks stopped. Same unchanged runners, no source change.",
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\Release\\benchmark_runtime.exe",
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.7-runtime-reverse-for-v0.7.json"
+      ],
+      "started_utc": "2026-10-16T16:08:04.891096+00:00",
+      "elapsed_s": 0.8439999999973224,
+      "returncode": 0,
+      "binary_sha256": "3c6a10920ce73dae81c95446b01c0a98ab5c642037be0a8df2c53f43b474728a",
+      "capture_sha256": "3f729cbdb22b213981a35f0b19e87f576a394098c710205f98d0c3eb7771ec36"
+    },
+    {
+      "command": [
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\baselines\\v0.6\\benchmark_runtime.exe",
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\docs\\validation\\benchmark-v0.6-runtime-reverse-for-v0.7.json"
+      ],
+      "started_utc": "2026-10-16T16:08:05.739202+00:00",
+      "elapsed_s": 1.0,
+      "returncode": 0,
+      "binary_sha256": "9e8882844b521e78e4e618d402deafde8bfeeb87277c9dcad85c977d25520f0c",
+      "capture_sha256": "da6f4b40372331cd409ec229d98b41adcef39610764a3d34f9b65d68318a1138"
+    }
+  ]
+}

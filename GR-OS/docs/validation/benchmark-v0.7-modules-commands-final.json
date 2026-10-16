@@ -1,0 +1,132 @@
+{
+  "format": "gr.module-benchmark-commands/1",
+  "package_run": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579",
+  "package_artifacts_sha256": "72cc2ea7d418c3948059373463ca79115a34296eaf4be35e5f7cf6d88914111d",
+  "commands": [
+    {
+      "name": "analysis-native",
+      "command": [
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\ab\\Release\\benchmark_analysis.exe",
+        "3",
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\benchmark-fixtures-final"
+      ],
+      "started_utc": "2026-10-16T15:54:55.575063+00:00",
+      "command_file_sha256": {
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\ab\\Release\\benchmark_analysis.exe": "b46941e3bbda3ecc98b37b75aa37b64f84324411876aaf9581673b1b8bd7aeb9"
+      },
+      "native_libraries": {
+        "GR_OS_LIBRARY": {
+          "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\sdk\\bin\\gr_native.dll",
+          "sha256": "bb9f7286f8391d43754995dd0bb3a9e8a1ac9a0c6fbb49701f58a31108936998"
+        },
+        "GR_ANALYSIS_LIBRARY": {
+          "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\a\\bin\\gr_relational_analysis_native.dll",
+          "sha256": "dc8e265acd8e86c97a39cd337a666c44c578f9b1099ce44320e36f0b59bd586c"
+        },
+        "GR_VISUALIZATION_LIBRARY": {
+          "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\v\\bin\\gr_visualization_native.dll",
+          "sha256": "5def15001e0c436b255a4f1a92dd3a24545032473d0147143087182fca2b590c"
+        },
+        "GR_DIAGONAL_LIBRARY": {
+          "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\d\\bin\\gr_diagonal_native.dll",
+          "sha256": "7ce418697a70378cce818f4cfbc19a563f72d76553e78a6876857c19e955fa6b"
+        }
+      },
+      "elapsed_s": 6.922000000005937,
+      "returncode": 0,
+      "capture_sha256": "4ee27475db9070b7b4a1ad6407ebec60705e1ee95c8ebdebf819294f415013cd"
+    },
+    {
+      "name": "visualization-native",
+      "command": [
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\vb\\Release\\benchmark_visualization.exe"
+      ],
+      "started_utc": "2026-10-16T15:55:02.511060+00:00",
+      "command_file_sha256": {
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\vb\\Release\\benchmark_visualization.exe": "e0d8cafe3ba8193282c8457bc845ade811043e795cb7233cbc66bcac8212a138"
+      },
+      "native_libraries": {
+        "GR_OS_LIBRARY": {
+          "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\sdk\\bin\\gr_native.dll",
+          "sha256": "bb9f7286f8391d43754995dd0bb3a9e8a1ac9a0c6fbb49701f58a31108936998"
+        },
+        "GR_ANALYSIS_LIBRARY": {
+          "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\a\\bin\\gr_relational_analysis_native.dll",
+          "sha256": "dc8e265acd8e86c97a39cd337a666c44c578f9b1099ce44320e36f0b59bd586c"
+        },
+        "GR_VISUALIZATION_LIBRARY": {
+          "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\v\\bin\\gr_visualization_native.dll",
+          "sha256": "5def15001e0c436b255a4f1a92dd3a24545032473d0147143087182fca2b590c"
+        },
+        "GR_DIAGONAL_LIBRARY": {
+          "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\d\\bin\\gr_diagonal_native.dll",
+          "sha256": "7ce418697a70378cce818f4cfbc19a563f72d76553e78a6876857c19e955fa6b"
+        }
+      },
+      "elapsed_s": 5.4689999999973224,
+      "returncode": 1
+    }
+  ],
+  "fixtures": [
+    {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\benchmark-fixtures-final\\incidence-256.bin",
+      "bytes": 433608,
+      "sha256": "3338a2adc5e4cd595150f2a8620782bf8dc7067a8309e379c5364d3bfb6d073b"
+    },
+    {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\benchmark-fixtures-final\\incidence-256.json",
+      "bytes": 4118,
+      "sha256": "f796840731d65b1d59db30a0572df8e5494a9a350665c04a78d09b55616a40e6"
+    },
+    {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\benchmark-fixtures-final\\incidence-64.bin",
+      "bytes": 112308,
+      "sha256": "51fe7e422ec5f61cfe61e554d1a1e83ed9d501130ca108485fcab4576ed0f0b0"
+    },
+    {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\benchmark-fixtures-final\\incidence-64.json",
+      "bytes": 4118,
+      "sha256": "97c9a5a9744cb85e6d6c6aeba3691e4d8f81954c46cd04f986099189ed5905c5"
+    },
+    {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\benchmark-fixtures-final\\incidence-768.bin",
+      "bytes": 1290888,
+      "sha256": "620776a7876bfac9e63b5991c2021ed52e0143a354b3543ff30acdd1f9116d73"
+    },
+    {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\benchmark-fixtures-final\\incidence-768.json",
+      "bytes": 4118,
+      "sha256": "45a472d7643c4c9b04f943df4e0d5650e6ebc6ef94fd026b63db9863d37b647a"
+    },
+    {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\benchmark-fixtures-final\\incidence-next-256.bin",
+      "bytes": 434011,
+      "sha256": "745903f909c5e5bf6826ca1a29fb666b1e238ef33cad7e1afc1a116dc064d256"
+    },
+    {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\benchmark-fixtures-final\\incidence-next-256.json",
+      "bytes": 4118,
+      "sha256": "e71df4735ef18824abfccb95cecc998a7f068166aaf9cf600627dc7b2dc6a154"
+    },
+    {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\benchmark-fixtures-final\\incidence-next-64.bin",
+      "bytes": 112711,
+      "sha256": "bc099bca51a6ab85d63f59552d6018dc446935733bd448e47df8adee3f6867ca"
+    },
+    {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\benchmark-fixtures-final\\incidence-next-64.json",
+      "bytes": 4118,
+      "sha256": "4e4c07a2c549b60aa8dc4313ae8f260795ff36bd1e8ccd7345bd6fb89c776397"
+    },
+    {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\benchmark-fixtures-final\\incidence-next-768.bin",
+      "bytes": 1291291,
+      "sha256": "3b826d2901c4d8b8bfd88e10a5e30ce7f00bfe3f5a3198774081f732c8d2490b"
+    },
+    {
+      "path": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\benchmark-fixtures-final\\incidence-next-768.json",
+      "bytes": 4118,
+      "sha256": "739fd9976ee4436f7e192b5ac6e53adbfccc27920f9087d100b15b7e532e3c20"
+    }
+  ]
+}

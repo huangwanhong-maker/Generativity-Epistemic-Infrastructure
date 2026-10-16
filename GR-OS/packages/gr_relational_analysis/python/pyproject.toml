@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools==80.9.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "gr-relational-analysis"
+version = "0.1.0"
+description = "Independent analysis source package for GR-OS"
+requires-python = ">=3.10"
+[project.entry-points."gr_os.modules"]
+"org.gr.analysis.relational" = "gr_relational_analysis:manifest"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.setuptools.package-data]
+gr_relational_analysis = ["manifest.json"]

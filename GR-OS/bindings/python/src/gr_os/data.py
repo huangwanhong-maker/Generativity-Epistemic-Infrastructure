@@ -94,6 +94,14 @@ class DataValue(_Resource):
     def retain(self) -> DataValue:
         return DataValue(self.native, self._call("data.value.retain"))
 
+    def describe(self) -> dict:
+        """Return authoritative native specification and computational provenance.
+
+        This detached metadata is suitable for explicit copied package import;
+        it does not transfer this value's opaque handle or its owner.
+        """
+        return self._call("data.value.describe")
+
     def payload(self) -> Value:
         """Caller owns the returned buffer handles independently of this value."""
         return Value._decode(self._call("data.value.payload"), self.native)

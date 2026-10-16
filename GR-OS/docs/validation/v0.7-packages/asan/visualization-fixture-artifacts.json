@@ -1,0 +1,51 @@
+{
+  "changes": [
+    {
+      "source": "packages\\gr_visualization\\examples\\fixture.hpp",
+      "copied": "build-asan\\m\\e541e34f\\vs\\examples\\fixture.hpp",
+      "previous_sha256": "73dce4b804c0a326f5432542ba7d61249ed9d8b8b15a057216a01c8b873dea89",
+      "sha256": "749e3515e606ea42ecf47f4479ea296bd0752226c239d6223b3b5067ed31494a"
+    },
+    {
+      "source": "packages\\gr_visualization\\benchmarks\\visualization.cpp",
+      "copied": "build-asan\\m\\e541e34f\\vs\\benchmarks\\visualization.cpp",
+      "previous_sha256": "984f1bd54317cdbe7cd1cddf4d669ccf2e0cb01498433e0c66d3d7bf054a870a",
+      "sha256": "8e46cb8d5b2eedc6f4045825df35d002ccda2cd13808e1583ead77139376178a"
+    },
+    {
+      "source": "packages\\gr_visualization\\tests\\conformance.cpp",
+      "copied": "build-asan\\m\\e541e34f\\vs\\tests\\conformance.cpp",
+      "previous_sha256": "07995d971afa8265371f32379c60f07274fc44a5c645c3957c41905e3e4709b8",
+      "sha256": "c4fa34936bf7d8e310d6afbfffa6ad20eabd2624335bc71912aa481e0d56ca3d"
+    },
+    {
+      "source": "packages\\gr_visualization\\README.md",
+      "copied": "build-asan\\m\\e541e34f\\vs\\README.md",
+      "previous_sha256": "43fd0764aef023685d7a940f03b464e192081867399d7e56723db22a31e16c0f",
+      "sha256": "46a0a57ae254324e2fb16c1aa9d44c8851084bf124ecc33415e88874f5b36456"
+    }
+  ],
+  "production_hashes_unchanged": true,
+  "production": {
+    "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\sdk\\bin\\gr_native.dll": "98153ddadd7b41d0d082356f381bebedb1bb521a70173e832b5d6bfb01a28027",
+    "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\a\\bin\\gr_relational_analysis_native.dll": "513fd963e8d465300970533941f691f3cf9f466acc9b6683bc1b7b437fbc490b",
+    "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\v\\bin\\gr_visualization_native.dll": "9579eb20a8f1c742a635a173ebf7eb70912d001e4b7f02f66238c9de381370c4",
+    "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\d\\bin\\gr_diagonal_native.dll": "398a91f4a9606fa78bc54c480e3cf8b9ce1761034368c6c05f5d54340de56e73",
+    "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\v\\lib\\gr_visualization.lib": "95c43aef8597aa315b429d8a17f098928206659c2e43a46ff6cf85b496265aba",
+    "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\vb\\Release\\gr_visualization.lib": "95c43aef8597aa315b429d8a17f098928206659c2e43a46ff6cf85b496265aba"
+  },
+  "executables": [
+    {
+      "path": "build-asan\\m\\e541e34f\\vb\\Release\\test_visualization.exe",
+      "sha256": "8f2f157e07f40b765f9da92a452f3d192508a4f7888b0938a0f089bb03a07d9d"
+    },
+    {
+      "path": "build-asan\\m\\e541e34f\\vb\\Release\\example_visualization.exe",
+      "sha256": "e0046bb91d9e6efd1a87283d1e86125d8e73b67e8596207712bc3679f9f61b8c"
+    },
+    {
+      "path": "build-asan\\m\\e541e34f\\vb\\Release\\benchmark_visualization.exe",
+      "sha256": "d46e1cc133ff84374feccc95454e1199f58d37bd835055f81896a29e571fed2b"
+    }
+  ]
+}

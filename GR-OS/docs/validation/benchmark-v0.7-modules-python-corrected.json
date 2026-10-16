@@ -1,0 +1,380 @@
+{
+  "format": "gr.module-python-benchmark/1",
+  "python": "3.12.10",
+  "gr_os": "0.7.0",
+  "analysis_package": {
+    "format": "gr.module-package/1",
+    "id": "org.gr.analysis.relational",
+    "version": "0.1.0",
+    "categories": [
+      "analysis"
+    ],
+    "requires": [
+      {
+        "id": "gr-os",
+        "version": "0.7.0",
+        "components": [
+          "data_relational"
+        ]
+      }
+    ],
+    "exports": {
+      "types": [
+        "gr.analysis.incidence-summary@1"
+      ],
+      "representations": [
+        "gr.analysis.summary-json-bytes@1"
+      ],
+      "operators": [
+        "gr.analysis.incidence-summary@1"
+      ],
+      "providers": [
+        "gr.analysis.cpu.incidence-summary@1"
+      ],
+      "functions": [
+        "analyze",
+        "summarize",
+        "compare",
+        "NetworkSnapshot.decode"
+      ]
+    },
+    "effects": [
+      "pure"
+    ],
+    "trust": "Explicitly trusted native in-process code. No sandbox, authentication or authority conferred.",
+    "compatibility": "Source package requiring exact SDK and package versions. Rebuild with matching C++ compiler, standard library, runtime and configuration. No cross-compiler binary ABI guarantee. Python uses an explicit copied compact snapshot boundary; opaque handles never cross package DLLs."
+  },
+  "repeats": 5,
+  "warmups": 1,
+  "scope": "Installed blocking Python facade; copies and response decoding included. No RSS/zero-copy claim.",
+  "timing_scope": "Warm engines after one phase warmup; timed result destruction included. Not process-start or cold-validation latency.",
+  "cases": [
+    {
+      "owners": 64,
+      "occurrences": 192,
+      "source_bytes": 112308,
+      "snapshot_bytes": 90435,
+      "scene_bytes": 194259,
+      "svg_utf8_bytes": 391601,
+      "source_sha256": "51fe7e422ec5f61cfe61e554d1a1e83ed9d501130ca108485fcab4576ed0f0b0",
+      "snapshot_id": "sha256:158acb8ca361ca70e971dbe1740b8a3d88a14d0ab290cd7c733e3ad5681e8d75",
+      "scene_sha256": "6084e8727bbf4a3ba62db59b6cfe1aec22ae1eaa9a1eeb1a179fcc7091667c38",
+      "phases": {
+        "raw_import_and_close": {
+          "samples_ms": [
+            24.4947,
+            22.1761,
+            22.8853,
+            21.8203,
+            22.3978
+          ],
+          "median_ms": 22.3978,
+          "min_ms": 21.8203,
+          "max_ms": 24.4947
+        },
+        "gr_os_copy_bridge_and_close": {
+          "samples_ms": [
+            23.5746,
+            23.6448,
+            31.2488,
+            27.2307,
+            28.6058
+          ],
+          "median_ms": 27.2307,
+          "min_ms": 23.5746,
+          "max_ms": 31.2488
+        },
+        "persistent_summary": {
+          "samples_ms": [
+            0.6493,
+            0.6357,
+            0.6069,
+            0.6395,
+            0.8467
+          ],
+          "median_ms": 0.6395,
+          "min_ms": 0.6069,
+          "max_ms": 0.8467
+        },
+        "persistent_compare": {
+          "samples_ms": [
+            3.896,
+            4.1371,
+            3.5924,
+            4.0323,
+            4.2464
+          ],
+          "median_ms": 4.0323,
+          "min_ms": 3.5924,
+          "max_ms": 4.2464
+        },
+        "compact_export": {
+          "samples_ms": [
+            3.5255,
+            3.1915,
+            4.0805,
+            3.3137,
+            3.3233
+          ],
+          "median_ms": 3.3233,
+          "min_ms": 3.1915,
+          "max_ms": 4.0805
+        },
+        "compact_decode": {
+          "samples_ms": [
+            11.7817,
+            11.7383,
+            13.3096,
+            13.0207,
+            11.6901
+          ],
+          "median_ms": 11.7817,
+          "min_ms": 11.6901,
+          "max_ms": 13.3096
+        },
+        "compact_to_scene_svg": {
+          "samples_ms": [
+            36.7796,
+            36.852,
+            37.4437,
+            39.3817,
+            96.788
+          ],
+          "median_ms": 37.4437,
+          "min_ms": 36.7796,
+          "max_ms": 96.788
+        },
+        "raw_import_summary_scene_svg_close": {
+          "samples_ms": [
+            80.6674,
+            91.913,
+            66.5024,
+            69.5641,
+            70.4712
+          ],
+          "median_ms": 70.4712,
+          "min_ms": 66.5024,
+          "max_ms": 91.913
+        }
+      }
+    },
+    {
+      "owners": 256,
+      "occurrences": 768,
+      "source_bytes": 433608,
+      "snapshot_bytes": 344977,
+      "scene_bytes": 748609,
+      "svg_utf8_bytes": 1499930,
+      "source_sha256": "3338a2adc5e4cd595150f2a8620782bf8dc7067a8309e379c5364d3bfb6d073b",
+      "snapshot_id": "sha256:4e000da77b1defabc70b0d8cf5d4291ffc59283dbde1e553f760d0ba717e8906",
+      "scene_sha256": "6485003999e586b9e1b4b6de50d6d684029b69f537d80a9c4b84ed8c46fbe4d9",
+      "phases": {
+        "raw_import_and_close": {
+          "samples_ms": [
+            118.1684,
+            100.8405,
+            100.7074,
+            96.9003,
+            141.5575
+          ],
+          "median_ms": 100.8405,
+          "min_ms": 96.9003,
+          "max_ms": 141.5575
+        },
+        "gr_os_copy_bridge_and_close": {
+          "samples_ms": [
+            116.7447,
+            155.3894,
+            109.6819,
+            107.6839,
+            103.3815
+          ],
+          "median_ms": 109.6819,
+          "min_ms": 103.3815,
+          "max_ms": 155.3894
+        },
+        "persistent_summary": {
+          "samples_ms": [
+            2.2339,
+            2.3111,
+            2.9996,
+            2.6228,
+            2.3391
+          ],
+          "median_ms": 2.3391,
+          "min_ms": 2.2339,
+          "max_ms": 2.9996
+        },
+        "persistent_compare": {
+          "samples_ms": [
+            15.7132,
+            14.9611,
+            15.7228,
+            15.3141,
+            16.7272
+          ],
+          "median_ms": 15.7132,
+          "min_ms": 14.9611,
+          "max_ms": 16.7272
+        },
+        "compact_export": {
+          "samples_ms": [
+            16.8138,
+            14.6915,
+            14.6705,
+            17.0991,
+            16.5222
+          ],
+          "median_ms": 16.5222,
+          "min_ms": 14.6705,
+          "max_ms": 17.0991
+        },
+        "compact_decode": {
+          "samples_ms": [
+            52.2114,
+            50.5359,
+            50.9018,
+            47.3293,
+            49.5949
+          ],
+          "median_ms": 50.5359,
+          "min_ms": 47.3293,
+          "max_ms": 52.2114
+        },
+        "compact_to_scene_svg": {
+          "samples_ms": [
+            167.7635,
+            231.0664,
+            157.4871,
+            163.8344,
+            164.2139
+          ],
+          "median_ms": 164.2139,
+          "min_ms": 157.4871,
+          "max_ms": 231.0664
+        },
+        "raw_import_summary_scene_svg_close": {
+          "samples_ms": [
+            276.2134,
+            270.0747,
+            291.4786,
+            267.8573,
+            312.8489
+          ],
+          "median_ms": 276.2134,
+          "min_ms": 267.8573,
+          "max_ms": 312.8489
+        }
+      }
+    },
+    {
+      "owners": 768,
+      "occurrences": 2304,
+      "source_bytes": 1290888,
+      "snapshot_bytes": 1024267,
+      "scene_bytes": 2233699,
+      "svg_utf8_bytes": 4467474,
+      "source_sha256": "620776a7876bfac9e63b5991c2021ed52e0143a354b3543ff30acdd1f9116d73",
+      "snapshot_id": "sha256:617984801c81271cbf93c8cbc760686f617e14f0d96859db4ca7c7285800560a",
+      "scene_sha256": "4f3e50127dd0ed1ad113adb7e1af67392985efcb7ab6ccf542c3a77cd5a880d9",
+      "phases": {
+        "raw_import_and_close": {
+          "samples_ms": [
+            305.005,
+            290.0585,
+            298.4508,
+            288.7184,
+            377.4738
+          ],
+          "median_ms": 298.4508,
+          "min_ms": 288.7184,
+          "max_ms": 377.4738
+        },
+        "gr_os_copy_bridge_and_close": {
+          "samples_ms": [
+            498.6084,
+            786.5301,
+            1015.9702,
+            551.4893,
+            884.4272
+          ],
+          "median_ms": 786.5301,
+          "min_ms": 498.6084,
+          "max_ms": 1015.9702
+        },
+        "persistent_summary": {
+          "samples_ms": [
+            21.238,
+            21.8903,
+            23.0627,
+            23.6369,
+            22.2427
+          ],
+          "median_ms": 22.2427,
+          "min_ms": 21.238,
+          "max_ms": 23.6369
+        },
+        "persistent_compare": {
+          "samples_ms": [
+            73.3258,
+            85.5988,
+            124.9454,
+            71.996,
+            90.863
+          ],
+          "median_ms": 85.5988,
+          "min_ms": 71.996,
+          "max_ms": 124.9454
+        },
+        "compact_export": {
+          "samples_ms": [
+            84.4188,
+            64.4268,
+            69.4915,
+            57.463,
+            104.0012
+          ],
+          "median_ms": 69.4915,
+          "min_ms": 57.463,
+          "max_ms": 104.0012
+        },
+        "compact_decode": {
+          "samples_ms": [
+            281.5867,
+            349.1122,
+            332.3024,
+            374.607,
+            255.6193
+          ],
+          "median_ms": 332.3024,
+          "min_ms": 255.6193,
+          "max_ms": 374.607
+        },
+        "compact_to_scene_svg": {
+          "samples_ms": [
+            838.5155,
+            960.6646,
+            1128.7831,
+            1072.0876,
+            1180.777
+          ],
+          "median_ms": 1072.0876,
+          "min_ms": 838.5155,
+          "max_ms": 1180.777
+        },
+        "raw_import_summary_scene_svg_close": {
+          "samples_ms": [
+            1872.0843,
+            1677.5036,
+            1805.0599,
+            1398.1111,
+            1819.7462
+          ],
+          "median_ms": 1805.0599,
+          "min_ms": 1398.1111,
+          "max_ms": 1872.0843
+        }
+      }
+    }
+  ]
+}

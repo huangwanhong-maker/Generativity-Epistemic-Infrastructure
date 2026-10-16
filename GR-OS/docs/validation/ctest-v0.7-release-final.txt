@@ -1,0 +1,96 @@
+Command: ['C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\ctest.exe', '--test-dir', 'C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build', '-C', 'Release', '-j', '1', '--output-on-failure']
+Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+Test project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+      Start  1: example_data_language
+ 1/40 Test  #1: example_data_language ............   Passed    0.07 sec
+      Start  2: example_extension
+ 2/40 Test  #2: example_extension ................   Passed    0.07 sec
+      Start  3: data_language
+ 3/40 Test  #3: data_language ....................   Passed    0.13 sec
+      Start  4: data_numeric
+ 4/40 Test  #4: data_numeric .....................   Passed    0.16 sec
+      Start  5: data_standard
+ 5/40 Test  #5: data_standard ....................   Passed    0.15 sec
+      Start  6: data_sparse
+ 6/40 Test  #6: data_sparse ......................   Passed    0.46 sec
+      Start  7: data_relational
+ 7/40 Test  #7: data_relational ..................   Passed    0.77 sec
+      Start  8: buffers
+ 8/40 Test  #8: buffers ..........................   Passed    0.07 sec
+      Start  9: access
+ 9/40 Test  #9: access ...........................   Passed    0.07 sec
+      Start 10: numerical
+10/40 Test #10: numerical ........................   Passed    0.07 sec
+      Start 11: buffer_execution
+11/40 Test #11: buffer_execution .................   Passed    0.08 sec
+      Start 12: compact_history
+12/40 Test #12: compact_history ..................   Passed    2.02 sec
+      Start 13: history_store
+13/40 Test #13: history_store ....................   Passed    1.34 sec
+      Start 14: admission
+14/40 Test #14: admission ........................   Passed    0.36 sec
+      Start 15: experimental_data
+15/40 Test #15: experimental_data ................   Passed    0.08 sec
+      Start 16: records
+16/40 Test #16: records ..........................   Passed    0.06 sec
+      Start 17: history
+17/40 Test #17: history ..........................   Passed    1.18 sec
+      Start 18: canonical
+18/40 Test #18: canonical ........................   Passed    0.10 sec
+      Start 19: storage
+19/40 Test #19: storage ..........................   Passed    0.56 sec
+      Start 20: sqlite
+20/40 Test #20: sqlite ...........................   Passed    0.75 sec
+      Start 21: execution
+21/40 Test #21: execution ........................   Passed    0.33 sec
+      Start 22: operations
+22/40 Test #22: operations .......................   Passed    0.14 sec
+      Start 23: planner
+23/40 Test #23: planner ..........................   Passed    0.07 sec
+      Start 24: prepared
+24/40 Test #24: prepared .........................   Passed    0.05 sec
+      Start 25: transactions
+25/40 Test #25: transactions .....................   Passed    0.27 sec
+      Start 26: runtime
+26/40 Test #26: runtime ..........................   Passed    1.59 sec
+      Start 27: runtime_recovery
+27/40 Test #27: runtime_recovery .................   Passed    0.09 sec
+      Start 28: runtime_crash
+28/40 Test #28: runtime_crash ....................   Passed    1.10 sec
+      Start 29: python_modules
+29/40 Test #29: python_modules ...................   Passed    0.52 sec
+      Start 30: vendor_integrity
+30/40 Test #30: vendor_integrity .................   Passed    0.10 sec
+      Start 31: python_binding
+31/40 Test #31: python_binding ...................   Passed    7.62 sec
+      Start 32: example_data_python
+32/40 Test #32: example_data_python ..............   Passed    0.49 sec
+      Start 33: python_data
+33/40 Test #33: python_data ......................   Passed    1.02 sec
+      Start 34: python_runtime
+34/40 Test #34: python_runtime ...................   Passed    0.71 sec
+      Start 35: python_buffers
+35/40 Test #35: python_buffers ...................   Passed    0.51 sec
+      Start 36: example_python
+36/40 Test #36: example_python ...................   Passed    0.35 sec
+      Start 37: example_runtime
+37/40 Test #37: example_runtime ..................   Passed    0.32 sec
+      Start 38: installed_sdk
+38/40 Test #38: installed_sdk ....................   Passed   34.43 sec
+      Start 39: independent_package
+39/40 Test #39: independent_package ..............   Passed   86.56 sec
+      Start 40: module_packages
+40/40 Test #40: module_packages ..................   Passed  237.78 sec
+
+100% tests passed, 0 tests failed out of 40
+
+Label Time Summary:
+conformance    =   6.54 sec*proc (15 tests)
+examples       =   1.30 sec*proc (5 tests)
+integration    =  13.14 sec*proc (8 tests)
+packaging      = 359.29 sec*proc (4 tests)
+unit           =   2.34 sec*proc (8 tests)
+
+Total Test time (real) = 382.68 sec
+
+Exit code: 0

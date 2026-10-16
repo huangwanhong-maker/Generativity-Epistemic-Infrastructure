@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools==80.9.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "gr-visualization"
+version = "0.1.0"
+description = "Independent visualization source package for GR-OS"
+requires-python = ">=3.10"
+dependencies = ["gr-relational-analysis==0.1.0"]
+[project.entry-points."gr_os.modules"]
+"org.gr.visualization.incidence" = "gr_visualization:manifest"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.setuptools.package-data]
+gr_visualization = ["manifest.json"]

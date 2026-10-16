@@ -1,8 +1,45 @@
 # GR-OS open architectural decisions
 
 **Class:** Informative decision agenda  
-**Status:** v0.6 complete; stopped for review before broad Layer 2 or migration
-**Date:** 2026-10-15 JST
+**Status:** v0.7 complete; stopped for architectural review
+**Date:** 2026-10-17 JST
+
+## v0.7 decisions and next review agenda
+
+[ADR-0007](../../decisions/ADR-0007-independent-layer2-packages.md) and the
+[assessment](../reviews/v0.7-assessment-and-plan.md) select ordinary independent
+packages, shared native qualified views and explicit portable Python projections.
+The v0.6 and earlier agendas below are retained as historical stage decisions.
+
+1. **PROVISIONAL: independent method ecosystem.** Analysis and visualization
+   exercise reusable direct APIs; analysis/diagonal use existing typed registration.
+   Decide which real academic/institutional workflow should validate reuse next,
+   with agreed data sizes and semantic acceptance. No Layer 1 work is authorized.
+2. **OPEN: Python computational composition.** Compact snapshot interchange is
+   explicit and copied. Arbitrary external native-provider registration into one
+   Python Context is absent. Choose a concrete need before a shared registration
+   ABI, Python callbacks or isolated process protocol.
+3. **OPEN: distribution qualification.** Exact SDK/toolchain rebuilds are the
+   supported native model. Choose platform matrix, release ownership, compatible
+   source API policy and package signing before claiming binary distribution.
+   Manifest/discovery checks cannot certify package behavior or grant authority.
+4. **PROVISIONAL: derived projection custody.** Native NetworkView retains full
+   qualified source; portable snapshots omit source wrappers/full computation DAG
+   and validate structure only. Decide authorized source bundles, disclosure,
+   retention and export warrants before sharing restricted historical datasets.
+5. **OPEN: scale and rendering.** First indexing, source import and deterministic
+   scene output allocate memory. Select real sparse/dense histories and budgets
+   before streaming snapshots, incremental indexes, multilevel layouts or device
+   execution. Repeated queries should reuse owners, not repeat source transport.
+6. **OPEN: model interpretation and numerical scope.** Checked integer weighting
+   is an extension example, not an empirically adequate social model. Approximate
+   algorithms need explicit assumptions, reference cases and error contracts.
+7. **DEFERRED: external effects and isolation.** Native/Python modules are trusted
+   in-process code. Privileged connectors require authentication, disclosure,
+   durable intent/outcome, idempotency and process isolation designs separately.
+8. **DEFERRED: application and legacy migration.** A future authorized increment
+   must select an application slice and preserve explicit GSP/GRRP crosswalks,
+   original evidence, signatures and unresolved semantic differences.
 
 The initial [assessment](../../ARCHITECTURE_REVIEW.md) remains historical discussion. The user selected explicit R8 layering, C++ with Python access, and implementation of Layers 5 and 6 followed by review. [ADR-0001](../../decisions/ADR-0001-layered-development-and-layers-5-6.md) records this disposition; [the implementation contract](../layers-5-6.md) specifies the first bounded version. Detailed v0.1 choices remain reviewable and do not imply approval of later layers.
 

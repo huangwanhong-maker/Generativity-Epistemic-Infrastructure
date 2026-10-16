@@ -1,0 +1,313 @@
+{
+  "cases": [
+    {
+      "native_snapshot_lease": {
+        "median_ms": 0.0001,
+        "p95_ms": 0.0004,
+        "samples_ms": [
+          0.0004,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001
+        ]
+      },
+      "owners_with_incidences": 32,
+      "portable_snapshot_to_svg": {
+        "median_ms": 33.2998,
+        "p95_ms": 34.0289,
+        "samples_ms": [
+          34.0289,
+          27.1134,
+          33.3364,
+          33.2998,
+          25.5337
+        ]
+      },
+      "projection": {
+        "median_ms": 9.3686,
+        "p95_ms": 12.6021,
+        "samples_ms": [
+          10.976,
+          12.6021,
+          9.3686,
+          9.2314,
+          6.5236
+        ]
+      },
+      "records_per_commit_limit": 1000,
+      "scene_bytes": 112299,
+      "scene_encode_copy": {
+        "median_ms": 0.0064,
+        "p95_ms": 0.0065,
+        "samples_ms": [
+          0.0065,
+          0.0064,
+          0.0064,
+          0.0063,
+          0.0064
+        ]
+      },
+      "scene_id": "sha256:3cc8af3782a8c8d6f6c1f25cd8692b7339c4a9f5205b4b18b505b4e71881becb",
+      "snapshot_bytes": 53245,
+      "snapshot_export_copy": {
+        "median_ms": 1.7959,
+        "p95_ms": 2.3724,
+        "samples_ms": [
+          1.395,
+          1.4775,
+          2.3724,
+          1.7959,
+          1.8249
+        ]
+      },
+      "snapshot_import_validate_copy": {
+        "median_ms": 8.1078,
+        "p95_ms": 12.6405,
+        "samples_ms": [
+          7.9199,
+          8.1078,
+          6.8658,
+          11.644,
+          12.6405
+        ]
+      },
+      "source_occurrences": 97,
+      "source_publications": 2,
+      "source_vertices": 68,
+      "svg_bytes": 232615,
+      "svg_export": {
+        "median_ms": 7.1217,
+        "p95_ms": 8.3042,
+        "samples_ms": [
+          6.8961,
+          8.3042,
+          7.588,
+          5.4634,
+          7.1217
+        ]
+      },
+      "svg_sha256": "4f104a0f40c5e581dca21244aaeb5ac0d2ecd1f72eeb0a00d667f85b18d350df",
+      "synthetic_publish_to_svg": {
+        "median_ms": 90.5583,
+        "p95_ms": 94.9838,
+        "samples_ms": [
+          94.9838,
+          81.1035,
+          90.5583
+        ]
+      },
+      "user_records_per_publication": 999
+    },
+    {
+      "native_snapshot_lease": {
+        "median_ms": 0.0002,
+        "p95_ms": 0.0002,
+        "samples_ms": [
+          0.0002,
+          0.0001,
+          0.0002,
+          0.0001,
+          0.0002
+        ]
+      },
+      "owners_with_incidences": 256,
+      "portable_snapshot_to_svg": {
+        "median_ms": 486.9719,
+        "p95_ms": 533.4039,
+        "samples_ms": [
+          533.4039,
+          382.9515,
+          428.9541,
+          524.5269,
+          486.9719
+        ]
+      },
+      "projection": {
+        "median_ms": 63.8863,
+        "p95_ms": 111.6608,
+        "samples_ms": [
+          81.2214,
+          111.6608,
+          63.8863,
+          54.579,
+          51.6176
+        ]
+      },
+      "records_per_commit_limit": 1000,
+      "scene_bytes": 854103,
+      "scene_encode_copy": {
+        "median_ms": 0.0832,
+        "p95_ms": 0.109,
+        "samples_ms": [
+          0.109,
+          0.0832,
+          0.0882,
+          0.0783,
+          0.0785
+        ]
+      },
+      "scene_id": "sha256:9edcb5d3ab2dff85d22f7c006f633415b4388c8af63d426b4de5663d83fe7372",
+      "snapshot_bytes": 395126,
+      "snapshot_export_copy": {
+        "median_ms": 16.3778,
+        "p95_ms": 21.1049,
+        "samples_ms": [
+          18.2155,
+          12.8155,
+          14.416,
+          21.1049,
+          16.3778
+        ]
+      },
+      "snapshot_import_validate_copy": {
+        "median_ms": 91.1394,
+        "p95_ms": 136.9373,
+        "samples_ms": [
+          64.9383,
+          86.8006,
+          115.0936,
+          136.9373,
+          91.1394
+        ]
+      },
+      "source_occurrences": 769,
+      "source_publications": 2,
+      "source_vertices": 516,
+      "svg_bytes": 1778990,
+      "svg_export": {
+        "median_ms": 61.3848,
+        "p95_ms": 95.4057,
+        "samples_ms": [
+          42.6151,
+          87.984,
+          40.1189,
+          95.4057,
+          61.3848
+        ]
+      },
+      "svg_sha256": "587667ce4aedce630d498805638e922d2fbda85c386a653b922926911cb0f6c4",
+      "synthetic_publish_to_svg": {
+        "median_ms": 1509.181,
+        "p95_ms": 1572.9994,
+        "samples_ms": [
+          1509.181,
+          1264.4221,
+          1572.9994
+        ]
+      },
+      "user_records_per_publication": 999
+    },
+    {
+      "native_snapshot_lease": {
+        "median_ms": 0.0002,
+        "p95_ms": 0.0003,
+        "samples_ms": [
+          0.0003,
+          0.0002,
+          0.0002,
+          0.0001,
+          0.0002
+        ]
+      },
+      "owners_with_incidences": 1024,
+      "portable_snapshot_to_svg": {
+        "median_ms": 1276.4521,
+        "p95_ms": 1459.0071,
+        "samples_ms": [
+          1276.4521,
+          1309.4264,
+          1009.6591,
+          1052.3999,
+          1459.0071
+        ]
+      },
+      "projection": {
+        "median_ms": 366.8297,
+        "p95_ms": 397.7474,
+        "samples_ms": [
+          369.1466,
+          360.7013,
+          357.9362,
+          397.7474,
+          366.8297
+        ]
+      },
+      "records_per_commit_limit": 1000,
+      "scene_bytes": 3416753,
+      "scene_encode_copy": {
+        "median_ms": 1.4546,
+        "p95_ms": 3.8177,
+        "samples_ms": [
+          1.4546,
+          1.4238,
+          1.8198,
+          3.8177,
+          1.4367
+        ]
+      },
+      "scene_id": "sha256:4b9e4dec632461f8fc05f76c665e53f19d0cdce74edd87152f4b213f8ebdb7f8",
+      "snapshot_bytes": 1573242,
+      "snapshot_export_copy": {
+        "median_ms": 85.1696,
+        "p95_ms": 90.8682,
+        "samples_ms": [
+          85.4582,
+          90.8682,
+          73.3173,
+          83.854,
+          85.1696
+        ]
+      },
+      "snapshot_import_validate_copy": {
+        "median_ms": 585.2588,
+        "p95_ms": 822.9383,
+        "samples_ms": [
+          553.7947,
+          550.2377,
+          822.9383,
+          739.5347,
+          585.2588
+        ]
+      },
+      "source_occurrences": 3073,
+      "source_publications": 3,
+      "source_vertices": 2052,
+      "svg_bytes": 7117289,
+      "svg_export": {
+        "median_ms": 295.33,
+        "p95_ms": 781.6009,
+        "samples_ms": [
+          781.6009,
+          351.6725,
+          278.3369,
+          295.33,
+          242.367
+        ]
+      },
+      "svg_sha256": "60a556adaaadaa319e2996d513b8d790e8bfbf7004698db5abdb8e801a1fa414",
+      "synthetic_publish_to_svg": {
+        "median_ms": 3453.0619,
+        "p95_ms": 4217.9706,
+        "samples_ms": [
+          4217.9706,
+          3453.0619,
+          3012.2674
+        ]
+      },
+      "user_records_per_publication": 999
+    }
+  ],
+  "format": "gr.visualization.benchmark/1",
+  "protocol": {
+    "assumptions": "single process, sequential cases, no concurrent test/build workload; fixed synthetic qualified data",
+    "end_to_end_repetitions": 3,
+    "end_to_end_scope": "synthetic record construction, bounded MemoryStore publications (two at 32/256 owners; three at 1024), qualified acquisition, L3 incidence execution/materialization, analysis indexing, scene construction and SVG export",
+    "memory_scope": "reported serialized byte counts are not allocation counts, peak process memory or resident set size",
+    "native_sharing": "NetworkView::snapshot copies an immutable shared handle; projection creates a new owned scene",
+    "ordinary_repetitions": 5,
+    "portable_copy_scope": "snapshot export creates compact JSON bytes; import parses and copies indexed topology and context; full source custody is omitted",
+    "timing": "steady_clock wall time including result checks; p95 is nearest-rank sample statistic",
+    "warmups": 1
+  }
+}

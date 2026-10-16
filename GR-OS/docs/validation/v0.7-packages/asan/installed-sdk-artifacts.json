@@ -1,0 +1,42 @@
+{
+  "run": "build-asan\\p\\379723c7",
+  "products": [
+    {
+      "path": "build-asan\\p\\379723c7\\relocated\\bin\\gr_native.dll",
+      "bytes": 7853056,
+      "sha256": "98153ddadd7b41d0d082356f381bebedb1bb521a70173e832b5d6bfb01a28027"
+    },
+    {
+      "path": "build-asan\\p\\379723c7\\relocated\\bin\\gr.exe",
+      "bytes": 580608,
+      "sha256": "b725b6e6a86391a9305f390a0bbe1be175d6361b4b9aac05bda6700fd05808a4"
+    },
+    {
+      "path": "build-asan\\p\\379723c7\\relocated\\bin\\_gr_buffer.pyd",
+      "bytes": 63488,
+      "sha256": "2f80d6a97eaf92c686e705c3b667c304b96f4af6d232adb67ba38535acf8f867"
+    },
+    {
+      "path": "build-asan\\p\\379723c7\\c\\Release\\consumer_c.exe",
+      "bytes": 40960,
+      "sha256": "6901228f6a330198cf8a40b08465c5089de7c8f05ebdee7f5ee98432924d8c13"
+    },
+    {
+      "path": "build-asan\\p\\379723c7\\c\\Release\\consumer_cpp.exe",
+      "bytes": 4477952,
+      "sha256": "6594f94d4b9fe2501d976d5d9ef41d818ec0b7263ba8f38508cb7271a6c1f5cc"
+    },
+    {
+      "path": "build-asan\\p\\379723c7\\wheels\\gr_os-0.7.0-py3-none-any.whl",
+      "bytes": 27506,
+      "sha256": "77e69f5b79b4e731ed525d0e2e9bf8a5e32151d158455260826529854dda6fc7"
+    }
+  ],
+  "harness": {
+    "path": "tools\\test_installed_sdk.py",
+    "bytes": 8592,
+    "sha256": "f9f900634d40270ae3dfc32e81c74c2ead606e008f5b8b45436ca6883c800619"
+  },
+  "commands_and_stdout": "docs\\validation\\v0.7-packages\\asan\\installed_sdk-ctest.txt",
+  "note": "The installed SDK harness streams its subprocess output to CTest; it does not create a separate commands.json. The retained CTest section contains its exact invocation and output."
+}

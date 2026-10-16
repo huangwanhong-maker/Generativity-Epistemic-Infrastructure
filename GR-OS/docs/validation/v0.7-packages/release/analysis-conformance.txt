@@ -1,0 +1,19 @@
+Start testing: Oct 17 00:32 Tokyo Standard Time
+----------------------------------------------------------
+1/1 Testing: analysis_conformance
+1/1 Test: analysis_conformance
+Command: "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/ab/Release/test_analysis.exe"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/ab
+"analysis_conformance" start time: Oct 17 00:32 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+57 independent relational analysis checks passed
+<end of output>
+Test time =   0.79 sec
+----------------------------------------------------------
+Test Passed.
+"analysis_conformance" end time: Oct 17 00:32 Tokyo Standard Time
+"analysis_conformance" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 17 00:32 Tokyo Standard Time

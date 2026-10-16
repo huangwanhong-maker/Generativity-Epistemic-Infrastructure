@@ -1,0 +1,91 @@
+{
+  "format": "gr.visual-inspection/1",
+  "date_utc": "2026-10-16T15:38:21.029142+00:00",
+  "browser": {
+    "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "version": "155.0.8059.40",
+    "sha256": "f76f0234efb271041dc84f9f38fb858e01859d5da6f775f5108668eb3ae80975"
+  },
+  "package_run": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579",
+  "capture": {
+    "mode": "Headless Chrome, local file URI, isolated build-local profile per fixture, hidden window",
+    "flags": [
+      "--headless",
+      "--disable-gpu",
+      "--hide-scrollbars",
+      "--no-first-run",
+      "--no-default-browser-check",
+      "--disable-background-networking",
+      "--window-size=1440,800"
+    ],
+    "exit_codes": [
+      0,
+      0,
+      0
+    ]
+  },
+  "initial_finding": "The earlier five-occurrence SVG had overlapping role labels. Deterministic bounded label spacing corrected this; geometry and identities remain in the scene. Initial sandboxed Chrome failed before rendering; an isolated approved headless process produced the captures.",
+  "review": {
+    "incidence-columns": "Inspected: five distinct role labels, two owner boxes, three target boxes, source-derived qualification and version prefixes visible.",
+    "temporal-bands": "Inspected: 13 occurrences, categorical active/indeterminate/unscoped bands and isolated owner visible. Category labels are not represented dates.",
+    "narrow": "Inspected at canvas_width640, margin128, long title: boxes and five labels remain within canvas; title and long legend text are clipped intentionally. Complete text, identifiers and mappings remain in structured scene/SVG metadata."
+  },
+  "limits": "This is a Windows Chrome visual smoke check, not cross-browser/font accessibility or dense-layout qualification. Dense scenes can overlap and expose a fallback marker.",
+  "files": [
+    {
+      "path": "docs/validation/v0.7-visual/incidence-columns-browser.txt",
+      "bytes": 182,
+      "sha256": "14d7b482e201d29ed3b4fef602c45b62a2aae1e275aaba89f5b97934144d6570"
+    },
+    {
+      "path": "docs/validation/v0.7-visual/incidence-columns.png",
+      "bytes": 50392,
+      "sha256": "6bad093a5d5cc0a8060f971383dd6bcca967ff2557f9dabc77dc063ac512cce2"
+    },
+    {
+      "path": "docs/validation/v0.7-visual/incidence-columns.svg",
+      "bytes": 19719,
+      "sha256": "e84fe7c35f0a7928ab78c324258db26429da9c0e71c52b2206429d8facb943f1"
+    },
+    {
+      "path": "docs/validation/v0.7-visual/narrow-browser.txt",
+      "bytes": 171,
+      "sha256": "aff793ddb009325615ce689ae6ea6311208c1d3f8b25c70d2b895f9fe58b42ae"
+    },
+    {
+      "path": "docs/validation/v0.7-visual/narrow-scene.json",
+      "bytes": 10163,
+      "sha256": "75271bb287c2aaacf75f4a16db91d5d490462f4158432c3925f10fc8173fbe48"
+    },
+    {
+      "path": "docs/validation/v0.7-visual/narrow.png",
+      "bytes": 43067,
+      "sha256": "0005078183a50d0f1100601c331096987565fd3ca1f1ba6be788a266b52cc1db"
+    },
+    {
+      "path": "docs/validation/v0.7-visual/narrow.svg",
+      "bytes": 19868,
+      "sha256": "d1020652679076f97ae7ddb1ffc5fce065c589817dfa562448d751100bf0e4a0"
+    },
+    {
+      "path": "docs/validation/v0.7-visual/package-artifacts.json",
+      "bytes": 3456,
+      "sha256": "523f286a8635675f14b317866123de96736c263092a709d396f5d74300a98f18"
+    },
+    {
+      "path": "docs/validation/v0.7-visual/temporal-bands-browser.txt",
+      "bytes": 180,
+      "sha256": "acf87e6fa6670f50696bb3b8c52a95f1682a6a89a1713d0f4e9a471ecf09f367"
+    },
+    {
+      "path": "docs/validation/v0.7-visual/temporal-bands.png",
+      "bytes": 124027,
+      "sha256": "5c40937dc923a0e8db97d0c7f42b6878c215d287855c076022fa769618ee578d"
+    },
+    {
+      "path": "docs/validation/v0.7-visual/temporal-bands.svg",
+      "bytes": 41645,
+      "sha256": "480f4162fe56f3072851d5f5085b304c1591505331e24dcaa3d187633a94096a"
+    }
+  ]
+}

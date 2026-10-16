@@ -1,146 +1,159 @@
-# GR-OS v0.6 verification record
+# GR-OS v0.7 verification record
 
-**Class:** Implementation test and performance evidence  
-**Date:** 2026-10-15 JST  
-**Scope:** Layer 3 maturation and existing Layers 4?6 regression  
-**Status:** Completed; stopped for architectural review
+**Class:** Implementation test and performance evidence
 
-## Environment and preserved baseline
+**Date:** 2026-10-17 JST
 
-Windows x64, Visual Studio 2022 / MSVC 19.44, CMake 3.31.6, Python 3.12.10,
+**Scope:** Independent Layer 2 packages and Layers 3-6 regression
+
+**Status:** Complete; stopped for architectural review
+
+## Environment and baseline
+
+Windows x64, MSVC 19.44 / Visual Studio 2022, CMake 3.31.6, Python 3.12.10,
 NumPy 2.5.0, Intel Core i7-11370H and eight reported logical processors.
-Dependencies remain pinned in-tree; packaging used the existing build-local
-setuptools/wheel environment offline. No global package installation was performed.
-Other operating systems, compilers and devices have not been qualified by this run.
+Wheels use existing build-local setuptools/wheel tools offline. No global Python
+installation is changed. Other operating systems, compilers and devices are not
+qualified by this run.
 
-Before edits, all 247 v0.5 source/artifact manifest entries matched and the unchanged
-Release suite passed **35/35 in 67.87 s**. The 189-file source/document archive,
-installed SDK, facade, runners and benchmark executables were preserved.
-[Baseline manifest](validation/v0.5-pre-v0.6/manifest.json),
-[baseline CTest](validation/v0.5-pre-v0.6/ctest-baseline.txt) and
-[previous verification](validation/verification-v0.5.md) retain that evidence.
-A final [baseline recheck](validation/v0.6-baseline-reverification.json) verified
-all 189 archived entries and five preserved native binaries against accepted
-v0.5 hashes. The four matched benchmark sources remain byte-identical to v0.5.
+Published v0.6 commit `bcbb477479d4f5e5988a7cd078a47bd76eb3ac57` is the baseline.
+Before edits, all 172 source entries matched and the unchanged Release suite passed
+**38/38 in 179.96 s**. Its source archive, installed SDK, Python facade, runners and
+six benchmark executables were preserved as 94 hashed files. See the
+[baseline manifest](validation/v0.6-pre-v0.7/manifest.json),
+[baseline test](validation/v0.6-pre-v0.7/ctest-baseline.txt), and
+[original v0.6 verification](validation/v0.6-pre-v0.7/verification-v0.6-original.md).
+All seven vendored files match pinned hashes and lengths in the
+[dependency recheck](validation/dependencies-v0.7.json).
 
 ## Release acceptance
 
-The final full suite passed **38/38 in 106.64 s**, after package-contract and
-numerical-profile review corrections. See [configure](validation/configure-v0.6-release-final.txt),
-[build](validation/build-v0.6-release-final.txt),
-[summary](validation/ctest-v0.6-release-final.txt) and
-[details](validation/ctest-v0.6-release-detail.txt).
-The earlier combined 38/38 run is retained as initial evidence.
+The full suite passed **40/40 in 382.68 s**:
+[configure](validation/configure-v0.7-release-final.txt),
+[build](validation/build-v0.7-release-final.txt),
+[summary](validation/ctest-v0.7-release-final.txt),
+[details](validation/ctest-v0.7-release-final-detail.txt), and
+[commands](validation/commands-v0.7-release-final.json).
 
 | Area | Accepted coverage |
 |---|---|
-| Computational language | 83 checks: typed expressions, exact provenance/context, weak-owner cache isolation/eviction/failure/concurrency, Function sharing/substitution and specialization reuse |
-| Numeric extension | 89 checks: checked unsigned boundaries, independent expected floating/complex bits, scalar/batch agreement, missingness, bounds, hostile floating environment restoration, cancellation and allocation rollback |
-| Host access | 58 checks: owning ranges, little-endian loads, reversed/zero strides, empty/extreme geometry and lifetime |
-| Standard and CSR | 42 and 108 checks; nullable access, shape, overflow, alternative providers and independent expectations |
-| Qualified histories | 61 checks: revisions/referents/occurrences/temporal qualifications, hostile provenance/new owners, exact cache-on/off bytes, bounded session reuse and concurrency |
-| Python | 17 data cases plus legacy 16, runtime 17 and buffer 9; actual NumPy uint64/complex copies and read-only owner lifetime, Function ownership and partial-wrapper fault injection |
-| Existing foundation | Kernel, execution, recording histories, SQLite/memory transactions, frozen recovery, scheduler, crash/process-termination, buffers and CLI cases retained |
-| Installation | Relocated C/C++ consumers, offline GR wheel and examples; separate installed source package, dependency rejection, relocated C++ Function consumer and package wheel/C facade |
+| Existing computation | 83 language, 89 numeric, 42 standard, 108 sparse, 58 access and 69 qualified-history checks; owning views and provenance guards added without removing prior behavior |
+| Analysis package | 57 checks: independent graph oracles, repeated/n-ary/isolated participation, identities, changed recordings, malformed/oversized interchange, custody/lifetimes and cancellation |
+| Visualization package | 123 checks: source/glyph consistency, layouts, filtering/losses, XML escaping, deterministic identities, limits/cancellation, narrow labels and dense fallback |
+| Formal contrast | Independent diagonal suite, including 32 oracle cases; explicit degree-vector mapping and checked weighting/reduction in the composed consumer |
+| Discovery | Six Python cases: metadata-only discovery, explicit activation, dependency/version errors, malformed metadata, duplicate IDs and ownership |
+| Installed composition | C++ Function/Runtime and direct APIs, shared native topology, portable validation-basis separation; eight Python integration cases and a working example in the full run |
+| Existing foundation | Kernel, Memory/SQLite history, execution, planner, scheduling, publication/recovery, process termination, buffers, CLI, installed C/C++ SDK and prior Python suites retained |
 
-A subsequent sanitizer run exposed a **test-harness startup defect**, described
-below. Its correction stages the required runtime earlier and consistently uses
-the build-local packaging environment. The affected Release installed-SDK test
-was rerun and passed **1/1 in 21.62 s**; production libraries were unchanged.
-[Corrected Release summary](validation/ctest-v0.6-release-sdk-rerun.txt),
-[details](validation/ctest-v0.6-release-sdk-detail.txt).
+Actual NumPy passed in Release. Packages build from copied independent source
+projects against relocated installed dependencies; the core build does not add
+those projects as source subdirectories. Release module products are under
+`build/m/9b198579`. Python checks cover source/summary/portable scene parity,
+provenance changes, malformed snapshots, close/race behavior and handle capacity.
 
-Final Release native DLL SHA-256:
-`bb2f6850187ef760e423db207bdc8d2920404c5fe6db1ca50ceb0ea37e0fb77a`.
-The corrected installed SDK prefix is `build/p/59eb42e4`; its wheel hash is
-`f31e7565b8f3ad6e90c799942bec51c2e0950dcc46ebc325d7d71a147b5ddbb0`.
-The earlier accepted full-suite prefix `build/p/85df9ba2` is also retained.
-Wheel timestamps may differ between builds; byte-identical archives are not claimed.
+Two narrowly scoped changes followed the full run. First, package CMake projects
+gained explicit manifest configuration dependencies. All three reconfigured and
+manifest touches triggered regeneration without a native object rebuild:
+[regeneration evidence](validation/manifest-regeneration-v0.7-release-final.json).
+Second, Python analysis import now closes a rejected exported buffer immediately.
+A ninth installed case retains the rejection traceback and checks native closure.
+The changed wheel passed all nine installed tests in 0.343 s plus the example:
+[Release correction](validation/python-cleanup-v0.7-release-final.txt).
+These changes are not attributed to the earlier full run.
 
-## AddressSanitizer and the corrected failure
+## Packaging, compatibility and retained failures
 
-MSVC AddressSanitizer Release instrumented native C/C++, including SQLite and
-external consumers. The global interpreter made actual NumPy tests available;
-Python and NumPy themselves were not sanitizer builds. Outer watchdogs used
-multiplier eight without changing operation deadlines.
+Native compatibility means exact SDK version plus matching compiler/runtime,
+configuration and sanitizer settings. It is a tested source/API build boundary,
+not a cross-version C++ ABI promise. Wheels contain facades; native libraries are
+installed and explicitly selected separately. Discovery does not load them.
+[Exact SDK/package commands](validation/v0.7-sdk-commands.md) link archived
+commands, hashes, conformance output and source-copy checks for both configurations.
 
-The initial selected run passed **36/37 in 357.95 s**. `installed_sdk` failed
-before its C consumer started, with Windows status 3221225781 (missing DLL).
-The harness had staged the ASan runtime only after its first native consumer.
-It now stages the DLL beside both consumer executables and in the relocated
-native-library directory before use; all copies/environment changes remain local.
-This was a setup failure, not a reported memory-safety finding.
-[Initial summary](validation/ctest-v0.6-asan.txt) and
-[initial details](validation/ctest-v0.6-asan-initial-detail.txt) preserve the failure.
+Missing SDK and unsupported declared versions fail in isolated CMake probes.
+The actual preserved GR 0.6.0 SDK was also supplied to the analysis package and
+rejected for its GR 0.7.0 requirement:
+[diagnostic](validation/older-sdk-v0.7-rejection.txt) and
+[command/result](validation/older-sdk-v0.7-rejection.json).
+An incompatible declaration fixture and an actual historical SDK probe are
+separate evidence; neither constitutes a historical source rebuild.
 
-The corrected affected test passed **1/1 in 25.12 s**:
-[summary](validation/ctest-v0.6-asan-sdk-rerun.txt),
-[details](validation/ctest-v0.6-asan-sdk-detail.txt).
-Thus **all 37 selected tests have passing evidence across these runs**, rather
-than a falsely clean first full run. Actual NumPy and the independent package
-passed in the initial run; package installation used `build-asan/x/ee5e8379`.
-[Configure](validation/configure-v0.6-asan.txt) and
-[build](validation/build-v0.6-asan.txt) retain compiler evidence.
+Initial failures remain available. A negative probe first hit Windows path-length
+compiler detection, corrected with shorter build paths. Another attempt used an
+invalid empty Relation as an isolated-owner fixture; it now uses a valid generic
+Entity with an empty participants array. A later diagnostic assertion mishandled
+CMake line wrapping, corrected through whitespace normalization. Fresh package
+acceptance covers the intended checks. See
+[initial](validation/modules-v0.7-release-initial.txt),
+[second](validation/modules-v0.7-release-second.txt),
+[third](validation/modules-v0.7-release-third.txt), and
+[continued consumer](validation/modules-v0.7-release-third-consumer.txt) logs.
 
-Only the unchanged legacy `python_binding` CTest was excluded from ASan: its
-10,000-record capacity fixture has extreme instrumented allocation overhead.
-It passed in full Release. No optional NumPy subtest was skipped in this v0.6
-sanitizer selection. No TSan, non-Windows, power-loss or arbitrary-device
-qualification is claimed. Tests cannot establish absence of all defects.
+## AddressSanitizer
 
-## Independent distribution and compatibility
+The final selected MSVC AddressSanitizer run passed **39/39 in 832.22 s**,
+including independent native packages, installed consumers, actual NumPy, and the
+nine-case Python module suite with the final rejection-cleanup regression:
+[configure](validation/configure-v0.7-asan-final.txt),
+[build](validation/build-v0.7-asan-final.txt),
+[summary](validation/ctest-v0.7-asan-final.txt),
+[details](validation/ctest-v0.7-asan-final-detail.txt), and
+[commands](validation/commands-v0.7-asan-final.json).
 
-`packages/gr_diagonal` was copied, configured and installed independently against
-a relocated installed GR 0.6.0 SDK. It supplies a custom type, representation,
-operator and CPU implementation, then composes with standard reduction through
-Function and the existing Runtime. Missing SDK and actual v0.5 dependency probes
-fail for the intended reason; native/Python tests check independent results,
-overflow, mismatch, bounded inputs, deadline and diagnostics.
+Only unchanged legacy `python_binding` was excluded: its 10,000-record capacity
+fixture has extreme instrumented allocation overhead and passed in full Release.
+No optional NumPy case was skipped in this selection. Native C/C++ and external
+consumers were instrumented; Python and NumPy themselves were not sanitizer
+builds. Outer watchdogs use multiplier eight without changing operation deadlines.
+No sanitizer finding was reported. TSan, other platforms, power-loss behavior and
+arbitrary devices are not qualified by these tests.
 
-The accepted Release run is `build/x/b775460c`; its `commands.json` and
-`artifacts.json` retain exact subprocesses, negative diagnostics, manifest and
-hashes. Package native DLL SHA-256:
-`c0e156372f906e42695168509d3665d9b0ee06e06dff87d769f16fc827cdd746`.
-Its offline Python wheel SHA-256:
-`db52271c84b66281ef5d8235d4945b96c3c4cb733e97aaa79c8fd797feb03de8`.
-This proves the tested **source/API build boundary**, with exact SDK and matching
-compiler/runtime/configuration. The Python facade is a copied synchronous package
-boundary, not shared opaque-handle registration or a portable native plugin ABI.
+## Visual inspection and measurements
 
-The explicit new default-plan fixture in
-[`capture_default_plan.py`](../tools/capture_default_plan.py) gives identical full
-plan objects for [frozen v0.5](validation/plan-v0.5-for-v0.6.json) and
-[v0.6](validation/plan-v0.6-default.json), including ID
-`sha256:c521b4aab5d85c0c8b768f68d7dff4e2bab23743335c9e145ec359bd2c683bac`.
-The earlier plan capture omitted its payload; this new fixture does not claim to
-reproduce that undocumented input. Existing Layer 4/runtime and storage source
-files are unchanged; kernel Value gains only an additive weak ownership token.
+Final SVGs were rendered and inspected with Windows Chrome 155.0.8059.40:
+[inspection record](validation/v0.7-visual/inspection.json),
+[incidence columns](validation/v0.7-visual/incidence-columns.png),
+[temporal bands](validation/v0.7-visual/temporal-bands.png), and
+[narrow canvas](validation/v0.7-visual/narrow.png).
+An initial small-layout label overlap was corrected with deterministic bounded
+spacing. Dense scenes retain an explicit compressed-spacing fallback. Narrow
+long text is intentionally clipped; full text and mappings remain in scene/SVG
+metadata. This is visual smoke coverage, not cross-browser/font/accessibility
+qualification. The browser used isolated local profiles and local SVG files.
 
-## Measurements, evidence and stop point
+The first visualization benchmark failed because its 1,024-owner fixture exceeded
+the existing publication update cap. The fixture now uses bounded batches and
+reserves the history-manifest update. Production limits and libraries are unchanged.
+A new large-fixture regression brought visualization coverage to **127 checks**;
+targeted CTest passed **1/1 in 4.58 s Release** and **1/1 in 180.52 s ASan**.
+Both examples passed and small-fixture scene/SVG bytes remain unchanged.
+The [supplement](validation/visualization-fixture-v0.7-supplement.txt) and
+[package command appendix](validation/v0.7-sdk-commands.md) preserve original
+sources/artifacts, final hash guards and copied-source equality. Full-suite results
+above precede this fixture-only correction; the targeted runs verify the final files.
 
-[Benchmark analysis](validation/benchmark-v0.6-analysis.md) distinguishes matched
-whole workloads, current cache/access profiling, transport costs, regressions and
-host variability. Timings are local synthetic evidence without controlled affinity,
-power state or background activity. Counters and timed phases are not sampled CPU
-or hardware-counter attribution. Cache/owner byte charges are not process RSS.
+[Performance analysis](validation/benchmark-v0.7-analysis.md) records serial
+matched v0.6/v0.7 workloads, independent module phases and a focused Python transport
+profile. The reverse-order large serial table result remains about 20.7 ms, but
+scheduled/transport regressions and substantial timing variation are retained.
+Portable rendering and large JSON imports remain significant costs. Timings do not
+replace conformance or establish a production-scale guarantee.
 
-[Source/artifact manifest](validation/v0.6-source-artifacts.json) and
-[evidence manifest](validation/v0.6-evidence-manifest.json) identify accepted inputs,
-binaries, logs and captures. [Build commands](validation/v0.6-build-sdk-commands.md),
-[exact SDK/package commands and outcomes](validation/v0.6-sdk-commands.md), and
-[benchmark driver](../tools/measure_v06.py) support reproduction. Historical failed
-and preliminary runs are retained; living review documents remain outside frozen
-source/artifact identities.
+[Source/artifact manifest](validation/v0.7-source-artifacts.json),
+[evidence manifest](validation/v0.7-evidence-manifest.json), and
+[baseline recheck](validation/v0.7-baseline-reverification.json) identify the final
+implementation, accepted builds/wheels, captures and preserved baseline. Living
+review/README documents are outside frozen implementation hashes. An independent
+rehash verified all 212 source, 355 artifact and 146 evidence entries; all 94
+preserved baseline files still match. The 18 current documents checked here contain
+211 resolving local file links. Both accepted
+package runs match all 51 package source files and four composition-consumer files.
+The core native libraries, analysis/visualization package libraries and small SVG
+fixtures are unchanged by the final Python/benchmark-fixture corrections.
 
-All **172 source-input, 245 artifact and 66 evidence entries** were independently
-rehashed successfully. The 22 current/referenced reports checked here contain
-210 valid local links. Parent repository status matches the pre-existing unrelated
-changes recorded at task start; this increment adds no programme-source edits.
-
-See the [architectural review](reviews/v0.6-review.md) and
-[next decisions](planning/open_questions.md). Selected independent host CPU modules
-can use the implemented extension contracts. Approximate computation, device and
-streaming contracts, wider platform qualification and broader Python registration
-remain explicit future work. All task changes stay within GR-OS; legacy repositories,
-programme sources and applications were not migrated. Stop for architectural review
-before broad Layer 2 development.
+See the [architectural review](reviews/v0.7-review.md), [module contracts](modules.md),
+[packaging guide](module-packaging.md), and [next decisions](planning/open_questions.md).
+Native sharing, Python copies, selected source custody, omitted histories/artifacts,
+and factual/institutional authority have different contracts. Installation does
+not sandbox trusted native code or authorize external effects. Work remains inside
+GR-OS; no Layer 1 application or legacy migration is included.

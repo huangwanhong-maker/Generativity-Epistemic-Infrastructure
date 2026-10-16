@@ -1,0 +1,51 @@
+{
+  "changes": [
+    {
+      "source": "packages\\gr_visualization\\examples\\fixture.hpp",
+      "copied": "build\\m\\9b198579\\vs\\examples\\fixture.hpp",
+      "previous_sha256": "73dce4b804c0a326f5432542ba7d61249ed9d8b8b15a057216a01c8b873dea89",
+      "sha256": "749e3515e606ea42ecf47f4479ea296bd0752226c239d6223b3b5067ed31494a"
+    },
+    {
+      "source": "packages\\gr_visualization\\benchmarks\\visualization.cpp",
+      "copied": "build\\m\\9b198579\\vs\\benchmarks\\visualization.cpp",
+      "previous_sha256": "984f1bd54317cdbe7cd1cddf4d669ccf2e0cb01498433e0c66d3d7bf054a870a",
+      "sha256": "8e46cb8d5b2eedc6f4045825df35d002ccda2cd13808e1583ead77139376178a"
+    },
+    {
+      "source": "packages\\gr_visualization\\tests\\conformance.cpp",
+      "copied": "build\\m\\9b198579\\vs\\tests\\conformance.cpp",
+      "previous_sha256": "07995d971afa8265371f32379c60f07274fc44a5c645c3957c41905e3e4709b8",
+      "sha256": "c4fa34936bf7d8e310d6afbfffa6ad20eabd2624335bc71912aa481e0d56ca3d"
+    },
+    {
+      "source": "packages\\gr_visualization\\README.md",
+      "copied": "build\\m\\9b198579\\vs\\README.md",
+      "previous_sha256": "43fd0764aef023685d7a940f03b464e192081867399d7e56723db22a31e16c0f",
+      "sha256": "46a0a57ae254324e2fb16c1aa9d44c8851084bf124ecc33415e88874f5b36456"
+    }
+  ],
+  "production_hashes_unchanged": true,
+  "production": {
+    "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\sdk\\bin\\gr_native.dll": "bb9f7286f8391d43754995dd0bb3a9e8a1ac9a0c6fbb49701f58a31108936998",
+    "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\a\\bin\\gr_relational_analysis_native.dll": "dc8e265acd8e86c97a39cd337a666c44c578f9b1099ce44320e36f0b59bd586c",
+    "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\v\\bin\\gr_visualization_native.dll": "5def15001e0c436b255a4f1a92dd3a24545032473d0147143087182fca2b590c",
+    "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\d\\bin\\gr_diagonal_native.dll": "7ce418697a70378cce818f4cfbc19a563f72d76553e78a6876857c19e955fa6b",
+    "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\v\\lib\\gr_visualization.lib": "2fd1fbc67011296d26709b4b96a11eb2918a9fa6734911d2159dfd98de20c045",
+    "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\vb\\Release\\gr_visualization.lib": "2fd1fbc67011296d26709b4b96a11eb2918a9fa6734911d2159dfd98de20c045"
+  },
+  "executables": [
+    {
+      "path": "build\\m\\9b198579\\vb\\Release\\test_visualization.exe",
+      "sha256": "ca8ef6d3249b9238b3d9a7284b65ed33f04af7072ec50ae1d3651c1bd4e18b31"
+    },
+    {
+      "path": "build\\m\\9b198579\\vb\\Release\\example_visualization.exe",
+      "sha256": "7974be5cb97f373ed63722ac764072816c15f61ca02e622f98963573c09123e5"
+    },
+    {
+      "path": "build\\m\\9b198579\\vb\\Release\\benchmark_visualization.exe",
+      "sha256": "a171d9cf18ae9c423cb1efa77bf04b6d31f19ad48f634969d2095d8794180cc8"
+    }
+  ]
+}

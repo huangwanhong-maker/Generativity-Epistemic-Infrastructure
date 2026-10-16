@@ -1,0 +1,63 @@
+Command: ['C:\\Users\\Micro\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', '-B', 'build/verify-v07-fixture.py']
+release Running: ['C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe', '--build', 'C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\vb', '--config', 'Release', '--target', 'test_visualization', 'example_visualization', 'benchmark_visualization', '--parallel', '4']
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/vs/CMakeLists.txt
+  gr_visualization.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\m\9b198579\vb\Release\gr_visualization.lib
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/vs/CMakeLists.txt
+  conformance.cpp
+  test_visualization.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\m\9b198579\vb\Release\test_visualization.exe
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  gr_visualization.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\m\9b198579\vb\Release\gr_visualization.lib
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/vs/CMakeLists.txt
+  demo.cpp
+  example_visualization.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\m\9b198579\vb\Release\example_visualization.exe
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  gr_visualization.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\m\9b198579\vb\Release\gr_visualization.lib
+  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/vs/CMakeLists.txt
+  visualization.cpp
+  benchmark_visualization.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\m\9b198579\vb\Release\benchmark_visualization.exe
+release Running: ['C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\ctest.exe', '--test-dir', 'C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\vb', '-C', 'Release', '-R', '^visualization_conformance$', '--output-on-failure']
+Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/vb
+Test project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/vb
+    Start 1: visualization_conformance
+1/1 Test #1: visualization_conformance ........   Passed    4.57 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   4.58 sec
+release Running: ['C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\vb\\Release\\example_visualization.exe', 'C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\visual-demo-fixture-correction']
+incidence_columns: sha256:945e762bbb3d85b882a152ad00a18c724bc394d127f255f4a4640a8785b75475
+temporal_bands: sha256:aa05089720ac3a6be9373c581a389d3c391ad1e675301aea2b6625cb29d930c9
+asan Running: ['C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe', '--build', 'C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\vb', '--config', 'Release', '--target', 'test_visualization', 'example_visualization', 'benchmark_visualization', '--parallel', '4']
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  gr_visualization.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\m\e541e34f\vb\Release\gr_visualization.lib
+  conformance.cpp
+  test_visualization.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\m\e541e34f\vb\Release\test_visualization.exe
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  gr_visualization.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\m\e541e34f\vb\Release\gr_visualization.lib
+  demo.cpp
+  example_visualization.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\m\e541e34f\vb\Release\example_visualization.exe
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  gr_visualization.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\m\e541e34f\vb\Release\gr_visualization.lib
+  visualization.cpp
+  benchmark_visualization.vcxproj -> C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build-asan\m\e541e34f\vb\Release\benchmark_visualization.exe
+asan Running: ['C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\ctest.exe', '--test-dir', 'C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\vb', '-C', 'Release', '-R', '^visualization_conformance$', '--output-on-failure']
+Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/m/e541e34f/vb
+Test project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/m/e541e34f/vb
+    Start 1: visualization_conformance
+1/1 Test #1: visualization_conformance ........   Passed  180.51 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) = 180.52 sec
+asan Running: ['C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\vb\\Release\\example_visualization.exe', 'C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\visual-demo-fixture-correction']
+incidence_columns: sha256:945e762bbb3d85b882a152ad00a18c724bc394d127f255f4a4640a8785b75475
+temporal_bands: sha256:aa05089720ac3a6be9373c581a389d3c391ad1e675301aea2b6625cb29d930c9
+
+Exit code: 0

@@ -2,8 +2,34 @@
 
 ## Scope and current stage
 
+**v0.7 is complete and stopped for architectural review.** Read the
+[v0.7 review](docs/reviews/v0.7-review.md), [verification](docs/verification.md),
+and [performance report](docs/validation/benchmark-v0.7-analysis.md). Preserve
+the initial failures, targeted corrections, timing variability and custody limits.
+Do not begin further implementation or Layer 1 migration without the next user
+instruction. The selected source/API package boundary is qualified on Windows;
+no general binary ABI, Python zero-copy, sandbox or production-scale claim follows.
+
+**Completed authorization: v0.7 Layer 2 Tools & Modules Ecosystem.** The user
+explicitly authorized assessment followed by a bounded implementation, superseding
+the historical stop points below. Read the
+[v0.7 assessment and plan](docs/reviews/v0.7-assessment-and-plan.md) and
+[ADR-0007](decisions/ADR-0007-independent-layer2-packages.md). Implement independent
+qualified analysis and visualization packages, conventional packaging/discovery,
+and a contrasting diagonal composition demonstration. Preserve the published
+v0.6 baseline, measure transport and ownership costs, and stop for review after
+verification. No Layer 1 application or legacy migration is authorized.
+
+Keep module categories descriptive and native code explicitly trusted. Reuse
+Layer 3/4 contracts; no duplicate kernel, runtime or universal plugin host.
+Portable analysis snapshots provide structural validation only, not proof of
+omitted historical derivation. The native source-retaining view and copied Python
+interchange have different ownership and validation guarantees.
+
+## Historical v0.6 and earlier stage instructions
+
 **v0.6 is complete and stopped for architectural review.** Start with the
-[v0.6 review](docs/reviews/v0.6-review.md), [verification](docs/verification.md)
+[v0.6 review](docs/reviews/v0.6-review.md), [verification](docs/validation/v0.6-pre-v0.7/verification-v0.6-original.md)
 and [performance evidence](docs/validation/benchmark-v0.6-analysis.md). All selected
 ASan tests have passing evidence across the preserved initial run and corrected
 installed-consumer rerun; do not erase the initial harness failure. Preserve

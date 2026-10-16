@@ -1,0 +1,199 @@
+[
+  {
+    "command": [
+      "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+      "--install",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build",
+      "--config",
+      "Release",
+      "--prefix",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage"
+    ],
+    "returncode": 0,
+    "stdout": "-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/bin/_gr_buffer.pyd\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/c_api.h\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/bin/gr.exe\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/gr_sqlite.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/gr_common.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/gr_buffer.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/gr_semantics.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/gr_core.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/gr_storage.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/gr_execution.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/gr_runtime.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/gr_data.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/gr_data_standard.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/gr_data_numeric.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/gr_data_sparse.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/gr_data_relational.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/gr_experimental_data.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/gr_native.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/bin/gr_native.dll\n-- Up-to-date: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include\n-- Up-to-date: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/common.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/core.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/data\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/data/language.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/data/numeric.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/data/relational.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/data/sparse.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/data/standard.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/data.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/execution\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/execution/backend.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/execution/cpu.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/execution/implementation.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/execution.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/experimental\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/experimental/data.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/kernel\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/kernel/compact_history.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/kernel/history.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/kernel/numerical.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/kernel/operations.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/kernel/projections.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/kernel/records.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/kernel/record_operations.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/kernel/types.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/memory\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/memory/access.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/memory/buffer.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/runtime\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/runtime/catalog.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/runtime/history_store.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/runtime/planner.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/runtime/scheduler.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/runtime/transaction.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/runtime.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/storage\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/storage/blob_reader.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/storage/contracts.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/storage/memory_store.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/storage/sqlite_store.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/storage.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/support\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/gr/support/common.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/include/nlohmann/json.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/share/GR/licenses\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/share/GR/licenses/MANIFEST.json\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/share/GR/licenses/nlohmann\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/share/GR/licenses/nlohmann/LICENSE.MIT\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/share/GR/licenses/picosha2\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/share/GR/licenses/picosha2/LICENSE\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/share/GR/licenses/README.md\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/share/GR/licenses/sqlite\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/cmake/GR/GRTargets.cmake\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/cmake/GR/GRTargets-release.cmake\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/cmake/GR/GRConfig.cmake\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\stage/lib/cmake/GR/GRConfigVersion.cmake\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+      "-S",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\source",
+      "-B",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\missing",
+      "-G",
+      "Visual Studio 17 2022",
+      "-A",
+      "x64",
+      "-DCMAKE_FIND_ROOT_PATH=C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\empty",
+      "-DCMAKE_FIND_ROOT_PATH_MODE_PACKAGE=ONLY",
+      "-DCMAKE_FIND_USE_PACKAGE_REGISTRY=OFF",
+      "-DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=OFF"
+    ],
+    "returncode": 1,
+    "stdout": "-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.\n-- The C compiler identification is MSVC 19.44.35209.0\n-- The CXX compiler identification is MSVC 19.44.35209.0\n-- Detecting C compiler ABI info\n-- Detecting C compiler ABI info - done\n-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped\n-- Detecting C compile features\n-- Detecting C compile features - done\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Configuring incomplete, errors occurred!\n",
+    "stderr": "CMake Error at CMakeLists.txt:5 (find_package):\n  By not providing \"FindGR.cmake\" in CMAKE_MODULE_PATH this project has asked\n  CMake to find a package configuration file provided by \"GR\", but CMake did\n  not find one.\n\n  Could not find a package configuration file provided by \"GR\" (requested\n  version 0.7.0) with any of the following names:\n\n    GRConfig.cmake\n    gr-config.cmake\n\n  Add the installation prefix of \"GR\" to CMAKE_PREFIX_PATH or set \"GR_DIR\" to\n  a directory containing one of the above files.  If \"GR\" provides a separate\n  development package or SDK, be sure it has been installed.\n\n\n"
+  },
+  {
+    "command": [
+      "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+      "-S",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\wrong-source",
+      "-B",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\wrong",
+      "-G",
+      "Visual Studio 17 2022",
+      "-A",
+      "x64",
+      "-DGR_DIR=C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\sdk\\lib\\cmake\\GR"
+    ],
+    "returncode": 1,
+    "stdout": "-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.\n-- Configuring incomplete, errors occurred!\n",
+    "stderr": "CMake Error at CMakeLists.txt:3 (find_package):\n  Could not find a configuration file for package \"GR\" that exactly matches\n  requested version \"0.6.0\".\n\n  The following configuration files were considered but not accepted:\n\n    C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/x/6a8248bd/sdk/lib/cmake/GR/GRConfig.cmake, version: 0.7.0\n\n\n\n"
+  },
+  {
+    "command": [
+      "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+      "-S",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\source",
+      "-B",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\b",
+      "-G",
+      "Visual Studio 17 2022",
+      "-A",
+      "x64",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DCMAKE_PREFIX_PATH=C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\sdk"
+    ],
+    "returncode": 0,
+    "stdout": "-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.\n-- The C compiler identification is MSVC 19.44.35209.0\n-- The CXX compiler identification is MSVC 19.44.35209.0\n-- Detecting C compiler ABI info\n-- Detecting C compiler ABI info - done\n-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped\n-- Detecting C compile features\n-- Detecting C compile features - done\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n-- Looking for pthread_create in pthreads\n-- Looking for pthread_create in pthreads - not found\n-- Looking for pthread_create in pthread\n-- Looking for pthread_create in pthread - not found\n-- Found Threads: TRUE\n-- Configuring done (19.2s)\n-- Generating done (0.1s)\n-- Build files have been written to: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/x/6a8248bd/b\n",
+    "stderr": "CMake Warning:\n  Manually-specified variables were not used by the project:\n\n    CMAKE_BUILD_TYPE\n\n\n"
+  },
+  {
+    "command": [
+      "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+      "--build",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\b",
+      "--config",
+      "Release",
+      "--parallel",
+      "4"
+    ],
+    "returncode": 0,
+    "stdout": "MSBuild version 17.14.10+8b8e13593 for .NET Framework\n\n  1>Checking Build System\n  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/x/6a8248bd/source/CMakeLists.txt\n  diagonal.cpp\n  gr_diagonal.vcxproj -> C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\b\\Release\\gr_diagonal.lib\n  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/x/6a8248bd/source/CMakeLists.txt\n  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/x/6a8248bd/source/CMakeLists.txt\n  conformance.cpp\n  c_api.cpp\n  test_diagonal.vcxproj -> C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\b\\Release\\test_diagonal.exe\n     Creating library C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/x/6a8248bd/b/Release/gr_diagonal_native.lib and object C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/x/6a8248bd/b/Release/gr_diagonal_native.exp\n  gr_diagonal_native.vcxproj -> C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\b\\Release\\gr_diagonal_native.dll\n  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/x/6a8248bd/source/CMakeLists.txt\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\ctest.exe",
+      "--test-dir",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\b",
+      "-C",
+      "Release",
+      "--output-on-failure"
+    ],
+    "returncode": 0,
+    "stdout": "Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/x/6a8248bd/b\nTest project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/x/6a8248bd/b\n    Start 1: diagonal_conformance\n1/1 Test #1: diagonal_conformance .............   Passed    0.25 sec\n\n100% tests passed, 0 tests failed out of 1\n\nTotal Test time (real) =   0.27 sec\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+      "--install",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\b",
+      "--config",
+      "Release",
+      "--prefix",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\package-stage"
+    ],
+    "returncode": 0,
+    "stdout": "-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\package-stage/lib/gr_diagonal.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\package-stage/lib/gr_diagonal_native.lib\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\package-stage/bin/gr_diagonal_native.dll\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\package-stage/include\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\package-stage/include/gr_diagonal\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\package-stage/include/gr_diagonal/c_api.h\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\package-stage/include/gr_diagonal/diagonal.hpp\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\package-stage/share/gr_diagonal/manifest.json\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\package-stage/share/gr_diagonal/README.md\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\package-stage/lib/cmake/GRDiagonal/GRDiagonalTargets.cmake\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\package-stage/lib/cmake/GRDiagonal/GRDiagonalTargets-release.cmake\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\package-stage/lib/cmake/GRDiagonal/GRDiagonalConfig.cmake\n-- Installing: C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\package-stage/lib/cmake/GRDiagonal/GRDiagonalConfigVersion.cmake\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+      "-S",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\consumer",
+      "-B",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\c",
+      "-G",
+      "Visual Studio 17 2022",
+      "-A",
+      "x64",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DCMAKE_PREFIX_PATH=C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\package;C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\sdk"
+    ],
+    "returncode": 0,
+    "stdout": "-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.\n-- The CXX compiler identification is MSVC 19.44.35209.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n-- Looking for pthread_create in pthreads\n-- Looking for pthread_create in pthreads - not found\n-- Looking for pthread_create in pthread\n-- Looking for pthread_create in pthread - not found\n-- Found Threads: TRUE\n-- Configuring done (18.4s)\n-- Generating done (0.2s)\n-- Build files have been written to: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/x/6a8248bd/c\n",
+    "stderr": "CMake Warning:\n  Manually-specified variables were not used by the project:\n\n    CMAKE_BUILD_TYPE\n\n\n"
+  },
+  {
+    "command": [
+      "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+      "--build",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\c",
+      "--config",
+      "Release"
+    ],
+    "returncode": 0,
+    "stdout": "MSBuild version 17.14.10+8b8e13593 for .NET Framework\n\n  1>Checking Build System\n  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/x/6a8248bd/consumer/CMakeLists.txt\n  main.cpp\n  consumer.vcxproj -> C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\c\\Release\\consumer.exe\n  Building Custom Rule C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/x/6a8248bd/consumer/CMakeLists.txt\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\c\\Release\\consumer.exe"
+    ],
+    "returncode": 0,
+    "stdout": "Independent extension: 32 oracle sizes, Function composition, overflow, shape and deadline contracts passed\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\sdk-venv\\Scripts\\python.exe",
+      "-m",
+      "pip",
+      "wheel",
+      "--no-index",
+      "--no-deps",
+      "--no-build-isolation",
+      "--no-cache-dir",
+      "--wheel-dir",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\wheels",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\source\\python"
+    ],
+    "returncode": 0,
+    "stdout": "Processing c:\\users\\micro\\desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\gr-os\\build\\x\\6a8248bd\\source\\python\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nBuilding wheels for collected packages: gr-diagonal\n  Building wheel for gr-diagonal (pyproject.toml): started\n  Building wheel for gr-diagonal (pyproject.toml): finished with status 'done'\n  Created wheel for gr-diagonal: filename=gr_diagonal-0.2.0-py3-none-any.whl size=3645 sha256=976ecb11ae3ae1e4d0d2a66fdbd550cac77edfbb853b50fc2b29ab228ef00b1f\n  Stored in directory: C:\\Users\\Micro\\AppData\\Local\\Temp\\pip-ephem-wheel-cache-wdwvvj_u\\wheels\\56\\d9\\29\\a1205420f5de0059136ef735e0afbfaa7a7e0c8010996b6992\nSuccessfully built gr-diagonal\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\sdk-venv\\Scripts\\python.exe",
+      "-m",
+      "pip",
+      "install",
+      "--no-index",
+      "--no-deps",
+      "--no-cache-dir",
+      "--target",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\python",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\wheels\\gr_diagonal-0.2.0-py3-none-any.whl"
+    ],
+    "returncode": 0,
+    "stdout": "Processing c:\\users\\micro\\desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\gr-os\\build\\x\\6a8248bd\\wheels\\gr_diagonal-0.2.0-py3-none-any.whl\nInstalling collected packages: gr-diagonal\nSuccessfully installed gr-diagonal-0.2.0\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\sdk-venv\\Scripts\\python.exe",
+      "-I",
+      "-B",
+      "-c",
+      "import sys,runpy; sys.path.insert(0,sys.argv[1]); path=sys.argv[2]; sys.argv=[path]; runpy.run_path(path,run_name=\"__main__\")",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\python",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\x\\6a8248bd\\source\\tests\\python_test.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.063s\n\nOK\n"
+  }
+]

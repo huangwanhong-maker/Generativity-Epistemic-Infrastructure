@@ -1,5 +1,17 @@
 # GR-OS change record
 
+## 2026-10-16–17 — v0.7 Layer 2 tools and independent packages
+
+- Preserved published v0.6 commit `bcbb477`, verified its source manifest, archived its SDK/runners and passed the unchanged 38-test baseline. Created branch `codex/gr-os-v0.7`; recorded readiness assessment and ADR-0007 before implementation.
+- Added independent qualified relational analysis and structured scene/SVG visualization packages. Exact occurrence identity, repeated/n-ary participation, recording-state comparisons, temporal qualifications, source custody and declared projection losses remain explicit.
+- Added a const owner-retaining Layer 3 inspection view and public Python native value metadata access. Kept semantic history, physical storage, transactional publication and runtime scheduling contracts unchanged.
+- Added small manifest validation and metadata-only entry-point discovery with explicit trusted activation. Conventional CMake/Python packaging continues to own dependency installation; categories do not define a universal plugin hierarchy.
+- Added persistent package-owned Python analysis resources and compact typed snapshot interchange. Imported projections receive structural validation only; native source-derived views retain their own custody. No foreign engine handles or automatic institutional admission are introduced.
+- Updated the independent diagonal distribution to 0.2.0 for SDK 0.7.0, preserving semantic type/operator IDs. Added a composed installed C++ example with an explicit degree-to-integer model mapping and a standard reduction.
+- Replaced the mandatory ignored historical-SDK dependency in default packaging checks with fresh-install version-rejection evidence. Actual older SDK rebuilds remain optional and distinct from metadata fixtures.
+- Added native/Python conformance, independent relocated consumers, bounded error/lifetime checks and phase-separated benchmarks. Release passed 40/40 and selected ASan passed 39/39. Final targeted checks passed nine Python cases plus 127 visualization checks in both configurations; the large synthetic fixture now batches within existing publication limits. Initial failures and corrections remain in [verification](docs/verification.md).
+- Work remains scoped to GR-OS. Stopped for architectural review; no Layer 1 system, legacy migration or programme-standard change is included.
+
 ## 2026-10-15 — v0.6 Layer 3 maturation
 
 - Preserved the unchanged 35-test v0.5 baseline, installed SDK, source archive and benchmark executables. Recorded assessment and ADR-0006 before implementation; retained the layered design after distinguishing runtime abstractions from repeated validation/access costs.

@@ -1,0 +1,89 @@
+#pragma once
+// Synthetic evidence for examples/tests/benchmarks, never a real-world dataset.
+#include <gr/storage/memory_store.hpp>
+#include <gr_visualization/visualization.hpp>
+
+namespace visualization_fixture {
+inline gr::Json record(const std::string &id, const std::string &type) {
+    return {{"format", "gr.record/1"},
+            {"id", id},
+            {"type", type},
+            {"payload", {{"label", id}}},
+            {"attribution", {{"agent", "fixture:observer"}, {"method", "synthetic reported claim"}}}};
+}
+inline gr::Json participant(const std::string &id, const std::string &role,
+                            const std::string &scope = "subject") {
+    return {{"role", role}, {"reference", {{"scope", scope}, {"id", id}}}};
+}
+inline gr_relational_analysis::NetworkView make(std::size_t count = 4, bool temporal = true,
+                                                std::string role = "participant", std::size_t observers = 2) {
+    if (count < 2 || count > 1024 || observers > 512)
+        throw std::runtime_error("Fixture count outside [2,1024]");
+    auto store = std::make_shared<gr::storage::MemoryStore>();
+    store->create_workspace("visualization-fixture");
+    gr::runtime::TransactionCoordinator coordinator(store);
+    gr::runtime::TransactionOptions options;
+    options.workspace = "visualization-fixture";
+    options.transaction_id = "fixture:initial";
+    options.actor = "fixture:recorder";
+    options.reason = "Synthetic visual projection fixture";
+    options.track_history = true;
+    auto target = record("target:shared", "gr.entity@1");
+    const auto old = gr::core::construct(target);
+    gr::runtime::Stage initial;
+    initial.records.push_back(old);
+    coordinator.commit(options, initial);
+    gr::runtime::Stage stage;
+    target["payload"]["label"] = "Revised target";
+    stage.records.push_back(gr::core::construct(target));
+    for (const auto *id : {"event:begin", "event:end"})
+        stage.records.push_back(gr::core::construct(record(id, "gr.event@1")));
+    auto order = record("order:reported", "gr.order@1");
+    order["order"] = {{"before", "event:begin"}, {"after", "event:end"}};
+    stage.records.push_back(gr::core::construct(order));
+    for (std::size_t i = 0; i < count; ++i) {
+        auto r = record("claim:" + std::to_string(i), "gr.relation@1");
+        auto pinned = participant("target:shared", role, "record");
+        if (i == 0)
+            pinned["reference"]["version"] = old.at("version");
+        pinned["orientation"] = "out";
+        r["participants"] = gr::Json::array({pinned});
+        for (std::size_t j = 0; j < observers; ++j)
+            r["participants"].push_back(participant("subject:" + std::to_string(i), "observer"));
+        if (i == 1)
+            r["participants"].push_back(participant("claim:0", "reported-about", "record"));
+        r["qualifiers"] = {{"status", "contested"}, {"uncertainty", "not quantified"}};
+        if (i % 3 == 0)
+            r["temporal"] = {{"start", {{"kind", "event"}, {"id", "event:begin"}}},
+                             {"end", {{"kind", "event"}, {"id", "event:end"}}}};
+        else if (i % 3 == 1)
+            r["temporal"] = {{"start", {{"kind", "unknown"}}}, {"end", {{"kind", "unbounded"}}}};
+        stage.records.push_back(gr::core::construct(r));
+    }
+    // Operational Relation requires a participant. An Entity can still carry
+    // an empty participant inventory and exercise the broader owner projection.
+    auto isolated = record("claim:isolated", "gr.entity@1");
+    isolated["participants"] = gr::Json::array();
+    stage.records.push_back(gr::core::construct(isolated));
+    options.transaction_id = "fixture:revised";
+    coordinator.commit(options, stage);
+    auto library = std::make_shared<gr::data::Library>();
+    auto session = gr::data::relational::install(*library);
+    library->seal();
+    auto value = gr::data::relational::select_history(coordinator, {"visualization-fixture"});
+    gr::data::CallOptions call;
+    call.max_input_bytes = 64 * 1024 * 1024;
+    call.max_output_bytes = 64 * 1024 * 1024;
+    auto expression = gr::data::apply(
+        library, gr::data::relational::project_operation, {gr::data::literal(library, value)},
+        temporal ? gr::Json{{"temporal", {{"after", gr::Json::array({"event:begin"})}}}} : gr::Json::object(),
+        call);
+    auto program = gr::data::compile({expression});
+    gr::runtime::Runtime runtime({.workers = 1});
+    auto result = runtime.run(program.plan());
+    if (result.status != gr::runtime::JobStatus::succeeded)
+        throw std::runtime_error("Fixture execution: " + result.error.dump());
+    auto output = program.materialize(result);
+    return gr_relational_analysis::analyze(output.at(0), session);
+}
+} // namespace visualization_fixture

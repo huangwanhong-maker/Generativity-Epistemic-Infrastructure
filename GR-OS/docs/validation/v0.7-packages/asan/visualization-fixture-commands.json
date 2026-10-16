@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "--build",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\vb",
+      "--config",
+      "Release",
+      "--target",
+      "test_visualization",
+      "example_visualization",
+      "benchmark_visualization",
+      "--parallel",
+      "4"
+    ],
+    "cwd": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f",
+    "elapsed_s": 33.75,
+    "returncode": 0,
+    "stdout": "MSBuild version 17.14.10+8b8e13593 for .NET Framework\n\n  gr_visualization.vcxproj -> C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\vb\\Release\\gr_visualization.lib\n  conformance.cpp\n  test_visualization.vcxproj -> C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\vb\\Release\\test_visualization.exe\nMSBuild version 17.14.10+8b8e13593 for .NET Framework\n\n  gr_visualization.vcxproj -> C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\vb\\Release\\gr_visualization.lib\n  demo.cpp\n  example_visualization.vcxproj -> C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\vb\\Release\\example_visualization.exe\nMSBuild version 17.14.10+8b8e13593 for .NET Framework\n\n  gr_visualization.vcxproj -> C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\vb\\Release\\gr_visualization.lib\n  visualization.cpp\n  benchmark_visualization.vcxproj -> C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\vb\\Release\\benchmark_visualization.exe\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\ctest.exe",
+      "--test-dir",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\vb",
+      "-C",
+      "Release",
+      "-R",
+      "^visualization_conformance$",
+      "--output-on-failure"
+    ],
+    "cwd": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f",
+    "elapsed_s": 180.59400000001187,
+    "returncode": 0,
+    "stdout": "Internal ctest changing into directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/m/e541e34f/vb\nTest project C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build-asan/m/e541e34f/vb\n    Start 1: visualization_conformance\n1/1 Test #1: visualization_conformance ........   Passed  180.51 sec\n\n100% tests passed, 0 tests failed out of 1\n\nTotal Test time (real) = 180.52 sec\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\vb\\Release\\example_visualization.exe",
+      "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f\\visual-demo-fixture-correction"
+    ],
+    "cwd": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\m\\e541e34f",
+    "elapsed_s": 0.8909999999887077,
+    "returncode": 0,
+    "stdout": "incidence_columns: sha256:945e762bbb3d85b882a152ad00a18c724bc394d127f255f4a4640a8785b75475\ntemporal_bands: sha256:aa05089720ac3a6be9373c581a389d3c391ad1e675301aea2b6625cb29d930c9\n",
+    "stderr": ""
+  }
+]

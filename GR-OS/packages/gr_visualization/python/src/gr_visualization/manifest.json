@@ -1,0 +1,35 @@
+{
+  "format": "gr.module-package/1",
+  "id": "org.gr.visualization.incidence",
+  "version": "0.1.0",
+  "categories": [
+    "visualization"
+  ],
+  "requires": [
+    {
+      "id": "gr-os",
+      "version": "0.7.0",
+      "components": [
+        "data_relational"
+      ]
+    },
+    {
+      "id": "org.gr.analysis.relational",
+      "version": "0.1.0"
+    }
+  ],
+  "exports": {
+    "functions": [
+      "project",
+      "svg"
+    ],
+    "profiles": [
+      "gr.visualization.incidence-scene/1"
+    ]
+  },
+  "effects": [
+    "pure"
+  ],
+  "trust": "Explicitly trusted native in-process code. No sandbox, authentication or authority conferred.",
+  "compatibility": "Source package requiring exact SDK and package versions. Rebuild with matching C++ compiler, standard library, runtime and configuration. No cross-compiler binary ABI guarantee. Python uses an explicit copied compact snapshot boundary; opaque handles never cross package DLLs."
+}

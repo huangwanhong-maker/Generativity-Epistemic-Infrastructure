@@ -1,6 +1,6 @@
 # Qualified relational data pilot
 
-Publication class: experimental implementation specification. Maturity: **EXPERIMENTAL**, GR-OS v0.6. This module is not an adopted GR Standard or a claim of conformance to the provisional GR-SPEC-121 temporal model.
+Publication class: experimental implementation specification. Maturity: **EXPERIMENTAL**, GR-OS v0.7. This module is not an adopted GR Standard or a claim of conformance to the provisional GR-SPEC-121 temporal model.
 
 The Layer 3 relational module provides one bounded, reusable historical-data workflow: select a recording revision, project its participant incidences, select explicit roles, and count the selected occurrences. It uses the common logical-type/representation/operator library and the existing Layer 4 planner and runtime. It introduces no second scheduler, storage engine, query language parser, or domain-specific research method.
 
@@ -90,9 +90,28 @@ The charge is raw qualified wire size plus detached-view serialized size plus so
 
 Statistics report hits, misses/full checks, rejected checks, source reuse/checks, decoded/serialized bytes, derivations, operator calls, evictions, expired owners and current/peak charges. Optional nanosecond totals cover decode, source validation/index construction, derivation and encode. They do not account for every allocation, comparison, lookup, materialization or JSON inspection copy. `Session::inspect` returns an independent JSON copy even on a memo hit. Timing collection adds overhead; there is no timing-based correctness gate.
 
+### Owning native inspection (v0.7)
+
+`Session::view(value)` returns a `QualifiedView` retaining the immutable input
+payload, its exact specification/provenance and validated decoded state.
+`value()` returns the retained DataValue; `source()` returns the source JSON;
+`derivation()` returns the qualified container without its embedded source.
+These are const references whose lifetime follows the view, including copies of
+the view. They survive cache clear and destruction of the original DataValue,
+session or Library. Computational provenance is retained as a separate copy.
+Methods on an empty default-constructed view fail explicitly.
+
+The view shares existing immutable parsed state instead of deep-copying the
+complete presented JSON. Input validation and pinned profile rules remain the
+same; provenance metadata is also checked. Held leases retain memory outside
+cache eviction quotas. Releasing a cache does not invalidate a caller's view or
+promise that its memory is freed. This narrow native inspection API supports
+independent analysis packages without exposing private caches or reimplementing
+historical validation. Existing `inspect` behavior remains unchanged.
+
 ## Conformance scope
 
-`tests/conformance/data_relational.cpp` exercises pinned old/new recording revisions and distinct physical pins, archived participant versions, n-ary/repeated/parallel/higher-order occurrences, subject designations, qualifiers, role omissions, contributor-count conservation, serial/threaded equality, source-store immutability, retrospective order, cycles, unknown required extensions, absent/unknown/unbounded temporal scopes, forged data rejection, logical-family/attribute rejection, a source above 1 MiB, and an invocation input cap. Additional v0.6 cases exercise same-owner reuse, new equal-byte owners, transport retagging, wrong logical family, forged data after warm-up, duplicate JSON keys, independent registries, cache-off byte equality, repeated role intersections, byte/entry bounds, eviction, weak lifetime, explicit clear and concurrent reads/clear. These tests establish the bounded implementation contract; they do not establish factual accuracy of source records or standards adoption.
+`tests/conformance/data_relational.cpp` exercises pinned old/new recording revisions and distinct physical pins, archived participant versions, n-ary/repeated/parallel/higher-order occurrences, subject designations, qualifiers, role omissions, contributor-count conservation, serial/threaded equality, source-store immutability, retrospective order, cycles, unknown required extensions, absent/unknown/unbounded temporal scopes, forged data rejection, logical-family/attribute rejection, a source above 1 MiB, and an invocation input cap. Additional v0.6 cases exercise same-owner reuse, new equal-byte owners, transport retagging, wrong logical family, forged data after warm-up, duplicate JSON keys, independent registries, cache-off byte equality, repeated role intersections, byte/entry bounds, eviction, weak lifetime, explicit clear and concurrent reads/clear. The v0.7 additions cover retained views after original-owner/session destruction, shared immutable source access, empty views and malformed provenance. These tests establish the bounded implementation contract; they do not establish factual accuracy of source records or standards adoption.
 
 Conceptual alignment is deliberately narrow. Sources actually consulted are identified below; PDF page numbers are one-based file pages. These are interpretive sources and provisional requirements, not a claim that the pilot implements a foundation theory or establishes standards conformance.
 
@@ -107,7 +126,7 @@ No foundation definitions, programme drafts or source documents are changed by t
 
 `benchmark_data_relational [repeats]` builds actual tracked in-memory workspaces with 64 or 256 relation records, 16 entity records and two recording revisions. Each relation has three explicit occurrences, including a repeated actor. The measured source is the first semantic revision selected through a fixed newer physical manifest; setup is outside the phase timings. The default is three repeats, including the first repeat.
 
-The JSON report separates eager historical selection, literal validation, expression construction/compilation, one prepared runtime execution, and result materialization plus full qualified inspection. It checks selected/excluded occurrence counts, unchanged storage head, revision pins and a deterministic counts checksum. Raw samples, phase medians, source/result payload sizes and cumulative process peak RSS are retained. Peak RSS includes setup and earlier cases; it is neither per-phase memory nor a fresh-process peak for each case. The benchmark includes real validation/copying costs and performs no temporal query. It does not isolate a raw graph kernel, measure SDK transport or SQLite I/O, or isolate arithmetic from validation. The benchmark source remains unchanged from v0.5 so preserved v0.5 and current v0.6 runs can be compared on the same workload.
+The JSON report separates eager historical selection, literal validation, expression construction/compilation, one prepared runtime execution, and result materialization plus full qualified inspection. It checks selected/excluded occurrence counts, unchanged storage head, revision pins and a deterministic counts checksum. Raw samples, phase medians, source/result payload sizes and cumulative process peak RSS are retained. Peak RSS includes setup and earlier cases; it is neither per-phase memory nor a fresh-process peak for each case. The benchmark includes real validation/copying costs and performs no temporal query. It does not isolate a raw graph kernel, measure SDK transport or SQLite I/O, or isolate arithmetic from validation. The benchmark source remains unchanged from v0.5 so preserved v0.5/v0.6 and current v0.7 runs can be compared on the same workload.
 
 
 `benchmark_data_relational_profile [repeats]` is a separate instrumented v0.6 diagnostic with 64, 256 and 768 relation records. Each size selects one actual tracked source and runs the same incidence/role/count pipeline with both caches disabled, both cleared before each pipeline, or one untimed warm-up pipeline. New output owners still receive complete validation in warm mode. Literal, expression/compile, prepared execution, materialization, scoped inspection and independent uncached inspection have separate wall times. Per-phase relational counter/timing deltas and generic-cache snapshots expose where reuse occurs. The independent inspection uses a separate uninstrumented context; its wall time is measured but is absent from the installed session counters. Counts checksums, source pins and independent decoded output equality are checked in every mode. Setup and eager selection are reported outside pipeline timings. This diagnostic includes instrumentation overhead and is distinct from the unchanged v0.5 workload comparison.

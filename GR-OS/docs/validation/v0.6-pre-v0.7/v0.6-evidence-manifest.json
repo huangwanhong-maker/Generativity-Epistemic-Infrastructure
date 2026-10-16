@@ -1,0 +1,338 @@
+{
+  "format": "gr.validation-evidence-manifest/1",
+  "version": "0.6.0",
+  "captured_utc": "2026-10-15T13:07:10.013464+00:00",
+  "scope": "Versioned logs, raw initial/final measurements, comparison and command reports, baseline recheck, package command/artifact records and source/artifact manifest. This manifest and living README/review/verification documents excluded to avoid circular hashes.",
+  "files": [
+    {
+      "path": "docs/validation/benchmark-v0.5-data-for-v0.6-initial.json",
+      "bytes": 26644,
+      "sha256": "161c12534095b49b4ef110aa15aaea4ccdf4007eabd01fa7b2290e46f3aabd2f"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-data-for-v0.6-initial.txt",
+      "bytes": 2392,
+      "sha256": "ce545550372b2dcb4790a07508c6ab6989039a2da6549bb46c1af0be9f16b093"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-data-for-v0.6-pair1-final.json",
+      "bytes": 26665,
+      "sha256": "008ed213688803933ce1663bb82dbf914775188e24169413d24e5d69bf835cc7"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-data-for-v0.6-pair1-final.txt",
+      "bytes": 1202,
+      "sha256": "50752a07b29a8166921aadba84409c7a5fa0a81917c21e58eddadfb7c48d9a7e"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-data-for-v0.6-pair2-final.json",
+      "bytes": 26639,
+      "sha256": "9a46747cbf0a811a10febb769645d0a7537e46246d35b29b6cade956efe70bdd"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-data-for-v0.6-pair2-final.txt",
+      "bytes": 1199,
+      "sha256": "016aae7e7b24421c5973dbb4b97f017f863926a682b72d4b64c78d5cf73ecb43"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-python-for-v0.6-final.json",
+      "bytes": 5411,
+      "sha256": "8852ec1dace55c1a5757919155c9b70c1c253f90a44cb949d91120cc07e087ac"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-python-for-v0.6-final.txt",
+      "bytes": 209,
+      "sha256": "0ab3ea77238fd707d30d9e0c96467de898ce95937a3cc180e124eeb4249b8e7d"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-relational-for-v0.6-final.json",
+      "bytes": 5120,
+      "sha256": "82d63c257ac4742e015f0ede887559df5187214383d553232c4708ca0c2b8760"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-relational-for-v0.6-final.txt",
+      "bytes": 5130,
+      "sha256": "61f6ea07d848f495be38f05569b0b60ecfb8582b06ea971f30efae0915b3a649"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-runtime-for-v0.6-final.json",
+      "bytes": 5265,
+      "sha256": "e146220e88a5fffeab5ff6b7fe304e0e3ebbc8fbca345f9f5baf2c4b0bda679d"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.5-runtime-for-v0.6-final.txt",
+      "bytes": 397,
+      "sha256": "3bd7ed5123096355bed0e11bd71bea0f3da9ff9fd29e31a3ba83430a0e87f1cd"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-access-final.json",
+      "bytes": 21814,
+      "sha256": "025816266584df7b81d7e1887b366b50f75aafc46757bfef8ee69f7b96a5a6c4"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-access-final.txt",
+      "bytes": 38,
+      "sha256": "38c84fdbd6f3fb04aae7e413cd797b64d4225f93587db98ffe700849b60aad59"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-analysis.md",
+      "bytes": 14243,
+      "sha256": "4a28faba8907416009eb5fb981bdc41538e8cdeae065c438c57a2471afbcd29b"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-commands-final.json",
+      "bytes": 14314,
+      "sha256": "473bebfe4062315660b58fd4497dcc7011d7fb964f2512ba99d450c2598820ae"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-data-initial.json",
+      "bytes": 26519,
+      "sha256": "3054a08f767b739b9069bc01d5e5b4791f54f8dc51c3a7c003774b1e94a89c2c"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-data-initial.txt",
+      "bytes": 2380,
+      "sha256": "e49da5e48692e75cc550080120105915fd9552411df28aac7e7d3535b578e0b0"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-data-pair1-final.json",
+      "bytes": 26510,
+      "sha256": "ebc1dd291c087cc7387660738716c86f953dcdee8eb65f61a08b4989bf8b0586"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-data-pair1-final.txt",
+      "bytes": 1198,
+      "sha256": "e53feb6c5d39a7ad27eb0ccf8b6cc36705522b3729043ac5789e79aef85ac25f"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-data-pair2-final.json",
+      "bytes": 26492,
+      "sha256": "f49ff2b89dc68a1851ee84df966f037a8b3546da4d4c9d7314d657dd14bd99fe"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-data-pair2-final.txt",
+      "bytes": 1195,
+      "sha256": "7d751463f1322045de5163da8f667966efaea3af5886401b6e1a8c91d4c6f056"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-independent-package-final.json",
+      "bytes": 5252,
+      "sha256": "e92a757ec2d07db0a11234d59b5036367da96f588a16be5246a8ed0378244ea7"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-independent-package-final.txt",
+      "bytes": 10,
+      "sha256": "a9f982d8cb8dbc81e6965814c7d33f2249d63fbd3467f8331ddca475f7e4377e"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-language-profile-final.json",
+      "bytes": 36367,
+      "sha256": "6f1206bf6d6e903d491fa802a76d9985f6cb1611a48cbfdb3398e9b70ed2e1d5"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-language-profile-final.txt",
+      "bytes": 65,
+      "sha256": "7276464837946703503a1c35c9b0eb94400b9b2c48c2716b27b3b17433a3d7ed"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-language-profile-initial.json",
+      "bytes": 36389,
+      "sha256": "da64ddc670af0f3ff6928342676b3f78f189d2e96ff8d1b66530553336e2e9bf"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-language-profile-initial.txt",
+      "bytes": 112,
+      "sha256": "2021af11cbede0aa7161b76824f09ff583cb52c9acd2a41482b1c6c9526d504b"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-native-comparison.json",
+      "bytes": 14630,
+      "sha256": "9f7c479be24acca8cebc9ae2a10d2b90bffc2ac046e66a610f8c774d2fafcec6"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-python-final.json",
+      "bytes": 5363,
+      "sha256": "27db1adea437e0f04abba8296a915289122e0b0e7331f0230bea167d327c403a"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-python-final.txt",
+      "bytes": 200,
+      "sha256": "196bed9437021f876efefc08ea5fea3c131bfb07397c4e3ba85d5538ff92a769"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-relational-final.json",
+      "bytes": 5114,
+      "sha256": "4378f22eb9e8546f369bff3dc99841aa220021b342e718eadf327f994816bfad"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-relational-final.txt",
+      "bytes": 5124,
+      "sha256": "89cdfce5650e541c36518c06c86c6e69a9983280a50a7fe14501eb8a3fd63676"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-relational-profile-final.json",
+      "bytes": 214126,
+      "sha256": "d5ff18b12aa424c84fd6376942b58996c5381d4c5d9171b8bcbc58430ee94110"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-relational-profile-final.txt",
+      "bytes": 214136,
+      "sha256": "7dcea945c8eb7b205a4f6fea80593c876cbdb1d12d78b04a80114fc911bd6780"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-runtime-final.json",
+      "bytes": 5260,
+      "sha256": "120b2fce4af5dad7e72d109c4d884827fd9eb1bf09d8cee1b0c913537bae4437"
+    },
+    {
+      "path": "docs/validation/benchmark-v0.6-runtime-final.txt",
+      "bytes": 396,
+      "sha256": "69aefc340d13dfe4fff2df3741f3463dbd47bf7061ef16328895f732d39184d4"
+    },
+    {
+      "path": "docs/validation/build-v0.6-asan.txt",
+      "bytes": 9321,
+      "sha256": "31660a5bf50d45cdf514536e14496d4f14f36dac0592218f2742f58020ef65c3"
+    },
+    {
+      "path": "docs/validation/build-v0.6-core-initial.txt",
+      "bytes": 3854,
+      "sha256": "9976f0f0158d43d1f640dbfa2e1fc13cdcd27ab09946afb3fc68b841f13593ae"
+    },
+    {
+      "path": "docs/validation/build-v0.6-data-initial.txt",
+      "bytes": 20486,
+      "sha256": "79411b148043738419c3fe4b91709fcd5a292a8fca843650b460c6673253dd28"
+    },
+    {
+      "path": "docs/validation/build-v0.6-release-final.txt",
+      "bytes": 9129,
+      "sha256": "3facc31fc7e5a218be1a5f172f216f16ea9975268126056c4b014d1c181f378a"
+    },
+    {
+      "path": "docs/validation/build-v0.6-sdk.txt",
+      "bytes": 10375,
+      "sha256": "a5285f1107acb3af157d7f2f2509e0458c4fe5af022f81e71d1333085d0ce016"
+    },
+    {
+      "path": "docs/validation/configure-v0.6-asan.txt",
+      "bytes": 462,
+      "sha256": "e58d6022c2b2a7efb63e27cc6b250c5f408942280ced32b6eba92d396c1ccac7"
+    },
+    {
+      "path": "docs/validation/configure-v0.6-release-final.txt",
+      "bytes": 279,
+      "sha256": "611fb390f420fc03365d48924fb2621de20bc7345d5c89487e37df20db00928c"
+    },
+    {
+      "path": "docs/validation/configure-v0.6-sdk.txt",
+      "bytes": 457,
+      "sha256": "57947a79b8ba9aa0c77c1955413bf0d242b0e2107004f52838ecbc3470aa49cc"
+    },
+    {
+      "path": "docs/validation/ctest-v0.6-asan-initial-detail.txt",
+      "bytes": 72269,
+      "sha256": "8eb8b612174b753e03484700100a80317a9f95f852c0e1470394543621a278bb"
+    },
+    {
+      "path": "docs/validation/ctest-v0.6-asan-sdk-detail.txt",
+      "bytes": 18582,
+      "sha256": "7ce9eeaeb07c69931910e05210630c77a830c671c9cfdbcb2ebdc23bdce0e974"
+    },
+    {
+      "path": "docs/validation/ctest-v0.6-asan-sdk-rerun.txt",
+      "bytes": 532,
+      "sha256": "a20fa0186d0617be92d4ef2e5754ed593e5be43b0a51c590b41fec98f49a6f92"
+    },
+    {
+      "path": "docs/validation/ctest-v0.6-asan.txt",
+      "bytes": 21831,
+      "sha256": "c4bf997ad21df3e45306c86a03ccec3230d87edfed81462caee45ca3a3f644fe"
+    },
+    {
+      "path": "docs/validation/ctest-v0.6-data-initial.txt",
+      "bytes": 1436,
+      "sha256": "433024751eceec16fe7a0b2ab7224ca0f3c0f086500658d2e83ffd1d22c1b7f7"
+    },
+    {
+      "path": "docs/validation/ctest-v0.6-release-detail.txt",
+      "bytes": 75362,
+      "sha256": "de094583ca046d646beb669dbd977e503d654c5cc6d4195d406364d8dcc60b80"
+    },
+    {
+      "path": "docs/validation/ctest-v0.6-release-final.txt",
+      "bytes": 4522,
+      "sha256": "7324a4e6a8d751b47ddc74da439f91cb5ecbfbf23b18a9fa6171a532e86e86c1"
+    },
+    {
+      "path": "docs/validation/ctest-v0.6-release-initial.txt",
+      "bytes": 4522,
+      "sha256": "5876a9f039738e55a48eb15f97cb12b736212d3cb1d7beb38bf6e2a1dc8cff89"
+    },
+    {
+      "path": "docs/validation/ctest-v0.6-release-sdk-detail.txt",
+      "bytes": 18152,
+      "sha256": "729bea52dbe495fd23efccd7000ff039b36e7e07494b5251dea1c552ea8ed148"
+    },
+    {
+      "path": "docs/validation/ctest-v0.6-release-sdk-rerun.txt",
+      "bytes": 522,
+      "sha256": "4e2112461a4bbb76e9108da18d65114b61f18bcdf5e0153d69c14d50995f338b"
+    },
+    {
+      "path": "docs/validation/plan-v0.5-for-v0.6.json",
+      "bytes": 3663,
+      "sha256": "f2c3804bc84265ec3d2a3ad8b085d3dff6a322d512376564c1eca3ad370376ad"
+    },
+    {
+      "path": "docs/validation/plan-v0.6-default.json",
+      "bytes": 3663,
+      "sha256": "2389e7a3c24d8bdfb9bfbc66c31453acddd425f0d8186891270cd515d7ba3209"
+    },
+    {
+      "path": "docs/validation/v0.6-baseline-reverification.json",
+      "bytes": 942,
+      "sha256": "fce5cc86df3076facce4fcf813c405457521b65a58e10e0c93acf9acf16e6b74"
+    },
+    {
+      "path": "docs/validation/v0.6-build-sdk-commands.md",
+      "bytes": 3757,
+      "sha256": "f20f81fd0fdf51d10613c4880dd92d50d3dbcec8148115e93b6ac391001690a0"
+    },
+    {
+      "path": "docs/validation/v0.6-sdk-commands.md",
+      "bytes": 8135,
+      "sha256": "917abf01746fe48c8bab0ac9ce5ea49b378753aafc17f157834d421396f3c94b"
+    },
+    {
+      "path": "docs/validation/v0.6-source-artifacts.json",
+      "bytes": 75728,
+      "sha256": "07b1e9e140ea07d94bb2ffeb2ff1d13dc5abe3c2c6d8b3ea2815da5972f2240d"
+    },
+    {
+      "path": "build/x/b775460c/commands.json",
+      "bytes": 34653,
+      "sha256": "2c35c163d76c26e15ec63c0457825690b62666eb8b03e2626478575b614a9202"
+    },
+    {
+      "path": "build/x/b775460c/artifacts.json",
+      "bytes": 1709,
+      "sha256": "b9b145870d6b44fd02c821ae8697fd8d5f9a304c0c6836f48e12a3627deebe84"
+    },
+    {
+      "path": "build-asan/x/ee5e8379/commands.json",
+      "bytes": 35802,
+      "sha256": "09c364a6278a59c582e50d1f00591c0513cd61184d8a46dc28cacb1a081c74d0"
+    },
+    {
+      "path": "build-asan/x/ee5e8379/artifacts.json",
+      "bytes": 1719,
+      "sha256": "27f91f3b69a74039dbde436424471b8e59c7c89f44f84c4e7a7e8d9aa7eaa222"
+    },
+    {
+      "path": "docs/validation/v0.5-pre-v0.6/manifest.json",
+      "bytes": 32219,
+      "sha256": "526b8f32edb0fadce2777694c422a6c2b3ee319fcd6de2e484d8b527741d7bd9"
+    }
+  ]
+}

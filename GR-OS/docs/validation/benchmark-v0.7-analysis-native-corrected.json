@@ -1,0 +1,305 @@
+{
+  "cases": [
+    {
+      "cumulative_peak_rss_bytes": 13639680,
+      "entity_records": 16,
+      "historical_selection_ms": 16.9922,
+      "incidence_bytes": 112308,
+      "initial_layer3_projection_ms": 28.7654,
+      "medians_ms": {
+        "compare_ms": 4.5132,
+        "index_ms": 21.1854,
+        "prepared_run_materialize_ms": 27.391,
+        "share_1000_snapshots_ms": 0.1696,
+        "snapshot_encode_ms": 2.6026,
+        "snapshot_import_ms": 14.8891,
+        "summary_ms": 0.6833
+      },
+      "occurrences": 192,
+      "relations": 64,
+      "samples": [
+        {
+          "compare_ms": 5.6266,
+          "index_ms": 32.0991,
+          "prepared_run_materialize_ms": 20.9225,
+          "share_1000_snapshots_ms": 0.1696,
+          "snapshot_encode_ms": 2.3002,
+          "snapshot_import_ms": 12.9047,
+          "summary_ms": 0.7713
+        },
+        {
+          "compare_ms": 4.5132,
+          "index_ms": 19.0936,
+          "prepared_run_materialize_ms": 27.391,
+          "share_1000_snapshots_ms": 0.1721,
+          "snapshot_encode_ms": 3.0972,
+          "snapshot_import_ms": 14.8891,
+          "summary_ms": 0.6833
+        },
+        {
+          "compare_ms": 3.5082,
+          "index_ms": 21.1854,
+          "prepared_run_materialize_ms": 40.6672,
+          "share_1000_snapshots_ms": 0.0969,
+          "snapshot_encode_ms": 2.6026,
+          "snapshot_import_ms": 21.846,
+          "summary_ms": 0.3709
+        }
+      ],
+      "session_statistics": {
+        "charge_scope": "wire + detached view wire + source wire per entry; excludes JSON allocator overhead",
+        "charged_bytes": 529954,
+        "decoded_bytes": 305368,
+        "derivations": 4,
+        "enabled": true,
+        "entries": 3,
+        "evictions": 0,
+        "expired": 1,
+        "failures": 0,
+        "format": "gr.data.relational-profile/1",
+        "full_checks": 4,
+        "hits": 11,
+        "max_bytes": 16777216,
+        "max_entries": 64,
+        "misses": 4,
+        "operator_calls": 2,
+        "peak_charged_bytes": 610696,
+        "serialized_bytes": 688613,
+        "source_checks": 2,
+        "source_hits": 2,
+        "source_slots": 2,
+        "timing_enabled": false,
+        "timing_ns": {
+          "decode": 0,
+          "derive": 0,
+          "encode": 0,
+          "source_validation": 0
+        }
+      },
+      "setup_ms": 295.8899,
+      "snapshot_encoded_bytes": 90435,
+      "snapshot_id": "sha256:158acb8ca361ca70e971dbe1740b8a3d88a14d0ab290cd7c733e3ad5681e8d75",
+      "snapshot_shared_payload_copy_bytes": 0,
+      "source_bytes": 39973,
+      "source_pins": {
+        "derivation": "Eager selected recording-history snapshot; source documents preserved",
+        "manifest_version": "sha256:841b88b7e0986c005aa1b355786f8e38c2827d705fa8ea49e322f20cd01b8f5c",
+        "physical_revision": "r:22a711f5fe0d56b2ca16aaa7855537f08fc63f28132d06f3c0087ead0df7d731",
+        "qualifications": [
+          "Incidences count recorded participations, not factual, causal or legal relationships.",
+          "Subject references remain designations; grouping does not establish referent identity.",
+          "Artifact descriptors are preserved; artifact bytes are not copied into this value.",
+          "Neutral references remain in source wrappers and are not participant incidences.",
+          "Unknown payload/extension semantics remain opaque; no uncertainty is converted to probability.",
+          "Only the selected recording snapshot and direct archive are retained, not the full history DAG."
+        ],
+        "representation": "gr.runtime.history-manifest@2",
+        "semantic_revision": "sha256:c67184c61548e9ca048574bdde15cc786f6d8a7634c8dbdb9a563070587b8053",
+        "workspace": "analysis:fixture"
+      },
+      "summary_digest": "sha256:ef441e1cb4ee739b9cd5fd9e2d48482c34b0c037929965cf1263242ec4b543df"
+    },
+    {
+      "cumulative_peak_rss_bytes": 32329728,
+      "entity_records": 16,
+      "historical_selection_ms": 55.5135,
+      "incidence_bytes": 433608,
+      "initial_layer3_projection_ms": 82.2093,
+      "medians_ms": {
+        "compare_ms": 18.3062,
+        "index_ms": 99.6613,
+        "prepared_run_materialize_ms": 122.6944,
+        "share_1000_snapshots_ms": 0.1026,
+        "snapshot_encode_ms": 15.728,
+        "snapshot_import_ms": 61.5747,
+        "summary_ms": 2.1271
+      },
+      "occurrences": 768,
+      "relations": 256,
+      "samples": [
+        {
+          "compare_ms": 18.3062,
+          "index_ms": 99.6613,
+          "prepared_run_materialize_ms": 98.0491,
+          "share_1000_snapshots_ms": 0.1026,
+          "snapshot_encode_ms": 15.728,
+          "snapshot_import_ms": 61.1148,
+          "summary_ms": 1.4955
+        },
+        {
+          "compare_ms": 16.699,
+          "index_ms": 85.6433,
+          "prepared_run_materialize_ms": 122.6944,
+          "share_1000_snapshots_ms": 0.1039,
+          "snapshot_encode_ms": 12.3835,
+          "snapshot_import_ms": 61.5747,
+          "summary_ms": 2.1271
+        },
+        {
+          "compare_ms": 19.9811,
+          "index_ms": 99.7272,
+          "prepared_run_materialize_ms": 126.5963,
+          "share_1000_snapshots_ms": 0.0963,
+          "snapshot_encode_ms": 17.0704,
+          "snapshot_import_ms": 62.1219,
+          "summary_ms": 2.1997
+        }
+      ],
+      "session_statistics": {
+        "charge_scope": "wire + detached view wire + source wire per entry; excludes JSON allocator overhead",
+        "charged_bytes": 2023186,
+        "decoded_bytes": 1156000,
+        "derivations": 4,
+        "enabled": true,
+        "entries": 3,
+        "evictions": 0,
+        "expired": 1,
+        "failures": 0,
+        "format": "gr.data.relational-profile/1",
+        "full_checks": 4,
+        "hits": 11,
+        "max_bytes": 16777216,
+        "max_entries": 64,
+        "misses": 4,
+        "operator_calls": 2,
+        "peak_charged_bytes": 2311960,
+        "serialized_bytes": 2597909,
+        "source_checks": 2,
+        "source_hits": 2,
+        "source_slots": 2,
+        "timing_enabled": false,
+        "timing_ns": {
+          "decode": 0,
+          "derive": 0,
+          "encode": 0,
+          "source_validation": 0
+        }
+      },
+      "setup_ms": 918.7644,
+      "snapshot_encoded_bytes": 344977,
+      "snapshot_id": "sha256:4e000da77b1defabc70b0d8cf5d4291ffc59283dbde1e553f760d0ba717e8906",
+      "snapshot_shared_payload_copy_bytes": 0,
+      "source_bytes": 143989,
+      "source_pins": {
+        "derivation": "Eager selected recording-history snapshot; source documents preserved",
+        "manifest_version": "sha256:40a9c1a93a265c2fa1da1a7748918224fb3218c8f61c2e7632476839c884e21e",
+        "physical_revision": "r:89657b553581a98af1c8891a39b422f23d3ae13be5fbf10aff5b8411c838a516",
+        "qualifications": [
+          "Incidences count recorded participations, not factual, causal or legal relationships.",
+          "Subject references remain designations; grouping does not establish referent identity.",
+          "Artifact descriptors are preserved; artifact bytes are not copied into this value.",
+          "Neutral references remain in source wrappers and are not participant incidences.",
+          "Unknown payload/extension semantics remain opaque; no uncertainty is converted to probability.",
+          "Only the selected recording snapshot and direct archive are retained, not the full history DAG."
+        ],
+        "representation": "gr.runtime.history-manifest@2",
+        "semantic_revision": "sha256:1dbcd0d4ba4872a33585b6b3c1074b8fc5fa21a2b3a0560a61f28ce0dc13d860",
+        "workspace": "analysis:fixture"
+      },
+      "summary_digest": "sha256:aab05523c238c4e0e4bc95c0d1fd09e6d0b6ab0f99a91edc7decc509e5309e4b"
+    },
+    {
+      "cumulative_peak_rss_bytes": 76828672,
+      "entity_records": 16,
+      "historical_selection_ms": 319.6862,
+      "incidence_bytes": 1290888,
+      "initial_layer3_projection_ms": 492.4177,
+      "medians_ms": {
+        "compare_ms": 100.7965,
+        "index_ms": 431.4697,
+        "prepared_run_materialize_ms": 523.6328,
+        "share_1000_snapshots_ms": 0.2121,
+        "snapshot_encode_ms": 52.6857,
+        "snapshot_import_ms": 454.0514,
+        "summary_ms": 7.808
+      },
+      "occurrences": 2304,
+      "relations": 768,
+      "samples": [
+        {
+          "compare_ms": 113.5223,
+          "index_ms": 459.1186,
+          "prepared_run_materialize_ms": 578.997,
+          "share_1000_snapshots_ms": 0.2121,
+          "snapshot_encode_ms": 115.1237,
+          "snapshot_import_ms": 454.0514,
+          "summary_ms": 7.808
+        },
+        {
+          "compare_ms": 75.4755,
+          "index_ms": 386.2674,
+          "prepared_run_materialize_ms": 523.6328,
+          "share_1000_snapshots_ms": 0.1287,
+          "snapshot_encode_ms": 47.7428,
+          "snapshot_import_ms": 555.1346,
+          "summary_ms": 5.6504
+        },
+        {
+          "compare_ms": 100.7965,
+          "index_ms": 431.4697,
+          "prepared_run_materialize_ms": 515.1096,
+          "share_1000_snapshots_ms": 0.2684,
+          "snapshot_encode_ms": 52.6857,
+          "snapshot_import_ms": 347.2857,
+          "summary_ms": 9.9116
+        }
+      ],
+      "session_statistics": {
+        "charge_scope": "wire + detached view wire + source wire per entry; excludes JSON allocator overhead",
+        "charged_bytes": 6007442,
+        "decoded_bytes": 3425696,
+        "derivations": 4,
+        "enabled": true,
+        "entries": 3,
+        "evictions": 0,
+        "expired": 1,
+        "failures": 0,
+        "format": "gr.data.relational-profile/1",
+        "full_checks": 4,
+        "hits": 11,
+        "max_bytes": 16777216,
+        "max_entries": 64,
+        "misses": 4,
+        "operator_calls": 2,
+        "peak_charged_bytes": 6851352,
+        "serialized_bytes": 7692437,
+        "source_checks": 2,
+        "source_hits": 2,
+        "source_slots": 2,
+        "timing_enabled": false,
+        "timing_ns": {
+          "decode": 0,
+          "derive": 0,
+          "encode": 0,
+          "source_validation": 0
+        }
+      },
+      "setup_ms": 5019.032,
+      "snapshot_encoded_bytes": 1024267,
+      "snapshot_id": "sha256:617984801c81271cbf93c8cbc760686f617e14f0d96859db4ca7c7285800560a",
+      "snapshot_shared_payload_copy_bytes": 0,
+      "source_bytes": 421557,
+      "source_pins": {
+        "derivation": "Eager selected recording-history snapshot; source documents preserved",
+        "manifest_version": "sha256:d0556666b89898fd57cf4b0e18fc705076b0f515c7c235b9d8439426cfbcbdae",
+        "physical_revision": "r:004beae37fc6fbf71c29f09b13c7fb25e0abbbeba81c1d4611738f2cca06dac3",
+        "qualifications": [
+          "Incidences count recorded participations, not factual, causal or legal relationships.",
+          "Subject references remain designations; grouping does not establish referent identity.",
+          "Artifact descriptors are preserved; artifact bytes are not copied into this value.",
+          "Neutral references remain in source wrappers and are not participant incidences.",
+          "Unknown payload/extension semantics remain opaque; no uncertainty is converted to probability.",
+          "Only the selected recording snapshot and direct archive are retained, not the full history DAG."
+        ],
+        "representation": "gr.runtime.history-manifest@2",
+        "semantic_revision": "sha256:3ad0b5b75c90f82fa897daed99023a6191d64efdb143dbf1289c2e10b1017e24",
+        "workspace": "analysis:fixture"
+      },
+      "summary_digest": "sha256:28171f94873f2e4ae30704581a01ea77766ec81060b4ab757bdf3964c3481da4"
+    }
+  ],
+  "memory_scope": "Cumulative process peak includes source setup and earlier sizes. Byte counts describe payload/transport, not decoded JSON or total live allocations.",
+  "method": "Actual in-memory tracked source; one-time source/Layer3 setup reported separately. Same immutable incidence owner; three sizes in fixed order. Every result checked; no timing gate.",
+  "repeats": 3,
+  "suite": "gr.relational-analysis/1"
+}

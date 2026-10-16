@@ -1,0 +1,16 @@
+{
+  "mode": "release",
+  "module_run": "build\\m\\9b198579",
+  "independent_run": "build\\x\\6a8248bd",
+  "installed_sdk_run": "build\\p\\ea07df37",
+  "ctest_detail": {
+    "path": "docs\\validation\\ctest-v0.7-release-final-detail.txt",
+    "bytes": 78734,
+    "sha256": "067ba04a558f93f6bb702292d20e52a40ba054e183f7badf62ca033ba08a3d8a"
+  },
+  "ctest_summary": {
+    "path": "docs\\validation\\ctest-v0.7-release-final.txt",
+    "bytes": 4985,
+    "sha256": "7930cc105dceea2bd2e4195abf6a5411ef2fa13129e29abf3c410b5cb76d4996"
+  }
+}

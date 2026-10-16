@@ -1,0 +1,441 @@
+{
+  "events": [
+    {
+      "command": [
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+        "-S",
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\as",
+        "-B",
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\ab"
+      ],
+      "code": 0,
+      "stdout": "-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.\n-- Configuring done (0.1s)\n-- Generating done (0.4s)\n-- Build files have been written to: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/ab\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+        "--build",
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\ab",
+        "--config",
+        "Release",
+        "--target",
+        "ZERO_CHECK"
+      ],
+      "code": 0,
+      "stdout": "CMake is re-running because C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/ab/CMakeFiles/generate.stamp is out-of-date.\n  the file 'C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/as/python/src/gr_relational_analysis/manifest.json'\n  is newer than 'C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/ab/CMakeFiles/generate.stamp.depend'\n  result='-1'\n-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.\n-- Configuring done (0.0s)\n-- Generating done (0.6s)\n-- Build files have been written to: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/ab\nMSBuild version 17.14.10+8b8e13593 for .NET Framework\n\n  1>Checking Build System\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+        "-S",
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\vs",
+        "-B",
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\vb"
+      ],
+      "code": 0,
+      "stdout": "-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.\n-- Configuring done (0.1s)\n-- Generating done (0.4s)\n-- Build files have been written to: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/vb\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+        "--build",
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\vb",
+        "--config",
+        "Release",
+        "--target",
+        "ZERO_CHECK"
+      ],
+      "code": 0,
+      "stdout": "CMake is re-running because C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/vb/CMakeFiles/generate.stamp is out-of-date.\n  the file 'C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/vs/python/src/gr_visualization/manifest.json'\n  is newer than 'C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/vb/CMakeFiles/generate.stamp.depend'\n  result='-1'\n-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.\n-- Configuring done (0.1s)\n-- Generating done (0.4s)\n-- Build files have been written to: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/vb\nMSBuild version 17.14.10+8b8e13593 for .NET Framework\n\n  1>Checking Build System\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+        "-S",
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\ds",
+        "-B",
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\db"
+      ],
+      "code": 0,
+      "stdout": "-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.\n-- Configuring done (0.1s)\n-- Generating done (0.3s)\n-- Build files have been written to: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/db\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+        "--build",
+        "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build\\m\\9b198579\\db",
+        "--config",
+        "Release",
+        "--target",
+        "ZERO_CHECK"
+      ],
+      "code": 0,
+      "stdout": "CMake is re-running because C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/db/CMakeFiles/generate.stamp is out-of-date.\n  the file 'C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/ds/python/src/gr_diagonal/manifest.json'\n  is newer than 'C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/db/CMakeFiles/generate.stamp.depend'\n  result='-1'\n-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.\n-- Configuring done (0.1s)\n-- Generating done (0.3s)\n-- Build files have been written to: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build/m/9b198579/db\nMSBuild version 17.14.10+8b8e13593 for .NET Framework\n\n  1>Checking Build System\n",
+      "stderr": ""
+    }
+  ],
+  "source_checks": [
+    {
+      "package": "gr_relational_analysis",
+      "file": "benchmark.py",
+      "source_sha256": "f4aa420b35f1de467efc520346e94117154977eaa03b96c03ed5d4390318f064",
+      "copied_sha256": "f4aa420b35f1de467efc520346e94117154977eaa03b96c03ed5d4390318f064",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "CMakeLists.txt",
+      "source_sha256": "623c0dab8b229ec030779b444dd61be63d3376e4af4bfae725d580baa4e62850",
+      "copied_sha256": "623c0dab8b229ec030779b444dd61be63d3376e4af4bfae725d580baa4e62850",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "README.md",
+      "source_sha256": "2ea4124f71b42fb12163d67b41568cd0757fec837adc1ef47858ec4298e31423",
+      "copied_sha256": "2ea4124f71b42fb12163d67b41568cd0757fec837adc1ef47858ec4298e31423",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "benchmarks/analysis.cpp",
+      "source_sha256": "db203d4c67261f166739867b91eff14860afa993b736540f83a756acb81afd7e",
+      "copied_sha256": "db203d4c67261f166739867b91eff14860afa993b736540f83a756acb81afd7e",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "cmake/GRRelationalAnalysisConfig.cmake.in",
+      "source_sha256": "8024a00085ff3062294696675ca0299f9379c57e8c90c33e1fb37f8e35ef6985",
+      "copied_sha256": "8024a00085ff3062294696675ca0299f9379c57e8c90c33e1fb37f8e35ef6985",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "cmake/manifest.hpp.in",
+      "source_sha256": "d59a732025fa7a6f2a54fdfb6163f567c0aad512ba1a57f0680848b013a6a656",
+      "copied_sha256": "d59a732025fa7a6f2a54fdfb6163f567c0aad512ba1a57f0680848b013a6a656",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "examples/native.cpp",
+      "source_sha256": "11ac94303d41b97db4e35ad28c2144b35e42141cacbf09f0086bff0b10f5dc7c",
+      "copied_sha256": "11ac94303d41b97db4e35ad28c2144b35e42141cacbf09f0086bff0b10f5dc7c",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "python/pyproject.toml",
+      "source_sha256": "24b4dbcc514a7b1e20394116c89462121d049f2a07a461c8040f8250cda121b3",
+      "copied_sha256": "24b4dbcc514a7b1e20394116c89462121d049f2a07a461c8040f8250cda121b3",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "src/analysis.cpp",
+      "source_sha256": "aa6405ded85a054d68e1176a7d56d064e52a611beb3fdf40a735433631f13c6f",
+      "copied_sha256": "aa6405ded85a054d68e1176a7d56d064e52a611beb3fdf40a735433631f13c6f",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "src/c_api.cpp",
+      "source_sha256": "72bc91c6e259d3edb155a83ee955a154c5c05ee6b8337bb8bb147f5d086b5f77",
+      "copied_sha256": "72bc91c6e259d3edb155a83ee955a154c5c05ee6b8337bb8bb147f5d086b5f77",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "src/package.cpp",
+      "source_sha256": "963c753e9046061480655a52039b4d30d4948f4218eb8e1efbbc1c64469e1e26",
+      "copied_sha256": "963c753e9046061480655a52039b4d30d4948f4218eb8e1efbbc1c64469e1e26",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "tests/analysis.cpp",
+      "source_sha256": "7db644f0e45a248a5dd9ae689f99edd79920ed13b4d3e86da6346019c8a593f2",
+      "copied_sha256": "7db644f0e45a248a5dd9ae689f99edd79920ed13b4d3e86da6346019c8a593f2",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "tests/fixture.hpp",
+      "source_sha256": "896e44d89fba9bc2f2bfa31b001ab1742562a1bf9367c9c2709144f741aefcf4",
+      "copied_sha256": "896e44d89fba9bc2f2bfa31b001ab1742562a1bf9367c9c2709144f741aefcf4",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "include/gr_relational_analysis/analysis.hpp",
+      "source_sha256": "df610d606b88d58b6ebee302ebdaaa0291aef27f59661961d538a0060f2e6219",
+      "copied_sha256": "df610d606b88d58b6ebee302ebdaaa0291aef27f59661961d538a0060f2e6219",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "include/gr_relational_analysis/c_api.h",
+      "source_sha256": "761ad5d578ee0e7578ddf487d2cfee5c12e0e6586b19e50efe241e53e051b50e",
+      "copied_sha256": "761ad5d578ee0e7578ddf487d2cfee5c12e0e6586b19e50efe241e53e051b50e",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "include/gr_relational_analysis/package.hpp",
+      "source_sha256": "2fb68a5e13d768a2675ecd694cd705c72ac7ea6a71f954157d0c4465fec3afc6",
+      "copied_sha256": "2fb68a5e13d768a2675ecd694cd705c72ac7ea6a71f954157d0c4465fec3afc6",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "python/src/gr_relational_analysis/manifest.json",
+      "source_sha256": "fcbefb9cc430d81d3da89568e5ec6f3e913ad71e7f5f745ffb337f108f578980",
+      "copied_sha256": "fcbefb9cc430d81d3da89568e5ec6f3e913ad71e7f5f745ffb337f108f578980",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "python/src/gr_relational_analysis/_native.py",
+      "source_sha256": "11d09d6d5b9ad34cd0a3d9f0f4cac10970ad5761b655ecd77f7c8ef36fbf2f43",
+      "copied_sha256": "11d09d6d5b9ad34cd0a3d9f0f4cac10970ad5761b655ecd77f7c8ef36fbf2f43",
+      "equal": true
+    },
+    {
+      "package": "gr_relational_analysis",
+      "file": "python/src/gr_relational_analysis/__init__.py",
+      "source_sha256": "2740e833bd0773e05ace560293b3eeb76668f594b0eb68ca7b4d7a1237d6a9bd",
+      "copied_sha256": "2740e833bd0773e05ace560293b3eeb76668f594b0eb68ca7b4d7a1237d6a9bd",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "CMakeLists.txt",
+      "source_sha256": "a4907e1c9fc05489a357606a0541df853138413b94493855a0211ae0dc3550dc",
+      "copied_sha256": "a4907e1c9fc05489a357606a0541df853138413b94493855a0211ae0dc3550dc",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "README.md",
+      "source_sha256": "43fd0764aef023685d7a940f03b464e192081867399d7e56723db22a31e16c0f",
+      "copied_sha256": "43fd0764aef023685d7a940f03b464e192081867399d7e56723db22a31e16c0f",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "benchmarks/visualization.cpp",
+      "source_sha256": "984f1bd54317cdbe7cd1cddf4d669ccf2e0cb01498433e0c66d3d7bf054a870a",
+      "copied_sha256": "984f1bd54317cdbe7cd1cddf4d669ccf2e0cb01498433e0c66d3d7bf054a870a",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "cmake/GRVisualizationConfig.cmake.in",
+      "source_sha256": "01c28b8e17ab0c3944f8764c29f2f0590a12c66a899a0c61ae17f50846774b41",
+      "copied_sha256": "01c28b8e17ab0c3944f8764c29f2f0590a12c66a899a0c61ae17f50846774b41",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "cmake/manifest.hpp.in",
+      "source_sha256": "d59a732025fa7a6f2a54fdfb6163f567c0aad512ba1a57f0680848b013a6a656",
+      "copied_sha256": "d59a732025fa7a6f2a54fdfb6163f567c0aad512ba1a57f0680848b013a6a656",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "examples/demo.cpp",
+      "source_sha256": "f4bec43cc1de512ff4820b865daaaa63373d01124b34a371387ca629c75557c4",
+      "copied_sha256": "f4bec43cc1de512ff4820b865daaaa63373d01124b34a371387ca629c75557c4",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "examples/fixture.hpp",
+      "source_sha256": "73dce4b804c0a326f5432542ba7d61249ed9d8b8b15a057216a01c8b873dea89",
+      "copied_sha256": "73dce4b804c0a326f5432542ba7d61249ed9d8b8b15a057216a01c8b873dea89",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "python/pyproject.toml",
+      "source_sha256": "158933828ab16d4018811ab43023579ae2128a0b4e76ff8e2b1cc4ed7d528198",
+      "copied_sha256": "158933828ab16d4018811ab43023579ae2128a0b4e76ff8e2b1cc4ed7d528198",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "src/c_api.cpp",
+      "source_sha256": "e0ed2a9687e30da0d45d4977fc7e3cfa86b28ee83de95ba90b1f7fa45307dce1",
+      "copied_sha256": "e0ed2a9687e30da0d45d4977fc7e3cfa86b28ee83de95ba90b1f7fa45307dce1",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "src/package.cpp",
+      "source_sha256": "d1406201f0161b761433281d008e64ea8f4cc26ae0e639abdd63680cfa893d8a",
+      "copied_sha256": "d1406201f0161b761433281d008e64ea8f4cc26ae0e639abdd63680cfa893d8a",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "src/visualization.cpp",
+      "source_sha256": "d2cc481abf33eb5be7c1813e613ab630fb602fc7b9978edcc57b9d4d62553b5e",
+      "copied_sha256": "d2cc481abf33eb5be7c1813e613ab630fb602fc7b9978edcc57b9d4d62553b5e",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "tests/conformance.cpp",
+      "source_sha256": "07995d971afa8265371f32379c60f07274fc44a5c645c3957c41905e3e4709b8",
+      "copied_sha256": "07995d971afa8265371f32379c60f07274fc44a5c645c3957c41905e3e4709b8",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "include/gr_visualization/c_api.h",
+      "source_sha256": "5687ddc1578cf0d91a49aba3909360f49c312a416da291cd9902b43f8456c296",
+      "copied_sha256": "5687ddc1578cf0d91a49aba3909360f49c312a416da291cd9902b43f8456c296",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "include/gr_visualization/package.hpp",
+      "source_sha256": "580c2788db16764b920d9007f27a97905a63e8fba7297a137da1484d78aebf19",
+      "copied_sha256": "580c2788db16764b920d9007f27a97905a63e8fba7297a137da1484d78aebf19",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "include/gr_visualization/visualization.hpp",
+      "source_sha256": "48865596e138cf9d7d06ad9011eabacc7667147b56aa1992158beb7936a8688a",
+      "copied_sha256": "48865596e138cf9d7d06ad9011eabacc7667147b56aa1992158beb7936a8688a",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "python/src/gr_visualization/manifest.json",
+      "source_sha256": "586f13bc2b84dda443926066eccc602781a38036e14638371c7a4ac20503a19e",
+      "copied_sha256": "586f13bc2b84dda443926066eccc602781a38036e14638371c7a4ac20503a19e",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "python/src/gr_visualization/_native.py",
+      "source_sha256": "57fec0cb0bcb7313df566ec930c363e0cf64dcdc7c19d6d8647260b2c967bb31",
+      "copied_sha256": "57fec0cb0bcb7313df566ec930c363e0cf64dcdc7c19d6d8647260b2c967bb31",
+      "equal": true
+    },
+    {
+      "package": "gr_visualization",
+      "file": "python/src/gr_visualization/__init__.py",
+      "source_sha256": "be72c22597539fc828edbbb324d85cb5725ddf7eb4770ae99255cedddab36c4f",
+      "copied_sha256": "be72c22597539fc828edbbb324d85cb5725ddf7eb4770ae99255cedddab36c4f",
+      "equal": true
+    },
+    {
+      "package": "gr_diagonal",
+      "file": "benchmark.py",
+      "source_sha256": "2435de51d1e2df65137db2504dfb5cfb24f45be19259a0d29cb7880290e656c8",
+      "copied_sha256": "2435de51d1e2df65137db2504dfb5cfb24f45be19259a0d29cb7880290e656c8",
+      "equal": true
+    },
+    {
+      "package": "gr_diagonal",
+      "file": "CMakeLists.txt",
+      "source_sha256": "4ff9dadfadba91168b2eceb2619ccd234cd34f8d7cd22ff84ecbf5cdfc658e76",
+      "copied_sha256": "4ff9dadfadba91168b2eceb2619ccd234cd34f8d7cd22ff84ecbf5cdfc658e76",
+      "equal": true
+    },
+    {
+      "package": "gr_diagonal",
+      "file": "README.md",
+      "source_sha256": "661df64301bf91e10e74cd1617f4ed154aecd883192c27a9d0e4f14ef5088bc6",
+      "copied_sha256": "661df64301bf91e10e74cd1617f4ed154aecd883192c27a9d0e4f14ef5088bc6",
+      "equal": true
+    },
+    {
+      "package": "gr_diagonal",
+      "file": "cmake/GRDiagonalConfig.cmake.in",
+      "source_sha256": "f867aff6a7d4c7b3d9f06cc7ca92f4cb7ee8fab11313f1d43e4d5f106221595b",
+      "copied_sha256": "f867aff6a7d4c7b3d9f06cc7ca92f4cb7ee8fab11313f1d43e4d5f106221595b",
+      "equal": true
+    },
+    {
+      "package": "gr_diagonal",
+      "file": "cmake/manifest.hpp.in",
+      "source_sha256": "bb16612d0d6c5bd96a63eea151c1aca335fae061822d415e26f851ae38bb738e",
+      "copied_sha256": "bb16612d0d6c5bd96a63eea151c1aca335fae061822d415e26f851ae38bb738e",
+      "equal": true
+    },
+    {
+      "package": "gr_diagonal",
+      "file": "python/pyproject.toml",
+      "source_sha256": "fc26a94f21a3fa08fbfc678c1e70a5d19a487bd5be42687321e141eb197539e2",
+      "copied_sha256": "fc26a94f21a3fa08fbfc678c1e70a5d19a487bd5be42687321e141eb197539e2",
+      "equal": true
+    },
+    {
+      "package": "gr_diagonal",
+      "file": "src/c_api.cpp",
+      "source_sha256": "44dc2315672b78ef947cd092c0302f9328bc19026ea201cdc884303eb525f9fc",
+      "copied_sha256": "44dc2315672b78ef947cd092c0302f9328bc19026ea201cdc884303eb525f9fc",
+      "equal": true
+    },
+    {
+      "package": "gr_diagonal",
+      "file": "src/diagonal.cpp",
+      "source_sha256": "a6bb2b179c6b158d2e143205375df5ffb6c3cfd5d73c9db391676a751002bdc9",
+      "copied_sha256": "a6bb2b179c6b158d2e143205375df5ffb6c3cfd5d73c9db391676a751002bdc9",
+      "equal": true
+    },
+    {
+      "package": "gr_diagonal",
+      "file": "tests/conformance.cpp",
+      "source_sha256": "1761d9e13be051d2426cedc55f5b33647adf6dee21575ec52736791323dd32cd",
+      "copied_sha256": "1761d9e13be051d2426cedc55f5b33647adf6dee21575ec52736791323dd32cd",
+      "equal": true
+    },
+    {
+      "package": "gr_diagonal",
+      "file": "tests/python_test.py",
+      "source_sha256": "88fce095b6b1f83eb4ed7c84d7590f7771d126cd383e51ee56c44730093d5f1f",
+      "copied_sha256": "88fce095b6b1f83eb4ed7c84d7590f7771d126cd383e51ee56c44730093d5f1f",
+      "equal": true
+    },
+    {
+      "package": "gr_diagonal",
+      "file": "include/gr_diagonal/c_api.h",
+      "source_sha256": "10ddc2faedb93c09d34eab8e84277d58e1a9cb0a1a1fa22f6aa20622987f5e07",
+      "copied_sha256": "10ddc2faedb93c09d34eab8e84277d58e1a9cb0a1a1fa22f6aa20622987f5e07",
+      "equal": true
+    },
+    {
+      "package": "gr_diagonal",
+      "file": "include/gr_diagonal/diagonal.hpp",
+      "source_sha256": "ec0ec101a39300c480a8a45604d4fc157197aa3aa062a25dc81956abe9e262d4",
+      "copied_sha256": "ec0ec101a39300c480a8a45604d4fc157197aa3aa062a25dc81956abe9e262d4",
+      "equal": true
+    },
+    {
+      "package": "gr_diagonal",
+      "file": "python/src/gr_diagonal/manifest.json",
+      "source_sha256": "a9cc2bd3514add75f043540d3460b5c8fa4975bca89f5a450f71b62ddad4e27e",
+      "copied_sha256": "a9cc2bd3514add75f043540d3460b5c8fa4975bca89f5a450f71b62ddad4e27e",
+      "equal": true
+    },
+    {
+      "package": "gr_diagonal",
+      "file": "python/src/gr_diagonal/__init__.py",
+      "source_sha256": "ba20b4d62a97fde80f5c9a16b6f84512a28a76c2ac535898873d6c1bc84ebaa2",
+      "copied_sha256": "ba20b4d62a97fde80f5c9a16b6f84512a28a76c2ac535898873d6c1bc84ebaa2",
+      "equal": true
+    }
+  ]
+}

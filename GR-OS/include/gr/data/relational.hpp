@@ -25,6 +25,23 @@ struct CacheOptions {
     std::size_t max_bytes = 16 * 1024 * 1024;
     bool profile_timing = false;
 };
+// An explicit owning inspection lease. Const references remain valid while any
+// copy of this view lives, even after cache clear or Session/library destruction.
+// Retains the immutable payload and decoded state; this is outside cache quotas.
+class QualifiedView {
+  public:
+    QualifiedView() = default;
+    const DataValue &value() const;
+    const Json &source() const;
+    const Json &derivation() const; // Qualified container excluding its source.
+    explicit operator bool() const noexcept;
+
+  private:
+    struct Impl;
+    explicit QualifiedView(std::shared_ptr<const Impl>);
+    std::shared_ptr<const Impl> impl_;
+    friend class Session;
+};
 // One installation's pinned record profiles and bounded immutable parsed-state
 // memo. Wire-byte charges bound retention, not JSON allocator overhead or RSS.
 class Session {
@@ -33,6 +50,7 @@ class Session {
     Session(const Session &) = delete;
     Session &operator=(const Session &) = delete;
     Json inspect(const DataValue &) const;
+    QualifiedView view(const DataValue &) const;
     Json statistics() const;
     void clear_cache();
 

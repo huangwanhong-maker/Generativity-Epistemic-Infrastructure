@@ -1,0 +1,44 @@
+{
+  "wheel": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\x\\9ff3df79\\wheels\\gr_diagonal-0.2.0-py3-none-any.whl",
+  "wheel_sha256": "0151a989cfc0571d80bcfd170ae2e27a23c025741bd7d4972a122da2648043b8",
+  "native": "C:\\Users\\Micro\\Desktop\\relational_being_infrastructure\\frameworks\\generativity_standards_program\\GR-OS\\build-asan\\x\\9ff3df79\\package\\bin\\gr_diagonal_native.dll",
+  "native_sha256": "8185fd238275090bdeddf8dc8ef800d3cae905e065e9ba285470fa814189d744",
+  "manifest": {
+    "format": "gr.module-package/1",
+    "id": "org.gr.examples.diagonal",
+    "version": "0.2.0",
+    "requires": [
+      {
+        "id": "gr-os",
+        "version": "0.7.0",
+        "components": [
+          "data_standard"
+        ]
+      }
+    ],
+    "compatibility": "Rebuild from source with the exact installed SDK and matching C++ compiler, standard library, runtime and configuration. No cross-compiler binary ABI claim.",
+    "exports": {
+      "types": [
+        "example.diagonal.int64@1"
+      ],
+      "representations": [
+        "example.diagonal.le-buffer@1"
+      ],
+      "operators": [
+        "example.diagonal.apply@1"
+      ],
+      "providers": [
+        "example.diagonal.cpu.checked@1"
+      ]
+    },
+    "effects": [
+      "pure"
+    ],
+    "numerics": "Exact signed int64 multiplication; reject overflow; no implicit casts or missing values.",
+    "python": "gr_diagonal: package-specific synchronous C facade; no opaque-handle interoperability with gr_os.",
+    "trust": "Trusted native in-process code; no sandbox, authentication or record-access authority is conferred.",
+    "categories": [
+      "mathematical-model"
+    ]
+  }
+}

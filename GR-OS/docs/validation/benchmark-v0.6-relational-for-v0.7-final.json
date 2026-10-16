@@ -1,0 +1,119 @@
+{
+  "backend": "cpu.sequential",
+  "cases": [
+    {
+      "entity_records": 16,
+      "median_ms": {
+        "eager_history_select_ms": 26.5439,
+        "expression_and_compile_ms": 4.5602,
+        "literal_validation_ms": 7.5864,
+        "materialize_and_inspect_ms": 12.65,
+        "prepared_run_ms": 22.4533
+      },
+      "pinned_physical_revision": "r:a8347ce9e63ffd16bab14bb1b2c7a6f2820207f0776bf7173ea9b81ae9b6fe1c",
+      "process_peak_rss_bytes_cumulative": 14151680,
+      "recording_revisions": 2,
+      "relation_records": 64,
+      "repeats": 3,
+      "result_bytes": 115638,
+      "samples": [
+        {
+          "counts_checksum": "sha256:74725a30f0afa3030591192200d3d8b2d2154fe5b72959c807debb36a79e0df1",
+          "eager_history_select_ms": 26.5439,
+          "expression_and_compile_ms": 4.5602,
+          "literal_validation_ms": 6.595,
+          "materialize_and_inspect_ms": 11.7754,
+          "prepared_run_ms": 22.4533,
+          "repeat": 0,
+          "selected_occurrences": 128
+        },
+        {
+          "counts_checksum": "sha256:74725a30f0afa3030591192200d3d8b2d2154fe5b72959c807debb36a79e0df1",
+          "eager_history_select_ms": 40.505,
+          "expression_and_compile_ms": 6.1647,
+          "literal_validation_ms": 11.7015,
+          "materialize_and_inspect_ms": 12.65,
+          "prepared_run_ms": 39.1286,
+          "repeat": 1,
+          "selected_occurrences": 128
+        },
+        {
+          "counts_checksum": "sha256:74725a30f0afa3030591192200d3d8b2d2154fe5b72959c807debb36a79e0df1",
+          "eager_history_select_ms": 25.8024,
+          "expression_and_compile_ms": 4.5201,
+          "literal_validation_ms": 7.5864,
+          "materialize_and_inspect_ms": 15.3553,
+          "prepared_run_ms": 20.592,
+          "repeat": 2,
+          "selected_occurrences": 128
+        }
+      ],
+      "selected_semantic_revision": "sha256:2163ed190cabe7531dcf550dc181d789d10cce1cc18f5f9d41e48794e0af6fa7",
+      "setup_ms_excluded": 112.4307,
+      "source_bytes": 38889,
+      "source_record_count": 80
+    },
+    {
+      "entity_records": 16,
+      "median_ms": {
+        "eager_history_select_ms": 99.3096,
+        "expression_and_compile_ms": 5.2588,
+        "literal_validation_ms": 30.3624,
+        "materialize_and_inspect_ms": 51.0558,
+        "prepared_run_ms": 100.4031
+      },
+      "pinned_physical_revision": "r:046b0a79d5a4e96b671c51c870eba25da4e03080a34918f1394a961d8b84afec",
+      "process_peak_rss_bytes_cumulative": 31989760,
+      "recording_revisions": 2,
+      "relation_records": 256,
+      "repeats": 3,
+      "result_bytes": 437062,
+      "samples": [
+        {
+          "counts_checksum": "sha256:60dfac883fc3a566d9250dcfeabf414c11c51c4d1eda23c5d524cd8e54783090",
+          "eager_history_select_ms": 99.3096,
+          "expression_and_compile_ms": 5.142,
+          "literal_validation_ms": 28.443,
+          "materialize_and_inspect_ms": 57.0602,
+          "prepared_run_ms": 107.1713,
+          "repeat": 0,
+          "selected_occurrences": 512
+        },
+        {
+          "counts_checksum": "sha256:60dfac883fc3a566d9250dcfeabf414c11c51c4d1eda23c5d524cd8e54783090",
+          "eager_history_select_ms": 106.1512,
+          "expression_and_compile_ms": 5.2588,
+          "literal_validation_ms": 31.3659,
+          "materialize_and_inspect_ms": 51.0558,
+          "prepared_run_ms": 91.2393,
+          "repeat": 1,
+          "selected_occurrences": 512
+        },
+        {
+          "counts_checksum": "sha256:60dfac883fc3a566d9250dcfeabf414c11c51c4d1eda23c5d524cd8e54783090",
+          "eager_history_select_ms": 98.6386,
+          "expression_and_compile_ms": 6.0276,
+          "literal_validation_ms": 30.3624,
+          "materialize_and_inspect_ms": 46.5003,
+          "prepared_run_ms": 100.4031,
+          "repeat": 2,
+          "selected_occurrences": 512
+        }
+      ],
+      "selected_semantic_revision": "sha256:3c38d2ef6a69da8647b173888610c381669f12168e17a93ca3b7c39420cb0ffb",
+      "setup_ms_excluded": 399.799,
+      "source_bytes": 139197,
+      "source_record_count": 272
+    }
+  ],
+  "limitations": [
+    "Small synthetic in-memory workloads, no SDK transport or SQLite I/O",
+    "Prepared execution includes validation; it is not raw incidence-kernel time",
+    "No temporal query in this benchmark; temporal costs are workload dependent",
+    "No cross-version performance baseline for this new pilot"
+  ],
+  "memory_scope": "Cumulative process peak RSS including setup and earlier cases; not a per-phase allocation or incremental case peak.",
+  "method": "Each repeat pins the same old semantic snapshot through the same newer physical manifest, validates a literal, compiles incidence/role/count expressions, executes the prepared plan once, then materializes and fully inspects the qualified result. Setup excluded; first repeat included; phase times include their actual native validation/copying costs.",
+  "runtime_workers": 2,
+  "suite": "gr.data.relational-benchmark/1"
+}

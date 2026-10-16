@@ -59,7 +59,7 @@ int main() {
         expired.timeout = std::chrono::milliseconds(0);
         if (runtime.run(composed.plan(), expired).status != gr::runtime::JobStatus::deadline_exceeded)
             throw std::runtime_error("deadline ignored");
-        if (gr_diagonal::manifest().at("requires").at(0).at("version") != "0.6.0")
+        if (gr_diagonal::manifest().at("requires").at(0).at("version") != "0.7.0")
             throw std::runtime_error("SDK pin");
         gr::data::Library invalid;
         try {

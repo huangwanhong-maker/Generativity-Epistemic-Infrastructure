@@ -3,6 +3,39 @@
 **Class:** Informative engineering evidence  
 **Status:** Local Windows Release measurements; no throughput SLA or production-scale claim
 
+## v0.7 module measurements
+
+Run [the unchanged-workload driver](../tools/measure_v07.py) only after all builds,
+tests and other benchmarks have stopped. It checks that the four common workload
+sources match the preserved v0.6 archive, then runs native data in old/new and
+new/old order, qualified history, runtime and Python/NumPy measurements. A new
+`--label` is required for each capture; prior evidence is never overwritten.
+
+```text
+python -B tools/measure_v07.py --label final
+python -B tools/measure_v07_modules.py --package-run build/m/ACCEPTED_RUN --label final
+```
+
+The independently installed analysis and visualization packages have opt-in native
+benchmark targets (`GR_MODULE_BUILD_BENCHMARKS=ON`). Analysis separates tracked
+historical acquisition, incidence computation, first indexing, repeated summaries
+and comparisons, snapshot export/import and scheduled summary. Visualization
+separates layout, SVG, copied interchange and a synthetic end-to-end publication/
+selection/analysis/render workflow. Analysis sizes 64, 256 and 768 and visualization
+sizes 32, 256 and 1,024 exercise repeated participant occurrences. Setup and cumulative peak RSS remain explicit.
+
+`benchmark_analysis 3 FIXTURE_DIRECTORY` also exports qualified source fixtures
+outside measured phases for the installed Python package runner
+`packages/gr_relational_analysis/benchmark.py`. Its raw-byte import boundary and
+portable export/revalidation costs are separate from persistent native queries.
+Use the accepted installed wheel/library paths, not a different source build.
+These portable projections omit source bodies but are not guaranteed to be smaller
+than every input. Scene/SVG sizes and transport costs matter alongside CPU timings.
+
+[Final captures and interpretation](../docs/validation/benchmark-v0.7-analysis.md)
+record retained gains, slower cases, import/output costs and timing variability. Native byte equality, analytical equivalence and rendered-pixel
+appearance are different checks; no timing threshold substitutes for conformance.
+
 ## v0.6 maturation measurements
 
 [The v0.6 analysis](../docs/validation/benchmark-v0.6-analysis.md) compares the

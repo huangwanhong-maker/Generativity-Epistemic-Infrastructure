@@ -1,0 +1,30 @@
+[
+  {
+    "original": "build-asan\\m\\e541e34f\\visual-demo\\incidence_columns.scene.json",
+    "corrected": "build-asan\\m\\e541e34f\\visual-demo-fixture-correction\\incidence_columns.scene.json",
+    "original_sha256": "a85e96defd3ecf5927f5ec22ccd12b93a8e19e7c8f165e93a88586a7a05f34b0",
+    "corrected_sha256": "a85e96defd3ecf5927f5ec22ccd12b93a8e19e7c8f165e93a88586a7a05f34b0",
+    "equal": true
+  },
+  {
+    "original": "build-asan\\m\\e541e34f\\visual-demo\\incidence_columns.svg",
+    "corrected": "build-asan\\m\\e541e34f\\visual-demo-fixture-correction\\incidence_columns.svg",
+    "original_sha256": "1fc163159fca2d85db69a40320e20b543265e57816916be219e0e3be08a8376a",
+    "corrected_sha256": "1fc163159fca2d85db69a40320e20b543265e57816916be219e0e3be08a8376a",
+    "equal": true
+  },
+  {
+    "original": "build-asan\\m\\e541e34f\\visual-demo\\temporal_bands.scene.json",
+    "corrected": "build-asan\\m\\e541e34f\\visual-demo-fixture-correction\\temporal_bands.scene.json",
+    "original_sha256": "a180ca9db96971625b2d47341f7c04f10368e94896d21f13ff992c33723d4db9",
+    "corrected_sha256": "a180ca9db96971625b2d47341f7c04f10368e94896d21f13ff992c33723d4db9",
+    "equal": true
+  },
+  {
+    "original": "build-asan\\m\\e541e34f\\visual-demo\\temporal_bands.svg",
+    "corrected": "build-asan\\m\\e541e34f\\visual-demo-fixture-correction\\temporal_bands.svg",
+    "original_sha256": "480f4162fe56f3072851d5f5085b304c1591505331e24dcaa3d187633a94096a",
+    "corrected_sha256": "480f4162fe56f3072851d5f5085b304c1591505331e24dcaa3d187633a94096a",
+    "equal": true
+  }
+]

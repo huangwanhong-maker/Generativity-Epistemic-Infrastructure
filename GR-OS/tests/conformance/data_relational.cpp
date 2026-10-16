@@ -409,6 +409,37 @@ void immutable_cache() {
     fails([&] { separate->inspect(qualified); },
           "A different installed profile validates the same owner independently");
 }
+void owning_inspection_view() {
+    rel::QualifiedView retained;
+    std::weak_ptr<const void> owner;
+    {
+        Fixture fixture;
+        fixture.publish(Json::array({doc("view:entity")}));
+        auto source = fixture.select();
+        owner = source.payload.owner_token();
+        auto lib = std::make_shared<d::Library>();
+        auto session = rel::install(*lib);
+        retained = session->view(source);
+        auto second = session->view(source);
+        check(&retained.source() == &second.source() && &retained.derivation() == &second.derivation(),
+              "Owning inspections share immutable parsed source and derivation");
+        source.provenance["caller_mutation"] = true;
+        check(!retained.value().provenance.contains("caller_mutation"),
+              "View pins computational provenance independently of caller metadata");
+        session->clear_cache();
+        check(retained.source().at("records").size() == 1 && retained.derivation().at("kind") == "records",
+              "Explicit cache clear does not invalidate a live inspection lease");
+        source.provenance["invalid_number"] = 1.25;
+        fails([&] { session->view(source); }, "Inspection rejects invalid computational metadata");
+        source.provenance = Json::array();
+        fails([&] { session->view(source); }, "Inspection requires object-shaped computational provenance");
+    }
+    check(!owner.expired() && retained.source().at("records").size() == 1,
+          "View retains source after input, Session, Library and store destruction");
+    retained = {};
+    check(owner.expired(), "Final inspection lease release ends raw owner lifetime");
+    fails([&] { retained.source(); }, "Empty inspection view fails coherently");
+}
 } // namespace
 int main() {
     try {
@@ -416,6 +447,7 @@ int main() {
         temporal_accounts();
         large_source();
         immutable_cache();
+        owning_inspection_view();
         std::cout << checks << " qualified relational/history checks passed\n";
     } catch (const std::exception &e) {
         std::cerr << e.what() << '\n';

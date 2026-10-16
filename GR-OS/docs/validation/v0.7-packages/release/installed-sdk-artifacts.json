@@ -1,0 +1,42 @@
+{
+  "run": "build\\p\\ea07df37",
+  "products": [
+    {
+      "path": "build\\p\\ea07df37\\relocated\\bin\\gr_native.dll",
+      "bytes": 2981888,
+      "sha256": "bb9f7286f8391d43754995dd0bb3a9e8a1ac9a0c6fbb49701f58a31108936998"
+    },
+    {
+      "path": "build\\p\\ea07df37\\relocated\\bin\\gr.exe",
+      "bytes": 153600,
+      "sha256": "cdfa75f77b1820d50030a3d60ba5d4425a75a2b4a9ac243a85000b25f78bd8ba"
+    },
+    {
+      "path": "build\\p\\ea07df37\\relocated\\bin\\_gr_buffer.pyd",
+      "bytes": 19456,
+      "sha256": "ff3644abd1249dc8792cc01211d30a0a87519df9ad42f3d88572ac3232b34640"
+    },
+    {
+      "path": "build\\p\\ea07df37\\c\\Release\\consumer_c.exe",
+      "bytes": 12288,
+      "sha256": "1ada63f21399a798357372640f9dd710a4e639383de897595cca5c88537281d1"
+    },
+    {
+      "path": "build\\p\\ea07df37\\c\\Release\\consumer_cpp.exe",
+      "bytes": 1378304,
+      "sha256": "8731b6ab34d8fd4eb1520e8058e6fe2ebd4b75022137ead76ef8de3b29b07549"
+    },
+    {
+      "path": "build\\p\\ea07df37\\wheels\\gr_os-0.7.0-py3-none-any.whl",
+      "bytes": 27506,
+      "sha256": "59d111e7cd88b28877c413ccad4f4bc3d7bb2891fa7f0efb6b5f5d8947945223"
+    }
+  ],
+  "harness": {
+    "path": "tools\\test_installed_sdk.py",
+    "bytes": 8592,
+    "sha256": "f9f900634d40270ae3dfc32e81c74c2ead606e008f5b8b45436ca6883c800619"
+  },
+  "commands_and_stdout": "docs\\validation\\v0.7-packages\\release\\installed_sdk-ctest.txt",
+  "note": "The installed SDK harness streams its subprocess output to CTest; it does not create a separate commands.json. The retained CTest section contains its exact invocation and output."
+}

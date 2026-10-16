@@ -1,0 +1,118 @@
+#include "../examples/fixture.hpp"
+#include <algorithm>
+#include <chrono>
+#include <cmath>
+#include <iostream>
+
+namespace {
+using Clock = std::chrono::steady_clock;
+template <class F> gr::Json measure(F &&work, std::size_t repeats = 5) {
+    work(); // Untimed warm-up; every invocation checks its result.
+    std::vector<double> samples;
+    for (std::size_t i = 0; i < repeats; ++i) {
+        const auto begin = Clock::now();
+        work();
+        samples.push_back(std::chrono::duration<double, std::milli>(Clock::now() - begin).count());
+    }
+    auto sorted = samples;
+    std::sort(sorted.begin(), sorted.end());
+    return {{"samples_ms", samples},
+            {"median_ms", sorted[sorted.size() / 2]},
+            {"p95_ms", sorted[static_cast<std::size_t>(std::ceil(sorted.size() * 0.95)) - 1]}};
+}
+void need(bool value) {
+    if (!value)
+        throw std::runtime_error("Visualization benchmark result mismatch");
+}
+} // namespace
+int main() {
+    try {
+        namespace v = gr_visualization;
+        namespace a = gr_relational_analysis;
+        gr::Json cases = gr::Json::array();
+        for (const std::size_t count : {32, 256, 1024}) {
+            auto network = visualization_fixture::make(count);
+            auto snapshot = network.snapshot();
+            auto scene = v::project(snapshot);
+            const auto encoded = snapshot.encode();
+            const auto scene_bytes = scene.encode();
+            const auto svg_bytes = v::svg(scene);
+            const auto occurrences = count * 3 + 1;
+            need(scene.document().at("edges").size() == occurrences);
+            gr::Json row = {{"owners_with_incidences", count},
+                            {"source_vertices", snapshot.vertices().size()},
+                            {"source_occurrences", occurrences},
+                            {"snapshot_bytes", encoded.size()},
+                            {"scene_bytes", scene_bytes.size()},
+                            {"svg_bytes", svg_bytes.size()},
+                            {"scene_id", scene.id()},
+                            {"svg_sha256", gr::sha256(svg_bytes)}};
+            row["native_snapshot_lease"] = measure([&] {
+                auto copy = network.snapshot();
+                need(copy.id() == snapshot.id());
+            });
+            row["projection"] = measure([&] {
+                auto result = v::project(snapshot);
+                need(result.id() == scene.id());
+            });
+            row["scene_encode_copy"] = measure([&] {
+                auto result = scene.encode();
+                need(result == scene_bytes);
+            });
+            row["svg_export"] = measure([&] {
+                auto result = v::svg(scene);
+                need(result == svg_bytes);
+            });
+            row["snapshot_export_copy"] = measure([&] {
+                auto result = snapshot.encode();
+                need(result == encoded);
+            });
+            row["snapshot_import_validate_copy"] = measure([&] {
+                auto copy = a::NetworkSnapshot::decode(
+                    std::span(reinterpret_cast<const std::uint8_t *>(encoded.data()), encoded.size()));
+                need(copy.id() == snapshot.id() && copy.validation_basis() == "structural_only");
+            });
+            row["portable_snapshot_to_svg"] = measure([&] {
+                auto copy = a::NetworkSnapshot::decode(
+                    std::span(reinterpret_cast<const std::uint8_t *>(encoded.data()), encoded.size()));
+                auto result = v::project(copy);
+                auto output = v::svg(result);
+                need(result.document().at("edges").size() == occurrences && !output.empty());
+            });
+            row["synthetic_publish_to_svg"] = measure(
+                [&] {
+                    auto fresh = visualization_fixture::make(count);
+                    auto result = v::project(fresh.snapshot());
+                    auto output = v::svg(result);
+                    need(result.document().at("edges").size() == occurrences && !output.empty());
+                },
+                3);
+            cases.push_back(std::move(row));
+        }
+        gr::Json output = {
+            {"format", "gr.visualization.benchmark/1"},
+            {"protocol",
+             {{"warmups", 1},
+              {"ordinary_repetitions", 5},
+              {"end_to_end_repetitions", 3},
+              {"timing",
+               "steady_clock wall time including result checks; p95 is nearest-rank sample statistic"},
+              {"end_to_end_scope",
+               "synthetic record construction, two MemoryStore publications, qualified acquisition, L3 "
+               "incidence execution/materialization, analysis indexing, scene construction and SVG export"},
+              {"native_sharing", "NetworkView::snapshot copies an immutable shared handle; projection "
+                                 "creates a new owned scene"},
+              {"portable_copy_scope", "snapshot export creates compact JSON bytes; import parses and copies "
+                                      "indexed topology and context; full source custody is omitted"},
+              {"memory_scope", "reported serialized byte counts are not allocation counts, peak process "
+                               "memory or resident set size"},
+              {"assumptions", "single process, sequential cases, no concurrent test/build workload; fixed "
+                              "synthetic qualified data"}}},
+            {"cases", std::move(cases)}};
+        std::cout << output.dump(2) << '\n';
+        return 0;
+    } catch (const std::exception &e) {
+        std::cerr << e.what() << '\n';
+        return 1;
+    }
+}

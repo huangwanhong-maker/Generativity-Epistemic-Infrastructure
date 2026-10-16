@@ -1,0 +1,16 @@
+{
+  "mode": "asan",
+  "module_run": "build-asan\\m\\e541e34f",
+  "independent_run": "build-asan\\x\\9ff3df79",
+  "installed_sdk_run": "build-asan\\p\\379723c7",
+  "ctest_detail": {
+    "path": "docs\\validation\\ctest-v0.7-asan-final-detail.txt",
+    "bytes": 75915,
+    "sha256": "3913e8a5ef164b6ef8cf41897b56f7315054eb0bdc60de3666a09c93bc7158a7"
+  },
+  "ctest_summary": {
+    "path": "docs\\validation\\ctest-v0.7-asan-final.txt",
+    "bytes": 4923,
+    "sha256": "1e982b5fd2f426c91487222dd5091e5d13ec57a3121d4b35da9d9502393cb337"
+  }
+}

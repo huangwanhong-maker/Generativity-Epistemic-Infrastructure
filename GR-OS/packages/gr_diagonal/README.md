@@ -1,6 +1,6 @@
 # Independent diagonal package
 
-Experimental source package 0.1.0, requiring GR-OS 0.6.0. It is deliberately not
+Experimental source package 0.2.0, requiring GR-OS 0.7.0. It is deliberately not
 added as a subdirectory of the GR-OS build. Build it against an installed SDK:
 
 ```sh
@@ -11,7 +11,7 @@ cmake --install build --config Release --prefix /path/to/diagonal-sdk
 ```
 
 The manifest declares exact dependency and exported logical/physical identities.
-`find_package(GRDiagonal 0.1 REQUIRED)` imports `GRDiagonal::diagonal`. Call
+`find_package(GRDiagonal 0.2.0 EXACT REQUIRED)` imports `GRDiagonal::diagonal`. Call
 `gr_diagonal::install(library)` after installing standard types and before sealing.
 `gr_diagonal::make(coefficients)` constructs the mathematical value. The operator
 `example.diagonal.apply@1` accepts it and a nonnullable int64 column. It composes
@@ -43,6 +43,12 @@ another engine, provide async job handles, or implement a universal plugin ABI.
 C++ consumers have the full composition surface; Python consumers cross an
 explicit copied-data boundary. The result report identifies package/dependency
 metadata and the native plan/recipe. Metadata is not code authentication.
+
+The canonical manifest is `python/src/gr_diagonal/manifest.json`, embedded by
+CMake and included in the wheel. `gr_diagonal:manifest` is advertised through the
+`gr_os.modules` entry-point group; metadata activation does not load the DLL.
+Package 0.2.0 updates the SDK dependency and discovery metadata while retaining
+the existing versioned mathematical type/operator/provider identities.
 
 Inputs are bounded to 1,048,576 elements. `timeout_ms` bounds native job execution
 only; it does not include Python conversion, native construction or planning.

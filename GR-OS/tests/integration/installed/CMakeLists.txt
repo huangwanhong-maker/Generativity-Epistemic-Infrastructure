@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.24)
 project(GRInstalledConsumer LANGUAGES C CXX)
-find_package(GR 0.6 REQUIRED COMPONENTS core storage execution runtime native buffer)
+find_package(GR 0.7 REQUIRED COMPONENTS core storage execution runtime native buffer)
 add_executable(consumer_cpp main.cpp)
 target_link_libraries(consumer_cpp PRIVATE GR::runtime)
 if(TARGET GR::experimental_data)

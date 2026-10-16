@@ -1,12 +1,13 @@
 # GR-OS
 
 **Class:** Experimental implementation workspace  
-**Version:** 0.6.0 — Layer 3 maturation, numerical contracts and independent packages
+**Version:** 0.7.0 — Layer 2 tools and independent module packages
 
-GR-OS provides an independently usable C++20 computational language, systems runtime, relational and historical kernel, storage/execution adapters, Python SDK and native CLI. v0.6 adds bounded immutable validation reuse, efficient strided access, reusable expression functions, checked unsigned and qualified floating/complex computation, and a separately built mathematical package. Table, sparse and qualified-history workloads retain their distinct contracts. This increment stops for architectural review before broad Layer 2 development or application migration.
+GR-OS provides C++20 and Python tools over a shared computational framework, systems runtime, relational-historical kernel and storage/execution backends. v0.7 adds independent qualified analysis and visualization packages, conventional module discovery, and composition with the existing diagonal mathematical extension. Native tools share immutable views; Python packages exchange explicitly copied projections. v0.7 is complete and stopped for architectural review. Release passed 40/40 tests and the selected ASan suite passed 39/39, with targeted final Python and large-fixture corrections also verified. See the verification and performance reports for exclusions, regressions and limits.
 
 | Component | Implemented behavior |
 |---|---|
+| Layer 2 | Independent incidence analysis, recording-state comparisons, deterministic scene/SVG visualization, diagonal formal extension and metadata discovery; direct APIs and optional registered computations |
 | Layer 3 | Registered structural types and representations; generic operators; shared expressions and Function composition; bounded validation/source reuse; batch host access; numerical/tabular, qualified history and CSR modules |
 | Layer 4 | Sealed module/backend catalogs; prepared typed DAGs and provider selection; concurrent jobs, cancellation and admission; atomic record/artifact/history publication and recovery |
 | Layer 5 | Immutable record values; extensible profiles; operand types and operation contracts; qualified relations and temporal projections; recording-history DAG, reconstruction, differences and explicit conflict resolution |
@@ -49,7 +50,7 @@ Use separate build directories for different toolchains. Full validation require
 ```text
 include/gr/              public support, kernel, storage, execution, runtime headers
 src/data/                Layer 3 language, standard, numeric, sparse and relational modules
-packages/gr_diagonal/    independent source package, C++ module and Python facade
+packages/               independent analysis, visualization and diagonal source packages
 src/support/             canonical metadata, hashing and errors
 src/kernel/              types, operations, records, projections and history
 src/storage/             contracts, memory and SQLite adapters
@@ -70,8 +71,19 @@ Layer 6S depends only on shared primitives. Layer 6E consumes L5 operand/operati
 
 Layer 3 adds logical typing and composition above this foundation. It reuses the planner/scheduler and can operate without historical records or a database. Its mathematical extensions remain separate from kernel builtins and application methods.
 
+Layer 2 packages build independently against the installed SDK. Their categories
+are descriptive; ordinary CMake and Python packaging manage distribution.
+[Performance evidence](docs/validation/benchmark-v0.7-analysis.md) and
+[module contracts](docs/modules.md) distinguish metadata discovery from trusted
+activation, native sharing from Python copies, and computational results from
+historical or institutional admission. Portable snapshots validate structure and
+digest consistency; complete source custody remains separate.
+See [package build and composition instructions](docs/module-packaging.md) for
+independent CMake installs, Python wheels and the cross-language consumer.
+
 ## Review entry points
 
+- [v0.7 architectural review](docs/reviews/v0.7-review.md), [assessment and plan](docs/reviews/v0.7-assessment-and-plan.md), [decision](decisions/ADR-0007-independent-layer2-packages.md), [module contracts](docs/modules.md), [analysis API](packages/gr_relational_analysis/README.md), [visualization API](packages/gr_visualization/README.md), [installed C++ composition](tests/integration/modules/main.cpp)
 - [v0.6 architectural review](docs/reviews/v0.6-review.md), [assessment and plan](docs/reviews/v0.6-assessment-and-plan.md), [decision](decisions/ADR-0006-layer3-maturation.md), [measured results and regressions](docs/validation/benchmark-v0.6-analysis.md), [numerical contracts](docs/numeric-data.md), [interoperability](docs/interoperability.md), [independent package](packages/gr_diagonal/README.md)
 - [v0.5 architectural review](docs/reviews/v0.5-review.md), [assessment and plan](docs/reviews/v0.5-assessment-and-plan.md), [decision](decisions/ADR-0005-extensible-computational-language.md), [computational language](docs/data-language.md), [data values](docs/data-values.md), [qualified relational processing](docs/relational-data.md), [typed SDK](docs/data-sdk.md)
 - [v0.4 architectural review](docs/reviews/v0.4-review.md), [initial assessment and plan](docs/reviews/v0.4-assessment-and-plan.md), [decision](decisions/ADR-0004-compact-history-admission-and-owned-buffers.md), [compact history](docs/history-storage.md), [buffers and numerics](docs/buffers.md)

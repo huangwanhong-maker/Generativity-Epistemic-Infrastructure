@@ -1,5 +1,5 @@
 @PACKAGE_INIT@
 include(CMakeFindDependencyMacro)
-find_dependency(GR 0.6.0 EXACT COMPONENTS data_standard)
+find_dependency(GR 0.7.0 EXACT COMPONENTS data_standard)
 include("${CMAKE_CURRENT_LIST_DIR}/GRDiagonalTargets.cmake")
 check_required_components(GRDiagonal)

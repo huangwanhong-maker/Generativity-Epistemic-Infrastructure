@@ -1,0 +1,17 @@
+39/40 Testing: independent_package
+39/40 Test: independent_package
+Command: "C:/Users/Micro/AppData/Local/Programs/Python/Python312/python.exe" "-B" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/tools/test_independent_package.py" "--cmake" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "--build" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build" "--source" "C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS" "--config" "Release"
+Directory: C:/Users/Micro/Desktop/relational_being_infrastructure/frameworks/generativity_standards_program/GR-OS/build
+"independent_package" start time: Oct 17 00:29 Tokyo Standard Time
+Output:
+----------------------------------------------------------
+Independent source package: missing/wrong SDK rejected; standalone build/conformance, relocated C++ Function composition, and installed Python wheel/C facade passed
+Artifacts: C:\Users\Micro\Desktop\relational_being_infrastructure\frameworks\generativity_standards_program\GR-OS\build\x\6a8248bd\artifacts.json
+<end of output>
+Test time =  86.56 sec
+----------------------------------------------------------
+Test Passed.
+"independent_package" end time: Oct 17 00:31 Tokyo Standard Time
+"independent_package" time elapsed: 00:01:26
+----------------------------------------------------------
+

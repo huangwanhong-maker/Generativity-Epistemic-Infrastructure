@@ -1,0 +1,18 @@
+{
+  "note": "Custody wording correction synchronized after original package copy; documentation-only, no native binary change.",
+  "all_equal": true,
+  "files": [
+    {
+      "path": "packages\\gr_relational_analysis\\README.md",
+      "sha256": "4ff711f8eaedcd88629e1994b1b391091b92a55a17a48b53f1c45d6118894396"
+    },
+    {
+      "path": "build-asan\\m\\e541e34f\\as\\README.md",
+      "sha256": "4ff711f8eaedcd88629e1994b1b391091b92a55a17a48b53f1c45d6118894396"
+    },
+    {
+      "path": "build-asan\\m\\e541e34f\\a\\share\\gr_relational_analysis\\README.md",
+      "sha256": "4ff711f8eaedcd88629e1994b1b391091b92a55a17a48b53f1c45d6118894396"
+    }
+  ]
+}

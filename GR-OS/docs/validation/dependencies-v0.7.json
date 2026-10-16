@@ -1,0 +1,40 @@
+{
+  "result": "all vendored file hashes and lengths match the pinned manifest",
+  "files": [
+    {
+      "path": "third_party/nlohmann/json.hpp",
+      "bytes": 953436,
+      "sha256": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63"
+    },
+    {
+      "path": "third_party/nlohmann/LICENSE.MIT",
+      "bytes": 1076,
+      "sha256": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603"
+    },
+    {
+      "path": "third_party/sqlite/sqlite3.c",
+      "bytes": 9390466,
+      "sha256": "9512509b1bccb7461f79bea8aad6280ae4699e925fa4804381b71f59e7efb0c5"
+    },
+    {
+      "path": "third_party/sqlite/sqlite3.h",
+      "bytes": 671786,
+      "sha256": "19585c8b5230e9d4f223bf31b709ece7b6a0bb3faf00d8310625d8e58cda1b1d"
+    },
+    {
+      "path": "third_party/sqlite/sqlite3ext.h",
+      "bytes": 38632,
+      "sha256": "ea81fb7bd05882e0e0b92c4d60f677b205f7f1fbf085f218b12f0b5b3f0b9e48"
+    },
+    {
+      "path": "third_party/picosha2/picosha2.h",
+      "bytes": 13422,
+      "sha256": "b13c180161ffac8d0adc81e033e493c409457c4d1258ab9781ac80579ba3bdd8"
+    },
+    {
+      "path": "third_party/picosha2/LICENSE",
+      "bytes": 1064,
+      "sha256": "6c30eb1f37554ec4199cb82a8c86d9e7a852da78a757832bebb03ac9ddc44ff1"
+    }
+  ]
+}

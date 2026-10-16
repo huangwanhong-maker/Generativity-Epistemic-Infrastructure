@@ -1,0 +1,2 @@
+#pragma once
+inline constexpr const char gr_module_manifest[] = R"GRMODULE(@GR_MODULE_MANIFEST@)GRMODULE";

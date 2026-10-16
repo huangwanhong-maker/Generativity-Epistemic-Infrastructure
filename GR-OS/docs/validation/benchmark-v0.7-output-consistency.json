@@ -1,0 +1,363 @@
+{
+  "result": "all selected comparable identities and outputs match",
+  "checks": [
+    {
+      "pair": 1,
+      "case": "nullable_table_65536_construct",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_65536_compile_warm_input_digests",
+      "field": "plan_id"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_65536_prepared_serial",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_65536_prepared_serial",
+      "field": "expected_sum"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_65536_prepared_serial",
+      "field": "selected_rows"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_65536_runtime_workers1",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_65536_runtime_workers1",
+      "field": "expected_sum"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_65536_runtime_workers1",
+      "field": "selected_rows"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_65536_runtime_workers4",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_65536_runtime_workers4",
+      "field": "expected_sum"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_65536_runtime_workers4",
+      "field": "selected_rows"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_65536_specialized_fused_host_loop",
+      "field": "selected_rows"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_262144_construct",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_262144_compile_warm_input_digests",
+      "field": "plan_id"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_262144_prepared_serial",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_262144_prepared_serial",
+      "field": "expected_sum"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_262144_prepared_serial",
+      "field": "selected_rows"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_262144_runtime_workers1",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_262144_runtime_workers1",
+      "field": "expected_sum"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_262144_runtime_workers1",
+      "field": "selected_rows"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_262144_runtime_workers4",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_262144_runtime_workers4",
+      "field": "expected_sum"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_262144_runtime_workers4",
+      "field": "selected_rows"
+    },
+    {
+      "pair": 1,
+      "case": "nullable_table_262144_specialized_fused_host_loop",
+      "field": "selected_rows"
+    },
+    {
+      "pair": 1,
+      "case": "csr_4096_construct",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 1,
+      "case": "csr_4096_direct_compile_warm_input_digests",
+      "field": "plan_id"
+    },
+    {
+      "pair": 1,
+      "case": "csr_4096_direct_prepared",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 1,
+      "case": "csr_4096_decoded_compile_warm_input_digests",
+      "field": "plan_id"
+    },
+    {
+      "pair": 1,
+      "case": "csr_4096_decoded_prepared",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 1,
+      "case": "csr_16384_construct",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 1,
+      "case": "csr_16384_direct_compile_warm_input_digests",
+      "field": "plan_id"
+    },
+    {
+      "pair": 1,
+      "case": "csr_16384_direct_prepared",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 1,
+      "case": "csr_16384_decoded_compile_warm_input_digests",
+      "field": "plan_id"
+    },
+    {
+      "pair": 1,
+      "case": "csr_16384_decoded_prepared",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_65536_construct",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_65536_compile_warm_input_digests",
+      "field": "plan_id"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_65536_prepared_serial",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_65536_prepared_serial",
+      "field": "expected_sum"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_65536_prepared_serial",
+      "field": "selected_rows"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_65536_runtime_workers1",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_65536_runtime_workers1",
+      "field": "expected_sum"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_65536_runtime_workers1",
+      "field": "selected_rows"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_65536_runtime_workers4",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_65536_runtime_workers4",
+      "field": "expected_sum"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_65536_runtime_workers4",
+      "field": "selected_rows"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_65536_specialized_fused_host_loop",
+      "field": "selected_rows"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_262144_construct",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_262144_compile_warm_input_digests",
+      "field": "plan_id"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_262144_prepared_serial",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_262144_prepared_serial",
+      "field": "expected_sum"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_262144_prepared_serial",
+      "field": "selected_rows"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_262144_runtime_workers1",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_262144_runtime_workers1",
+      "field": "expected_sum"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_262144_runtime_workers1",
+      "field": "selected_rows"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_262144_runtime_workers4",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_262144_runtime_workers4",
+      "field": "expected_sum"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_262144_runtime_workers4",
+      "field": "selected_rows"
+    },
+    {
+      "pair": 2,
+      "case": "nullable_table_262144_specialized_fused_host_loop",
+      "field": "selected_rows"
+    },
+    {
+      "pair": 2,
+      "case": "csr_4096_construct",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 2,
+      "case": "csr_4096_direct_compile_warm_input_digests",
+      "field": "plan_id"
+    },
+    {
+      "pair": 2,
+      "case": "csr_4096_direct_prepared",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 2,
+      "case": "csr_4096_decoded_compile_warm_input_digests",
+      "field": "plan_id"
+    },
+    {
+      "pair": 2,
+      "case": "csr_4096_decoded_prepared",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 2,
+      "case": "csr_16384_construct",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 2,
+      "case": "csr_16384_direct_compile_warm_input_digests",
+      "field": "plan_id"
+    },
+    {
+      "pair": 2,
+      "case": "csr_16384_direct_prepared",
+      "field": "physical_output_digests"
+    },
+    {
+      "pair": 2,
+      "case": "csr_16384_decoded_compile_warm_input_digests",
+      "field": "plan_id"
+    },
+    {
+      "pair": 2,
+      "case": "csr_16384_decoded_prepared",
+      "field": "physical_output_digests"
+    },
+    {
+      "case": "relational",
+      "records": 64,
+      "fields": [
+        "selected_semantic_revision",
+        "pinned_physical_revision",
+        "counts_checksum"
+      ]
+    },
+    {
+      "case": "relational",
+      "records": 256,
+      "fields": [
+        "selected_semantic_revision",
+        "pinned_physical_revision",
+        "counts_checksum"
+      ]
+    }
+  ]
+}

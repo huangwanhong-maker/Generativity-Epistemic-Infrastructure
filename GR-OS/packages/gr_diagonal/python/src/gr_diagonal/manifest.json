@@ -1,0 +1,38 @@
+{
+  "format": "gr.module-package/1",
+  "id": "org.gr.examples.diagonal",
+  "version": "0.2.0",
+  "requires": [
+    {
+      "id": "gr-os",
+      "version": "0.7.0",
+      "components": [
+        "data_standard"
+      ]
+    }
+  ],
+  "compatibility": "Rebuild from source with the exact installed SDK and matching C++ compiler, standard library, runtime and configuration. No cross-compiler binary ABI claim.",
+  "exports": {
+    "types": [
+      "example.diagonal.int64@1"
+    ],
+    "representations": [
+      "example.diagonal.le-buffer@1"
+    ],
+    "operators": [
+      "example.diagonal.apply@1"
+    ],
+    "providers": [
+      "example.diagonal.cpu.checked@1"
+    ]
+  },
+  "effects": [
+    "pure"
+  ],
+  "numerics": "Exact signed int64 multiplication; reject overflow; no implicit casts or missing values.",
+  "python": "gr_diagonal: package-specific synchronous C facade; no opaque-handle interoperability with gr_os.",
+  "trust": "Trusted native in-process code; no sandbox, authentication or record-access authority is conferred.",
+  "categories": [
+    "mathematical-model"
+  ]
+}

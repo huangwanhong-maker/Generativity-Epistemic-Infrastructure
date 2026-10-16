@@ -1,0 +1,191 @@
+#include "../examples/fixture.hpp"
+#include <algorithm>
+#include <iostream>
+#include <set>
+
+namespace {
+int checks = 0;
+void check(bool condition, const char *message) {
+    ++checks;
+    if (!condition)
+        throw std::runtime_error(message);
+}
+template <class F> void fails(F &&f, const std::string &code) {
+    try {
+        f();
+    } catch (const gr::Error &e) {
+        check(e.code == code, "Wrong failure code");
+        return;
+    }
+    throw std::runtime_error("Expected failure: " + code);
+}
+} // namespace
+int main() {
+    try {
+        namespace v = gr_visualization;
+        namespace a = gr_relational_analysis;
+        auto network = visualization_fixture::make();
+        auto snapshot = network.snapshot();
+        const auto original = snapshot.encode();
+        auto scene = v::project(snapshot);
+        const auto &d = scene.document();
+        check(d.at("edges").size() == 13, "One edge per repeated/n-ary occurrence");
+        check(d.at("nodes").size() == snapshot.vertices().size(), "Every vertex retained");
+        check(scene.encode() == v::project(snapshot).encode(), "Deterministic scene bytes");
+        const auto svg = v::svg(scene);
+        check(svg == v::svg(v::project(snapshot)), "Deterministic SVG bytes");
+        check(svg.find("<script") == std::string::npos && svg.find("href=") == std::string::npos,
+              "Fixed resource-free SVG subset");
+        check(d.at("source_context").at("pins") == snapshot.context().at("pins"), "Source pins retained");
+        check(d.at("source_identity") == snapshot.identity(), "Complete compact source identity retained");
+        check(d.at("validation_basis") == "source_derived", "Local validation basis retained");
+        std::set<std::string> mapped;
+        bool repeated = false, orientation = false, isolated = false, relation_target = false;
+        std::set<std::string> target_versions;
+        for (const auto &edge : d.at("edges")) {
+            mapped.insert(edge.at("occurrence_key"));
+            repeated = repeated || edge.at("parallel_count").get<int>() > 1;
+            orientation = orientation || edge.at("participant").value("orientation", "") == "out";
+            check(edge.at("owner_glyph") != edge.at("target_glyph"), "Separate endpoint role glyphs");
+        }
+        for (const auto &node : d.at("nodes")) {
+            isolated = isolated || node.at("record_id") == "claim:isolated";
+            relation_target = relation_target ||
+                              (node.at("record_id") == "claim:0" && node.at("kind") == "participant_target");
+            if (node.at("record_id") == "target:shared")
+                target_versions.insert(node.at("version"));
+        }
+        check(mapped.size() == 13 && repeated && orientation,
+              "Occurrence identity/multiplicity/orientation preserved");
+        check(isolated && relation_target && target_versions.size() == 2,
+              "Isolated, higher-order, archived/current targets");
+        auto filtered_options =
+            v::ProjectionOptions::from_json({{"roles", gr::Json::array({"observer", "observer"})}});
+        auto filtered = v::project(snapshot, filtered_options);
+        check(filtered.document().at("edges").size() == 8 &&
+                  filtered.document().at("excluded_occurrences").size() == 5,
+              "Exact role selection with explicit exclusions");
+        check(filtered.document().at("nodes") == d.at("nodes"), "Filtering retains source vertices");
+        auto empty_options = v::ProjectionOptions::from_json({{"roles", gr::Json::array()}});
+        auto empty = v::project(snapshot, empty_options);
+        check(empty.document().at("edges").empty() &&
+                  empty.document().at("nodes").size() == d.at("nodes").size(),
+              "Empty filter distinct from absent filter");
+        auto bands_options = v::ProjectionOptions::from_json({{"layout", "temporal_bands"}});
+        auto bands = v::project(snapshot, bands_options);
+        std::set<std::string> temporal;
+        for (const auto &band : bands.document().at("bands"))
+            temporal.insert(band.at("class"));
+        check(temporal.contains("active") && temporal.contains("indeterminate") &&
+                  temporal.contains("unscoped"),
+              "Qualified categorical temporal bands");
+        auto temporal_options =
+            v::ProjectionOptions::from_json({{"temporal_classes", gr::Json::array({"indeterminate"})}});
+        auto uncertain = v::project(snapshot, temporal_options);
+        check(uncertain.document().at("edges").size() == 4,
+              "Owner temporal classification filters incidences");
+        auto imported = a::NetworkSnapshot::decode(
+            std::span(reinterpret_cast<const std::uint8_t *>(original.data()), original.size()));
+        auto imported_scene = v::project(imported);
+        check(imported_scene.document().at("validation_basis") == "structural_only",
+              "Import cannot grant source validation");
+        check(imported_scene.document().at("nodes") == d.at("nodes") &&
+                  imported_scene.document().at("edges") == d.at("edges"),
+              "Portable/native geometry and source mappings agree");
+        check(imported_scene.id() != scene.id(), "Scene identity qualifies local validation basis");
+        auto options =
+            v::ProjectionOptions::from_json({{"title", "<script>&\"' hostile"}, {"max_label_codepoints", 4}});
+        auto hostile = v::svg(v::project(snapshot, options));
+        check(hostile.find("&lt;script&gt;&amp;&quot;&apos;") != std::string::npos &&
+                  hostile.find("<script>") == std::string::npos,
+              "Hostile title escaped including XML quotes");
+        auto malicious_network = visualization_fixture::make(2, false, "<script>&\"'");
+        auto malicious = v::svg(v::project(malicious_network.snapshot()));
+        check(malicious.find("<script>") == std::string::npos &&
+                  malicious.find("&lt;script&gt;") != std::string::npos,
+              "Source-derived malicious role escaped");
+        auto unicode_options =
+            v::ProjectionOptions::from_json({{"title", "日本語 αβγ"}, {"max_label_codepoints", 4}});
+        check(!v::svg(v::project(snapshot, unicode_options)).empty(), "Valid multibyte XML text");
+        auto narrow_options = v::ProjectionOptions::from_json(
+            {{"canvas_width", 640}, {"margin", 128}, {"title", std::string(200, 'W')}});
+        auto narrow = v::project(snapshot, narrow_options);
+        auto narrow_svg = v::svg(narrow);
+        for (const auto *spaced : {&scene, &narrow}) {
+            const auto &layout = spaced->document().at("label_placement");
+            check(!layout.at("dense_fallback").get<bool>(), "Small scene has room for separated labels");
+            std::vector<std::uint64_t> positions;
+            bool moved = false;
+            for (const auto &edge : spaced->document().at("edges")) {
+                positions.push_back(edge.at("label_y"));
+                moved = moved || edge.at("label_offset_y") != 0;
+                check(edge.at("label_y") >= layout.at("minimum_y") &&
+                          edge.at("label_y") <= layout.at("maximum_y"),
+                      "Label stays within layout bounds");
+            }
+            std::sort(positions.begin(), positions.end());
+            for (std::size_t i = 1; i < positions.size(); ++i)
+                check(positions[i] - positions[i - 1] >= 14,
+                      "Unrelated occurrence labels have separate lanes");
+            check(moved, "Colliding desired positions are adjusted");
+        }
+        auto dense_network = visualization_fixture::make(2, false, "participant", 64);
+        auto dense = v::project(dense_network.snapshot(), narrow_options);
+        check(dense.document().at("label_placement").at("dense_fallback").get<bool>() &&
+                  dense.document().at("edges").size() == 131,
+              "Dense fallback retains every occurrence");
+        check(dense.encode() == v::project(dense_network.snapshot(), narrow_options).encode(),
+              "Dense label fallback is deterministic");
+        check(narrow_svg.find("clipPath") != std::string::npos &&
+                  narrow_svg.find("clip-path=\"url(#clip-n") != std::string::npos,
+              "Narrow geometry clips labels using generated internal references");
+        for (const auto &n : narrow.document().at("nodes"))
+            check(n.at("x").get<std::size_t>() + n.at("width").get<std::size_t>() <= 640,
+                  "Narrow layout boxes stay in canvas");
+        check(svg.find("subject designation; no record version") != std::string::npos &&
+                  svg.find("version unresolved") == std::string::npos,
+              "Subject designation is not an unresolved record version");
+        fails([&] { v::ProjectionOptions::from_json({{"title", std::string("bad\1", 4)}}); },
+              "visualization_text");
+        fails([&] { v::ProjectionOptions::from_json({{"title", std::string("\xc0\xaf", 2)}}); },
+              "visualization_text");
+        fails([&] { v::ProjectionOptions::from_json({{"title", std::string("\xf0\x90", 2)}}); },
+              "visualization_text");
+        fails([&] { v::ProjectionOptions::from_json({{"title", std::string("\xef\xbf\xbe", 3)}}); },
+              "visualization_text");
+        for (const auto &bad : gr::Json::array(
+                 {gr::Json{{"canvas_width", -1}}, gr::Json{{"row_spacing", 1.5}},
+                  gr::Json{{"margin", 18446744073709551615ULL}}, gr::Json{{"layout", "geographic"}},
+                  gr::Json{{"temporal_classes", gr::Json::array({"certain"})}}, gr::Json{{"extra", true}}}))
+            fails([&] { v::ProjectionOptions::from_json(bad); }, "visualization_contract");
+        v::Limits limit;
+        limit.max_vertices = 1;
+        fails([&] { v::project(snapshot, {}, limit); }, "visualization_limit");
+        limit = {};
+        limit.max_occurrences = 1;
+        fails([&] { v::project(snapshot, {}, limit); }, "visualization_limit");
+        limit = {};
+        limit.max_scene_bytes = 32;
+        fails([&] { v::project(snapshot, {}, limit); }, "visualization_limit");
+        limit = {};
+        limit.max_svg_bytes = 32;
+        fails([&] { v::svg(scene, limit); }, "visualization_limit");
+        std::stop_source stopped;
+        stopped.request_stop();
+        fails([&] { v::project(snapshot, {}, {}, stopped.get_token()); }, "execution_cancelled");
+        fails([&] { v::svg(scene, {}, stopped.get_token()); }, "execution_cancelled");
+        check(snapshot.encode() == original, "Projection does not mutate source");
+        network = {};
+        snapshot = {};
+        imported = {};
+        check(v::svg(scene) == svg, "Scene owns data after source handle release");
+        auto json = scene.to_json();
+        json["nodes"] = gr::Json::array();
+        check(!scene.document().at("nodes").empty(), "Returned JSON copy cannot mutate scene");
+        std::cout << checks << " visualization checks passed\n";
+        return 0;
+    } catch (const std::exception &e) {
+        std::cerr << e.what() << '\n';
+        return 1;
+    }
+}

@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.24)
+project(GRInstalledModulesConsumer LANGUAGES CXX)
+find_package(GR 0.7.0 EXACT REQUIRED COMPONENTS data_standard data_relational storage runtime)
+find_package(GRRelationalAnalysis 0.1.0 EXACT REQUIRED)
+find_package(GRVisualization 0.1.0 EXACT REQUIRED)
+find_package(GRDiagonal 0.2.0 EXACT REQUIRED)
+add_executable(consumer_modules main.cpp)
+target_compile_features(consumer_modules PRIVATE cxx_std_20)
+target_link_libraries(consumer_modules PRIVATE GRRelationalAnalysis::analysis
+  GRVisualization::visualization GRDiagonal::diagonal GR::data_standard GR::storage)
+if(MSVC)
+  target_compile_options(consumer_modules PRIVATE /W4 /permissive- /utf-8 /EHsc)
+endif()
